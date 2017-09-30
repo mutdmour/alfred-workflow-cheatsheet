@@ -1,8 +1,6 @@
 #!/usr/bin/python
-# coding: utf8
-
+# encoding=utf8
 import sys
-import re
 from shortcuts import shortcuts
 from workflow import Workflow
 
@@ -26,12 +24,12 @@ def run(args):
 
     if (not command):
         addApps(apps)
-    elif (u'--commit' in args):#command in apps):
-        # log.info('committing')
+    elif (u'--commit' in args):
         command_opts = command.split(':',1)
         app = command_opts[0]
-        action = command_opts[1].strip()
-        addShortcuts(app, action)
+        if (len(command_opts) > 1 and app in shortcuts):
+            action = command_opts[1].strip()
+            addShortcuts(app, action)
     else:
         filter(command, apps)
 
@@ -49,7 +47,6 @@ def filter(query, items):
 # returns a list of the apps available as shortcuts
 def getApps():
     apps = shortcuts.keys()
-    apps.sort(key=str.lower)
     return apps
 
 def addApps(items):
@@ -66,12 +63,19 @@ def addShortcuts(app, search):
             wf.add_item('none found')
         else:
             for k in matching:
-                #TODO handle uft8 chars
-                wf.add_item(k, actions[k])
+                addShortcut(k,actions[k])
     else:
         for k in actions:
-            #TODO handle uft8 chars
-            wf.add_item(k, actions[k])
+            addShortcut(k,actions[k])
+
+def addShortcut(action, shortcut):
+    if (action.strip() and shortcut.strip()):
+        wf.add_item(
+            action,
+            shortcut,
+            largetext=action,
+            copytext=shortcut
+        )
 
 # return the shortcut for an action for an app
 def getShortcut(app, key):
