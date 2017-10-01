@@ -592,14 +592,35 @@ shortcuts = {
 
     },
     "AutoMute Chrome extension":{
-
+        "Toggle mute current app":"⌥⇧m",
+        "Mute all tabs":"⌥⇧l",
+        "Mute other tabs":"⌥⇧o"
     },
-    "Alfred3":{
+    "Alfred":{
+    #https://www.alfredapp.com/help/getting-started/cheatsheet/
 
     },
     "Terminal":{
+    #https://github.com/0nn0/terminal-mac-cheatsheet
 
     },
+    "GitHub.com":{
+    #https://help.github.com/articles/using-keyboard-shortcuts/
+
+    },
+    "Video Speed Controller chrome extension":{
+    #settings
+
+    },
+    "Outlook":{ #https://support.office.com/en-us/article/Keyboard-shortcuts-for-Outlook-for-Mac-07ae68c8-b7af-4010-b225-324c04ac7335?ui=en-US&rs=en-US&ad=US
+        "Archive message":"^e",
+        "Previous message":"^[",
+        "Next message":"^]",
+    },
+    "inbox.google.com":{
+        #⇧?
+        "Toggle and view keyboard shortcuts":"⇧?"
+    }
 }
 
 # test = {
