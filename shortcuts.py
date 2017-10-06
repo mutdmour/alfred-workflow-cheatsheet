@@ -552,7 +552,7 @@ shortcuts = {
         "enable the NAME process to start at boot" : "sc-enable NAME",
         "disable the NAME process at boot" : "sc-disable NAME",
     },
-    "Youtube.com":{
+    "youtube.com":{
         #http://www.hongkiat.com/blog/useful-youtube-keyboard-shortcuts-to-know/
         #shift + /
         "Pause/Play video (player)":"Spacebar",
@@ -589,7 +589,7 @@ shortcuts = {
         "Mute all tabs":"⌥⇧l",
         "Mute other tabs":"⌥⇧o"
     },
-    "GitHub.com":{
+    "github.com":{
     #https://help.github.com/articles/using-keyboard-shortcuts/
         "Focus the search bar":"s",
         "Go to your notifications":"g then n",
@@ -869,7 +869,7 @@ shortcuts = {
         "Focused item - Select":"x",
         "Focused item - Select many items at once":"⇧x"
     },
-    "trello":{
+    "trello.com":{
         "Navigate Cards":"← ↓/J ↑/K →",
         "Open Header Boards Menu":"B",
         "Focus Search Box":"/",
@@ -1110,6 +1110,7 @@ shortcuts = {
         "See the folders that contain the current folder.":"⌘ click a window title    "
     }
     # "Firefox":{
+    #https://support.mozilla.org/en-US/kb/keyboard-shortcuts-perform-firefox-tasks-quickly
     # },
 }
 
