@@ -1,5 +1,6 @@
 #!/usr/bin/python
 # encoding=utf8
+# test update
 
 update_settings = {
     'github_slug': 'maldmour/alfred-wordlfow-cheatsheet',
