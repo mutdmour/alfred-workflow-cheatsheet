@@ -3,12 +3,12 @@
 # test update
 
 update_settings = {
-    'github_slug': 'maldmour/alfred-wordlfow-cheatsheet',
+    'github_slug': 'mutdmour/alfred-wordlfow-cheatsheet',
 }
 
 import sys
 from shortcuts import shortcuts
-from workflow import Workflow
+from workflow import Workflow, ICON_INFO
 
 
 wf = None
