@@ -1,5 +1,10 @@
 #!/usr/bin/python
 # encoding=utf8
+
+update_settings = {
+    'github_slug': 'maldmour/alfred-wordlfow-cheatsheet',
+}
+
 import sys
 from shortcuts import shortcuts
 from workflow import Workflow
@@ -21,6 +26,13 @@ def run(args):
     log.info("args")
     log.info(args)
     log.info("")
+
+    if wf.update_available:
+    # Add a notification to top of Script Filter results
+        wf.add_item('New version available',
+                'Action this item to install the update',
+                autocomplete='workflow:update',
+                icon=ICON_INFO)
 
     if (not command):
         addApps(apps)
@@ -82,7 +94,7 @@ def getShortcut(app, key):
     return shortcuts[app][key]
 
 if __name__ == '__main__':
-    wf = Workflow()
+    wf = Workflow(update_settings=update_settings)
     apps = getApps()
     log = wf.logger
     sys.exit(wf.run(main, text_errors='--commit' in wf.args))
