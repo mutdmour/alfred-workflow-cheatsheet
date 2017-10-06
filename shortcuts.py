@@ -844,7 +844,7 @@ shortcuts = {
         "Chat/compose - Numbered list":"⌘⇧7",
         "Chat/compose - Bulleted list":"⌘⇧8",
         "Chat/compose - Remove formatting":"⌘\\",
-        "Chat/compose - Enter Send":"⌘",
+        "Chat/compose - Send":"⌘⏎",
         "Chat/compose - Closes compose and deletes empty drafts":"Esc",
         "List - Open":"⏎ or o",
         "List - Close":"Esc or u",
@@ -1003,7 +1003,6 @@ shortcuts = {
     },
     "Mac OSX":{
         #https://support.apple.com/en-jo/HT201236
-        "toggle full screen":"⌘^f",
         "Cut the selected item and copy it to the Clipboard.":"⌘X",
         "Copy the selected item to the Clipboard.":"⌘C",
         "Paste the contents of the Clipboard into the current document or app.":"⌘V",
@@ -1108,10 +1107,12 @@ shortcuts = {
         "Make an alias of the dragged item. ":"⌥Command while dragging   ",
         "Open all folders within the selected folder.  [list view].":"⌥ click a disclosure triangle  ",
         "See the folders that contain the current folder.":"⌘ click a window title    "
-    }
+    },
     # "Firefox":{
     #https://support.mozilla.org/en-US/kb/keyboard-shortcuts-perform-firefox-tasks-quickly
     # },
+    # "Microsoft Word":{
+    # }
 }
 
 import collections
