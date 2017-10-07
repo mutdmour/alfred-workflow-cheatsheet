@@ -33,6 +33,7 @@ To do
 - support user-specific shortcuts
 - more and better testing
 - app icons
+- merge Sublime and Sublime vintage
 
 To add more apps
 ----------------
