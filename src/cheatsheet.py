@@ -15,9 +15,10 @@ apps = None
 
 pkl_file = open('default_cheatsheet.pkl', 'rb')
 shortcuts = cPickle.load(pkl_file)
+user_shortcuts = None
 
 def main(wf):
-    log.info(wf.datadir)
+    # log.info(wf.datadir)
     args = wf.args
     run(args)
     wf.send_feedback()
@@ -37,7 +38,12 @@ def run(args):
                 autocomplete='workflow:update',
                 icon=ICON_INFO)
 
+
     if (not command):
+        wf.add_item('Add your own config',
+                'Edit json file to personalize cheatsheet',
+                autocomplete='config',
+                icon=ICON_INFO)
         addApps(apps)
     elif (u'--commit' in args):
         command_opts = command.split(':',1)
@@ -62,7 +68,8 @@ def filter(query, items):
 # returns a list of the apps available as shortcuts
 def getApps():
     apps = shortcuts.keys()
-    return apps
+    user_apps = user_shortcuts.keys()
+    return list(set(apps) | set(user_apps))
 
 def addApps(items):
     for i in range(0,len(items)):
@@ -74,8 +81,12 @@ def addApps(items):
 
 def addShortcuts(app, search):
     actions = shortcuts[app]
+
+    # if (user_shortcuts[app]):
+        # actions.update(user_shortcuts[app])
+
     if (search):
-        opts = shortcuts[app].keys()
+        opts = user_shortcuts[app].keys()
         matching = wf.filter(search, opts)
         if (len(matching) == 0):
             wf.add_item('none found')
@@ -107,6 +118,14 @@ if __name__ == '__main__':
     wf = Workflow(
         libraries=['./lib'],
         update_settings=update_settings)
-    apps = getApps()
+    wf.data_serializer = 'json'
     log = wf.logger
+
+    user_shortcuts = wf.stored_data('user_shortcuts')
+    if (user_shortcuts == None):
+        user_shortcuts = {}
+        wf.store_data('user_shortcuts',user_shortcuts)
+
+    apps = getApps()
+
     sys.exit(wf.run(main, text_errors='--commit' in wf.args))

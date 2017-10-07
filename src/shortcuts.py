@@ -1,5 +1,5 @@
 # coding: utf8
-
+# run [python shortcuts.py] to generate pickle file used by workflows
 
 shortcuts = {
     "Google Chrome":{ #https://support.google.com/chrome/answer/157179?hl=en
@@ -555,7 +555,7 @@ shortcuts = {
     "youtube.com":{
         #http://www.hongkiat.com/blog/useful-youtube-keyboard-shortcuts-to-know/
         #shift + /
-        "Pause/Play video (player)":"Spacebar",
+        "Pause/Play video (player)":"Space",
         "Pause/Play video":"k",
         "Keyboard shortcuts":"⇧/",
         "Previous video":"⇧p",
@@ -570,9 +570,9 @@ shortcuts = {
         "Toggle full screen":"f",
         "Seek backwards by 5 seconds (player)":"←",
         "Seek forwards by 5 seconds":"→",
-        "Increase the volume by 5%":"UP",
-        "Decrease the volume by 5%":"DOWN",
-        "Close the current dialog or similar dialogs (share panel)":"ESCAPE",
+        "Increase the volume by 5%":"↑",
+        "Decrease the volume by 5%":"↓",
+        "Close the current dialog or similar dialogs (share panel)":"Esc",
         "Seek to the beginning of the video":"HOME",
         "Seek to the end of the video":"END",
         "If the video supports captions, toggle captions ON/OFF":"c",
