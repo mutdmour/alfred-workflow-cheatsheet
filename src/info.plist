@@ -3,7 +3,9 @@
 <plist version="1.0">
 <dict>
 	<key>bundleid</key>
-	<string>com.mutasem.cheatsheet</string>
+	<string>com.mutdmour.cheatsheet</string>
+	<key>category</key>
+	<string>Productivity</string>
 	<key>connections</key>
 	<dict>
 		<key>61503630-0367-4047-90B3-D78A9C380E92</key>
@@ -23,11 +25,11 @@
 	<key>createdby</key>
 	<string>mutasem</string>
 	<key>description</key>
-	<string></string>
+	<string>get shortcuts for your all your tools</string>
 	<key>disabled</key>
 	<false/>
 	<key>name</key>
-	<string>cheatsheet</string>
+	<string>Cheatsheet</string>
 	<key>objects</key>
 	<array>
 		<dict>
