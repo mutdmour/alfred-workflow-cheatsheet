@@ -148,6 +148,6 @@ echo "{query}" &gt; .query
 		</dict>
 	</dict>
 	<key>webaddress</key>
-	<string>github.com/mutdmour</string>
+	<string>https://github.com/mutdmour/alfred-workflow-cheatsheet</string>
 </dict>
 </plist>

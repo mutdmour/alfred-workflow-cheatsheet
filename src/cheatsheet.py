@@ -2,7 +2,7 @@
 # encoding=utf8
 
 update_settings = {
-    'github_slug': 'mutdmour/alfred-wordlfow-cheatsheet',
+    'github_slug': 'mutdmour/alfred-workflow-cheatsheet',
 }
 
 import sys
