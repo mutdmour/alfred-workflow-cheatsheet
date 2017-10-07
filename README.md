@@ -1,1 +1,41 @@
-Alfred workflow that gets shortcuts for apps
+Cheatsheet
+----------
+
+Alfred workflow that gets shortcuts for applications, websites, tools and others
+
+Supported
+---------
+- Google Chrome
+- Reddit Enhancement Suite
+- Sublime Text
+- Vintage Sublime
+- Vim
+- iTerm2
+- youtube.com
+- AutoMute Chrome extension
+- github.com
+- Outlook
+- Video Speed Controller chrome extension
+- inbox.google.com
+- trello.com
+- Alfred
+- Terminal
+- Mac OSX
+- Finder
+
+To add
+------
+- Firefox
+- Microsoft Word
+
+To do
+------
+- support user-specific shortcuts
+- more and better testing
+- app icons
+
+To add more apps
+----------------
+- create a PR with the app shortcuts you want to add [/src/shortcuts.py]
+- create an issue requesting the tool you want us to add
+- add it yourself to [shortcuts.py] in the workflow on your computer, though it will be overwritten by an update (until we support user-sepecific shortcuts)
