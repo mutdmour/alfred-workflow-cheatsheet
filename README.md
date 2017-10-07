@@ -3,6 +3,8 @@ Cheatsheet
 
 Alfred workflow that gets shortcuts for applications, websites, tools and others
 
+![Sublime demo](/sublime_demo.gif)
+
 Supported
 ---------
 - Google Chrome
