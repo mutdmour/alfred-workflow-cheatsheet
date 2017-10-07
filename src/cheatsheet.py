@@ -17,6 +17,7 @@ pkl_file = open('default_cheatsheet.pkl', 'rb')
 shortcuts = cPickle.load(pkl_file)
 
 def main(wf):
+    log.info(wf.datadir)
     args = wf.args
     run(args)
     wf.send_feedback()
@@ -66,7 +67,10 @@ def getApps():
 def addApps(items):
     for i in range(0,len(items)):
         item = items[i]
-        wf.add_item(item, autocomplete=' '+item, arg=item+": ", valid=True)
+        wf.add_item(item,
+                    autocomplete=' '+item,
+                    arg=item+": ",
+                    valid=True)
 
 def addShortcuts(app, search):
     actions = shortcuts[app]
@@ -88,7 +92,11 @@ def addShortcut(action, shortcut):
             action,
             shortcut,
             largetext=action,
-            copytext=shortcut
+            copytext=shortcut,
+            # modifier_subtitles={
+            #     u'ctrl': u'Change the shortcut'
+            # },
+            # valid=True
         )
 
 # return the shortcut for an action for an app
