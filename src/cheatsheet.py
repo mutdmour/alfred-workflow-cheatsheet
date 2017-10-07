@@ -96,7 +96,9 @@ def getShortcut(app, key):
     return shortcuts[app][key]
 
 if __name__ == '__main__':
-    wf = Workflow(update_settings=update_settings)
+    wf = Workflow(
+        libraries=['./lib'],
+        update_settings=update_settings)
     apps = getApps()
     log = wf.logger
     sys.exit(wf.run(main, text_errors='--commit' in wf.args))
