@@ -28,6 +28,10 @@ To add
 - Firefox
 - Microsoft Word
 
+To download
+-----------
+Download [workflow file](https://github.com/mutdmour/alfred-workflow-cheatsheet/raw/master/Cheatsheet.alfredworkflow)
+
 To do
 ------
 - support user-specific shortcuts
