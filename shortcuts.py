@@ -1128,3 +1128,9 @@ def convert(data):
         return data
 
 shortcuts = convert(shortcuts)
+
+import cPickle
+output = open('default_cheatsheet.pkl', 'wb')
+cPickle.dump(shortcuts, output)
+output.close()
+

@@ -6,13 +6,15 @@ update_settings = {
 }
 
 import sys
-from shortcuts import shortcuts
 from workflow import Workflow, ICON_INFO
-
+import cPickle
 
 wf = None
 log = None
 apps = None
+
+pkl_file = open('default_cheatsheet.pkl', 'rb')
+shortcuts = cPickle.load(pkl_file)
 
 def main(wf):
     args = wf.args
