@@ -29,6 +29,18 @@ To add
 ------
 - Firefox
 - Microsoft Word
+- Safari
+- Atom
+- VS Code
+- Safari
+- Pixelmator
+- Evernote
+- Vimeo
+- Google Docs
+- Airmail
+- Sibelius
+- Transcribe!
+- Asana
 
 To download
 -----------
