@@ -41,6 +41,7 @@ To add
 - Sibelius
 - Transcribe!
 - Asana
+- intellij
 
 To download
 -----------
