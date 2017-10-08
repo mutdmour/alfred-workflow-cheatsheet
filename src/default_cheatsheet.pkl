@@ -5466,4 +5466,547 @@ VT
 sVLime
 p2632
 V8
+ssVSafari
+p2633
+(dp2634
+VFind Previous
+p2635
+VCommand-Shift-G
+p2636
+sVSave work arrangement
+p2637
+VCommand-shift-S
+p2638
+sVCancel editing a bookmark name in the sidebar
+p2639
+VEsc
+p2640
+sVOpen a downloaded file
+p2641
+VDouble-click the file in the downloads list
+p2642
+sVShifts focus to the search bar
+p2643
+VShift-Command-F
+p2644
+sVScroll to the top-left corner of the page
+p2645
+VCommand\u2013Up Arrow or Home
+p2646
+sVResources
+p2647
+VCOMMAND + OPTION + A
+p2648
+sVShow or Hide the Bookmarks sidebar
+p2649
+VControl-Command-1
+p2650
+sVOpen new window
+p2651
+VCOMMAND + N
+p2652
+sVToggle JavaScript console
+p2653
+VCommand-Shift-C
+p2654
+sVEnter full-screen
+p2655
+VCommand-ctrl-f
+p2656
+sVPrevious Command/Line in Console
+p2657
+VUp
+p2658
+sVUndo
+p2659
+VCOMMAND + Z
+p2660
+sVWhile typing in the Smart Search field, restore the current webpage address
+p2661
+VEsc
+p2662
+sVStep Out in Debugger
+p2663
+VShift-Command-;
+p2664
+sVZoom-in, makes Web Inspector\u2019s interface larger
+p2665
+VCommand-+
+p2666
+sVSee a list of your recently visited pages by name
+p2667
+VHold down the Back or Forward button until the list appears
+p2668
+sVPrevious Console Suggestion
+p2669
+VShift-Tab
+p2670
+sVZoom website content
+p2671
+VPress Command-Plus Sign (+) or Command-Minus Sign (-)
+p2672
+sVMinimize
+p2673
+VCOMMAND + M
+p2674
+sVLoad Safari Help
+p2675
+VCOMMAND + ?
+p2676
+sVPassword manager
+p2677
+VCommand-option-F
+p2678
+sVScroll up, down, left, or right
+p2679
+VPress the arrow keys
+p2680
+sVAdd the current page
+p2681
+VShift-Command-D
+p2682
+sVOpen file
+p2683
+VCOMMAND + O
+p2684
+sVSave As
+p2685
+VCOMMAND + S
+p2686
+sVHighlight the same items as Tab plus all other clickable items
+p2687
+VOption-tab
+p2688
+sVOpen first-ninth tab
+p2689
+VCommand-[1-9]
+p2690
+sVAdd a linked page
+p2691
+VShift-click a link to the page
+p2692
+sVClose the selected folder
+p2693
+VSpace bar or Left Arrow
+p2694
+sVShow/Hide Favorites
+p2695
+VCOMMAND + SHIFT + B
+p2696
+sVNext Console Suggestion
+p2697
+VTab
+p2698
+sVReload page
+p2699
+VCOMMAND + R
+p2700
+sVScroll in larger increments
+p2701
+VPress Option while you press an arrow key
+p2702
+sVBrings up the Quick Open dialog, a feature that allows you to quickly search for a file in Web Inspector
+p2703
+VCommand-Shift-O
+p2704
+sVOpen the selected folder
+p2705
+VSpace bar or Right Arrow
+p2706
+sVFind
+p2707
+VCOMMAND + F
+p2708
+sVOpen a page in a new tab
+p2709
+VCommand-click a link
+p2710
+sVToggle page source
+p2711
+VCommand-Shift-U
+p2712
+sVGo to your homepage
+p2713
+VCommand-Home key
+p2714
+sVOpen a bookmark in a new tab, and make that tab the active tab
+p2715
+VShift-Command-click a bookmark
+p2716
+sVPrint
+p2717
+VCOMMAND + P
+p2718
+sVHide Safari
+p2719
+VCOMMAND + H
+p2720
+sVSelect previous tab in Web Inspector. Make sure Web Inspector is undocked for this feature to work
+p2721
+VShift-Command-[ or Ctrl-Shift-Tab
+p2722
+sVClose all tabs except for one
+p2723
+VOption-click the close button  on the tab you want to leave open
+p2724
+sVMove a bookmark on the Favorites bar
+p2725
+VDrag the bookmark left or right
+p2726
+sVDownloads
+p2727
+VCOMMAND + OPTION + L
+p2728
+sVToggle between previous Web Inspector position, detached and docked
+p2729
+VShift-Command-D
+p2730
+sVScroll up a screen
+p2731
+VPage Up or Shift\u2013Space bar
+p2732
+sVSelect bookmarks and folders in the sidebar
+p2733
+VCommand-click each bookmark and folder
+p2734
+sVSelect all
+p2735
+VCOMMAND + A
+p2736
+sVGo back
+p2737
+VCOMMAND + [
+p2738
+sVZoom-out, makes Web Inspector\u2019s interface smaller
+p2739
+VCommand- -
+p2740
+sVEmpty Caches
+p2741
+VCommand-option-E
+p2742
+sVMake the previous tab the active tab
+p2743
+VControl-Shift-Tab or Shift-Command -[
+p2744
+sVOpen a page in a new tab in Smart Search field
+p2745
+VCommand-Return after typing
+p2746
+sVExit full-screen view
+p2747
+VEsc
+p2748
+sVOpen the selected bookmark
+p2749
+VSpace bar
+p2750
+sVOpen location
+p2751
+VCOMMAND + L
+p2752
+sVEnter element selection mode
+p2753
+VShift-Command-C
+p2754
+sVClear Console History
+p2755
+VCommand-K (when in Console tab)
+p2756
+sVOpen a page in a new tab, and make that tab the active tab
+p2757
+VShift-Command-click a link
+p2758
+sVAccept Console Suggestion
+p2759
+VRight
+p2760
+sVLoad Preferences
+p2761
+VCOMMAND + ,
+p2762
+sVMove tab right
+p2763
+VCommand-shift-option-]
+p2764
+sVMake the next tab the active tab
+p2765
+VControl-Tab or Shift-Command-]
+p2766
+sVRemove a page
+p2767
+VControl-click the page summary in the sidebar, then choose Remove Item
+p2768
+sVStep Into in Debugger
+p2769
+VCommand-;
+p2770
+sVExtend selection of bookmarks and folders in the sidebar
+p2771
+VShift-click
+p2772
+sVOpen profiles
+p2773
+VCommand-O
+p2774
+sVGoogle Search
+p2775
+VCOMMAND + OPTION + F
+p2776
+sVToggle web insepector
+p2777
+VCommand-Shift-I
+p2778
+sVShow Error Console
+p2779
+VCommand-Option-C
+p2780
+sVShow history
+p2781
+VCommand-Y
+p2782
+sVShow/hide sidebar
+p2783
+VCommand-shift-L
+p2784
+sVOpen a new tab
+p2785
+VCOMMAND + T
+p2786
+sVGo to home page
+p2787
+VCommand-shift-H
+p2788
+sVShow/Close Web Inspector
+p2789
+VCommand-Option-I
+p2790
+sVExpose All Tabs
+p2791
+VCommand-option-E
+p2792
+sVShow all tabs
+p2793
+VShift-Command-\u005c
+p2794
+sVZoom website text
+p2795
+VPress Option while you choose View > Make Text Bigger or View > Make Text Smaller
+p2796
+sVChange the name or address of a bookmark
+p2797
+VSelect the bookmark, then press Return
+p2798
+sVShow or Hide the Reading List sidebar
+p2799
+VControl-Command-2
+p2800
+sVLocal search within the currently selected resource in the tab
+p2801
+VCommand-F
+p2802
+sVCreate a folder containing the selected bookmarks and folders in bookmarks view
+p2803
+VOption-click the New Folder button near the top-right corner
+p2804
+sVAdd a bookmark to the Favorites bar
+p2805
+VClick the Smart Search field to show the page\u2019s full address and its icon, then drag the icon to the Favorites bar
+p2806
+sVNext Command/Line in Console
+p2807
+VDown
+p2808
+sVAdd a Bookmark
+p2809
+VCOMMAND + D
+p2810
+sVQuit Safari
+p2811
+VCOMMAND + Q
+p2812
+sVSelect next in Web Inspector. Make sure Web Inspector is undocked for this feature to work
+p2813
+VShift-Command-] or Ctrl-Tab
+p2814
+sVOpen all bookmarks from a folder in the Favorites bar
+p2815
+VCommand-click the folder in the Favorites bar
+p2816
+sVLoad the nth bookmark in Bookmarks Toolbar
+p2817
+VCOMMAND + NUM [1-9]
+p2818
+sVFinish editing a bookmark name
+p2819
+VReturn
+p2820
+sVShow toolbelt
+p2821
+VCommand-shift-B
+p2822
+sVAutofill form
+p2823
+VCommand-shift-A
+p2824
+sVScroll down a screen
+p2825
+VPage Down or Space bar
+p2826
+sVOpen Settings
+p2827
+VCommand- ,
+p2828
+sVStart Profiling JavaScript
+p2829
+VShift-Command-Option-P
+p2830
+sVAdd To Reading List
+p2831
+VCOMMAND + SHIFT + D
+p2832
+sVClose Reader
+p2833
+VEsc
+p2834
+sVDownload a linked file
+p2835
+VOption-click a link to the file
+p2836
+sVClose
+p2837
+VCOMMAND + W
+p2838
+sVShow/hide status bar
+p2839
+VCommand-/
+p2840
+sVRedo
+p2841
+VCOMMAND + SHIFT + Z
+p2842
+sVFind Next
+p2843
+VCommand-G
+p2844
+sVSelect the next bookmark or folder
+p2845
+VUp Arrow or Down Arrow
+p2846
+sVOpen a bookmark in a new tab
+p2847
+VCommand-click a bookmark
+p2848
+sVFocus on the console prompt. Unlike Esc, it does the same thing regardless of the context
+p2849
+VControl-~
+p2850
+sVRemove a bookmark from the Favorites bar
+p2851
+VDrag the bookmark off the top of the bar
+p2852
+sVGo forward
+p2853
+VCOMMAND + ]
+p2854
+sVStart/stop time line recording
+p2855
+VCommand-shift-option-T
+p2856
+sVReopen the last tab or window you closed
+p2857
+VShift-Command-T
+p2858
+sVDelete a bookmark
+p2859
+VSelect the bookmark, then press Delete
+p2860
+sVAdvance to selection
+p2861
+VCOMMAND + J
+p2862
+sVSelect one of your first nine tabs
+p2863
+VCommand-1 to Command-9
+p2864
+sVCopy
+p2865
+VCOMMAND + C
+p2866
+sVPaste
+p2867
+VCOMMAND + V
+p2868
+sVOpen a page in a new tabn Smart Search field, and make that tab the active tab
+p2869
+VShift-Command-Return after typing in the Smart Search field
+p2870
+sVReset changes to Web Inspector\u2019s interface size
+p2871
+VCommand-0
+p2872
+sVMove tab left
+p2873
+VCommand-shift-option-[
+p2874
+sVStep Over in Debugger
+p2875
+VCommand-\u2019
+p2876
+sVSave all console messages to a text file in the Console tab. Save current web content into a .webarchive file in the Elements tab. When showing a resource, it saves the resource to disk
+p2877
+VCommand-S
+p2878
+sVFocus the Split Console at the bottom of the tabs. Click again to enlarge the console
+p2879
+VEscape
+p2880
+sVBrings up the \u201cGo To Line Number\u201d dialog
+p2881
+VControl-G (in text editor)
+p2882
+sVContinue in Debugger
+p2883
+VCommand-/
+p2884
+sVDownload a file
+p2885
+VOPTION + Link on a web page
+p2886
+sVShow all Bookmarks
+p2887
+VCOMMAND + OPTION + B
+p2888
+sVSee a list of your recently visited pages by web address (URL)
+p2889
+VPress Option and hold down the Back or Forward button until the list appears
+p2890
+sVForces the Save As\u2026 dialog
+p2891
+VShift-Command-S
+p2892
+sVExecute Console Command in Console tab. Edit attribute in Elements Panel when element is selected
+p2893
+VReturn
+p2894
+sVHighlight the next item on a webpage
+p2895
+VTab
+p2896
+sVPuts the selected text in the system search pasteboard, which is used by the Find dialog as the default search text
+p2897
+VCommand-E
+p2898
+sVScroll to the bottom-left corner of the page
+p2899
+VCommand\u2013Down Arrow or End
+p2900
+sVClear Network Items
+p2901
+VCommand-K (when in Network tab)
+p2902
+sVStart/stop element selction
+p2903
+VCommand-shift-C
+p2904
 ss.

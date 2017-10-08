@@ -29,10 +29,10 @@ Ready for next release
 ----------------------
 - Firefox
 - Microsoft Word
+- Safari
 
 To add
 ------
-- Safari
 - Atom
 - VS Code
 - Safari
