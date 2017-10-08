@@ -42,6 +42,14 @@ To add
 - Transcribe!
 - Asana
 - intellij
+- Microsoft Excel
+- Default Folder X
+- Forklift
+- Keyboard Maestro
+- Opera
+- TextExpander 
+- VLC
+- Xcode
 
 To download
 -----------
