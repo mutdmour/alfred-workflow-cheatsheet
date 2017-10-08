@@ -64,7 +64,8 @@ To do
 - more and better testing
 - app icons
 - merge Sublime and Sublime vintage
-- standarize shortcuts with symbols [change ^ to CTRL]
+- standarize shortcuts with symbols [change ^ to CTRL in some]
+- split different tool shortcuts into different files
 
 To add more apps
 ----------------
