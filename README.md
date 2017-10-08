@@ -25,9 +25,12 @@ Supported
 - Mac OSX
 - Finder
 
+Ready for next release
+----------------------
+- Firefox
+
 To add
 ------
-- Firefox
 - Microsoft Word
 - Safari
 - Atom
@@ -47,7 +50,7 @@ To add
 - Forklift
 - Keyboard Maestro
 - Opera
-- TextExpander 
+- TextExpander
 - VLC
 - Xcode
 
