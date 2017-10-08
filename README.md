@@ -28,10 +28,10 @@ Supported
 Ready for next release
 ----------------------
 - Firefox
+- Microsoft Word
 
 To add
 ------
-- Microsoft Word
 - Safari
 - Atom
 - VS Code
@@ -64,6 +64,7 @@ To do
 - more and better testing
 - app icons
 - merge Sublime and Sublime vintage
+- standarize shortcuts with symbols [change ^ to CTRL]
 
 To add more apps
 ----------------
