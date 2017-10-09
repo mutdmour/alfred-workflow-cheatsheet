@@ -35,7 +35,6 @@ To add
 ------
 - Atom
 - VS Code
-- Safari
 - Pixelmator
 - Evernote
 - Vimeo
