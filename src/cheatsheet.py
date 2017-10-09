@@ -42,10 +42,10 @@ def run(args):
         wf.add_item('Customize your cheatsheet',
                 'Edit custom.json file to personalize cheatsheet',
                 arg='workflow:opendata',
-                autocomplete='custom',
+                valid=True,
                 icon=ICON_INFO)
         addApps(apps)
-    elif (command == 'custom'):
+    elif (command == 'custom' and u'--commit' in args):
         wf.open_datadir()
     elif (u'--ctrl' in args):
         command_opts = command.split(':',1)
@@ -66,14 +66,21 @@ def run(args):
         wf.store_data("custom",custom)
 
     elif (u'--commit' in args):
-        command_opts = command.split(':',1)
-        app = command_opts[0]
-        if (len(command_opts) > 1 and (app in shortcuts or app in custom)):
-            action = command_opts[1].strip()
-            if (action == ""):
+        wf.cache_data("to_search_app",command)
+    elif (u'--search' in args):
+        # command_opts = command.split(':',1)
+        # app = command_opts[0]
+        app = wf.cached_data("to_search_app")
+        log.info("searching for: "+app)
+        if (app in shortcuts or app in custom):
+            # action = command_opts[1].strip()
+            action = command
+            log.info("go it "+action)
+            if (len(args) == 1):
                 wf.add_item('Customize any shortcut',
                     u'Ctrl ⏎',
                     icon=ICON_INFO)
+                action = ""
             addShortcuts(app, action)
     else:
         filter(command, apps)
@@ -100,7 +107,7 @@ def addApps(items):
         item = items[i]
         wf.add_item(item,
                     autocomplete=' '+item,
-                    arg=item+": ",
+                    arg=item,
                     valid=True)
 
 def addShortcuts(app, search):
@@ -149,7 +156,7 @@ if __name__ == '__main__':
     if (custom == None):
         custom = {
             "custom_app_example":{
-                "action":"shortcut [app name and action must be exactly same as default to overwrite any default]"
+                "action":"shortcut"
             }
         }
         wf.store_data('custom',custom)
