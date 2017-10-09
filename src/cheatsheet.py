@@ -71,17 +71,18 @@ def run(args):
         # command_opts = command.split(':',1)
         # app = command_opts[0]
         app = wf.cached_data("to_search_app")
-        log.info("searching for: "+app)
-        if (app in shortcuts or app in custom):
-            # action = command_opts[1].strip()
-            action = command
-            log.info("go it "+action)
-            if (len(args) == 1):
-                wf.add_item('Customize any shortcut',
-                    u'Ctrl ⏎',
-                    icon=ICON_INFO)
-                action = ""
-            addShortcuts(app, action)
+        if (not app == None):
+            log.info("searching for: "+app)
+            if (app in shortcuts or app in custom):
+                # action = command_opts[1].strip()
+                action = command
+                log.info("go it "+action)
+                if (len(args) == 1):
+                    wf.add_item('Customize any shortcut',
+                        u'Ctrl ⏎',
+                        icon=ICON_INFO)
+                    action = ""
+                addShortcuts(app, action)
     else:
         filter(command, apps)
 
