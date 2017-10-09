@@ -53,6 +53,9 @@ To add
 - TextExpander
 - VLC
 - Xcode
+- Photoshop
+- Illustrator
+- Sketch
 
 To download
 -----------
@@ -65,7 +68,6 @@ To do
 - app icons
 - merge Sublime and Sublime vintage
 - standarize shortcuts with symbols [change ^ to CTRL in some]
-- split different tool shortcuts into different files
 
 To add more apps
 ----------------
