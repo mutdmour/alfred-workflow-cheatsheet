@@ -35,7 +35,7 @@ def check_update():
 def add_edit_custom_info():
     wf.add_item('Customize your cheatsheet',
             'Edit custom.json file to personalize cheatsheet',
-            arg='workflow:opendata',
+            arg='opendata',
             valid=True,
             icon=ICON_INFO)
 
@@ -47,10 +47,12 @@ def run(args):
 
     check_update()
 
-    if (not command):
+    if (not command and not u'--search' in args):
         # if no args list all apps
         add_edit_custom_info()
         addApps(apps)
+    elif(command == "opendata"):
+        wf.open_datadir()
     elif (u'--ctrl' in args):
         app = wf.cached_data("to_search_app")
         if (app in shortcuts or app in custom):
@@ -78,7 +80,7 @@ def run(args):
                 # action = command_opts[1].strip()
                 action = command
                 log.info("go it "+action)
-                if (len(args) == 1):
+                if (action == u''):
                     wf.add_item('Customize any shortcut',
                         u'Ctrl ⏎',
                         icon=ICON_INFO)
