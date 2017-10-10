@@ -24,13 +24,7 @@ def main(wf):
     wf.send_feedback()
     log.info('Workflow response complete')
 
-# if no args list all apps
-def run(args):
-    command = args[0].strip()
-    log.info("args")
-    log.info(args)
-    log.info("")
-
+def check_update():
     if wf.update_available:
     # Add a notification to top of Script Filter results
         wf.add_item('New version available',
@@ -38,21 +32,30 @@ def run(args):
                 autocomplete='workflow:update',
                 icon=ICON_INFO)
 
+def add_edit_custom_info():
+    wf.add_item('Customize your cheatsheet',
+            'Edit custom.json file to personalize cheatsheet',
+            arg='workflow:opendata',
+            valid=True,
+            icon=ICON_INFO)
+
+def run(args):
+    command = args[0].strip()
+    log.info("args")
+    log.info(args)
+    log.info("")
+
+    check_update()
+
     if (not command):
-        wf.add_item('Customize your cheatsheet',
-                'Edit custom.json file to personalize cheatsheet',
-                arg='workflow:opendata',
-                valid=True,
-                icon=ICON_INFO)
+        # if no args list all apps
+        add_edit_custom_info()
         addApps(apps)
-    elif (command == 'custom' and u'--commit' in args):
-        wf.open_datadir()
     elif (u'--ctrl' in args):
-        command_opts = command.split(':',1)
-        app = command_opts[0]
-        if (len(command_opts) > 1 and (app in shortcuts or app in custom)):
-            action = command_opts[1].strip()
-            log.info("caching "+command)
+        app = wf.cached_data("to_search_app")
+        if (app in shortcuts or app in custom):
+            action = args[0]
+            log.info("caching "+app+":"+action)
             wf.cache_data("to_update_app",app)
             wf.cache_data("to_update_action",action)
     elif (u'--update' in args):
@@ -68,8 +71,6 @@ def run(args):
     elif (u'--commit' in args):
         wf.cache_data("to_search_app",command)
     elif (u'--search' in args):
-        # command_opts = command.split(':',1)
-        # app = command_opts[0]
         app = wf.cached_data("to_search_app")
         if (not app == None):
             log.info("searching for: "+app)
@@ -103,6 +104,15 @@ def getApps():
     custom_apps = custom.keys()
     return list(set(apps)|set(custom_apps))
 
+def getShorcuts(app):
+    opts = []
+    if (app in shortcuts):
+        opts = shortcuts[app].keys()
+    if (app in custom):
+        custom_app_shortcuts = custom[app].keys()
+        opts = list(set(opts)|set(custom_app_shortcuts))
+    return opts
+
 def addApps(items):
     for i in range(0,len(items)):
         item = items[i]
@@ -119,7 +129,8 @@ def addShortcuts(app, search):
         actions.update(custom[app])
 
     if (search):
-        opts = shortcuts[app].keys()
+        opts = getShorcuts(app)
+
         matching = wf.filter(search, opts)
         if (len(matching) == 0):
             wf.add_item('none found')
@@ -140,12 +151,8 @@ def addShortcut(action, shortcut, app):
             modifier_subtitles={
                 u'ctrl': u'Customize this shortcut'
             },
-            arg=app+":"+action
+            arg=action
         )
-
-# return the shortcut for an action for an app
-def getShortcut(app, key):
-    return shortcuts[app][key]
 
 if __name__ == '__main__':
     wf = Workflow(
