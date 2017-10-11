@@ -565,7 +565,7 @@ p276
 (dp277
 VBreadcrumbs bar - Focus the HTML pane
 p278
-VShift + Tab
+V\u21e7Tab
 p279
 sVHTML pane - Step forward through the attributes of a node
 p280
@@ -573,5464 +573,5429 @@ VTab
 p281
 sVHTML pane - Find the previous match in the markup, when searching is active
 p282
-VShift + Enter
+V\u21e7\u23ce
 p283
 sVHTML pane - Collapse currently selected node
 p284
-VRight arrow
-p285
+V\u2192
 sVWindows/tabs - Move Tab in focus
+p285
+VRight ^\u21e7Page Down
 p286
-VRight Ctrl + Shift + Page Down
-p287
 sVHTML pane - Step backward through the attributes of a node
+p287
+V\u21e7Tab
 p288
-VShift + Tab
-p289
 sVHTML pane - Delete the selected node
-p290
-VDelete
-p291
+p289
+V\u232b
 sVComplete .org Address
-p292
-Vcommand + shift + return
-p293
+p290
+V\u2318\u21e7\u23ce
+p291
 sVTools - Style Editor
-p294
-VShift + F7
-p295
+p292
+V\u21e7F7
+p293
 sVWindows/tabs - New Window
-p296
-Vcommand + N
-p297
+p294
+V\u2318N
+p295
 sVEditing - Undo
-p298
-Vcommand + Z
-p299
+p296
+V\u2318Z
+p297
 sVMedia - Increase volume
-p300
+p298
 V\u2191
 sVTools - Responsive Design View
-p301
-Vcommand + alt + M
-p302
+p299
+V\u2318\u2325M
+p300
 sVHTML pane - Move to next node (expanded nodes only)
-p303
-VDown arrow
-p304
+p301
+V\u2193
 sVNavigation - Stop
-p305
-VEsc  or command + .
-p306
+p302
+VEsc  or \u2318.
+p303
 sVMedia - Toggle Play / Pause
-p307
-VSpace bar
-p308
+p304
+VSpace
+p305
 sVCurrent Page - Go to Bottom of Page
-p309
-VEnd or command + \u2193
-p310
+p306
+VEnd or \u2318\u2193
+p307
 sVReset font size
-p311
-VCmd + 0
-p312
+p308
+V\u23180
+p309
 sVCurrent Page - Move to Previous Frame
-p313
-VShift + F6
-p314
+p310
+V\u21e7F6
+p311
 sVCSS pane - Focus on the search box in the CSS pane
-p315
-VCmd + F
-p316
+p312
+V\u2318F
+p313
 sVPDF Viewer - Next page
-p317
+p314
 VN or J or \u2192
-p318
+p315
 sVHTML pane - Expand currently selected node
-p319
-VRight arrow
-p320
+p316
+V\u2192
 sVTools - Web Console
-p321
-Vcommand + alt + K
-p322
+p317
+V\u2318\u2325K
+p318
 sVNavigation - Home
-p323
-Voption + home
-p324
+p319
+V\u2325 home
+p320
 sVNode picker - Select the element under the mouse and cancel picker mode
-p325
+p321
 VClick
-p326
+p322
 sVHTML pane - Copy the selected node's outer HTML
-p327
-VCmd + C
-p328
+p323
+V\u2318C
+p324
 sVCurrent Page - Save Page As
-p329
-Vcommand + S
-p330
+p325
+V\u2318S
+p326
 sVTools - Inspector
-p331
-Vcommand + alt + C
-p332
+p327
+V\u2318\u2325C
+p328
 sVSearch - Find Previous
-p333
-VShift + F3 or command + shift + G
-p334
+p329
+V\u21e7F3 or \u2318\u21e7G
+p330
 sVCSS pane - Cycle up and down through auto-complete suggestions (Rules view only, when a property or value is being edited)
-p335
-VUp arrow , Down arrow
-p336
+p331
+V\u2191, \u2193
+p332
 sVSearch - Quick Find
-p337
+p333
 V/
 sVBookmarks - Bookmarks sidebar
-p338
-Vcommand + B
-p339
+p334
+V\u2318B
+p335
 sVInspect Element
-p340
-VCmd + Opt + C
-p341
+p336
+V\u2318\u2325C
+p337
 sVSearch - Find
-p342
-Vcommand + F
-p343
+p338
+V\u2318F
+p339
 sVBookmarks - Library window
-p344
-Vcommand + shift + B
-p345
+p340
+V\u2318\u21e7B
+p341
 sVWindows/tabs - Undo Close Window
-p346
-Vcommand + shift + N
-p347
+p342
+V\u2318\u21e7N
+p343
 sVCSS pane - Show/hide more information about current property (Computed view only, when a property is selected)
-p348
-VReturn or Space
-p349
+p344
+V\u23ce or Space
+p345
 sVWindows/tabs - New Private Window
-p350
-Vcommand + shift + P
-p351
+p346
+V\u2318\u21e7P
+p347
 sVEditing - Paste
-p352
-Vcommand + V
-p353
+p348
+V\u2318V
+p349
 sVCaret Browsing
-p354
+p350
 VF7
-p355
+p351
 sVPDF Viewer - Toggle Hand Tool
-p356
+p352
 VH
 sVEditing - Delete
-p357
-Vdelete
-p358
+p353
+V\u232b
 sVSearch - Find Again
-p359
-VF3 or command + G
-p360
+p354
+VF3 or \u2318G
+p355
 sVEditing - Copy
-p361
-Vcommand + C
-p362
+p356
+V\u2318C
+p357
 sVComplete .com Address
-p363
-Vcommand + return
-p364
+p358
+V\u2318\u23ce
+p359
 sVMedia - Seek to the end
-p365
+p360
 VEnd
-p366
+p361
 sVCSS pane - Increment selected value by 1
-p367
-VUp arrow
-p368
+p362
+V\u2191
 sVWindows/tabs - Next Tab
-p369
-Vcontrol + tab or control + page down or command + option + \u2192
-p370
+p363
+V\u2325tab or \u2325 page down or \u2318\u2325\u2192
+p364
 sVEditing - Redo
-p371
-Vcommand + shift + Z
-p372
+p365
+V\u2318\u21e7Z
+p366
 sVPDF Viewer - Rotate the document clockwise
-p373
+p367
 VR
 sVCSS pane - Clear search box content (only when the search box is focused, and content has been entered)
-p374
+p368
 VEsc
-p375
+p369
 sVWindows/tabs - Move Tab in focus Left
-p376
-VCtrl + Shift + Page Up
-p377
+p370
+V^\u21e7Page Up
+p371
 sVTools - Page Source
-p378
-Vcommand + U
-p379
+p372
+V\u2318U
+p373
 sVHTML pane - Redo delete of a node
-p380
-VCmd + Shift + Z / Cmd + Y
-p381
+p374
+V\u2318\u21e7Z / \u2318Y
+p375
 sVCSS pane - Start editing property or value (Rules view only, when a property or value is selected, but not already being edited)
-p382
-VEnter or Space
-p383
+p376
+V\u23ce or Space
+p377
 sVEditing - Select All
-p384
-Vcommand + A
-p385
+p378
+V\u2318A
+p379
 sVCurrent Page - Print
-p386
-Vcommand + P
-p387
+p380
+V\u2318P
+p381
 sVBookmarks - Bookmark This Page
-p388
-Vcommand + D
-p389
+p382
+V\u2318D
+p383
 sVCSS pane - Decrement selected value by 100
-p390
-VShift + Page Down
-p391
+p384
+V\u21e7Page Down
+p385
 sVToggle Reader Mode
-p392
-Vcommand+option+R
-p393
+p386
+V\u2318\u2325R
+p387
 sVDelete Selected Autocomplete Entry
-p394
-Vshift + delete
-p395
+p388
+V\u21e7\u232b
+p389
 sVWindows/tabs - Mute/Unmute Audio
-p396
-VCtrl + M
-p397
+p390
+V^M
+p391
 sVCurrent Page - Move to Next Frame
-p398
+p392
 VF6
-p399
+p393
 sVSelect Location Bar
-p400
-VF6 or command + L
-p401
+p394
+VF6 or \u2318L
+p395
 sVWindows/tabs - New Tab
-p402
-Vcommand + T
-p403
+p396
+V\u2318T
+p397
 sVWindows/tabs - Undo Close Tab
-p404
-Vcommand + shift + T
-p405
+p398
+V\u2318\u21e7T
+p399
 sVWindows/tabs - Close Window
-p406
-Vcommand + shift + W
-p407
+p400
+V\u2318\u21e7W
+p401
 sVCSS pane - Choose current auto-complete suggestion (Rules view only, when a property or value is being edited)
-p408
-VEnter or Tab
-p409
+p402
+V\u23ce or Tab
+p403
 sVNavigation - Reload
-p410
-VF5 or command + R
-p411
+p404
+VF5 or \u2318R
+p405
 sVToggle Full Screen
-p412
-Vcommand+Shift+F
-p413
+p406
+V\u2318\u21e7F
+p407
 sVTools - Debugger
-p414
-Vcommand + alt + S
-p415
+p408
+V\u2318\u2325S
+p409
 sVHistory - Clear Recent History
-p416
-Vcommand + shift + delete
-p417
+p410
+V\u2318\u21e7\u232b
+p411
 sVCSS pane - Open MDN reference page about current property (Computed view only, when a property is selected)
-p418
+p412
 VF1
-p419
+p413
 sVHTML pane - Move to previous node
-p420
-VUp arrow
-p421
+p414
+V\u2191
 sVMedia - Seek back 10 %
-p422
-Vcommand + \u2190
-p423
+p415
+V\u2318\u2190
+p416
 sVEditing - Paste (as plain text)
-p424
-Vcommand + shift + V
-p425
+p417
+V\u2318\u21e7V
+p418
 sVMedia - Mute audio
-p426
-Vcommand + \u2193
-p427
+p419
+V\u2318\u2193
+p420
 sVTools - Toggle Developer Tools
-p428
-VF12 or command + alt + I
-p429
+p421
+VF12 or \u2318\u2325I
+p422
 sVCSS pane - Step backward through properties and values
-p430
-VShift + Tab
-p431
+p423
+V\u21e7Tab
+p424
 sVPDF Viewer - Zoom in
-p432
-Vcommand + +
-p433
+p425
+V\u2318+
+p426
 sVNavigation - Forward
-p434
-Vcommand + \u2192 or command + ] or Shift + Delete
-p435
+p427
+V\u2318\u2192 or \u2318] or \u21e7\u232b
+p428
 sVCSS pane - Increment selected value by 10
-p436
-VShift + Up arrow
-p437
+p429
+V\u21e7\u2191
+p430
 sVNavigation - Reload (override cache)
-p438
-Vcommand + shift + R
-p439
+p431
+V\u2318\u21e7R
+p432
 sVTools - Developer Toolbar
-p440
-VShift + F2
-p441
+p433
+V\u21e7F2
+p434
 sVPDF Viewer - Switch to Presentation Mode
-p442
-Vcommand + Alt + P
-p443
+p435
+V\u2318\u2325P
+p436
 sVHTML pane - Focus on the search box in the HTML pane
-p444
-VCmd + F
-p445
+p437
+V\u2318F
+p438
 sVDecrease font size
-p446
-VCmd + -
-p447
+p439
+V\u2318-
+p440
 sVPDF Viewer - Automatic Zoom
-p448
-Vcommand + 0
-p449
+p441
+V\u23180
+p442
 sVSearch - Close the Find or Quick Find bar
-p450
+p443
 VEsc - when the Find or Quick Find bar is focused
-p451
+p444
 sVHTML pane - Scroll the selected node into view
-p452
+p445
 VS
 sVTools - Add-ons
-p453
-Vcommand + shift + A
-p454
+p446
+V\u2318\u21e7A
+p447
 sVSearch - Focus Search bar
-p455
-Vcommand + K or command + option + F
-p456
+p448
+V\u2318K or \u2318\u2325F
+p449
 sVBreadcrumbs bar - Move to the next element in the breadcrumbs bar
-p457
-VRight arrow
-p458
+p450
+V\u2192
 sVCSS pane - Increment selected value by 100
-p459
-VShift + Page Up
-p460
+p451
+V\u21e7Page Up
+p452
 sVCurrent Page - Zoom In
-p461
-Vcommand + +
-p462
+p453
+V\u2318+
+p454
 sVPDF Viewer - Rotate counterclockwise
-p463
-VShift + R
-p464
+p455
+V\u21e7R
+p456
 sVNavigation - Back
-p465
-Vcommand + \u2190 or command + [ or Delete
-p466
+p457
+V\u2318\u2190 or \u2318[ or \u232b
+p458
 sVTools - Downloads
-p467
-Vcommand + J
-p468
+p459
+V\u2318J
+p460
 sVCSS pane - Decrement selected value by 0.1
-p469
-VOpt + Down arrow
-p470
+p461
+V\u2325\u2193
+p462
 sVTools - Network
-p471
-Vcommand + alt + Q
-p472
+p463
+V\u2318\u2325Q
+p464
 sVHTML pane - Undo delete of a node
-p473
-VCmd + Z
-p474
+p465
+V\u2318Z
+p466
 sVFocus the CSS pane
-p475
+p467
 VTab
-p476
+p468
 sVMedia - Unmute audio
-p477
-Vcommand + \u2191
-p478
+p469
+V\u2318\u2191
+p470
 sVWindows/tabs - Move Tab in focus to end
-p479
-Vcommand + end
-p480
+p471
+V\u2318end
+p472
 sVCurrent Page - Zoom Reset
-p481
-Vcommand + 0
-p482
+p473
+V\u23180
+p474
 sVCSS pane - Open current CSS file in Style Editor (Computed view only, when more information is shown for a property and a CSS file reference is focused)
-p483
-VEnter
-p484
+p475
+V\u23ce`
+p476
 sVPDF Viewer - Previous page
-p485
+p477
 VP or K or \u2190
-p486
+p478
 sVNode picker - Select the element under the mouse and stay in picker mode
-p487
-VShift+Click
-p488
+p479
+V\u21e7Click
+p480
 sVMedia - Seek to the beginning
-p489
+p481
 VHome
-p490
+p482
 sVHistory - History sidebar
-p491
-Vcommand + shift + H
-p492
+p483
+V\u2318\u21e7H
+p484
 sVSearch - Quick Find within link-text only
-p493
+p485
 V'
 sVIncrease font size
-p494
-VCmd +
-p495
+p486
+V\u2318+
+p487
 sVMedia - Seek forward 15 seconds
-p496
+p488
 V\u2192
 sVSearch - View menu to switch, add or manage search engines
-p497
-Voption + \u2191 or option + \u2193  - when Search Bar is focused
-p498
+p489
+V\u2325\u2191 or \u2325\u2193  - when Search Bar is focused
+p490
 sVPDF Viewer - Focus the Page Number input box
-p499
-Vcommand + Alt + G
-p500
+p491
+V\u2318\u2325G
+p492
 sVTools - Browser Console
-p501
-Vcommand + shift + J
-p502
+p493
+V\u2318\u21e7J
+p494
 sVCSS pane - Decrement selected value by 10
-p503
-VShift + Down arrow
-p504
+p495
+V\u21e7\u2193
+p496
 sVCSS pane - Increment selected value by 0.1
-p505
-VOpt + Up arrow
-p506
+p497
+V\u2325\u2191
+p498
 sVCurrent Page - Go to Top of Page
-p507
-VHome or command + \u2191
-p508
+p499
+VHome or \u2318\u2191
+p500
 sVWindows/tabs - Select Last Tab
-p509
-Vcommand + 9
-p510
+p501
+V\u23189
+p502
 sVTools - Profiler
-p511
-VShift + F5
-p512
+p503
+V\u21e7F5
+p504
 sVNavigation - Open File
-p513
-Vcommand + O
-p514
+p505
+V\u2318O
+p506
 sVCSS pane - Decrement selected value by 1
-p515
-VDown arrow
-p516
+p507
+V\u2193
 sVHTML pane - Find the next match in the markup, when searching is active
-p517
-VEnter
-p518
+p508
+V\u23ce
 sVHTML pane - Stop editing HTML
-p519
-VF2 / Ctrl +Enter
-p520
+p509
+VF2 / ^\u23ce
+p510
 sVSearch - Quickly switch between search engines
-p521
-Vcommand + \u2191 or command + \u2193 - when Search Bar is focused
-p522
+p511
+V\u2318\u2191 or \u2318\u2193 - when Search Bar is focused
+p512
 sVHTML pane - Hide/show the selected node
-p523
+p513
 VH
 sVWindows/tabs - Move Tab in focus to start
-p524
-Vcommand + home
-p525
+p514
+V\u2318home
+p515
 sVPDF Viewer - Zoom out
-p526
-Vcommand + -
-p527
+p516
+V\u2318-
+p517
 sVWindows/tabs - Previous Tab
-p528
-Vcontrol + shift + tab or control + page up or command + option + \u2190
-p529
+p518
+V\u2325\u21e7tab or \u2325 page up or \u2318\u2325\u2190
+p519
 sVMedia - Decrease volume
-p530
+p520
 V\u2193
 sVWindows/tabs - Close Tab
-p531
-Vcommand + W - except for App Tabs
-p532
+p521
+V\u2318W - except for App Tabs
+p522
 sVHTML pane - Start editing the selected attribute
-p533
-VEnter
-p534
+p523
+V\u23ce
 sVWindows/tabs - Open Address in New Tab
-p535
-Voption + return - from Location Bar or Search Bar
-p536
+p524
+V\u23ce- from Location Bar or Search Bar
+p525
 sVComplete .net Address
-p537
-Vshift + return
-p538
+p526
+V\u21e7\u23ce
+p527
 sVCurrent Page - Zoom Out
-p539
-Vcommand + -
-p540
+p528
+V\u2318-
+p529
 sVWindows/tabs - Select Tab 1 to 8
-p541
-Vcommand + 1to8
-p542
+p530
+V\u23181to8
+p531
 sVCurrent Page - Go Down a Screen
-p543
-Vfn + \u2193
-p544
+p532
+Vfn\u2193
+p533
 sVMedia - Seek back 15 seconds
-p545
+p534
 V\u2190
 sVHTML pane - Edit as HTML
-p546
+p535
 VF2
-p547
+p536
 sVBookmarks - Bookmark All Tabs
-p548
-Vcommand + shift + D
-p549
+p537
+V\u2318\u21e7D
+p538
 sVTools - Page Info
-p550
-Vcommand + I
-p551
+p539
+V\u2318I
+p540
 sVEditing - Cut
-p552
-Vcommand + X
-p553
+p541
+V\u2318X
+p542
 sVCSS pane - Step forward through properties and values
-p554
+p543
 VTab
-p555
+p544
 sVTools - Scratchpad
-p556
-VShift + F4
-p557
+p545
+V\u21e7F4
+p546
 sVMedia - Seek forward 10 %
-p558
-Vcommand + \u2192
-p559
+p547
+V\u2318\u2192
+p548
 sVCurrent Page - Go Up a Screen
-p560
-Vfn + \u2191 or Shift + Space bar
-p561
+p549
+Vfn\u2191 or \u21e7Space
+p550
 sVBreadcrumbs bar - Move to the previous element in the breadcrumbs bar
-p562
-VLeft arrow
-p563
+p551
+V\u2190
 ssVzshell
-p564
-(dp565
+p552
+(dp553
 Vgit diff --cached
-p566
+p554
 Vgdca
-p567
+p555
 sVUptake new changes
-p568
+p556
 Vsource ~/.zshrc
-p569
+p557
 sVgit pull origin $(current_branch)
-p570
+p558
 Vggl
-p571
+p559
 sVgit blame -b -w
-p572
+p560
 Vgbl
-p573
+p561
 sVgit tag -s
-p574
+p562
 Vgts
-p575
+p563
 sVswitch to directory number n (2-9)
-p576
+p564
 Vcd +n
-p577
+p565
 sVtmux attach -t
-p578
+p566
 Vta
-p579
+p567
 sVgit remote
-p580
+p568
 Vgr
-p581
+p569
 sVgit push
-p582
+p570
 Vgp
-p583
+p571
 sVgit remote rename
-p584
+p572
 Vgrmv
-p585
+p573
 sVtab-completeion sudo unmount
-p586
+p574
 Vsudo unmount(tab)
-p587
+p575
 sVtmux attach -d -t
-p588
+p576
 Vtad
-p589
+p577
 sVgit cherry-pick --abort
-p590
+p578
 Vgcpa
-p591
+p579
 sV(When using vi-mode plugin) Edit current command line in Vim
-p592
+p580
 Vv
 sVgit pull upstream master
-p593
+p581
 Vglum
-p594
+p582
 sVUninstall Oh-my-zsh.
-p595
+p583
 Vuninstall_oh_my_zsh
-p596
+p584
 sVgit log -n 1 | grep -q -c "--wip--" && git reset HEAD~1
-p597
+p585
 Vgunwip
-p598
+p586
 sVgit add --all
-p599
+p587
 Vgaa
-p600
+p588
 sVgit commit -m
-p601
+p589
 Vgcmsg
-p602
+p590
 sVgit whatchanged -p --abbrev-commit --pretty = medium
-p603
+p591
 Vgwch
-p604
+p592
 sVtmux list-sessions
-p605
+p593
 Vtl
-p606
+p594
 sVgit reset --hard ^^ git clean dfx
-p607
+p595
 Vgpristine
-p608
+p596
 sVgit rebase -i
-p609
+p597
 Vgrbi
-p610
+p598
 sVshow the status of the NAME process
-p611
+p599
 Vsc-status NAME
-p612
+p600
 sVgit mergetool --no-prompt
-p613
+p601
 Vgmt
-p614
+p602
 sVgit show --pretty = short --show-signature
-p615
+p603
 Vgsps
-p616
+p604
 sVstart the NAME process
-p617
+p605
 Vsc-start NAME
-p618
+p606
 sVgit log --graph --decorate --all
-p619
+p607
 Vglgga
-p620
+p608
 sVcd /
-p621
+p609
 V/
 sVExtract an archive (supported types: tar.{bz2,gz,xz,lzma}, bz2, rar, gz, tar, tbz2, tgz, zip, Z, 7z).
-p622
+p610
 Vx / extract
-p623
+p611
 sVgit pull --rebase
-p624
+p612
 Vgup
-p625
+p613
 sVgit pull origin $(current_branch) && git push origin $(current_branch)
-p626
+p614
 Vggpnp
-p627
+p615
 sVgit log --graph --max-count = 10
-p628
+p616
 Vglgg
-p629
+p617
 sVgit status
-p630
+p618
 Vgst
-p631
+p619
 sVgit cherry-pick
-p632
+p620
 Vgcp
-p633
+p621
 sVcd $(git rev-parse --show-toplevel || echo ".")
-p634
+p622
 Vgrt
-p635
+p623
 sVgit commit -v -a --amend
-p636
+p624
 Vgca!
-p637
+p625
 sVgit bisect
-p638
+p626
 Vgbs
-p639
+p627
 sVgit checkout -b
-p640
+p628
 Vgcb
-p641
+p629
 sVgit add -A; git ls-files --deleted -z | xargs -r0 git rm; git commit -m "--wip--"
-p642
+p630
 Vgwip
-p643
+p631
 sVcd ../../..
-p644
+p632
 V....
-p645
+p633
 sVgit clean -fd
-p646
+p634
 Vgclean
-p647
+p635
 sVtmux kill-server
-p648
+p636
 Vtksv
-p649
+p637
 sVgit verify-tag
-p650
+p638
 Vgvt
-p651
+p639
 sVgit reset HEAD --hard
-p652
+p640
 Vgrhh
-p653
+p641
 sVgit log --stat --max-count = 10
-p654
+p642
 Vglg
-p655
+p643
 sVgit rebase --continue
-p656
+p644
 Vgrbc
-p657
+p645
 sVtab-completeion cap
-p658
+p646
 Vcap (tab)
-p659
+p647
 sVgitk --all --branches
-p660
+p648
 Vgk
-p661
+p649
 sVgit pull --rebase origin $(current_branch)
-p662
+p650
 Vggpur
-p663
+p651
 sVgit gui citool --amend
-p664
+p652
 Vgga
-p665
+p653
 sVgit checkout develop
-p666
+p654
 Vgcd
-p667
+p655
 sVgit cherry-pick --continue
-p668
+p656
 Vgcpc
-p669
+p657
 sVgit fetch --all --prune
-p670
+p658
 Vgfa
-p671
+p659
 sVgit log --oneline --decorate --color --graph
-p672
+p660
 Vglog
-p673
+p661
 sVcd ..
-p674
+p662
 V..
-p675
+p663
 sVgit bisect start
-p676
+p664
 Vgbss
-p677
+p665
 sVgit diff-tree --no-commit-id --name-only -r
-p678
+p666
 Vgdt
-p679
+p667
 sVgit stash save
-p680
+p668
 Vgsta
-p681
+p669
 sVgit update-index --assume-unchanged
-p682
+p670
 Vgignore
-p683
+p671
 sVgit branch --no-merged
-p684
+p672
 Vgbnm
-p685
+p673
 sVSymfony2 - sf debug:router
-p686
+p674
 Vsfroute
-p687
+p675
 sVgit stash drop
-p688
+p676
 Vgstd
-p689
+p677
 sVgit reset HEAD
-p690
+p678
 Vgrh
-p691
+p679
 sVgit checkout
-p692
+p680
 Vgco
-p693
+p681
 sVSymfony2 - sf cache:warmup
-p694
+p682
 Vsfcw
-p695
+p683
 sVtab-completeion unrar
-p696
+p684
 Vunrar (tab)
-p697
+p685
 sVenable the NAME process to start at boot
-p698
+p686
 Vsc-enable NAME
-p699
+p687
 sVgit remote update
-p700
+p688
 Vgrup
-p701
+p689
 sVtab-completeion rake
-p702
+p690
 Vrake (tab)
-p703
+p691
 sVgit commit -v -a
-p704
+p692
 Vgca
-p705
+p693
 sVgit status -s
-p706
+p694
 Vgss
-p707
+p695
 sVgit commit -v
-p708
+p696
 Vgc
-p709
+p697
 sVgit ls-files -v | grep "^[[:lower:]]"
-p710
+p698
 Vgignored
-p711
+p699
 sVgit
-p712
+p700
 Vg
 sVSymfony2 - php app/console cache:clear
-p713
+p701
 Vsfcl
-p714
+p702
 sVgit commit -s -m
-p715
+p703
 Vgcsm
-p716
+p704
 sVSymfony2 - sf server:run -vvv
-p717
+p705
 Vsfsr
-p718
+p706
 sVcd ../../../..
-p719
+p707
 V.....
-p720
+p708
 sVGet a list of the top 20 commands and how many times they have been run.
-p721
+p709
 Vzsh_stats
-p722
+p710
 sVgit commit -S
-p723
+p711
 Vgcs
-p724
+p712
 sVgit merge
-p725
+p713
 Vgm
-p726
+p714
 sVSymfony2 - sf generate:bundle
-p727
+p715
 Vsfgb
-p728
+p716
 sVgit remote set-url
-p729
+p717
 Vgrset
-p730
+p718
 sVSymfony2 - php ./app/console
-p731
+p719
 Vsf
-p732
+p720
 sVshow the NAME systemd .service file
-p733
+p721
 Vsc-show NAME
-p734
+p722
 sVgit rebase --abort
-p735
+p723
 Vgrba
-p736
+p724
 sVgit stash list
-p737
+p725
 Vgstl
-p738
+p726
 sVgit add --patch
-p739
+p727
 Vgapa
-p740
+p728
 sVtmux kill-session -t
-p741
+p729
 Vtkss
-p742
+p730
 sVgit diff
-p743
+p731
 Vgd
-p744
+p732
 sVgit branch -a
-p745
+p733
 Vgba
-p746
+p734
 sVgit branch -d
-p747
+p735
 Vgbd
-p748
+p736
 sVgit push origin $(current_branch)
-p749
+p737
 Vggp
-p750
+p738
 sVgit bisect good
-p751
+p739
 Vgbsg
-p752
+p740
 sVgit commit -a -m
-p753
+p741
 Vgcam
-p754
+p742
 sV_git_log_prettily (git log --pretty=$1)
-p755
+p743
 Vglp
-p756
+p744
 sVUpgrade Oh-my-zsh.
-p757
+p745
 Vupgrade_oh_my_zsh
-p758
+p746
 sVgit checkout master
-p759
+p747
 Vgcm
-p760
+p748
 sVgit commit -v -a --no-edit --amend
-p761
+p749
 Vgcan!
-p762
+p750
 sVstop the NAME process
-p763
+p751
 Vsc-stop NAME
-p764
+p752
 sVgit branch --set-upstream-to=origin/$(current_branch)
-p765
+p753
 Vggsup
-p766
+p754
 sVgit branch --remote
-p767
+p755
 Vgbr
-p768
+p756
 sVtab-completeion ls
-p769
+p757
 Vls (tab)
-p770
+p758
 sVSymfony2 - sf debug:container
-p771
+p759
 Vsfcontainer
-p772
+p760
 sV(When using sublime plugin) Open current directory in Sublime Text 2/3
-p773
+p761
 Vstt
-p774
+p762
 sVtab-completeion kill
-p775
+p763
 Vkill (tab)
-p776
+p764
 sVgit svn rebase
-p777
+p765
 Vgsr
-p778
+p766
 sVgit clone --recursive
-p779
+p767
 Vgcl
-p780
+p768
 sVgit commit -v --amend
-p781
+p769
 Vgc!
-p782
+p770
 sVcd ~
-p783
+p771
 V~
 sVgit push origin --all && git push origin --tags
-p784
+p772
 Vgpoat
-p785
+p773
 sVgit pull
-p786
+p774
 Vgl
-p787
+p775
 sVtab-completeion ssh
-p788
+p776
 Vssh (tab)
-p789
+p777
 sVgit fetch
-p790
+p778
 Vgf
-p791
+p779
 sVgit remote remove
-p792
+p780
 Vgrrm
-p793
+p781
 sVgit bisect bad
-p794
+p782
 Vgbsb
-p795
+p783
 sVCreate a new directory and change to it, will create intermediate directories as required.
-p796
+p784
 Vtake
-p797
+p785
 sVgit bisect reset
-p798
+p786
 Vgbsr
-p799
+p787
 sVgit stash pop
-p800
+p788
 Vgstp
-p801
+p789
 sVgit svn dcommit && git push github master:svntrunk
-p802
+p790
 Vgit-svn-dcommit-push
-p803
+p791
 sVDynamic access to current branch name with the current_branch function
-p804
+p792
 Vgrb publish $(current_branch) origin
-p805
+p793
 sVgit commit -v -a -s --no-edit --amend
-p806
+p794
 Vgcans!
-p807
+p795
 sVgit add
-p808
+p796
 Vga
-p809
+p797
 sVgit remote -v
-p810
+p798
 Vgrv
-p811
+p799
 sVgit stash show --text
-p812
+p800
 Vgsts
-p813
+p801
 sVrestart the NAME process
-p814
+p802
 Vsc-restart NAME
-p815
+p803
 sVgit update-index --no-assume-unchanged
-p816
+p804
 Vgunignore
-p817
+p805
 sVcd ../..
-p818
+p806
 V...
-p819
+p807
 sVgit log --oneline --decorate --color
-p820
+p808
 Vglo
-p821
+p809
 sVdisable the NAME process at boot
-p822
+p810
 Vsc-disable NAME
-p823
+p811
 sVgit rebase --skip
-p824
+p812
 Vgrbs
-p825
+p813
 sVgit branch
-p826
+p814
 Vgb
-p827
+p815
 sVgit diff --word-diff
-p828
+p816
 Vgdw
-p829
+p817
 sVlist all aliases
-p830
+p818
 Valias
-p831
+p819
 sVCreate a new tab in the current directory (macOS - requires enabling access for assistive devices under System Preferences).
-p832
+p820
 Vtabs
-p833
+p821
 sVgit config --list
-p834
+p822
 Vgcf
-p835
+p823
 sVgit svn dcommit
-p836
+p824
 Vgsd
-p837
+p825
 sVgit describe --tags `git rev-list --tags --max-count=1`
-p838
+p826
 Vgdct
-p839
+p827
 sVtmux new-session -s
-p840
+p828
 Vts
-p841
+p829
 sVgit stash apply
-p842
+p830
 Vgstaa
-p843
+p831
 sVgit shortlog -sn
-p844
+p832
 Vgcount
-p845
+p833
 sVgit gui citool
-p846
+p834
 Vgg
-p847
+p835
 sVgit fetch origin
-p848
+p836
 Vgfo
-p849
+p837
 ssVVideo Speed Controller chrome extension
-p850
-(dp851
+p838
+(dp839
 VPreferred speed
-p852
+p840
 VG
 sVShow/hide controller
-p853
+p841
 VV
 sVAdvance
-p854
+p842
 VX
 sVDecrease speed
-p855
+p843
 VS
 sVReset speed
-p856
+p844
 VR
 sVRewind
-p857
+p845
 VZ
 sVIncrease speed
-p858
+p846
 VD
 ssVyoutube.com
-p859
-(dp860
+p847
+(dp848
 VPause/Play video (player)
-p861
+p849
 VSpacebar
-p862
+p850
 sVClose the current dialog or similar dialogs (share panel)
-p863
+p851
 VESCAPE
-p864
+p852
 sVPause/Play video
-p865
+p853
 Vk
 sVRotate through font sizes (increasing)
-p866
+p854
 V+
 sVSeek to the end of the video
-p867
+p855
 VEND
-p868
+p856
 sVSeek forwards by 5 seconds
-p869
+p857
 V\u2192
 sVRewind 10 seconds
-p870
+p858
 Vj
 sVDecrease the volume by 5%
-p871
+p859
 VDOWN
-p872
+p860
 sVSeek to the beginning of the video
-p873
+p861
 VHOME
-p874
+p862
 sVSeek backwards by smallest amount possible, when video is paused
-p875
+p863
 V,
 sVRotate through different text opacity levels
-p876
+p864
 Vo
 sVKeyboard shortcuts
-p877
+p865
 V\u21e7/
-p878
+p866
 sVNext video
-p879
+p867
 V\u21e7n
-p880
+p868
 sVFastfoward 10 seconds
-p881
+p869
 Vl
 sVRotate through different window opacity levels
-p882
+p870
 Vw
 sVIncrease the volume by 5%
-p883
+p871
 VUP
-p884
+p872
 sVWhen viewing a spherical video, pan up
-p885
+p873
 Vw
 sVWhen viewing a spherical video, pan left
-p886
+p874
 Va
 sVToggle Mute
-p887
+p875
 Vm
 sVToggle full screen
-p888
+p876
 Vf
 sVIf the video supports captions, toggle captions ON/OFF
-p889
+p877
 Vc
 sVDecrease playback rate
-p890
+p878
 V< (^,)
-p891
+p879
 sVPrevious video
-p892
+p880
 V\u21e7p
-p893
+p881
 sVSeek backwards by 5 seconds (player)
-p894
+p882
 V\u2190
 sVSeek to specific point in the video (7 advances to 70% of duration)
-p895
+p883
 V0..9
-p896
+p884
 sVIncrease playback rate
-p897
+p885
 V> (^.)
-p898
+p886
 sVRotate through font sizes (decreasing)
-p899
+p887
 V-
 sVSeek forwards by smallest amount possible, when video is paused
-p900
+p888
 V.
 ssVMicrosoft Word
-p901
-(dp902
-VFind the next misspelling or grammatical error
-p903
-VOption + F7
-p904
+p889
+(dp890
+VFind (focus on search bar)
+p891
+V^F
+p892
+sVFind the next misspelling or grammatical error
+p893
+V\u2325F7
+p894
 sVUnlock a field
-p905
-VCOMMAND + Shift + F11
-p906
+p895
+V\u2318\u21e7F11
+p896
 sVTable - Start a new paragraph
-p907
-VReturn
-p908
+p897
+V\u23ce
 sVEdit - Delete one character to the left
-p909
+p898
 VDelete
-p910
+p899
 sVTable - Insert a Tab character in a cell
-p911
-VOption + Tab
-p912
+p900
+V\u2325Tab
+p901
 sVEdit - Paste special
-p913
-VCOMMAND + Control + V
-p914
+p902
+V\u2318^V
+p903
 sVFields - Go to the next field
-p915
+p904
 VF11
-p916
+p905
 sVOutline - Collapse text under a heading
-p917
-VControl + Shift + Minus sign
-p918
-sVSet lines as single-spaced
-p919
-VCOMMAND + 1
-p920
+p906
+V^\u21e7-
+p907
 sVCreate a hanging indent
-p921
-VCOMMAND + T
-p922
+p908
+V\u2318T
+p909
 sVTable - Move to the preceding cell
-p923
-VShift + Tab
-p924
+p910
+V\u21e7Tab
+p911
 sVInsert the contents of the Spike
-p925
-VCOMMAND + Shift + F3
-p926
+p912
+V\u2318\u21e7F3
+p913
 sVExpand or minimize the ribbon
-p927
-VOption +  COMMAND + R
-p928
+p914
+V\u2325\u2318R
+p915
 sVSelect one line up
-p929
-VShift + Up arrow
-p930
+p916
+V\u21e7\u2191
+p917
 sVFormat - Format in all small capital letters
-p931
-VCOMMAND + Shift + K
-p932
+p918
+V\u2318\u21e7K
+p919
 sVFields - Run GOTOBUTTON or MACROBUTTON from the field that displays the field results
-p933
-VOption + Shift + F9
-p934
+p920
+V\u2325\u21e7F9
+p921
 sVAdd or remove one line of space directly preceding a paragraph
-p935
-VCOMMAND + 0 (zero)
-p936
+p922
+V\u23180
+p923
 sVEdit - Cut selected text to the Clipboard
-p937
-VCOMMAND + X or F2
-p938
+p924
+V\u2318X or F2
+p925
 sVSelect to the end of a paragraph
-p939
-VCOMMAND + Shift + Down arrow
-p940
+p926
+V\u2318\u21e7\u2193
+p927
 sVTable Resize by ruler - Proportionally resize all columns to the right
-p941
-VCOMMAND
-p942
+p928
+V\u2318
 sVCursor - Move to the end of a line
-p943
-VCOMMAND + Right arrow or End
-p944
+p929
+V\u2318\u2192 or End
+p930
 sVFormat - Change the formatting of characters (Font command, Format menu)
-p945
-VCOMMAND + D
-p946
-sVEdit - Paste the Spike  contents
-p947
-VCOMMAND + Shift + F3
-p948
+p931
+V\u2318D
+p932
 sVInsert a nonbreaking space
-p949
-VOption + Spacebar
-p950
-sVTable Resize directly - Proportionally resize all columns to the right
-p951
-VCOMMAND
-p952
+p933
+V\u2325Space
+p934
+sVSpecial Chars - Insert a PAGE field
+p935
+V^\u21e7P
+p936
 sVTable Resize directly - Move a single column line
-p953
+p937
 V
 sVCursor - Move one word to the right
-p954
-VOption + Right arrow
-p955
-sVApply the Heading 1 style
-p956
-VCOMMAND + Option + 1
-p957
-sVApply the List style when the cursor is at the beginning of a line
-p958
-VCOMMAND + Shift + L
-p959
-sVSpecial Chars - Insert a TIME field
-p960
-VControl + Shift + T
-p961
-sVExtend select - Expand a selection
-p962
-VPress F8 repeatedly to expand the selection to the entire word, sentence, paragraph, section, and document.
-p963
-sVEdit - Delete one word to the left
-p964
-VCOMMAND + Delete
-p965
-sVFormat - Decrease the font size
-p966
-VCOMMAND + Shift + <
-p967
-sVSpecial Chars - Insert a PAGE field
-p968
-VControl + Shift + P
-p969
-sVSpecial Chars - Insert an empty field
-p970
-VCOMMAND + F9
-p971
-sVFind
-p972
-VControl+F; places the focus in the Search box
-p973
-sVExtend select - Select the nearest character to the left
-p974
-VF8, Left arrow
-p975
-sVSelect to a specific location in a document
-p976
-VF8 , and then use the arrow keys; press Esc to cancel selection mode
-p977
-sVExtend a selection
-p978
-VF8
-p979
-sVUpdate selected fields.
-p980
-VF9
-p981
-sVSelect to the beginning of a paragraph
-p982
-VCOMMAND + Shift + Up arrow
-p983
-sVInsert a footnote
-p984
-VCOMMAND + Option + F
-p985
-sVCut selected text or graphics
-p986
-VF2
-p987
-sVFields - Switch between all field codes and their results
-p988
-VOption + F9
-p989
-sVSelect one line down
-p990
-VShift + Down arrow
-p991
-sVInsert an endnote
-p992
-VCOMMAND + Option + E
-p993
-sVUndo the last action
-p994
-VF1
-p995
-sVSelect one screen up
-p996
-VShift + Page Up
-p997
-sVOutline - Move selected paragraphs up
-p998
-VThis keyboard shortcut conflicts with a default Mission Control key. To use this Office keyboard shortcut, you must first change the Mission Control shortcut for this key. On the Apple menu, click System Preferences > Mission Control. Under Keyboard and Mouse, choose another shortcut for Mission Control, or choose \u2013 (minus sign) to turn it off.
-p999
-sVSpecial Chars - Insert a page break
-p1000
-VCOMMAND + Enter
-p1001
-sVRun GOTOBUTTON or MACROBUTTON from the field that displays the field results
-p1002
-VOption + Shift + F9
-p1003
-sVSelect to a vertical block of text
-p1004
-VCOMMAND + Shift + F8 , and then use the arrow keys; press Esc to cancel selection mode
-p1005
-sVRepeat a Find or Go To action
-p1006
-VShift + F4 or COMMAND + Shift + F4
-p1007
-sVReview - Go to the end of a comment
-p1008
-VEnd  (The End key is not available on all keyboards)
-p1009
-sVReview - Go to the end of the list of comments when in the Reviewing Pane
-p1010
-VCOMMAND + End
-p1011
-sVUpdate linked information in a Word source document
-p1012
-VCOMMAND + Shift + F7
-p1013
-sVChoose the Go To command (Edit menu)
-p1014
-VF5
-p1015
-sVCreate an AutoText entry
-p1016
-VOption + F3
-p1017
-sVIndent a paragraph from the left
-p1018
-VControl + Shift + M
-p1019
-sVOutline - Demote a paragraph
-p1020
-VControl + Shift + Right arrow
-p1021
-sVSwitch between all field codes and their results
-p1022
-VOption + F9
-p1023
-sVSelect to the end of a document
-p1024
-VCOMMAND + Shift + End
-p1025
-sVOutline - Expand all body text and headings or collapse all body text
-p1026
-VControl + Shift + A
-p1027
-sVSpecial Chars - Insert the registered trademark symbol
-p1028
-VOption + R
-p1029
-sVParagraph direction to right to left
-p1030
-VControl +  COMMAND + Left arrow
-p1031
-sVExtend select - Turn off extend mode
-p1032
-VEsc
-p1033
-sVExtend a selection (or block)
-p1034
-VCOMMAND + Shift + F8 , and then use the arrow keys; press Esc to cancel selection mode
-p1035
-sVFields - Update selected fields
-p1036
-VF9
-p1037
-sVSelect a column
-p1038
-VClick in the column's top or bottom cell. Hold down Shift and press the Up arrow or Down arrow key repeatedly
-p1039
-sVEdit - Insert AutoText
-p1040
-VCOMMAND + Option + Shift + V
-p1041
-sVCursor - Move one character to the left
-p1042
-VLeft arrow
-p1043
-sVFormat - Double-underline text
-p1044
-VCOMMAND + Shift + D
-p1045
-sVInsert an empty field
-p1046
-VCOMMAND + F9
-p1047
-sVFormat - Decrease the font size by 1 point
-p1048
-VCOMMAND + [
-p1049
-sVGo to the previous window
-p1050
-VCOMMAND + Shift + `
-p1051
-sVSelect multiple items not next to each other
-p1052
-VSelect the first item that you want, hold down  COMMAND , and then select any additional items
-p1053
-sVTable - Move to the last cell in the column
-p1054
-VControl + Page Down
-p1055
-sVReview - Go to the beginning of a comment
-p1056
-VHome
-p1057
-sVSpecial Chars - Insert the trademark symbol
-p1058
-VOption + 2
-p1059
-sVFormat - Increase the font size
-p1060
-VCOMMAND + Shift + >
-p1061
-sVTable - Move to the first cell in the column
-p1062
-VControl + Page Up
-p1063
-sVTable Resize directly - Equally resize all columns to the right
-p1064
-VCOMMAND + Shift
-p1065
-sVCursor - Move to the beginning of a line
-p1066
-VCOMMAND + Left arrow or Home
-p1067
-sVSelect one screen down
-p1068
-VShift + Page Down
-p1069
-sVApply the Heading 2 style
-p1070
-VCOMMAND + Option + 2
-p1071
-sVCursor - Move one paragraph down
-p1072
-VCOMMAND + Down arrow
-p1073
-sVSpecial Chars - Insert a DATE field
-p1074
-VControl + Shift + D
-p1075
-sVCursor - Move up one screen (scrolling)
-p1076
-VPage Up
-p1077
-sVEdit - Paste the Clipboard contents
-p1078
-VCOMMAND + V or F4
-p1079
-sVSelect to the beginning of a document
-p1080
-VCOMMAND + Shift + Home
-p1081
-sVLeft-align a paragraph
-p1082
-VCOMMAND + L
-p1083
-sVFormat - Change the case of letters
-p1084
-VShift + F3
-p1085
-sVSelect one word to the left
-p1086
-VShift + Option + Left arrow
-p1087
-sVFormat - Increase the font size by 1 point
-p1088
-VCOMMAND + ]
-p1089
-sVEdit - Create AutoText
-p1090
-VOption + F3
-p1091
-sVEdit - Redo the last action
-p1092
-VCOMMAND + Y
-p1093
-sVCopy selected text or graphics to the Clipboard
-p1094
-VCOMMAND + C or Control + C
-p1095
-sVFields - Unlink a field
-p1096
-VCOMMAND + Shift + F9
-p1097
-sVSelect one character to the left
-p1098
-VShift + Left arrow
-p1099
-sVCursor - Move down one line
-p1100
-VDown arrow
-p1101
-sVFields - Go to the previous field
-p1102
-VShift + F11
-p1103
-sVTable - Add a new row at the bottom of the table
-p1104
-VTab at the end of the last row
-p1105
-sVCopy selected text
-p1106
-VShift + F2
-p1107
-sVFormat - Format in all capital letters
-p1108
-VCOMMAND + Shift + A
-p1109
-sVLock a field
-p1110
-VCOMMAND + F11
-p1111
-sVTable Resize by ruler - Move a single column line
-p1112
-VShift
-p1113
-sVOpen the Thesaurus pane
-p1114
-VShift+ F7
-p1115
-sVSelect one word to the right
-p1116
-VShift + Option + Right arrow
-p1117
-sVEdit - Cut selected text to the clipboard
-p1118
-VCOMMAND + X or F2
-p1119
-sVSpecial Chars - Insert a line break
-p1120
-VShift + Return
-p1121
-sVTable Resize directly - Retain column sizes to the right
-p1122
-VShift
-p1123
-sVSelect to the end of a window
-p1124
-VOption +  COMMAND + Shift + Page Down
-p1125
-sVOutline - Show all headings with the specified heading level
-p1126
-VControl + Shift +<Heading level>
-p1127
-sVOpen the Spelling and Grammar dialog box
-p1128
-VF7
-p1129
-sVFind and Replace
-p1130
-VControl+H
-p1131
-sVChange letters to uppercase, lowercase, or mixed case
-p1132
-VShift + F3
-p1133
-sVFormat - Apply superscript formatting (automatic spacing)
-p1134
-VCOMMAND + Shift + Plus sign
-p1135
-sVGo to the previous field
-p1136
-VShift + F11 (confilcts with default Mission Control key)
-p1137
-sVCursor - Move one cell to the left (in a table)
-p1138
-VShift + Tab
-p1139
-sVFormat - Apply bold formatting
-p1140
-VCOMMAND + B
-p1141
-sVTable - Move to the last cell in the row
-p1142
-VControl + End
-p1143
-sVClose the window
-p1144
-VCOMMAND + F4
-p1145
-sVTable - Insert a row
-p1146
-VCOMMAND + Control + I
-p1147
-sVFormat - Apply italic formatting
-p1148
-VCOMMAND + I
-p1149
-sVSelect to select the entire document
-p1150
-VCOMMAND + A
-p1151
-sVExtend a selection to adjacent cells
-p1152
-VHold down Shift and press an arrow key repeatedly
-p1153
-sVSpecial Chars - Insert an ellipsis
-p1154
-VOption + Semicolon
-p1155
-sVPrint a document
-p1156
-VCOMMAND + P
-p1157
-sVCursor - Move to the top of the next page
-p1158
-VCOMMAND + Page Down
-p1159
-sVCut the selection to the Spike
-p1160
-VCOMMAND + F3
-p1161
-sVShrink a selection
-p1162
-VShift+ F8
-p1163
-sVFields - Switch between a field code and its result
-p1164
-VShift + F9
-p1165
-sVCursor - To the end of a document
-p1166
-VCOMMAND + End
-p1167
-sVEdit - Copy text or graphics
-p1168
-VCOMMAND + C or F3
-p1169
-sVEdit - Cut to the Spike
-p1170
-VCOMMAND + F3
-p1171
-sVReview - Turn track changes on or off
-p1172
-VCOMMAND + Shift + E
-p1173
-sVEdit - Copy text or graphics to the Scrapbook
-p1174
-VControl + Option + C
-p1175
-sVCursor - Move one word to the left
-p1176
-VOption + Left arrow
-p1177
-sVOutline - Promote a paragraph
-p1178
-VControl + Shift + Left arrow
-p1179
-sVMove to the previous insertion point
-p1180
-VShift + F5
-p1181
-sVStart AutoFormat
-p1182
-VCOMMAND + Option + K
-p1183
-sVTable - Add text before a table at the beginning of a document
-p1184
-VReturn at the beginning of the first cell
-p1185
-sVTable Resize by ruler - Equally resize all columns to the right
-p1186
-VCOMMAND + Shift
-p1187
-sVFormat - Apply an underline
-p1188
-VCOMMAND + U
-p1189
-sVSelect to the end of a line
-p1190
-VCOMMAND + Shift + Right arrow or Shift + End
-p1191
-sVCursor - Move to the top of the previous page
-p1192
-VCOMMAND + Page Up
-p1193
-sVTable - Move to the next cell
-p1194
-VTab (If the cursor is in the last cell of a table, pressing Tab adds a new row)
-p1195
-sVGo to the next window
-p1196
-VCOMMAND + F6
-p1197
-sVCursor - Move down one screen (scrolling)
-p1198
-VPage Down
-p1199
-sVExtend select - Select the nearest character to the right
-p1200
-VF8, Right arrow
-p1201
-sVOutline - Demote to body text
-p1202
-VCOMMAND + Shift + N
-p1203
-sVRight-align a paragraph
-p1204
-VCOMMAND + R
-p1205
-sVCursor - On a MacBook keyboard:
-p1206
-VCOMMAND + FN + Left arrow
-p1207
-sVFormat - Apply subscript formatting (automatic spacing)
-p1208
-VCOMMAND + Equal sign
-p1209
-sVEdit - Delete one word to the right
-p1210
-VCOMMAND +  COMMAND
-p1211
-sVExtend select - Turn on extend mode
-p1212
-VF8
-p1213
-sVParagraph direction to left to right
-p1214
-VControl +  COMMAND + Right arrow
-p1215
-sVRun a macro
-p1216
-VOption + F8
-p1217
-sVSwitch between a field code and its result.
-p1218
-VShift + F9
-p1219
-sVCopy selected text or graphics to the clipboard
-p1220
-VF3
-p1221
-sVSelect one character to the right
-p1222
-VShift + Right arrow
-p1223
-sVExtend a selection as a block selection
-p1224
-VCOMMAND + Shift + F8, an arrow key
-p1225
-sVJustify a paragraph
-p1226
-VCOMMAND + J
-p1227
-sVSpecial Chars - Insert the copyright symbol
-p1228
-VOption + G
-p1229
-sVEdit - Copy a style
-p1230
-VCOMMAND + Shift + C
-p1231
-sVReview - Go to the beginning of the list of comments when in the Reviewing Pane
-p1232
-VCOMMAND + Home
-p1233
-sVCursor - Move one character to the right
-p1234
-VRight arrow
-p1235
-sVSelect to the beginning of a line
-p1236
-VCOMMAND + Shift + Left arrow or Shift + Home
-p1237
-sVExtend select - Reduce the size of a selection
-p1238
-VShift + F8
-p1239
-sVCenter a paragraph
-p1240
-VCOMMAND + E
-p1241
-sVOutline - Show the first line of body text or all body text
-p1242
-VControl + Shift + L
-p1243
-sVOutline - Expand text under a heading
-p1244
-VControl + Shift + Plus sign
-p1245
-sVReview - Insert a comment
-p1246
-VCOMMAND + Option + A
-p1247
-sVOutline - This keyboard shortcut conflicts with a default Mission Control key. To use this Office keyboard shortcut, you must first change the Application windows shortcut for this key. On the Apple menu, click System Preferences > Mission Control. Under Keyboard and Mouse, choose another shortcut for Application windows, or choose \u2013 (minus sign) to turn it off.
-p1248
-VControl + Shift + Down arrow
-p1249
-sVCursor - To the beginning of a document
-p1250
-VCOMMAND + Home
-p1251
-sVSpecial Chars - Insert a LISTNUM field
-p1252
-VCOMMAND + Option + Shift + L
-p1253
-sVSet lines as double-spaced
-p1254
-VCOMMAND + 2
-p1255
-sVEdit - Undo the last action
-p1256
-VCOMMAND + Z
-p1257
-sVFormat - Change the font
-p1258
-VCOMMAND + Shift + F
-p1259
-sVFind the next misspelling or grammatical error. The Check spelling as you type check box must be selected (Word menu, Preferences command, Spelling and Grammar).
-p1260
-VOption + F7
-p1261
-sVSet lines as 1.5-line spacing
-p1262
-VCOMMAND + 5
-p1263
-sVTable - Insert a new paragraph in a cell
-p1264
-VReturn
-p1265
-sVSpecial Chars - Insert a column break
-p1266
-VCOMMAND + Shift + Return
-p1267
-sVSpecial Chars - Insert a nonbreaking hyphen
-p1268
-VCOMMAND + Shift + Hyphen
-p1269
-sVSelect the next cell's contents
-p1270
-VTab
-p1271
-sVPaste the Clipboard contents
-p1272
-VF4
-p1273
-sVRemove a hanging indent
-p1274
-VCOMMAND + Shift + T
-p1275
-sVSelect the preceding cell's contents
-p1276
-VShift + Tab
-p1277
-sVEdit - Move text or graphics
-p1278
-VCOMMAND + X or F2 (then move the cursor and press  COMMAND + V or F4 )
-p1279
-sVCursor - Move one paragraph up
-p1280
-VCOMMAND + Up arrow
-p1281
-sVSwitch between a field code and its result
-p1282
-VShift + F9
-p1283
-sVCursor - To the previous insertion point
-p1284
-VShift + F5
-p1285
-sVTable - Move to the preceding or next row
-p1286
-VUp arrow or Down arrow
-p1287
-sVApply the Normal style
-p1288
-VCOMMAND + Shift + N
-p1289
-sVOutline - Control + Shift + Up arrow
-p1290
-VMove selected paragraphs down
-p1291
-sVFields - Lock a field
-p1292
-VCOMMAND + F11
-p1293
-sVSelect multiple cells, columns, or rows that are not next to each other
-p1294
-VSelect the first item that you want, hold down  COMMAND , and then select any additional items
-p1295
-sVRemove a paragraph indent from the left
-p1296
-VCOMMAND + Shift + M
-p1297
-sVEdit - Paste a style
-p1298
-VCOMMAND + Shift + V
-p1299
-sVChoose the Save As command (File menu).
-p1300
-VCOMMAND + Shift + S
-p1301
-sVCursor - Move up one line
-p1302
-VUp arrow
-p1303
-sVEdit - Paste and match the formatting of the surrounding text
-p1304
-VCOMMAND + Option + Shift + V
-p1305
-sVEdit a bookmark
-p1306
-VCOMMAND + Shift + F5
-p1307
-sVEdit - Delete one character to the right
-p1308
-VCOMMAND or Clear
-p1309
-sVUnlink a field
-p1310
-VCOMMAND + Shift + F9
-p1311
-sVFormat - Apply strike-through formatting
-p1312
-VCOMMAND + Shift + X
-p1313
-sVFields - Unlock a field
-p1314
-VCOMMAND + Shift + F11
-p1315
-sVReduce the selection size
-p1316
-VShift + F8
-p1317
-sVApply the Heading 3 style
-p1318
-VCOMMAND + Option + 3
-p1319
-sVCursor - Move one cell to the right (in a table)
-p1320
-VTab
-p1321
-sVLook up selected text on the Internet
-p1322
-VCOMMAND + Shift + L
-p1323
-sVTable - Move to the first cell in the row
-p1324
-VControl + Home
-p1325
-sVFormat - Underline words but not spaces
-p1326
-VCOMMAND + Shift + W
-p1327
-ssVMac OSX
-p1328
-(dp1329
-VSave the current document.
-p1330
-V\u2318S
-p1331
-sVClose the front window
-p1332
-V\u2318W
-p1333
-sVSwitch apps: Switch to the next most recently used app among your open apps.
-p1334
-V\u2318Tab
-p1335
-sVForce Quit: choose app to quit and hold for 3 seconds to .
-p1336
-V\u2325\u2318Esc
-p1337
-sVNew: Open an new document or window.
-p1338
-V\u2318N
-p1339
-sVLog out of your macOS user account.
-p1340
-V\u21e7\u2318Q
-p1341
-sVScreenshot: Take a screenshot of the entire screen.
-p1342
-V\u21e7\u23183
-p1343
-sVHide the windows of the front app.
-p1344
-V\u2318H
-p1345
-sVCut the selected item and copy it to the Clipboard.
-p1346
-V\u2318X
-p1347
-sVCopy the selected item to the Clipboard.
-p1348
-V\u2318C
-p1349
-sVQuit all apps, then restart your Mac.
-p1350
-VCtrl \u2318\u23cf
-p1351
-sVPut your displays to sleep.*
-p1352
-VCtrl \u21e7 Power button or Ctrl \u21e7\u23cf
-p1353
-sVPaste the contents of the Clipboard into the current document or app.
-p1354
-V\u2318V
-p1355
-sVLog out of your macOS user account immediately, without being asked to confirm.
-p1356
-V\u2325\u21e7\u2318Q
-p1357
-sVUndo the previous command.
-p1358
-V\u2318Z
-p1359
-sVPress to turn on your Mac or wake your Mac from sleep.
-p1360
-VPower button
-p1361
-sVDisplay a dialog asking if you want to sleep, restart, or shut down.
-p1362
-VPress and hold Power Button for 1.5 seconds or Ctrl Power button or Ctrl \u23cf
-p1363
-sVQuick Look: Use Quick Look to preview the selected item.
-p1364
-VSpace
-p1365
-sVMinimize all windows of the front app
-p1366
-V\u2318\u2325M
-p1367
-sVview the front app but hide all other apps
-p1368
-V\u2318\u2325H
-p1369
-sVForce Quit: just the front app to quit
-p1370
-Vpress \u2318\u21e7\u2325Esc and hold for 3 sec
-p1371
-sVQuit all apps, then shut down your Mac.
-p1372
-VCtrl \u2325\u2318 Power button or Ctrl \u2325\u2318\u23cf
-p1373
-sVFind Again: Find the previous occurrence of the item previously found
-p1374
-V\u2318\u21e7G
-p1375
-sVRedo, reversing the undo command.
-p1376
-V\u2318\u21e7Z
-p1377
-sVPrint the current document.
-p1378
-V\u2318P
-p1379
-sVSelect All items.
-p1380
-V\u2318A
-p1381
-sVclose all windows of the app
-p1382
-V\u2318\u2325W
-p1383
-sVPreferences: Open preferences for the front app.
-p1384
-V\u2318,
-p1385
-sVFind Again: Find the next occurrence of the item previously found.
-p1386
-V\u2318G
-p1387
-sVMinimize the front window to the Dock.
-p1388
-V\u2318M
-p1389
-sVFind items in a document or open a Find window.
-p1390
-V\u2318F
-p1391
-sVScreenshot: Take a screenshot of part of the screen
-p1392
-V\u21e7\u23184
-p1393
-sVSwitch windows: Switch to the next most recently used window of the front app.
-p1394
-V\u21e7\u2318~
-p1395
-sVOpen the selected item, or open a dialog to select a file to open.
-p1396
-V\u2318O
-p1397
-sVForce your Mac to restart.
-p1398
-VCtrl \u2318 Power button
-p1399
-sVForce your Mac to turn off.
-p1400
-VPress and hold Power Button for 5 seconds
-p1401
-sVSpotlight
-p1402
-V\u2318Space
-p1403
-sVQuit the app.
-p1404
-V\u2318Q
-p1405
-ssViTerm2
-p1406
-(dp1407
-VMove Tab Left
-p1408
-V\u21e7\u2318\u2190
-p1409
-sVGo Right One Word
-p1410
+p938
 V\u2325\u2192
-p1411
-sVNext Tab
-p1412
-V\u2318\u2192
-p1413
-sVClear line
-p1414
-V^u
-p1415
-sVScroll One Line Down
-p1416
-V\u2318\u2193
-p1417
-sVNew Tab
-p1418
-V\u2318T
-p1419
-sVHighlight cursour
-p1420
-V\u2318/
-p1421
-sVClear buffer
-p1422
-V\u2318K
-p1423
-sVSplit Horizontally with Current Profile
-p1424
-V\u21e7\u2318D
-p1425
-sVPrevious Pane
-p1426
-V\u2318[
-p1427
-sVClear Window
-p1428
-V^L
-p1429
-sVNext Pane
-p1430
-V\u2318]
-p1431
-sVPrevious Tab
-p1432
-V\u2318\u2190
-p1433
-sVScroll To End
-p1434
+p939
+sVFind the next misspelling or grammatical error.
+p940
+V\u2325F7
+p941
+sVApply the Heading 1 style
+p942
+V\u2318\u23251
+p943
+sVApply the List style when the cursor is at the beginning of a line
+p944
+V\u2318\u21e7L
+p945
+sVSpecial Chars - Insert a TIME field
+p946
+V^\u21e7T
+p947
+sVExtend select - Expand a selection
+p948
+VPress F8 repeatedly.
+p949
+sVEdit - Delete one word to the left
+p950
+V\u2318Delete
+p951
+sVFormat - Decrease the font size
+p952
+V\u2318\u21e7<
+p953
+sVSet lines as single-spaced
+p954
+V\u23181
+p955
+sVSpecial Chars - Insert an empty field
+p956
+V\u2318F9
+p957
+sVExtend select - Select the nearest character to the left
+p958
+VF8, \u2190
+p959
+sVSelect to a specific location in a document
+p960
+VF8, and then use the arrow keys
+p961
+sVExtend a selection
+p962
+VF8
+p963
+sVInsert an endnote
+p964
+V\u2318\u2325E
+p965
+sVSelect to the beginning of a paragraph
+p966
+V\u2318\u21e7\u2191
+p967
+sVInsert a footnote
+p968
+V\u2318\u2325F
+p969
+sVCut selected text or graphics
+p970
+VF2
+p971
+sVFields - Switch between all field codes and their results
+p972
+V\u2325F9
+p973
+sVSelect one line down
+p974
+V\u21e7\u2193
+p975
+sVUpdate selected fields.
+p976
+VF9
+p977
+sVUndo the last action
+p978
+VF1
+p979
+sVSelect one screen up
+p980
+V\u21e7Page Up
+p981
+sVOutline - Move selected paragraphs up
+p982
+V^\u21e7\u2191
+p983
+sVSpecial Chars - Insert a page break
+p984
+V\u2318\u23ce
+p985
+sVRun GOTOBUTTON or MACROBUTTON from the field that displays the field results
+p986
+V\u2325\u21e7F9
+p987
+sVSelect to a vertical block of text
+p988
+V\u2318\u21e7F8, and then use the arrow keys
+p989
+sVRepeat a Find or Go To action
+p990
+V\u21e7F4 or \u2318\u21e7F4
+p991
+sVReview - Go to the end of a comment
+p992
+VEnd
+p993
+sVReview - Go to the end of the list of comments when in the Reviewing Pane
+p994
 V\u2318End
-p1435
-sVScroll To Top
-p1436
-V\u2318Home
-p1437
-sVSelect Pane Above
-p1438
-V\u2325\u2318\u2191
-p1439
-sVSplit Vertically with Current Profile
-p1440
-V\u2318D
-p1441
-sVGo Left One Word
-p1442
+p995
+sVUpdate linked information in a Word source document
+p996
+V\u2318\u21e7F7
+p997
+sVChoose the Go To command (Edit menu)
+p998
+VF5
+p999
+sVCreate an AutoText entry
+p1000
+V\u2325F3
+p1001
+sVIndent a paragraph from the left
+p1002
+V^\u21e7M
+p1003
+sVTable Resize directly - Proportionally resize all columns to the right
+p1004
+V\u2318
+sVSwitch between all field codes and their results
+p1005
+V\u2325F9
+p1006
+sVSelect to the end of a document
+p1007
+V\u2318\u21e7End
+p1008
+sVOutline - Expand all body text and headings or collapse all body text
+p1009
+V^\u21e7A
+p1010
+sVOutline - Move selected paragraphs down
+p1011
+V^\u21e7\u2193
+p1012
+sVSpecial Chars - Insert the registered trademark symbol
+p1013
+V\u2325R
+p1014
+sVCursor - On a MacBook keyboard:
+p1015
+V\u2318Fn\u2190
+p1016
+sVParagraph direction to right to left
+p1017
+V^\u2318\u2190
+p1018
+sVExtend select - Turn off extend mode
+p1019
+VEsc
+p1020
+sVExtend a selection (or block)
+p1021
+V\u2318\u21e7F8, and then use the arrow keys
+p1022
+sVFields - Update selected fields
+p1023
+VF9
+p1024
+sVSelect a column
+p1025
+VClick in the column's top or bottom cell. Hold down \u21e7 and press the \u2191 or \u2193 key repeatedly
+p1026
+sVEdit - Insert AutoText
+p1027
+V\u2318\u2325\u21e7V
+p1028
+sVCursor - Move one character to the left
+p1029
+V\u2190
+sVFormat - Double-underline text
+p1030
+V\u2318\u21e7D
+p1031
+sVInsert an empty field
+p1032
+V\u2318F9
+p1033
+sVFormat - Decrease the font size by 1 point
+p1034
+V\u2318[
+p1035
+sVGo to the previous window
+p1036
+V\u2318\u21e7`
+p1037
+sVSelect multiple items not next to each other
+p1038
+VSelect first item, hold down \u2318, and then select any additional items
+p1039
+sVTable - Move to the last cell in the column
+p1040
+V^Page Down
+p1041
+sVReview - Go to the beginning of a comment
+p1042
+VHome
+p1043
+sVSpecial Chars - Insert the trademark symbol
+p1044
+V\u23252
+p1045
+sVFormat - Increase the font size
+p1046
+V\u2318\u21e7>
+p1047
+sVTable - Move to the first cell in the column
+p1048
+V^Page Up
+p1049
+sVTable Resize directly - Equally resize all columns to the right
+p1050
+V\u2318\u21e7
+p1051
+sVCursor - Move to the beginning of a line
+p1052
+V\u2318\u2190 or Home
+p1053
+sVSelect one screen down
+p1054
+V\u21e7Page Down
+p1055
+sVApply the Heading 2 style
+p1056
+V\u2318\u23252
+p1057
+sVCursor - Move one paragraph down
+p1058
+V\u2318\u2193
+p1059
+sVSpecial Chars - Insert a DATE field
+p1060
+V^\u21e7D
+p1061
+sVCursor - Move up one screen (scrolling)
+p1062
+VPage Up
+p1063
+sVEdit - Paste the Clipboard contents
+p1064
+V\u2318V or F4
+p1065
+sVSelect to the beginning of a document
+p1066
+V\u2318\u21e7Home
+p1067
+sVFormat - Change the case of letters
+p1068
+V\u21e7F3
+p1069
+sVSelect one word to the left
+p1070
+V\u21e7\u2325\u2190
+p1071
+sVFormat - Increase the font size by 1 point
+p1072
+V\u2318]
+p1073
+sVEdit - Create AutoText
+p1074
+V\u2325F3
+p1075
+sVEdit - Redo the last action
+p1076
+V\u2318Y
+p1077
+sVCopy selected text or graphics to the Clipboard
+p1078
+V\u2318C or ^C
+p1079
+sVFields - Unlink a field
+p1080
+V\u2318\u21e7F9
+p1081
+sVSelect one character to the left
+p1082
+V\u21e7\u2190
+p1083
+sVCursor - Move down one line
+p1084
+V\u2193
+sVFields - Go to the previous field
+p1085
+V\u21e7F11
+p1086
+sVTable - Add a new row at the bottom of the table
+p1087
+VTab at the end of the last row
+p1088
+sVCopy selected text
+p1089
+V\u21e7F2
+p1090
+sVFormat - Format in all capital letters
+p1091
+V\u2318\u21e7A
+p1092
+sVLock a field
+p1093
+V\u2318F11
+p1094
+sVTable Resize by ruler - Move a single column line
+p1095
+V\u21e7
+sVOpen the Thesaurus pane
+p1096
+V\u21e7F7
+p1097
+sVSelect one word to the right
+p1098
+V\u21e7\u2325\u2192
+p1099
+sVEdit - Cut selected text to the clipboard
+p1100
+V\u2318X or F2
+p1101
+sVSpecial Chars - Insert a line break
+p1102
+V\u21e7\u23ce
+p1103
+sVTable Resize directly - Retain column sizes to the right
+p1104
+V\u21e7
+sVSelect to the end of a window
+p1105
+V\u2325\u2318\u21e7Page Down
+p1106
+sVOutline - Show all headings with the specified heading level
+p1107
+V^\u21e7 +<Heading level>
+p1108
+sVOpen the Spelling and Grammar dialog box
+p1109
+VF7
+p1110
+sVFind and Replace
+p1111
+V^H
+p1112
+sVChange letters to uppercase, lowercase, or mixed case
+p1113
+V\u21e7F3
+p1114
+sVFormat - Apply superscript formatting (automatic spacing)
+p1115
+V\u2318\u21e7+
+p1116
+sVGo to the previous field
+p1117
+V\u21e7F11
+p1118
+sVCursor - Move one cell to the left (in a table)
+p1119
+V\u21e7Tab
+p1120
+sVFormat - Apply bold formatting
+p1121
+V\u2318B
+p1122
+sVTable - Move to the last cell in the row
+p1123
+V^End
+p1124
+sVClose the window
+p1125
+V\u2318F4
+p1126
+sVTable - Insert a row
+p1127
+V\u2318^I
+p1128
+sVFormat - Apply italic formatting
+p1129
+V\u2318I
+p1130
+sVSelect to select the entire document
+p1131
+V\u2318A
+p1132
+sVExtend a selection to adjacent cells
+p1133
+VHold down \u21e7 and press an arrow key repeatedly
+p1134
+sVSpecial Chars - Insert an ellipsis
+p1135
+V\u2325;
+p1136
+sVPrint a document
+p1137
+V\u2318P
+p1138
+sVCursor - Move to the top of the next page
+p1139
+V\u2318Page Down
+p1140
+sVCut the selection to the Spike
+p1141
+V\u2318F3
+p1142
+sVShrink a selection
+p1143
+V\u21e7F8
+p1144
+sVFields - Switch between a field code and its result
+p1145
+V\u21e7F9
+p1146
+sVCursor - To the end of a document
+p1147
+V\u2318End
+p1148
+sVEdit - Copy text or graphics
+p1149
+V\u2318C or F3
+p1150
+sVEdit - Cut to the Spike
+p1151
+V\u2318F3
+p1152
+sVReview - Turn track changes on or off
+p1153
+V\u2318\u21e7E
+p1154
+sVEdit - Copy text or graphics to the Scrapbook
+p1155
+V^\u2325C
+p1156
+sVCursor - Move one word to the left
+p1157
 V\u2325\u2190
-p1443
-sVSelect Pane Left
-p1444
-V\u2325\u2318\u2190
-p1445
-sVMake Text Normal Size
-p1446
-V\u23180
-p1447
-sVMake Text Bigger
-p1448
-V\u2318+
-p1449
-sVClose Tab
-p1450
-V\u2318w
-p1451
-sVMove Tab Right
-p1452
-V\u21e7\u2318\u2192
-p1453
-sVScroll One Line Up
-p1454
+p1158
+sVTable - Add a new row (if cursor is on last row)
+p1159
+VTab
+p1160
+sVOutline - Promote a paragraph
+p1161
+V^\u21e7\u2190
+p1162
+sVMove to the previous insertion point
+p1163
+V\u21e7F5
+p1164
+sVStart AutoFormat
+p1165
+V\u2318\u2325K
+p1166
+sVTable - Add text before a table at the beginning of a document
+p1167
+V\u23ce at the beginning of the first cell
+p1168
+sVTable Resize by ruler - Equally resize all columns to the right
+p1169
+V\u2318\u21e7
+p1170
+sVFormat - Apply an underline
+p1171
+V\u2318U
+p1172
+sVSelect to the end of a line
+p1173
+V\u2318\u21e7\u2192 or \u21e7End
+p1174
+sVCursor - Move to the top of the previous page
+p1175
+V\u2318Page Up
+p1176
+sVTable - Move to the next cell
+p1177
+VTab
+p1178
+sVGo to the next window
+p1179
+V\u2318F6
+p1180
+sVCursor - Move down one screen (scrolling)
+p1181
+VPage Down
+p1182
+sVExtend select - Select the nearest character to the right
+p1183
+VF8, \u2192
+p1184
+sVOutline - Demote to body text
+p1185
+V\u2318\u21e7N
+p1186
+sVRight-align a paragraph
+p1187
+V\u2318R
+p1188
+sVOutline - Expand text under a heading
+p1189
+V^\u21e7+
+p1190
+sVFormat - Apply subscript formatting (automatic spacing)
+p1191
+V\u2318=
+p1192
+sVEdit - Delete one word to the right
+p1193
+V\u2318 \u2318
+p1194
+sVExtend select - Turn on extend mode
+p1195
+VF8
+p1196
+sVParagraph direction to left to right
+p1197
+V^\u2318\u2192
+p1198
+sVRun a macro
+p1199
+V\u2325F8
+p1200
+sVSwitch between a field code and its result.
+p1201
+V\u21e7F9
+p1202
+sVCopy selected text or graphics to the clipboard
+p1203
+VF3
+p1204
+sVSelect one character to the right
+p1205
+V\u21e7\u2192
+p1206
+sVExtend a selection as a block selection
+p1207
+V\u2318\u21e7F8, an arrow key
+p1208
+sVJustify a paragraph
+p1209
+V\u2318J
+p1210
+sVSpecial Chars - Insert the copyright symbol
+p1211
+V\u2325G
+p1212
+sVOutline - Demote a paragraph
+p1213
+V^\u21e7\u2192
+p1214
+sVReview - Go to the beginning of the list of comments when in the Reviewing Pane
+p1215
+V\u2318Home
+p1216
+sVCursor - Move one character to the right
+p1217
+V\u2192
+sVSelect to the beginning of a line
+p1218
+V\u2318\u21e7\u2190 or \u21e7Home
+p1219
+sVExtend select - Reduce the size of a selection
+p1220
+V\u21e7F8
+p1221
+sVCenter a paragraph
+p1222
+V\u2318E
+p1223
+sVOutline - Show the first line of body text or all body text
+p1224
+V^\u21e7L
+p1225
+sVEdit - Copy a style
+p1226
+V\u2318\u21e7C
+p1227
+sVReview - Insert a comment
+p1228
+V\u2318\u2325A
+p1229
+sVLeft-align a paragraph
+p1230
+V\u2318L
+p1231
+sVCursor - To the beginning of a document
+p1232
+V\u2318Home
+p1233
+sVSpecial Chars - Insert a LISTNUM field
+p1234
+V\u2318\u2325\u21e7L
+p1235
+sVSet lines as double-spaced
+p1236
+V\u23182
+p1237
+sVEdit - Undo the last action
+p1238
+V\u2318Z
+p1239
+sVFormat - Change the font
+p1240
+V\u2318\u21e7F
+p1241
+sVEdit - Paste the Spike  contents
+p1242
+V\u2318\u21e7F3
+p1243
+sVSet lines as 1.5-line spacing
+p1244
+V\u23185
+p1245
+sVTable - Insert a new paragraph in a cell
+p1246
+V\u23ce
+sVSpecial Chars - Insert a column break
+p1247
+V\u2318\u21e7\u23ce
+p1248
+sVSpecial Chars - Insert a nonbreaking hyphen
+p1249
+V\u2318\u21e7-
+p1250
+sVSelect the next cell's contents
+p1251
+VTab
+p1252
+sVPaste the Clipboard contents
+p1253
+VF4
+p1254
+sVRemove a hanging indent
+p1255
+V\u2318\u21e7T
+p1256
+sVSelect the preceding cell's contents
+p1257
+V\u21e7Tab
+p1258
+sVEdit - Move text or graphics
+p1259
+V\u2318X or F2 (then move the cursor and press \u2318V or F4)
+p1260
+sVCursor - Move one paragraph up
+p1261
 V\u2318\u2191
-p1455
-sVMake Text Smaller
-p1456
-V\u2318-
-p1457
-sVSelect Pane Below
-p1458
-V\u2325\u2318\u2193
-p1459
-sVScroll One Page Up
-p1460
-V\u2318Page Up or \u21e7Page Up
-p1461
-sVScroll One Page Down
-p1462
-V\u2318Page Down or \u21e7Page Down
-p1463
-sVSelect Pane Right
-p1464
-V\u2325\u2318\u2192
-p1465
-sVFind
-p1466
+p1262
+sVSwitch between a field code and its result
+p1263
+V\u21e7F9
+p1264
+sVCursor - To the previous insertion point
+p1265
+V\u21e7F5
+p1266
+sVTable - Move to the preceding or next row
+p1267
+V\u2191 or \u2193
+p1268
+sVApply the Normal style
+p1269
+V\u2318\u21e7N
+p1270
+sVFields - Lock a field
+p1271
+V\u2318F11
+p1272
+sVSelect multiple cells, columns, or rows that are not next to each other
+p1273
+VSelect first item, hold down  \u2318, and then select any additional items
+p1274
+sVRemove a paragraph indent from the left
+p1275
+V\u2318\u21e7M
+p1276
+sVEdit - Paste a style
+p1277
+V\u2318\u21e7V
+p1278
+sVChoose the Save As command (File menu).
+p1279
+V\u2318\u21e7S
+p1280
+sVCursor - Move up one line
+p1281
+V\u2191
+sVEdit - Paste and match the formatting of the surrounding text
+p1282
+V\u2318\u2325\u21e7V
+p1283
+sVEdit a bookmark
+p1284
+V\u2318\u21e7F5
+p1285
+sVEdit - Delete one character to the right
+p1286
+V\u2318 or Clear
+p1287
+sVUnlink a field
+p1288
+V\u2318\u21e7F9
+p1289
+sVFormat - Apply strike-through formatting
+p1290
+V\u2318\u21e7X
+p1291
+sVFields - Unlock a field
+p1292
+V\u2318\u21e7F11
+p1293
+sVReduce the selection size
+p1294
+V\u21e7F8
+p1295
+sVApply the Heading 3 style
+p1296
+V\u2318\u23253
+p1297
+sVCursor - Move one cell to the right (in a table)
+p1298
+VTab
+p1299
+sVLook up selected text on the Internet
+p1300
+V\u2318\u21e7L
+p1301
+sVTable - Move to the first cell in the row
+p1302
+V^Home
+p1303
+sVFormat - Underline words but not spaces
+p1304
+V\u2318\u21e7W
+p1305
+ssVMac OSX
+p1306
+(dp1307
+VSave the current document.
+p1308
+V\u2318S
+p1309
+sVClose the front window
+p1310
+V\u2318W
+p1311
+sVSwitch apps: Switch to the next most recently used app among your open apps.
+p1312
+V\u2318Tab
+p1313
+sVForce Quit: choose app to quit and hold for 3 seconds to .
+p1314
+V\u2325\u2318Esc
+p1315
+sVNew: Open an new document or window.
+p1316
+V\u2318N
+p1317
+sVLog out of your macOS user account.
+p1318
+V\u21e7\u2318Q
+p1319
+sVScreenshot: Take a screenshot of the entire screen.
+p1320
+V\u21e7\u23183
+p1321
+sVHide the windows of the front app.
+p1322
+V\u2318H
+p1323
+sVCut the selected item and copy it to the Clipboard.
+p1324
+V\u2318X
+p1325
+sVCopy the selected item to the Clipboard.
+p1326
+V\u2318C
+p1327
+sVQuit all apps, then restart your Mac.
+p1328
+VCtrl \u2318\u23cf
+p1329
+sVPut your displays to sleep.*
+p1330
+VCtrl \u21e7 Power button or Ctrl \u21e7\u23cf
+p1331
+sVPaste the contents of the Clipboard into the current document or app.
+p1332
+V\u2318V
+p1333
+sVLog out of your macOS user account immediately, without being asked to confirm.
+p1334
+V\u2325\u21e7\u2318Q
+p1335
+sVUndo the previous command.
+p1336
+V\u2318Z
+p1337
+sVPress to turn on your Mac or wake your Mac from sleep.
+p1338
+VPower button
+p1339
+sVDisplay a dialog asking if you want to sleep, restart, or shut down.
+p1340
+VPress and hold Power Button for 1.5 seconds or Ctrl Power button or Ctrl \u23cf
+p1341
+sVQuick Look: Use Quick Look to preview the selected item.
+p1342
+VSpace
+p1343
+sVMinimize all windows of the front app
+p1344
+V\u2318\u2325M
+p1345
+sVview the front app but hide all other apps
+p1346
+V\u2318\u2325H
+p1347
+sVForce Quit: just the front app to quit
+p1348
+Vpress \u2318\u21e7\u2325Esc and hold for 3 sec
+p1349
+sVQuit all apps, then shut down your Mac.
+p1350
+VCtrl \u2325\u2318 Power button or Ctrl \u2325\u2318\u23cf
+p1351
+sVFind Again: Find the previous occurrence of the item previously found
+p1352
+V\u2318\u21e7G
+p1353
+sVRedo, reversing the undo command.
+p1354
+V\u2318\u21e7Z
+p1355
+sVPrint the current document.
+p1356
+V\u2318P
+p1357
+sVSelect All items.
+p1358
+V\u2318A
+p1359
+sVclose all windows of the app
+p1360
+V\u2318\u2325W
+p1361
+sVPreferences: Open preferences for the front app.
+p1362
+V\u2318,
+p1363
+sVFind Again: Find the next occurrence of the item previously found.
+p1364
+V\u2318G
+p1365
+sVMinimize the front window to the Dock.
+p1366
+V\u2318M
+p1367
+sVFind items in a document or open a Find window.
+p1368
 V\u2318F
-p1467
+p1369
+sVScreenshot: Take a screenshot of part of the screen
+p1370
+V\u21e7\u23184
+p1371
+sVSwitch windows: Switch to the next most recently used window of the front app.
+p1372
+V\u21e7\u2318~
+p1373
+sVOpen the selected item, or open a dialog to select a file to open.
+p1374
+V\u2318O
+p1375
+sVForce your Mac to restart.
+p1376
+VCtrl \u2318 Power button
+p1377
+sVForce your Mac to turn off.
+p1378
+VPress and hold Power Button for 5 seconds
+p1379
+sVSpotlight
+p1380
+V\u2318Space
+p1381
+sVQuit the app.
+p1382
+V\u2318Q
+p1383
+ssViTerm2
+p1384
+(dp1385
+VMove Tab Left
+p1386
+V\u21e7\u2318\u2190
+p1387
+sVGo Right One Word
+p1388
+V\u2325\u2192
+p1389
+sVNext Tab
+p1390
+V\u2318\u2192
+p1391
+sVClear line
+p1392
+V^u
+p1393
+sVScroll One Line Down
+p1394
+V\u2318\u2193
+p1395
+sVNew Tab
+p1396
+V\u2318T
+p1397
+sVHighlight cursour
+p1398
+V\u2318/
+p1399
+sVClear buffer
+p1400
+V\u2318K
+p1401
+sVSplit Horizontally with Current Profile
+p1402
+V\u21e7\u2318D
+p1403
+sVPrevious Pane
+p1404
+V\u2318[
+p1405
+sVClear Window
+p1406
+V^L
+p1407
+sVNext Pane
+p1408
+V\u2318]
+p1409
+sVPrevious Tab
+p1410
+V\u2318\u2190
+p1411
+sVScroll To End
+p1412
+V\u2318End
+p1413
+sVScroll To Top
+p1414
+V\u2318Home
+p1415
+sVSelect Pane Above
+p1416
+V\u2325\u2318\u2191
+p1417
+sVSplit Vertically with Current Profile
+p1418
+V\u2318D
+p1419
+sVGo Left One Word
+p1420
+V\u2325\u2190
+p1421
+sVSelect Pane Left
+p1422
+V\u2325\u2318\u2190
+p1423
+sVMake Text Normal Size
+p1424
+V\u23180
+p1425
+sVMake Text Bigger
+p1426
+V\u2318+
+p1427
+sVClose Tab
+p1428
+V\u2318w
+p1429
+sVMove Tab Right
+p1430
+V\u21e7\u2318\u2192
+p1431
+sVScroll One Line Up
+p1432
+V\u2318\u2191
+p1433
+sVMake Text Smaller
+p1434
+V\u2318-
+p1435
+sVSelect Pane Below
+p1436
+V\u2325\u2318\u2193
+p1437
+sVScroll One Page Up
+p1438
+V\u2318Page Up or \u21e7Page Up
+p1439
+sVScroll One Page Down
+p1440
+V\u2318Page Down or \u21e7Page Down
+p1441
+sVSelect Pane Right
+p1442
+V\u2325\u2318\u2192
+p1443
+sVFind
+p1444
+V\u2318F
+p1445
 ssVtrello.com
-p1468
-(dp1469
+p1446
+(dp1447
 VBlue
-p1470
+p1448
 V6
 sVPink
-p1471
+p1449
 V9
 sVInsert New Card
-p1472
+p1450
 VN
 sVPurple
-p1473
+p1451
 V5
 sVOpen Card
-p1474
+p1452
 V\u23ce
 sVSky
-p1475
+p1453
 V7
 sVLabel
-p1476
+p1454
 VL
 sVClear All Filters
-p1477
+p1455
 VX
 sVBlack
-p1478
+p1456
 V0
 sVOrange
-p1479
+p1457
 V3
 sVArchive Card
-p1480
+p1458
 VC
 sVRed
-p1481
+p1459
 V4
 sVOpen Header Boards Menu
-p1482
+p1460
 VB
 sVNavigate Cards
-p1483
+p1461
 V\u2190 \u2193/J \u2191/K \u2192
-p1484
+p1462
 sVSave Text
-p1485
+p1463
 V\u2318\u23ce
-p1486
+p1464
 sVAutocomplete Members
-p1487
+p1465
 V@
 sVMove Card to Adjacent List
-p1488
+p1466
 V, , . < >
-p1489
+p1467
 sVOpen Shortcuts Page
-p1490
+p1468
 V?
 sVDue Date
-p1491
+p1469
 VD
 sVFocus Search Box
-p1492
+p1470
 V/
 sVOpen Card Filter Menu
-p1493
+p1471
 VF
 sVToggle Label Names
-p1494
+p1472
 V;
 sVToggle Board Menu
-p1495
+p1473
 VW
 sVAssign Self
-p1496
+p1474
 VSpace
-p1497
+p1475
 sVQuick Edit Mode
-p1498
+p1476
 VE
 sVGreen
-p1499
+p1477
 V1
 sVMy Cards Filter
-p1500
+p1478
 VQ
 sVAutocomplete Labels
-p1501
+p1479
 V^
 sVYellow
-p1502
+p1480
 V2
 sVSubscribe
-p1503
+p1481
 VS
 sVClose Menu / Cancel Editing
-p1504
+p1482
 VEsc
-p1505
+p1483
 sVAdd / Remove Members
-p1506
+p1484
 VM
 sVVote
-p1507
+p1485
 VV
 sVEdit Title
-p1508
+p1486
 VT
 sVLime
-p1509
+p1487
 V8
 ssVVim
-p1510
-(dp1511
+p1488
+(dp1489
 Vjump to previous occurence of character x
-p1512
+p1490
 VFx
-p1513
+p1491
 sVvisual - a block with ()
-p1514
+p1492
 Vab
-p1515
+p1493
 sVstart visual block mode
-p1516
+p1494
 V^v
-p1517
+p1495
 sVput (paste) the clipboard after cursor
-p1518
+p1496
 Vp
 sVclose current pane
-p1519
+p1497
 V:close
-p1520
+p1498
 sVgo to the next buffer
-p1521
+p1499
 V:bnext or :bn
-p1522
+p1500
 sVdelete (cut) character
-p1523
+p1501
 Vx
 sVinsert at the beginning of the line
-p1524
+p1502
 VI
 sVrecord macro a
-p1525
+p1503
 Vqa
-p1526
+p1504
 sVmove back one full screen
-p1527
+p1505
 V\u2303b
-p1528
+p1506
 sVmove to top of screen
-p1529
+p1507
 VH
 sVsearch - jump to the next match
-p1530
+p1508
 V:cn
-p1531
+p1509
 sVjump forwards to the start of a word
-p1532
+p1510
 Vw
 sVmove the current split window into its own tab
-p1533
+p1511
 VCtrl + wT
-p1534
+p1512
 sVrepeat previous f, t, F or T movement
-p1535
+p1513
 V;
 sVwrite out the current file using sudo
-p1536
+p1514
 V:w !sudo tee %
-p1537
+p1515
 sVgo to the first line of the document
-p1538
+p1516
 Vgg
-p1539
+p1517
 sVsearch for pattern in multiple files
-p1540
+p1518
 V:vimgrep /pattern/ {file}
-p1541
+p1519
 sVvisual - move to other corner of block
-p1542
+p1520
 VO
 sVmove to tab number #
-p1543
+p1521
 V#gt
-p1544
+p1522
 sVclose all tabs except for the current one
-p1545
+p1523
 V:tabonly or :tabo
-p1546
+p1524
 sVjump to the last non-blank character of the line
-p1547
+p1525
 Vg_
-p1548
+p1526
 sVmove forward one full screen
-p1549
+p1527
 V\u2303f
-p1550
+p1528
 sVopen man page for word under the cursor
-p1551
+p1529
 VK
 sVyank (copy) marked text
-p1552
+p1530
 Vy
 sVmove cursor to the left window (vertical split)
-p1553
+p1531
 VCtrl + wh
-p1554
+p1532
 sVwrite (save) and quit on all tabs
-p1555
+p1533
 V:wqa
-p1556
+p1534
 sVmove cursor up
-p1557
+p1535
 Vk
 sVjump to after previous occurence of character x
-p1558
+p1536
 VTx
-p1559
+p1537
 sVput (paste) before cursor
-p1560
+p1538
 VP
 sVvisual - inner block with {}
-p1561
+p1539
 ViB
-p1562
+p1540
 sVjump to previous paragraph (or function/block, when editing code)
-p1563
+p1541
 V{
 sVmove cursor left
-p1564
+p1542
 Vh
 sVdelete (cut) 2 lines
-p1565
+p1543
 V2dd
-p1566
+p1544
 sVmove forward 1/2 a screen
-p1567
+p1545
 V\u2303d
-p1568
+p1546
 sVclose the current tab and all its windows
-p1569
+p1547
 V:tabclose or :tabc
-p1570
+p1548
 sVyank text to position of mark A
-p1571
+p1549
 Vy`a
-p1572
+p1550
 sVjump forwards to the end of a word (words can contain punctuation)
-p1573
+p1551
 VE
 sVquit (fails if there are unsaved changes)
-p1574
+p1552
 V:q
-p1575
+p1553
 sVyank (copy) to end of line
-p1576
+p1554
 Vy$
-p1577
+p1555
 sVmove back 1/2 a screen
-p1578
+p1556
 V\u2303u
-p1579
+p1557
 sVstop recording macro
-p1580
+p1558
 Vq
 sVshift text right
-p1581
+p1559
 V>
 sVgo to line 5
-p1582
+p1560
 V5G
-p1583
+p1561
 sVyank (copy) the characters of the word from the cursor position to the start of the next word
-p1584
+p1562
 Vyw
-p1585
+p1563
 sVcommand - run the command on all tabs (e.g. :tabdo q - closes all opened tabs)
-p1586
+p1564
 V:tabdo
-p1587
+p1565
 sVtranspose two letters (delete and paste)
-p1588
+p1566
 Vxp
-p1589
+p1567
 sVlist of marks
-p1590
+p1568
 V:marks
-p1591
+p1569
 sVopen help for keyword
-p1592
+p1570
 V:help keyword
-p1593
+p1571
 sVmove cursor to the right window (vertical split)
-p1594
+p1572
 VCtrl + wl
-p1595
+p1573
 sVjump to before next occurrence of character x
-p1596
+p1574
 Vtx
-p1597
+p1575
 sVmove cursor right
-p1598
+p1576
 Vl
 sVjump to next occurrence of character x
-p1599
+p1577
 Vfx
-p1600
+p1578
 sVdelete (cut) to the end of the line
-p1601
+p1579
 Vd$
-p1602
+p1580
 sVinsert (append) at the end of the line
-p1603
+p1581
 VA
 sVinsert (append) after the cursor
-p1604
+p1582
 Va
 sVopen a file in a new tab
-p1605
+p1583
 V:tabnew or :tabnew file
-p1606
+p1584
 sVinsert (append) at the end of the word
-p1607
+p1585
 Vea
-p1608
+p1586
 sVvisual - move to other end of marked area
-p1609
+p1587
 Vo
 sVjump to position of mark A
-p1610
+p1588
 V'a
-p1611
+p1589
 sVundo
-p1612
+p1590
 Vu
 sVjump forwards to the end of a word
-p1613
+p1591
 Ve
 sVdelete line and substitute text (same as cc)
-p1614
+p1592
 VS
 sVwrite (save) and quit
-p1615
+p1593
 V:wq or :x or ZZ
-p1616
+p1594
 sVstart visual mode, mark lines, then do a command (like y-yank)
-p1617
+p1595
 Vv
 sVreplace a single character
-p1618
+p1596
 Vr
 sVvisual - inner block with ()
-p1619
+p1597
 Vib
-p1620
+p1598
 sVjoin line below to the current one
-p1621
+p1599
 VJ
 sVjump to next paragraph (or function/block, when editing code)
-p1622
+p1600
 V}
 sVquit a window
-p1623
+p1601
 VCtrl + wq
-p1624
+p1602
 sVstart linewise visual mode
-p1625
+p1603
 VV
 sVappend (open) a new line below the current line
-p1626
+p1604
 Vo
 sVyank (copy) a line
-p1627
+p1605
 Vyy
-p1628
+p1606
 sVappend (open) a new line above the current line
-p1629
+p1607
 VO
 sVyank (copy) 2 lines
-p1630
+p1608
 V2yy
-p1631
+p1609
 sVchange (replace) to the end of the word
-p1632
+p1610
 Vcw
-p1633
+p1611
 sVsplit window vertically
-p1634
+p1612
 VCtrl + wv
-p1635
+p1613
 sVmove cursor down
-p1636
+p1614
 Vj
 sVredo
-p1637
+p1615
 V\u2303r
-p1638
+p1616
 sVchange (replace) entire line
-p1639
+p1617
 Vcc
-p1640
+p1618
 sVjump forwards to the start of a word (words can contain punctuation)
-p1641
+p1619
 VW
 sVmove cursor to the window above (horizontal split)
-p1642
+p1620
 VCtrl + wk
-p1643
+p1621
 sVgo to the previous buffer
-p1644
+p1622
 V:bprev or :bp
-p1645
+p1623
 sVmove to the next tab
-p1646
+p1624
 Vgt or :tabnext or :tabn
-p1647
+p1625
 sVmove cursor to the window below (horizontal split)
-p1648
+p1626
 VCtrl + wj
-p1649
+p1627
 sVswitch case
-p1650
+p1628
 V~
 sVjump to the start of the line
-p1651
+p1629
 V0
 sVpaste contents of register x
-p1652
+p1630
 V"xp
-p1653
+p1631
 sVshow registers content
-p1654
+p1632
 V:reg
-p1655
+p1633
 sVrepeat last command
-p1656
+p1634
 V.
 sVrerun last run macro
-p1657
+p1635
 V@@
-p1658
+p1636
 sVsearch - jump to the previous match
-p1659
+p1637
 V:cp
-p1660
+p1638
 sVswitch windows
-p1661
+p1639
 VCtrl + ww
-p1662
+p1640
 sVexit insert/visual mode
-p1663
+p1641
 VEsc
-p1664
+p1642
 sVdelete (cut) a line
-p1665
+p1643
 Vdd
-p1666
+p1644
 sVvisual - mark a word
-p1667
+p1645
 Vaw
-p1668
+p1646
 sVopen a file in a new buffer and vertically split window
-p1669
+p1647
 V:vsp file
-p1670
+p1648
 sVjump to the end of the line
-p1671
+p1649
 V$
 sVdelete character and substitute text
-p1672
+p1650
 Vs
 sVopen a file in a new buffer and split window
-p1673
+p1651
 V:sp file
-p1674
+p1652
 sVopen file
-p1675
+p1653
 V:o file
-p1676
+p1654
 sVmove to matching character (default supported pairs: '()', '{}', '[]')
-p1677
+p1655
 V%
 sVjump backwards to the start of a word
-p1678
+p1656
 Vb
 sVsearch - open a window containing the list of matches
-p1679
+p1657
 V:copen
-p1680
+p1658
 sVchange (replace) to the end of the line
-p1681
+p1659
 Vc$
-p1682
+p1660
 sVmove current tab to the #th position (indexed from 0)
-p1683
+p1661
 V:tabmove #
-p1684
+p1662
 sVwrite (save) the file, but don't exit
-p1685
+p1663
 V:w
-p1686
+p1664
 sVset current position for mark A
-p1687
+p1665
 Vma
-p1688
+p1666
 sVinsert before the cursor
-p1689
+p1667
 Vi
 sVjump to the first non-blank character of the line
-p1690
+p1668
 V^
 sVjump backwards to the start of a word (words can contain punctuation)
-p1691
+p1669
 VB
 sVedit a file in a new buffer
-p1692
+p1670
 V:e file
-p1693
+p1671
 sVyank into register x
-p1694
+p1672
 V"xy
-p1695
+p1673
 sVmove to middle of screen
-p1696
+p1674
 VM
 sVrun macro a
-p1697
+p1675
 V@a
-p1698
+p1676
 sVsave file as
-p1699
+p1677
 V:saveas file
-p1700
+p1678
 sVgo to the last line of the document
-p1701
+p1679
 VG
 sVdelete a buffer (close a file)
-p1702
+p1680
 V:bd
-p1703
+p1681
 sVshift text left
-p1704
+p1682
 V<
 sVcenter cursor on screen
-p1705
+p1683
 Vzz
-p1706
+p1684
 sVsplit window
-p1707
+p1685
 VCtrl + ws
-p1708
+p1686
 sVquit and throw away unsaved changes
-p1709
+p1687
 V:q! or ZQ
-p1710
+p1688
 sVdelete (cut) the characters of the word from the cursor position to the start of the next word
-p1711
+p1689
 Vdw
-p1712
+p1690
 sVmove to the previous tab
-p1713
+p1691
 VgT or :tabprev or :tabp
-p1714
+p1692
 sVlist all open buffers
-p1715
+p1693
 V:ls
-p1716
+p1694
 sVrepeat previous f, t, F or T movement, backwards
-p1717
+p1695
 V,
 sVdelete marked text
-p1718
+p1696
 Vd
 sVmove to bottom of screen
-p1719
+p1697
 VL
 ssVTerminal
-p1720
-(dp1721
+p1698
+(dp1699
 VMove cursor one word forward
-p1722
+p1700
 V\u2325\u2192
-p1723
+p1701
 sVSwap the last two characters before the cursor
-p1724
+p1702
 VCtrl T
-p1725
+p1703
 sVGo to the beginning of the line you are currently typing on.
-p1726
+p1704
 VCtrl A
-p1727
+p1705
 sVUndo the last command.
-p1728
+p1706
 VCtrl \u21e7-
-p1729
+p1707
 sVCut everything forward to end of line
-p1730
+p1708
 VCtrl K
-p1731
+p1709
 sVCut everything backwards to beginning of line
-p1732
+p1710
 VCtrl U
-p1733
+p1711
 sVGo to the end of the line you are currently typing on.
-p1734
+p1712
 VCtrl E
-p1735
+p1713
 sVAuto-complete files and folder names
-p1736
+p1714
 VTab
-p1737
+p1715
 sVMove cursor one character forward
-p1738
+p1716
 VCtrl F
-p1739
+p1717
 sVClears everything on current line
-p1740
+p1718
 VCtrl Q
-p1741
+p1719
 sVMove cursor one word backward
-p1742
+p1720
 V\u2325\u2190
-p1743
+p1721
 sVClears the Screen
-p1744
+p1722
 V\u2318K
-p1745
+p1723
 sVPaste whatever was cut by the last cut command
-p1746
+p1724
 VCtrl Y
-p1747
+p1725
 sVSame as backspace
-p1748
+p1726
 VCtrl H
-p1749
+p1727
 sVSwap the last two words before the cursor
-p1750
+p1728
 VEsc T
-p1751
+p1729
 sVPuts whatever you are running into a suspended background process. fg restores it.
-p1752
+p1730
 VCtrl Z
-p1753
+p1731
 sVMove cursor one character backward
-p1754
+p1732
 VCtrl B
-p1755
+p1733
 sVExit the current shell when no process is running, or send EOF to a the running process
-p1756
+p1734
 VCtrl D
-p1757
+p1735
 sVCut one word backwards using white space as delimiter
-p1758
+p1736
 VCtrl  W
-p1759
+p1737
 sVKill whatever you are running
-p1760
+p1738
 VCtrl C
-p1761
+p1739
 ssVinbox.google.com
-p1762
-(dp1763
+p1740
+(dp1741
 VList - Next item
-p1764
+p1742
 Vj or \u2192
-p1765
+p1743
 sVChat/compose - Underline
-p1766
+p1744
 V\u2318u
-p1767
+p1745
 sVFocused item - Forward
-p1768
+p1746
 Vf
 sVEverywhere - Open main menu
-p1769
+p1747
 V\u21e7m
-p1770
+p1748
 sVChat/compose - Send
-p1771
+p1749
 V\u2318\u23ce
-p1772
+p1750
 sVEverywhere - Toggle and view keyboard shortcuts
-p1773
+p1751
 V\u21e7?
-p1774
+p1752
 sVEverywhere - Open Hangouts and focus the search box
-p1775
+p1753
 Vq
 sVFocused item - Select
-p1776
+p1754
 Vx
 sVList - First item
-p1777
+p1755
 VHome
-p1778
+p1756
 sVEverywhere - Undo last action
-p1779
+p1757
 Vz
 sVFocused item - Mute
-p1780
+p1758
 Vm
 sVFocused item - Select many items at once
-p1781
+p1759
 V\u21e7x
-p1782
+p1760
 sVChat/compose - Advance to previous chat or compose
-p1783
+p1761
 VCtrl ,
-p1784
+p1762
 sVChat/compose - Remove formatting
-p1785
+p1763
 V\u2318\u005c
-p1786
+p1764
 sVFocused item - Snooze
-p1787
+p1765
 Vs
 sVFocused item - Reply
-p1788
+p1766
 Vr
 sVList - Next message
-p1789
+p1767
 Vn
 sVChat/compose - Bulleted list
-p1790
+p1768
 V\u2318\u21e78
-p1791
+p1769
 sVList - Open
-p1792
+p1770
 V\u23ce or o
-p1793
+p1771
 sVList - Previous item
-p1794
+p1772
 Vk or \u2190
-p1795
+p1773
 sVFocused item - Reply in a new window
-p1796
+p1774
 V\u21e7r
-p1797
+p1775
 sVChat/compose - Bold
-p1798
+p1776
 V\u2318b
-p1799
+p1777
 sVFocused item - Report as spam
-p1800
+p1778
 V!
 sVChat/compose - Closes compose and deletes empty drafts
-p1801
+p1779
 VEsc
-p1802
+p1780
 sVEverywhere - Create reminder
-p1803
+p1781
 Vt
 sVChat/compose - Focus main window (while in chat or compose)
-p1804
+p1782
 V\u21e7Esc
-p1805
+p1783
 sVChat/compose - Italics
-p1806
+p1784
 V\u2318i
-p1807
+p1785
 sVChat/compose - Focus latest chat or compose
-p1808
+p1786
 V\u21e7Esc
-p1809
+p1787
 sVFocused item - Mark done
-p1810
+p1788
 Ve or y
-p1811
+p1789
 sVEverywhere - Open Hangouts and focus the conversation list
-p1812
+p1790
 Vh
 sVEverywhere - Compose
-p1813
+p1791
 Vc
 sVList - Previous message
-p1814
+p1792
 Vp
 sVEverywhere - Go to inbox
-p1815
+p1793
 Vi
 sVFocused item - Trash
-p1816
+p1794
 V#
 sVEverywhere - Search
-p1817
+p1795
 V/
 sVFocused item - Reply all in a new window
-p1818
+p1796
 V\u21e7a
-p1819
+p1797
 sVList - Close
-p1820
+p1798
 VEsc or u
-p1821
+p1799
 sVChat/compose - Advance to next chat or compose
-p1822
+p1800
 VCtrl .
-p1823
+p1801
 sVEverywhere - Focus on notification
-p1824
+p1802
 V\u21e7b
-p1825
+p1803
 sVFocused item - Reply all
-p1826
+p1804
 Va
 sVFocused item - Pin
-p1827
+p1805
 V\u21e7p
-p1828
+p1806
 sVFocused item - Toggle move-to menu
-p1829
+p1807
 V.
 sVFocused item - Mark done and advance
-p1830
+p1808
 V] or [
-p1831
+p1809
 sVChat/compose - Insert link
-p1832
+p1810
 V\u2318k
-p1833
+p1811
 sVChat/compose - Numbered list
-p1834
+p1812
 V\u2318\u21e77
-p1835
+p1813
 ssVGoogle Chrome
-p1836
-(dp1837
+p1814
+(dp1815
 VReturn a tab to its original position
-p1838
+p1816
 VPress Esc while dragging
-p1839
+p1817
 sVOpen a link, and jump to it (mouse only)
-p1840
+p1818
 VDrag a link to a blank area of the tab strip
-p1841
+p1819
 sVHide Google Chrome
-p1842
+p1820
 V\u2318h
-p1843
+p1821
 sVJump to the previous open tab
-p1844
+p1822
 V\u2318\u2325\u2190
-p1845
+p1823
 sVMove your cursor to the back of the next word in a text field
-p1846
+p1824
 V\u2325\u2192
-p1847
+p1825
 sVOpen a new window
-p1848
+p1826
 V\u2318n
-p1849
+p1827
 sVOpen a file from your computer in Google Chrome
-p1850
+p1828
 V\u2318o + Select a file
-p1851
+p1829
 sVQuit Google Chrome
-p1852
+p1830
 V\u2318q
-p1853
+p1831
 sVReload your current page
-p1854
+p1832
 V\u2318r
-p1855
+p1833
 sVOpen the Clear Browsing Data options
-p1856
+p1834
 V\u2318\u21e7\u232b
-p1857
+p1835
 sVJump to the next match to your Find Bar search
-p1858
+p1836
 V\u2318g
-p1859
+p1837
 sVJump to the next open tab
-p1860
+p1838
 V\u2318\u2325\u2192
-p1861
+p1839
 sVAdd www. and .com to a site name, and open it in a new tab
-p1862
+p1840
 VType a site name + \u2303\u21e7\u21a9
-p1863
+p1841
 sVSave all open tabs as bookmarks in a new folder
-p1864
+p1842
 V\u2318\u21e7d
-p1865
+p1843
 sVMake everything on the page smaller - zoom out
-p1866
+p1844
 V\u2318-
-p1867
+p1845
 sVJump to the last tab
-p1868
+p1846
 V\u23189
-p1869
+p1847
 sVOpen a new tab, and jump to it
-p1870
+p1848
 V\u2318t
-p1871
+p1849
 sVReload your current page, ignoring cached content
-p1872
+p1850
 V\u2318\u21e7r
-p1873
+p1851
 sVDisplay non-editable HTML source code for the current page
-p1874
+p1852
 V\u2318\u2325u
-p1875
+p1853
 sVReopen the last closed tab, and jump to it
-p1876
+p1854
 V\u2318\u21e7t
-p1877
+p1855
 sVLog in as a different user or browse as a Guest
-p1878
+p1856
 V\u2318\u21e7m
-p1879
+p1857
 sVMove a tab to a current window (mouse only)
-p1880
+p1858
 VDrag the tab into an existing window
-p1881
+p1859
 sVShow or hide the Bookmarks Bar
-p1882
+p1860
 V\u2318\u21e7b
-p1883
+p1861
 sVDisplay your browsing history
-p1884
+p1862
 VRight-click Back \u21e6 or Next \u21e8, or click & hold Back \u21e6 or Next \u21e8
-p1885
+p1863
 sVOpen a link in a new window
-p1886
+p1864
 V\u21e7 + Click a link
-p1887
+p1865
 sVStop the page loading
-p1888
+p1866
 VEsc
-p1889
+p1867
 sVRemove predictions from your address bar
-p1890
+p1868
 V\u2193 to highlight + \u21e7fn\u232b
-p1891
+p1869
 sVJump to the previous match to your Find Bar search
-p1892
+p1870
 V\u2318\u21e7g
-p1893
+p1871
 sVJump to a specific tab (1-9)
-p1894
+p1872
 V\u2318[NUM]
-p1895
+p1873
 sVScroll up a webpage, a screen at a time
-p1896
+p1874
 V\u21e7Space
-p1897
+p1875
 sVOpen a link, and jump to it
-p1898
+p1876
 V\u2318\u21e7 + Click a link
-p1899
+p1877
 sVClose all open tabs and the browser
-p1900
+p1878
 V\u2318\u21e7w
-p1901
+p1879
 sVOpen a new window in Incognito mode
-p1902
+p1880
 V\u2318t
-p1903
+p1881
 sVJump to the address bar
-p1904
+p1882
 V\u2318l
-p1905
+p1883
 sVOpen the previous page in your browsing history for the current tab
-p1906
+p1884
 V\u2318[ or \u2318\u2190
-p1907
+p1885
 sVIncrease the window to full height
-p1908
+p1886
 VDouble-click a blank area of the tab strip
-p1909
+p1887
 sVOpen the Downloads page in a new tab
-p1910
+p1888
 V\u2318\u21e7j
-p1911
+p1889
 sVOpen the Settings page in a new tab
-p1912
+p1890
 V\u2318,
-p1913
+p1891
 sVOpen a tab in a new window (mouse only)
-p1914
+p1892
 VDrag the tab out of the tab strip
-p1915
+p1893
 sVDownload the target of a link
-p1916
+p1894
 V\u2325 + Click a link
-p1917
+p1895
 sVOpen a link in new background tab
-p1918
+p1896
 V\u2318 + Click a link
-p1919
+p1897
 sVOpen the History page in a new tab
-p1920
+p1898
 V\u2318y
-p1921
+p1899
 sVTurn full-screen mode on or off
-p1922
+p1900
 V\u2318\u2303f
-p1923
+p1901
 sVOpen the Page Setup dialog
-p1924
+p1902
 V\u2318\u2325p
-p1925
+p1903
 sVSave the current webpage as a bookmark
-p1926
+p1904
 VDrag the web address to the Bookmarks Bar
-p1927
+p1905
 sVBrowse clickable items moving backward
-p1928
+p1906
 V\u21e7Tab
-p1929
+p1907
 sVOpen the Bookmark Manager:
-p1930
+p1908
 V\u2318\u2325b
-p1931
+p1909
 sVSearch with your default search engine
-p1932
+p1910
 VType a search term + \u21a9
-p1933
+p1911
 sVWhen Find Bar is open, search for selected text
-p1934
+p1912
 V\u2318e
-p1935
+p1913
 sVAdd www. and .com to a site name, and open it in the current tab
-p1936
+p1914
 VType a site name + \u2303\u21a9
-p1937
+p1915
 sVReturn everything on the page to the default size
-p1938
+p1916
 V\u23180
-p1939
+p1917
 sVOpen the next page in your browsing history for the current tab
-p1940
+p1918
 V\u2318] or \u2318\u2192
-p1941
+p1919
 sVClose the current tab or pop-up
-p1942
+p1920
 V\u2318w
-p1943
+p1921
 sVBrowse clickable items moving forward
-p1944
+p1922
 VTab
-p1945
+p1923
 sVAlways show toolbar in full screen
-p1946
+p1924
 V\u2318\u21e7F
-p1947
+p1925
 sVScroll down a webpage, a screen at a time
-p1948
+p1926
 VSpace
-p1949
+p1927
 sVSearch the web
-p1950
+p1928
 V\u2318\u2325f
-p1951
+p1929
 sVOpen the Find Bar to search the current page
-p1952
+p1930
 V\u2318f
-p1953
+p1931
 sVOpen the website in a new background tab
-p1954
+p1932
 VType a web address + \u2318\u21a9
-p1955
+p1933
 sVSave your current webpage as a bookmark
-p1956
+p1934
 V\u2318d
-p1957
+p1935
 sVView Source
-p1958
+p1936
 V\u2318\u2325U
-p1959
+p1937
 sVSearch using a different search engine
-p1960
+p1938
 VType a search engine name + Tab
-p1961
+p1939
 sVDelete the previous word in a text field
-p1962
+p1940
 V\u2325\u232b
-p1963
+p1941
 sVOpen your home page in the current tab
-p1964
+p1942
 V\u2318\u21e7h
-p1965
+p1943
 sVOpen a link in a current tab (mouse only)
-p1966
+p1944
 VDrag a link to a tab
-p1967
+p1945
 sVEmail your current page
-p1968
+p1946
 V\u2318\u21e7i
-p1969
+p1947
 sVOpen options to print the current page
-p1970
+p1948
 V\u2318p
-p1971
+p1949
 sVOpen options to save the current page
-p1972
+p1950
 V\u2318s
-p1973
+p1951
 sVMake everything on the page bigger - zoom in
-p1974
+p1952
 V\u2318+
-p1975
+p1953
 sVMinimize the window
-p1976
+p1954
 V\u2318m
-p1977
+p1955
 sVOpen the JavaScript Console
-p1978
+p1956
 V\u2318\u2325j
-p1979
+p1957
 sVMove your cursor to the front of the previous word in a text field
-p1980
+p1958
 V\u2325\u2190
-p1981
+p1959
 sVDeveloper Tools
-p1982
+p1960
 V\u2318\u2325i
-p1983
+p1961
 ssVFinder
-p1984
-(dp1985
+p1962
+(dp1963
 VHide or show the Sidebar in Finder windows.
-p1986
+p1964
 V\u2325\u2318S
-p1987
+p1965
 sVOpen the Downloads folder.
-p1988
+p1966
 V\u2325\u2318L
-p1989
+p1967
 sVOpen the Utilities folder.
-p1990
+p1968
 V\u21e7\u2318U
-p1991
+p1969
 sVOpen the Documents folder.
-p1992
+p1970
 V\u21e7\u2318O
-p1993
+p1971
 sVShow the Get Info window for a selected file.
-p1994
+p1972
 V\u2318I
-p1995
+p1973
 sVUse Quick Look to preview the files.
-p1996
+p1974
 V\u2318Y
-p1997
+p1975
 sVView the items in a Finder window in columns.
-p1998
+p1976
 V\u23183
-p1999
+p1977
 sVSee the folders that contain the current folder.
-p2000
+p1978
 V\u2318 click a window title
-p2001
+p1979
 sVClose the selected folder. This works only when in list view.
-p2002
+p1980
 V\u2190
 sVHide or show the path bar in Finder windows.
-p2003
+p1981
 V\u2325\u2318P
-p2004
+p1982
 sVShow the desktop. This works even when you're not in the Finder.
-p2005
+p1983
 V\u2318 Mission Control
-p2006
+p1984
 sVAdd selected Finder item to the Dock (OS X Mountain Lion or earlier)
-p2007
+p1985
 V\u21e7\u2318T
-p2008
+p1986
 sVOpen a new Finder window.
-p2009
+p1987
 V\u2318N
-p2010
+p1988
 sVOpen the Computer window.
-p2011
+p1989
 V\u21e7\u2318C
-p2012
+p1990
 sVOpen Sound preferences.
-p2013
+p1991
 V\u2325 Volume Up or any volume key
-p2014
+p1992
 sVOpen the Home folder of the current macOS user account.
-p2015
+p1993
 V\u21e7\u2318H
-p2016
+p1994
 sVMove: Move the files in the Clipboard from their original location to the current location.
-p2017
+p1995
 V\u2325\u2318V
-p2018
+p1996
 sVOpen Mission Control preferences.
-p2019
+p1997
 V\u2325 Mission Control
-p2020
+p1998
 sVEmpty the Trash.
-p2021
+p1999
 V\u21e7\u2318 Delete
-p2022
+p2000
 sVOpen the Connect to Server window.
-p2023
+p2001
 V\u2318K
-p2024
+p2002
 sVShow or hide a Finder tab.
-p2025
+p2003
 V\u21e7\u2318T
-p2026
+p2004
 sVAdd selected Finder item to the Dock (OS X Mavericks or later)
-p2027
+p2005
 VCtrl-\u21e7\u2318T
-p2028
+p2006
 sVCreate a new folder.
-p2029
+p2007
 V\u21e7\u2318N
-p2030
+p2008
 sVOpen the selected item.
-p2031
+p2009
 V\u2318\u2193
-p2032
+p2010
 sVView the items in a Finder window with Cover Flow.
-p2033
+p2011
 V\u23184
-p2034
+p2012
 sVOpen the All My Files window.
-p2035
+p2013
 V\u21e7\u2318F
-p2036
+p2014
 sVGo to the previous folder.
-p2037
+p2015
 V[
 sVView a Quick Look slideshow of the selected files.
-p2038
+p2016
 V\u2325\u2318Y
-p2039
+p2017
 sVMake an alias of the dragged item.
-p2040
+p2018
 V\u2325Command while dragging
-p2041
+p2019
 sVOpen iCloud Drive.
-p2042
+p2020
 V\u21e7\u2318I
-p2043
+p2021
 sVMove the dragged item to another volume or location.
-p2044
+p2022
 V\u2318 while dragging
-p2045
+p2023
 sVEject the selected disk or volume.
-p2046
+p2024
 V\u2318E
-p2047
+p2025
 sVStart a Spotlight search in the Finder window.
-p2048
+p2026
 V\u2318F
-p2049
+p2027
 sVOpen the folder that contains the current folder.
-p2050
+p2028
 V\u2318\u2191
-p2051
+p2029
 sVOpen the Network window.
-p2052
+p2030
 V\u21e7\u2318K
-p2053
+p2031
 sVOpen all folders within the selected folder.  [list view].
-p2054
+p2032
 V\u2325 click a disclosure triangle
-p2055
+p2033
 sVOpen a folder in a separate window and close the current window.
-p2056
+p2034
 V\u2325 double-click
-p2057
+p2035
 sVShow View Options.
-p2058
+p2036
 V\u2318J
-p2059
+p2037
 sVOpen the selected folder. This works only when in list view.
-p2060
+p2038
 V\u2192
 sVView the items in the Finder window as icons.
-p2061
+p2039
 V\u23181
-p2062
+p2040
 sVView the items in a Finder window as a list.
-p2063
+p2041
 V\u23182
-p2064
+p2042
 sVShow or hide the Dock. This often works even when you're not in the Finder.
-p2065
+p2043
 V\u2325\u2318D
-p2066
+p2044
 sVCopy the dragged item.
-p2067
+p2045
 V\u2325 while dragging
-p2068
+p2046
 sVShow or hide the tab bar when a single tab is open in the current Finder window.
-p2069
+p2047
 V\u2318T
-p2070
+p2048
 sVShow the original file for the selected alias.
-p2071
+p2049
 V\u2318R
-p2072
+p2050
 sVTurn display mirroring on or off when your Mac is connected to more than one display.
-p2073
+p2051
 V\u2318 Brightness Down
-p2074
+p2052
 sVOpen the AirDrop window.
-p2075
+p2053
 V\u21e7\u2318R
-p2076
+p2054
 sVOpen a Go to Folder window.
-p2077
+p2055
 V\u21e7\u2318G
-p2078
+p2056
 sVAdd the selected item to the sidebar (OS X Mavericks or later).
-p2079
+p2057
 VCtrl-\u2318T
-p2080
+p2058
 sVShow or hide the toolbar when a single tab is open in the current Finder window.
-p2081
+p2059
 V\u2325\u2318T
-p2082
+p2060
 sVMake an alias of the selected item.
-p2083
+p2061
 V\u2318L
-p2084
+p2062
 sVTurn Target Display Mode on or off.
-p2085
+p2063
 V\u2318 Brightness Up
-p2086
+p2064
 sVOpen Displays preferences. This works with either Brightness key.
-p2087
+p2065
 V\u2325 Brightness Up
-p2088
+p2066
 sVMove the selected item to the Trash.
-p2089
+p2067
 V\u2318 Delete
-p2090
+p2068
 sVOpen the desktop folder.
-p2091
+p2069
 V\u21e7\u2318D
-p2092
+p2070
 sVDuplicate the selected files.
-p2093
+p2071
 V\u2318D
-p2094
+p2072
 sVOpen a folder in a separate tab or window.
-p2095
+p2073
 V\u2318 double-click
-p2096
+p2074
 sVHide or show the status bar in Finder windows.
-p2097
+p2075
 V/
 sVGo to the next folder.
-p2098
+p2076
 V]
 sVCreate a new Smart Folder.
-p2099
+p2077
 V\u2325\u2318N
-p2100
+p2078
 sVUse Quick Look to preview the selected files.
-p2101
+p2079
 V\u2318Y
-p2102
+p2080
 sVOpen the folder that contains the current folder in a new window.
-p2103
+p2081
 V\u2318Ctrl \u2191
-p2104
+p2082
 sVEmpty the Trash without confirmation dialog.
-p2105
+p2083
 V\u2325\u21e7\u2318 Delete
-p2106
+p2084
 ssVAlfred
-p2107
-(dp2108
+p2085
+(dp2086
 VSelect the previous item in the list
-p2109
+p2087
 V\u2191
 sVEnter a folder in File System Navigation
-p2110
+p2088
 V\u21a9
 sVNavigate to your root folder
-p2111
+p2089
 V/
 sVReveal in Finder (if the result is a local file)
-p2112
+p2090
 V\u2318\u21a9
-p2113
+p2091
 sVEmpty Trash
-p2114
+p2092
 Vemptytrash
-p2115
+p2093
 sVType a calculation into main window to get the result
-p2116
+p2094
 V13*567
-p2117
+p2095
 sVSelect the next result in the list
-p2118
+p2096
 V\u2193
 sVUse predefined web search keywords
-p2119
+p2097
 Vgoogle, wiki ...
-p2120
+p2098
 sVOpen Clipboard History viewer
-p2121
+p2099
 V\u2325\u2318c
-p2122
+p2100
 sVFollow keyword by query to reveal file in Finder
-p2123
+p2101
 Vfind
-p2124
+p2102
 sVSearch the currently typed query in default web search
-p2125
+p2103
 V\u2303 \u21a9
-p2126
+p2104
 sVReindex iTunes library
-p2127
+p2105
 V\u2318r
-p2128
+p2106
 sVLock your Mac
-p2129
+p2107
 Vlock
-p2130
+p2108
 sVShow hidden files in File System Navigation
-p2131
+p2109
 V.
 sVShow the iTunes Mini Player
-p2132
+p2110
 V\u2303 \u2318\u21a9
-p2133
+p2111
 sVSearch the currently typed query in Spotlight
-p2134
+p2112
 V\u2325\u21a9
-p2135
+p2113
 sVCopy selected clip to current Clipboard
-p2136
+p2114
 V\u2318c
-p2137
+p2115
 sVAction the currently selected item
-p2138
+p2116
 V\u21a9
 sVFollow keyword by a word and get a definition
-p2139
+p2117
 Vdefine
-p2140
+p2118
 sVTo launch an application simply start typing its name, then hit Return
-p2141
+p2119
 Vapp name
-p2142
+p2120
 sVFollow a space with your query to open a file
-p2143
+p2121
 Vspacebar
-p2144
+p2122
 sVFollow keyword by a word and see results with suggested spelling
-p2145
+p2123
 Vspell
-p2146
+p2124
 sVQuit the running application
-p2147
+p2125
 Vquit
-p2148
+p2126
 sVBack Track
-p2149
+p2127
 V\u2303 \u2318\u2190  or back
-p2150
+p2128
 sVUse keyword to clear Clipboard History
-p2151
+p2129
 Vclear
-p2152
+p2130
 sVNavigate to your home folder
-p2153
+p2131
 V~
 sVBrowse selected folder in File System Navigation
-p2154
+p2132
 V\u2318\u2193
-p2155
+p2133
 sVShow Alfred Preferences
-p2156
+p2134
 Vpreferences
-p2157
+p2135
 sVLog Out
-p2158
+p2136
 Vlogout
-p2159
+p2137
 sVForce Quit the running application
-p2160
+p2138
 Vforcequit
-p2161
+p2139
 sVAccess snippets from main Alfred window with this keyword
-p2162
+p2140
 Vsnip
-p2163
+p2141
 sVMute volume
-p2164
+p2142
 Vmute
-p2165
+p2143
 sVFollow by a query to search for files that contain this query
-p2166
+p2144
 Vin
-p2167
+p2145
 sVOpen file or application in default application
-p2168
+p2146
 V\u2318o
-p2169
+p2147
 sVShow Trash
-p2170
+p2148
 Vtrash
-p2171
+p2149
 sVAutocomplete
-p2172
+p2150
 VTab
-p2173
+p2151
 sVSleep your Mac
-p2174
+p2152
 Vsleep
-p2175
+p2153
 sVAction the # item directly [1-9]
-p2176
+p2154
 V\u2318#
-p2177
+p2155
 sVRate currently playing song from 0 to 5 stars
-p2178
+p2156
 V\u2303 \u2318[0-5]
-p2179
+p2157
 sVPrevious Track
-p2180
+p2158
 Vprevious
-p2181
+p2159
 sVHide the running application
-p2182
+p2160
 Vhide
-p2183
+p2161
 sVShut Down your Mac
-p2184
+p2162
 Vshutdown
-p2185
+p2163
 sVSleep your Mac's displays
-p2186
+p2164
 Vsleepdisplays
-p2187
+p2165
 sVspace Show Alfred
-p2188
+p2166
 V\u2325
 sVGo up a folder
-p2189
+p2167
 Vbackspace
-p2190
+p2168
 sVShow list of available Actions for selected Finder item
-p2191
+p2169
 V\u2325\u2318\u005c
-p2192
+p2170
 sVEject (removable media or all mounted volumes)
-p2193
+p2171
 Veject
-p2194
+p2172
 sVShow the Preferences Window
-p2195
+p2173
 V\u2318,
-p2196
+p2174
 sVOpen the file
-p2197
+p2175
 V\u2318o
-p2198
+p2176
 sVStart an advanced calculation (enable this function in the Calculator Preferences)
-p2199
+p2177
 V=
 sVGo to last browsed path in the File System Navigation
-p2200
+p2178
 Vprevious
-p2201
+p2179
 sVNext Track
-p2202
+p2180
 V\u2303 \u2318\u2192  or next
-p2203
+p2181
 sVShow list of available Actions for selected item
-p2204
+p2182
 V\u2303
 sVPlay Random Album
-p2205
+p2183
 V\u2303 \u2318\u2191 or random
-p2206
+p2184
 sVFollow keyword by query to open a file
-p2207
+p2185
 Vopen
-p2208
+p2186
 sVUse keyword followed by name or email address to send an email using your default email client
-p2209
+p2187
 Vemail
-p2210
+p2188
 sVStart Screen Saver
-p2211
+p2189
 Vscreensaver
-p2212
+p2190
 sVRestart your Mac
-p2213
+p2191
 Vrestart
-p2214
+p2192
 sVPlay / Pause
-p2215
+p2193
 V\u2303 \u2318\u2193  or  play/pause
-p2216
+p2194
 sVUse keyword to show the iTunes Mini Player
-p2217
+p2195
 Vitunes
-p2218
+p2196
 sVMaximum volume
-p2219
+p2197
 Vvolmax
-p2220
+p2198
 sVHalf volume
-p2221
+p2199
 Vvolmid
-p2222
+p2200
 sVGo up a folder in iTunes Mini Player
-p2223
+p2201
 Vbackspace
-p2224
+p2202
 sVWhile in the Clipboard Viewer, save current clip as a snippet
-p2225
+p2203
 V\u2318s
-p2226
+p2204
 ssVVintage Sublime
-p2227
-(dp2228
+p2205
+(dp2206
 Vjump forwards to the end of a word (words can contain punctuation)
-p2229
+p2207
 VE
 sVappend (open) a new line below the current line
-p2230
+p2208
 Vo
 sVright
-p2231
+p2209
 Vl
 sVMove back to end of word
-p2232
+p2210
 V\u2303\u2190
-p2233
+p2211
 sVappend (open) a new line above the current line
-p2234
+p2212
 VO
 sVchange (replace) to the end of the line
-p2235
+p2213
 Vc$
-p2236
+p2214
 sVMove to beginning of file
-p2237
+p2215
 V\u2318\u2191
-p2238
+p2216
 sVdown
-p2239
+p2217
 Vj
 sVrepeat last command
-p2240
+p2218
 V.
 sVinsert at the beginning of the line
-p2241
+p2219
 VI
 sVchange (replace) to the end of the word
-p2242
+p2220
 Vcw
-p2243
+p2221
 sVMove back to beginning of word
-p2244
+p2222
 V\u2325\u2190
-p2245
+p2223
 sVredo
-p2246
+p2224
 V\u2303r
-p2247
+p2225
 sVMove cursor to first non-white space char
-p2248
+p2226
 V\u2318left
-p2249
+p2227
 sVchange (replace) entire line
-p2250
+p2228
 Vcc
-p2251
+p2229
 sVjump forwards to the start of a word
-p2252
+p2230
 Vw
 sVExit insert mode
-p2253
+p2231
 V\u2303c or Esc
-p2254
+p2232
 sVinsert before the cursor
-p2255
+p2233
 Vi
 sVMove forward to end of word
-p2256
+p2234
 V\u2303\u2192
-p2257
+p2235
 sVMove cursor to end of line
-p2258
+p2236
 V\u2318right
-p2259
+p2237
 sVinsert (append) at the end of the line
-p2260
+p2238
 VA
 sVinsert (append) after the cursor
-p2261
+p2239
 Va
 sVpage up
-p2262
+p2240
 V\u2303\u2191
-p2263
+p2241
 sVundo
-p2264
+p2242
 Vu
 sVjump forwards to the end of a word
-p2265
+p2243
 Ve
 sVMove forward to beginning of word
-p2266
+p2244
 V\u2325\u2192
-p2267
+p2245
 sVVi Cancel current action
-p2268
+p2246
 V\u2303c
-p2269
+p2247
 sVdelete line and substitute text (same as cc)
-p2270
+p2248
 VS
 sVpage down
-p2271
+p2249
 V\u2303\u2193
-p2272
+p2250
 sVdelete character and substitute text
-p2273
+p2251
 Vs
 sVreplace a single character
-p2274
+p2252
 Vr
 sVup
-p2275
+p2253
 Vk
 sVjump forwards to the start of a word (words can contain punctuation)
-p2276
+p2254
 VW
 sVMove to end of file
-p2277
+p2255
 V\u2318\u2193
-p2278
+p2256
 sVExit visual mode
-p2279
+p2257
 V\u2303c or Esc
-p2280
+p2258
 sVleft
-p2281
+p2259
 Vh
 ssVSublime Text
-p2282
-(dp2283
+p2260
+(dp2261
 VSplit view into four columns
-p2284
+p2262
 V\u2318\u23254
-p2285
+p2263
 sVJoin line below to the end of the current line
-p2286
+p2264
 V\u2318J
-p2287
+p2265
 sVSelect all contents of the current parentheses
-p2288
+p2266
 V\u2303\u21e7M
-p2289
+p2267
 sVExtra cursor on the line above
-p2290
+p2268
 V\u2303\u21e7\u2191
-p2291
+p2269
 sVDelete from cursor to end of line
-p2292
+p2270
 V\u2318K, \u2318K
-p2293
+p2271
 sVCycle left through tabs
-p2294
+p2272
 V\u2318\u21e7[
-p2295
+p2273
 sVUn-indent current line(s)
-p2296
+p2274
 V\u2318[
-p2297
+p2275
 sVCenter current line vertically in page
-p2298
+p2276
 V\u2303L
-p2299
+p2277
 sVCode unfold
-p2300
+p2278
 V\u2318\u2325]
-p2301
+p2279
 sVCycle down through recent tabs
-p2302
+p2280
 V\u21e7^Tab
-p2303
+p2281
 sVSelect line - Repeat to select next lines
-p2304
+p2282
 V\u2318L
-p2305
+p2283
 sVComment/un-comment current line
-p2306
+p2284
 V\u2318/
-p2307
+p2285
 sVCode fold multiple blocks at once
-p2308
+p2286
 V\u2318k,\u23182 [fold everything beyond 2nd level]
-p2309
+p2287
 sVScroll down one page
-p2310
+p2288
 V\u2303V
-p2311
+p2289
 sVOpen last closed tab
-p2312
+p2290
 V\u2318\u21e7t
-p2313
+p2291
 sVCycle up through recent tabs
-p2314
+p2292
 V^Tab
-p2315
+p2293
 sVJump to tab in current group where num is 1-9
-p2316
+p2294
 V\u2318[NUM]
-p2317
+p2295
 sVDelete current line of cursor
-p2318
+p2296
 V\u2303\u21e7K
-p2319
+p2297
 sVScroll to end of file
-p2320
+p2298
 V\u2318\u2193
-p2321
+p2299
 sVMove to end of line
-p2322
+p2300
 V\u2303E, \u2318Right
-p2323
+p2301
 sVInsert line after
-p2324
+p2302
 V\u2318\u21a9
-p2325
+p2303
 sVScroll to start of file
-p2326
+p2304
 V\u2318\u2191
-p2327
+p2305
 sVExtra cursor on the line below
-p2328
+p2306
 V\u2303\u21e7\u2193
-p2329
+p2307
 sVGoto line in current file
-p2330
+p2308
 V\u2303G
-p2331
+p2309
 sVIndent current line(s)
-p2332
+p2310
 V\u2318]
-p2333
+p2311
 sVBlock comment current selection
-p2334
+p2312
 V\u2318\u2325/
-p2335
+p2313
 sVSelect next auto-complete suggestion
-p2336
+p2314
 V\u2303Space
-p2337
+p2315
 sVSoft undo; jumps to your last change before undoing change when repeated
-p2338
+p2316
 V\u2303U
-p2339
+p2317
 sVRedo, or repeat last keyboard shortcut command
-p2340
+p2318
 V\u2318Y
-p2341
+p2319
 sVCommand Pallete
-p2342
+p2320
 V\u2318\u21e7P
-p2343
+p2321
 sVWrap Selection in html tag
-p2344
+p2322
 V\u2303\u21e7W
-p2345
+p2323
 sVClear bookmarks
-p2346
+p2324
 V\u21e7\u2318F2
-p2347
+p2325
 sVCode fold Html tag - show
-p2348
+p2326
 V\u2318k,\u2318T
-p2349
+p2327
 sVColumn selection up
-p2350
+p2328
 V\u2303\u21e7\u2191
-p2351
+p2329
 sVQuick-open files by name
-p2352
+p2330
 V\u2318P or \u2318T
-p2353
+p2331
 sVToggle Full­scr­een
-p2354
+p2332
 V\u2303\u2318F
-p2355
+p2333
 sVToggle Sidebar
-p2356
+p2334
 V\u2318K, \u2318B
-p2357
+p2335
 sVSplit view into three columns
-p2358
+p2336
 V\u2318\u23253
-p2359
+p2337
 sVMove file to specified group where num is 1-4
-p2360
+p2338
 V\u2303\u21e7[NUM]
-p2361
+p2339
 sVGoto symbol
-p2362
+p2340
 V\u2318R
-p2363
+p2341
 sVDelete from cursor to start of line
-p2364
+p2342
 V\u2318K\u232b
-p2365
+p2343
 sVTransform to Uppercase
-p2366
+p2344
 V\u2318K, \u2318U
-p2367
+p2345
 sVMove to beginning of text on line
-p2368
+p2346
 V\u2318Left
-p2369
+p2347
 sVToggle bookmark
-p2370
+p2348
 V\u2318F2
-p2371
+p2349
 sVJump to closing parentheses Repeat to jump to opening parentheses
-p2372
+p2350
 V\u2303M
-p2373
+p2351
 sVPrevious bookmark
-p2374
+p2352
 V\u21e7F2
-p2375
+p2353
 sVMove to beginning of line
-p2376
+p2354
 V\u2303A
-p2377
+p2355
 sVInsert line before
-p2378
+p2356
 V\u2318\u21e7\u21a9
-p2379
+p2357
 sVPython Console
-p2380
+p2358
 V\u2303`
-p2381
+p2359
 sVSet view to grid (4 groups)
-p2382
+p2360
 V\u2318\u23255
-p2383
+p2361
 sVSelect word - Repeat to select next occurrence
-p2384
+p2362
 V\u2318D
-p2385
+p2363
 sVPaste and indent correctly
-p2386
+p2364
 V\u2318\u21e7V
-p2387
+p2365
 sVGoto word in current file
-p2388
+p2366
 V
 sVShow scope in status bar
-p2389
+p2367
 V\u2303\u21e7P
-p2390
+p2368
 sVJump to 10th tab in current group
-p2391
+p2369
 V\u23180
-p2392
+p2370
 sVMove line/selection up
-p2393
+p2371
 V\u2318\u2303\u2191
-p2394
+p2372
 sVCode fold Html tag - hide
-p2395
+p2373
 V\u2318k,\u23180
-p2396
+p2374
 sVRevert view to single column
-p2397
+p2375
 V\u2318\u23251
-p2398
+p2376
 sVToggle Dist­raction Free Mode
-p2399
+p2377
 V\u2303\u21e7\u2318F
-p2400
+p2378
 sVCycle right through tabs
-p2401
+p2379
 V\u2318\u21e7]
-p2402
+p2380
 sVMove line/selection down
-p2403
+p2381
 V\u2318\u2303\u2193
-p2404
+p2382
 sVSelect all occurrences of current selection
-p2405
+p2383
 V\u2303\u2318G
-p2406
+p2384
 sVCode fold
-p2407
+p2385
 V\u2318\u2325[
-p2408
+p2386
 sVCode unfold everything
-p2409
+p2387
 V\u2318k,\u23180
-p2410
+p2388
 sVReplace
-p2411
+p2389
 V\u2318\u2325F
-p2412
+p2390
 sVJump to group where num is 1-4
-p2413
+p2391
 V\u2303[NUM]
-p2414
+p2392
 sVNext bookmark
-p2415
+p2393
 VF2
-p2416
+p2394
 sVClip text upwards / downwards
-p2417
+p2395
 V\u2318\u2303\u2191, \u2318\u2303\u2193
-p2418
+p2396
 sVCut line
-p2419
+p2397
 V\u2318X
-p2420
+p2398
 sVDuplicate line(s)
-p2421
+p2399
 V\u2318\u21e7D
-p2422
+p2400
 sVColumn selection down
-p2423
+p2401
 V\u2303\u21e7\u2193
-p2424
+p2402
 sVSplit view into two columns
-p2425
+p2403
 V\u2318\u23252
-p2426
+p2404
 sVFind
-p2427
+p2405
 V\u2318F
-p2428
+p2406
 sVFind in files
-p2429
+p2407
 V\u2318\u21e7F
-p2430
+p2408
 ssVAutoMute Chrome extension
-p2431
-(dp2432
+p2409
+(dp2410
 VMute other tabs
-p2433
+p2411
 V\u2325\u21e7o
-p2434
+p2412
 sVToggle mute current app
-p2435
+p2413
 V\u2325\u21e7m
-p2436
+p2414
 sVMute all tabs
-p2437
+p2415
 V\u2325\u21e7l
-p2438
+p2416
 ssVgithub.com
-p2439
-(dp2440
+p2417
+(dp2418
 VNetwork Graph - Scroll up
-p2441
+p2419
 V\u2191 or k
-p2442
+p2420
 sVCode editing - Replace All
-p2443
+p2421
 V\u21e7\u2318\u2325f
-p2444
+p2422
 sVCode editing - Find next
-p2445
+p2423
 V\u2318g
-p2446
+p2424
 sVCode editing - Start searching in file editor
-p2447
+p2425
 V\u2318f
-p2448
+p2426
 sVFocus the search bar
-p2449
+p2427
 Vs
 sVComments - Markdown to create a link
-p2450
+p2428
 V\u2318k
-p2451
+p2429
 sVIssue/PR lists - Quote the selected text in your reply
-p2452
+p2430
 Vr
 sVGo to the Issues tab
-p2453
+p2431
 Vg then i
-p2454
+p2432
 sVProject boards - Moving a card - Move card up
-p2455
+p2433
 V\u2191 or k
-p2456
+p2434
 sVCode browsing - Expand a URL to its canonical form
-p2457
+p2435
 Vy
 sVIssue/PR - Apply a label
-p2458
+p2436
 Vl
 sVNetwork Graph - Scroll right
-p2459
+p2437
 V\u2192 or l
-p2460
+p2438
 sVProject boards - Moving a card - Move card down
-p2461
+p2439
 V\u2193 or j
-p2462
+p2440
 sVProject boards - Moving a card - Move card to the top of the column
-p2463
+p2441
 V\u2318\u2191 or \u2318k
-p2464
+p2442
 sVIssue/PR - Set an assignee
-p2465
+p2443
 Va
 sVCode browsing - Open blame view
-p2466
+p2444
 Vb
 sVIssue/PR lists - Open issue
-p2467
+p2445
 Vo or \u23ce
-p2468
+p2446
 sVNetwork Graph - Scroll down
-p2469
+p2447
 V\u2193 or j
-p2470
+p2448
 sVIssue/PR - Request a reviewer
-p2471
+p2449
 Vq
 sVGo to the Code tab
-p2472
+p2450
 Vg then c
-p2473
+p2451
 sVProject boards - Moving a card - Cancel the move in progress
-p2474
+p2452
 VEsc
-p2475
+p2453
 sVProject boards - Moving a card - Move card to the bottom of the column on the left
-p2476
+p2454
 V\u2190 or h
-p2477
+p2455
 sVCode browsing - Activates the file finder
-p2478
+p2456
 Vt
 sVCode browsing - Switch to a new branch or tag
-p2479
+p2457
 Vw
 sVCode editing - Redo
-p2480
+p2458
 V\u2318y
-p2481
+p2459
 sVIssue/PR lists - Filter by or edit milestones
-p2482
+p2460
 Vm
 sVNetwork Graph - Scroll all the way left
-p2483
+p2461
 V\u21e7\u2190 or \u21e7h
-p2484
+p2462
 sVProject boards - Moving a card - Move card to the bottom of the leftmost column
-p2485
+p2463
 V\u2318\u2190 or \u2318h
-p2486
+p2464
 sVGo to the Wiki tab
-p2487
+p2465
 Vg then w
-p2488
+p2466
 sVProject boards - Moving a card - Start moving the focused card
-p2489
+p2467
 V\u23ce or Space
-p2490
+p2468
 sVNetwork Graph - Scroll left
-p2491
+p2469
 V\u2190 or h
-p2492
+p2470
 sVComments - Markdown to bold text
-p2493
+p2471
 V\u2318b
-p2494
+p2472
 sVCode editing - Replace
-p2495
+p2473
 V\u2318\u2325f
-p2496
+p2474
 sVProject boards - Moving a column - Move column to the right
-p2497
+p2475
 V\u2192 or l
-p2498
+p2476
 sVProject boards - Moving a column - Move column to the left
-p2499
+p2477
 V\u2190 or h
-p2500
+p2478
 sVProject boards - Moving a column - Move column to the leftmost postition
-p2501
+p2479
 V\u2318\u2190 or \u2318h
-p2502
+p2480
 sVProject boards - Moving a column - Complete the move in progress
-p2503
+p2481
 V\u23ce
 sVNetwork Graph - Scroll all the way right
-p2504
+p2482
 V\u21e7\u2192 or \u21e7l
-p2505
+p2483
 sVProject boards - Moving a column - Start moving the focused column
-p2506
+p2484
 V\u23ce or Space
-p2507
+p2485
 sVProject boards - Moving a column - Move column to the rightmost postition
-p2508
+p2486
 V\u2318\u2192 or \u2318l
-p2509
+p2487
 sVPR changes - Open the list of changed files in the pull request
-p2510
+p2488
 Vt
 sVGo to the Projects tab
-p2511
+p2489
 Vg then b
-p2512
+p2490
 sVIssue/PR lists - Filter by or edit assignee
-p2513
+p2491
 Va
 sVProject boards - Moving a column - Cancel the move in progress
-p2514
+p2492
 VEsc
-p2515
+p2493
 sVPR changes - Move selection up in the list
-p2516
+p2494
 Vk
 sVCode editing - Undo
-p2517
+p2495
 V\u2318z
-p2518
+p2496
 sVIssue/PR lists - Focus the issues search bar
-p2519
+p2497
 V/
 sVIssue/PR - Set a milestone
-p2520
+p2498
 Vm
 sVProject boards - Moving a card - Move card to the top of the column on the right
-p2521
+p2499
 V\u21e7\u2192 or \u21e7l
-p2522
+p2500
 sVIssue/PR lists - Filter by author
-p2523
+p2501
 Vu
 sVNotifications - Mark as read
-p2524
+p2502
 Ve or l or y
-p2525
+p2503
 sVComments - Toggles between the Write and Preview comment tabs
-p2526
+p2504
 V\u2318\u21e7p
-p2527
+p2505
 sVNetwork Graph - Scroll all the way down
-p2528
+p2506
 V\u21e7\u2193 or \u21e7j
-p2529
+p2507
 sVIssue/PR lists - Create an issue
-p2530
+p2508
 Vc
 sVProject boards - Moving a card - Complete the move in progress
-p2531
+p2509
 V\u23ce
 sVPR changes - Move selection down in the list
-p2532
+p2510
 Vj
 sVGo to the Pull reuests tab
-p2533
+p2511
 Vg then p
-p2534
+p2512
 sVGo to your notifications
-p2535
+p2513
 Vg then n
-p2536
+p2514
 sVProject boards - Moving a card - Move card to the bottom of the column
-p2537
+p2515
 V\u2318\u2193 or \u2318j
-p2538
+p2516
 sVCode browsing - Show or hide comments on diffs
-p2539
+p2517
 Vi
 sVProject boards - Moving a card - Move card to the bottom of the column on the right
-p2540
+p2518
 V\u2192 or l
-p2541
+p2519
 sVCode editing - Find previous
-p2542
+p2520
 V\u2318\u21e7g
-p2543
+p2521
 sVComments - Submits a comment
-p2544
+p2522
 V^\u23ce
-p2545
+p2523
 sVCode browsing - Jump to a line in your code
-p2546
+p2524
 Vl
 sVProject boards - Moving a card - Move card to the bottom of the rightmost column
-p2547
+p2525
 V\u2318\u2192 or \u2318l
-p2548
+p2526
 sVNotifications - Mute thread
-p2549
+p2527
 V\u21e7m
-p2550
+p2528
 sVProject boards - Moving a card - Move card to the top of the rightmost column
-p2551
+p2529
 V\u2318\u21e7\u2192 or \u2318\u21e7l
-p2552
+p2530
 sVPR changes - Open the list of commits in the PR
-p2553
+p2531
 Vc
 sVIssue/PR lists - Filter by or edit labels
-p2554
+p2532
 Vl
 sVProject boards - Moving a card - Move card to the top of the column on the left
-p2555
+p2533
 V\u21e7\u2190 or \u21e7h
-p2556
+p2534
 sVCode editing - Jump to line
-p2557
+p2535
 V\u2325g
-p2558
+p2536
 sVNetwork Graph - Scroll all the way up
-p2559
+p2537
 V\u21e7\u2191 or \u21e7k
-p2560
+p2538
 sVProject boards - Moving a card - Move card to the top of the leftmost column
-p2561
+p2539
 V\u2318\u21e7\u2190 or \u2318\u21e7h
-p2562
+p2540
 sVComments - Markdown to italicize text
-p2563
+p2541
 V\u2318i
-p2564
+p2542
 ssVReddit Enhancement Suite
-p2565
-(dp2566
+p2543
+(dp2544
 VGo to subreddit of selected link (link pages only)
-p2567
+p2545
 VR
 sVGo to inbox in a new tab.
-p2568
+p2546
 VG then \u21e7I
-p2569
+p2547
 sVGo to inbox
-p2570
+p2548
 VG then I
-p2571
+p2549
 sVGo to a random subreddit.
-p2572
+p2550
 V\u2325Y
-p2573
+p2551
 sVMove up to the previous link or comment in flat lists
-p2574
+p2552
 VK
 sVGo to subreddit front page.
-p2575
+p2553
 V\u21e7F
-p2576
+p2554
 sVSave the current post to your reddit account (not preserved if deleted or edited)
-p2577
+p2555
 VS
 sVFollow link in new tab (link pages only)
-p2578
+p2556
 V\u21e7\u21a9
-p2579
+p2557
 sVUpvote selected link or comment (or remove the upvote).
-p2580
+p2558
 VA
 sVSave the current comment with RES (preserved locally)
-p2581
+p2559
 VS
 sVGo to previous page (link list pages only).
-p2582
+p2560
 VG then P
-p2583
+p2561
 sVUpvote selected link or comment (but don't remove the upvote).
-p2584
+p2562
 V\u21e7A
-p2585
+p2563
 sVEnter 'goMode' (before using 'go to' shortcuts).
-p2586
+p2564
 VG
 sVFocuses the cursor in the search box.
-p2587
+p2565
 V\u2325/
-p2588
+p2566
 sVMove to bottom of list (on link pages)
-p2589
+p2567
 V\u21e7J
-p2590
+p2568
 sVMove to top of list (on link pages)
-p2591
+p2569
 V\u21e7K
-p2592
+p2570
 sVRemoves the height restriction of image(s) in the highlighted post area
-p2593
+p2571
 V\u21e7\u2192
-p2594
+p2572
 sVView the next image of an inline gallery
-p2595
+p2573
 V]
 sVView link and comments in new tabs.
-p2596
+p2574
 VL
 sVGo to /r/all.
-p2597
+p2575
 V\u2325A
-p2598
+p2576
 sVMove the image(s) in the highlighted post area down
-p2599
+p2577
 VMove the image(s) in the highlighted post area down.
-p2600
+p2578
 sVView comments for link (\u21e7 opens them in a new tab)
-p2601
+p2579
 VC
 sVLaunch filter command line
-p2602
+p2580
 VH
 sVView the previous image of an inline gallery
-p2603
+p2581
 V[
 sVGo to modmail in a new tab.
-p2604
+p2582
 VG then \u21e7M
-p2605
+p2583
 sVDownvote selected link or comment (but don't remove the downvote).
-p2606
+p2584
 V\u21e7Z
-p2607
+p2585
 sVGo to profile.
-p2608
+p2586
 VG then U
-p2609
+p2587
 sVShow help for keyboard shortcuts
-p2610
+p2588
 V\u21e7/
-p2611
+p2589
 sVToggle expando (image/text/video)
-p2612
+p2590
 VX
 sVMove the image(s) in the highlighted post area left
-p2613
+p2591
 V\u2303\u2190
-p2614
+p2592
 sVDownvote selected link or comment (or remove the downvote).
-p2615
+p2593
 VZ
 sVGo to modmail.
-p2616
+p2594
 VG then M
-p2617
+p2595
 sVMove down to the next link or comment in flat lists
-p2618
+p2596
 VJ
 sVGo to subreddit of selected link in a new tab (link pages only).
-p2619
+p2597
 V\u21e7R
-p2620
+p2598
 sVIncrease the size of image(s) in the highlighted post area (finer control)
-p2621
+p2599
 V\u21e7=
-p2622
+p2600
 sVDecrease the size of image(s) in the highlighted post area
-p2623
+p2601
 V-
 sVGo to next page (link list pages only).
-p2624
+p2602
 VG then N
-p2625
+p2603
 sVMove the image(s) in the highlighted post area up
-p2626
+p2604
 V\u2303\u2191
-p2627
+p2605
 sVToggle 'show images' button
-p2628
+p2606
 V\u21e7X
-p2629
+p2607
 sVIncrease the size of image(s) in the highlighted post area
-p2630
+p2608
 V=
 sVGo to profile in a new tab.
-p2631
+p2609
 VG then \u21e7U
-p2632
+p2610
 sVMove the image(s) in the highlighted post area right
-p2633
+p2611
 V\u2303\u2192
-p2634
+p2612
 sVFollow link (link pages only)
-p2635
+p2613
 V\u21a9
 sVGo to front page.
-p2636
+p2614
 VG then F
-p2637
+p2615
 sVView comments for link in a new tab
-p2638
+p2616
 V\u21e7C
-p2639
+p2617
 sVView link and comments in new background tabs.
-p2640
+p2618
 V\u21e7L
-p2641
+p2619
 sVLaunch RES command line
-p2642
+p2620
 V/
 sVDecrease the size of image(s) in the highlighted post area (finer control)
-p2643
+p2621
 V\u21e7-
-p2644
+p2622
 ssVSafari
-p2645
-(dp2646
+p2623
+(dp2624
 VFind Previous
-p2647
-VCommand-Shift-G
-p2648
+p2625
+V\u2318\u21e7G
+p2626
 sVSave work arrangement
-p2649
-VCommand-shift-S
-p2650
+p2627
+V\u2318\u21e7S
+p2628
 sVCancel editing a bookmark name in the sidebar
-p2651
+p2629
 VEsc
-p2652
+p2630
 sVOpen a downloaded file
-p2653
+p2631
 VDouble-click the file in the downloads list
-p2654
+p2632
 sVShifts focus to the search bar
-p2655
-VShift-Command-F
-p2656
+p2633
+V\u21e7\u2318F
+p2634
 sVScroll to the top-left corner of the page
-p2657
-VCommand\u2013Up Arrow or Home
-p2658
+p2635
+V\u2318\u2191 or Home
+p2636
 sVResources
-p2659
-VCOMMAND + OPTION + A
-p2660
+p2637
+V\u2318\u2325A
+p2638
 sVShow or Hide the Bookmarks sidebar
-p2661
-VControl-Command-1
-p2662
+p2639
+V^\u23181
+p2640
 sVOpen new window
-p2663
-VCOMMAND + N
-p2664
+p2641
+V\u2318N
+p2642
 sVToggle JavaScript console
-p2665
-VCommand-Shift-C
-p2666
+p2643
+V\u2318\u21e7C
+p2644
 sVEnter full-screen
-p2667
-VCommand-ctrl-f
-p2668
+p2645
+V\u2318^f
+p2646
 sVPrevious Command/Line in Console
-p2669
-VUp
-p2670
+p2647
+V\u2191
 sVUndo
-p2671
-VCOMMAND + Z
-p2672
+p2648
+V\u2318Z
+p2649
 sVWhile typing in the Smart Search field, restore the current webpage address
-p2673
+p2650
 VEsc
-p2674
+p2651
 sVStep Out in Debugger
-p2675
-VShift-Command-;
-p2676
+p2652
+V\u21e7\u2318;
+p2653
 sVZoom-in, makes Web Inspector\u2019s interface larger
-p2677
-VCommand-+
-p2678
+p2654
+V\u2318+
+p2655
 sVSee a list of your recently visited pages by name
-p2679
+p2656
 VHold down the Back or Forward button until the list appears
-p2680
+p2657
 sVPrevious Console Suggestion
-p2681
-VShift-Tab
-p2682
+p2658
+V\u21e7Tab
+p2659
 sVZoom website content
-p2683
-VPress Command-Plus Sign (+) or Command-Minus Sign (-)
-p2684
+p2660
+V\u2318+ or \u2318-
+p2661
 sVMinimize
-p2685
-VCOMMAND + M
-p2686
+p2662
+V\u2318M
+p2663
 sVLoad Safari Help
-p2687
-VCOMMAND + ?
-p2688
+p2664
+V\u2318?
+p2665
 sVPassword manager
-p2689
-VCommand-option-F
-p2690
+p2666
+V\u2318\u2325F
+p2667
 sVScroll up, down, left, or right
-p2691
-VPress the arrow keys
-p2692
+p2668
+V\u2191\u2193\u2192\u2190
+p2669
 sVAdd the current page
-p2693
-VShift-Command-D
-p2694
+p2670
+V\u21e7\u2318D
+p2671
 sVOpen file
-p2695
-VCOMMAND + O
-p2696
+p2672
+V\u2318O
+p2673
 sVSave As
-p2697
-VCOMMAND + S
-p2698
+p2674
+V\u2318S
+p2675
 sVHighlight the same items as Tab plus all other clickable items
-p2699
-VOption-tab
-p2700
-sVOpen first-ninth tab
-p2701
-VCommand-[1-9]
-p2702
+p2676
+V\u2325Tab
+p2677
 sVAdd a linked page
-p2703
-VShift-click a link to the page
-p2704
+p2678
+V\u21e7click a link to the page
+p2679
 sVClose the selected folder
-p2705
-VSpace bar or Left Arrow
-p2706
+p2680
+VSpace or \u2190
+p2681
 sVShow/Hide Favorites
-p2707
-VCOMMAND + SHIFT + B
-p2708
+p2682
+V\u2318\u21e7B
+p2683
 sVNext Console Suggestion
-p2709
+p2684
 VTab
-p2710
+p2685
 sVReload page
-p2711
-VCOMMAND + R
-p2712
+p2686
+V\u2318R
+p2687
 sVScroll in larger increments
-p2713
-VPress Option while you press an arrow key
-p2714
+p2688
+V\u2325\u2191 \u2325\u2193 \u2325\u2192 \u2325\u2190
+p2689
 sVBrings up the Quick Open dialog, a feature that allows you to quickly search for a file in Web Inspector
-p2715
-VCommand-Shift-O
-p2716
+p2690
+V\u2318\u21e7O
+p2691
 sVOpen the selected folder
-p2717
-VSpace bar or Right Arrow
-p2718
+p2692
+VSpace or \u2192
+p2693
 sVFind
-p2719
-VCOMMAND + F
-p2720
+p2694
+V\u2318F
+p2695
 sVOpen a page in a new tab
-p2721
-VCommand-click a link
-p2722
+p2696
+V\u2318click a link
+p2697
 sVToggle page source
-p2723
-VCommand-Shift-U
-p2724
+p2698
+V\u2318\u21e7U
+p2699
 sVGo to your homepage
-p2725
-VCommand-Home key
-p2726
+p2700
+V\u2318Home
+p2701
 sVOpen a bookmark in a new tab, and make that tab the active tab
-p2727
-VShift-Command-click a bookmark
-p2728
+p2702
+V\u21e7\u2318click a bookmark
+p2703
+sVClear Console History (when in Console tab)
+p2704
+V\u2318K
+p2705
 sVPrint
-p2729
-VCOMMAND + P
-p2730
+p2706
+V\u2318P
+p2707
 sVHide Safari
-p2731
-VCOMMAND + H
-p2732
+p2708
+V\u2318H
+p2709
 sVSelect previous tab in Web Inspector. Make sure Web Inspector is undocked for this feature to work
-p2733
-VShift-Command-[ or Ctrl-Shift-Tab
-p2734
+p2710
+V\u21e7\u2318[ or ^\u21e7Tab
+p2711
 sVClose all tabs except for one
-p2735
-VOption-click the close button  on the tab you want to leave open
-p2736
+p2712
+V\u2325click the close button on the tab you want to leave open
+p2713
 sVMove a bookmark on the Favorites bar
-p2737
+p2714
 VDrag the bookmark left or right
-p2738
+p2715
 sVDownloads
-p2739
-VCOMMAND + OPTION + L
-p2740
+p2716
+V\u2318\u2325L
+p2717
 sVToggle between previous Web Inspector position, detached and docked
-p2741
-VShift-Command-D
-p2742
+p2718
+V\u21e7\u2318D
+p2719
 sVScroll up a screen
-p2743
-VPage Up or Shift\u2013Space bar
-p2744
+p2720
+VPage Up or \u21e7Space
+p2721
 sVSelect bookmarks and folders in the sidebar
-p2745
-VCommand-click each bookmark and folder
-p2746
+p2722
+V\u2318click each bookmark and folder
+p2723
 sVSelect all
-p2747
-VCOMMAND + A
-p2748
+p2724
+V\u2318A
+p2725
 sVGo back
-p2749
-VCOMMAND + [
-p2750
+p2726
+V\u2318[
+p2727
 sVZoom-out, makes Web Inspector\u2019s interface smaller
-p2751
-VCommand- -
-p2752
+p2728
+V\u2318 -
+p2729
 sVEmpty Caches
-p2753
-VCommand-option-E
-p2754
+p2730
+V\u2318\u2325E
+p2731
 sVMake the previous tab the active tab
-p2755
-VControl-Shift-Tab or Shift-Command -[
-p2756
+p2732
+V^\u21e7Tab or \u21e7\u2318[
+p2733
 sVOpen a page in a new tab in Smart Search field
-p2757
-VCommand-Return after typing
-p2758
+p2734
+V\u2318\u23ce after typing
+p2735
 sVExit full-screen view
-p2759
+p2736
 VEsc
-p2760
+p2737
 sVOpen the selected bookmark
-p2761
-VSpace bar
-p2762
+p2738
+VSpace
+p2739
 sVOpen location
-p2763
-VCOMMAND + L
-p2764
+p2740
+V\u2318L
+p2741
 sVEnter element selection mode
-p2765
-VShift-Command-C
-p2766
-sVClear Console History
-p2767
-VCommand-K (when in Console tab)
-p2768
+p2742
+V\u21e7\u2318C
+p2743
 sVOpen a page in a new tab, and make that tab the active tab
-p2769
-VShift-Command-click a link
-p2770
+p2744
+V\u21e7\u2318click a link
+p2745
 sVAccept Console Suggestion
-p2771
-VRight
-p2772
+p2746
+V\u2192
 sVLoad Preferences
-p2773
-VCOMMAND + ,
-p2774
+p2747
+V\u2318,
+p2748
 sVMove tab right
-p2775
-VCommand-shift-option-]
-p2776
+p2749
+V\u2318\u21e7\u2325]
+p2750
 sVMake the next tab the active tab
-p2777
-VControl-Tab or Shift-Command-]
-p2778
+p2751
+V^Tab or \u21e7\u2318]
+p2752
 sVRemove a page
-p2779
-VControl-click the page summary in the sidebar, then choose Remove Item
-p2780
+p2753
+V^click the page summary in the sidebar, then choose Remove Item
+p2754
 sVStep Into in Debugger
-p2781
-VCommand-;
-p2782
+p2755
+V\u2318;
+p2756
 sVExtend selection of bookmarks and folders in the sidebar
-p2783
-VShift-click
-p2784
+p2757
+V\u21e7click
+p2758
 sVOpen profiles
-p2785
-VCommand-O
-p2786
+p2759
+V\u2318O
+p2760
 sVGoogle Search
-p2787
-VCOMMAND + OPTION + F
-p2788
+p2761
+V\u2318\u2325F
+p2762
 sVToggle web insepector
-p2789
-VCommand-Shift-I
-p2790
-sVShow Error Console
-p2791
-VCommand-Option-C
-p2792
+p2763
+V\u2318\u21e7I
+p2764
+sVClear Network Items (when in Network tab)
+p2765
+V\u2318K
+p2766
 sVShow history
-p2793
-VCommand-Y
-p2794
+p2767
+V\u2318Y
+p2768
 sVShow/hide sidebar
-p2795
-VCommand-shift-L
-p2796
+p2769
+V\u2318\u21e7L
+p2770
 sVOpen a new tab
-p2797
-VCOMMAND + T
-p2798
+p2771
+V\u2318T
+p2772
 sVGo to home page
-p2799
-VCommand-shift-H
-p2800
+p2773
+V\u2318\u21e7H
+p2774
 sVShow/Close Web Inspector
-p2801
-VCommand-Option-I
-p2802
+p2775
+V\u2318\u2325I
+p2776
 sVExpose All Tabs
-p2803
-VCommand-option-E
-p2804
+p2777
+V\u2318\u2325E
+p2778
 sVShow all tabs
-p2805
-VShift-Command-\u005c
-p2806
+p2779
+V\u21e7\u2318\u005c
+p2780
 sVZoom website text
-p2807
-VPress Option while you choose View > Make Text Bigger or View > Make Text Smaller
-p2808
+p2781
+VPress \u2325 while you choose View > Make Text Bigger or View > Make Text Smaller
+p2782
 sVChange the name or address of a bookmark
-p2809
-VSelect the bookmark, then press Return
-p2810
+p2783
+VSelect the bookmark, then press \u23ce
+p2784
 sVShow or Hide the Reading List sidebar
-p2811
-VControl-Command-2
-p2812
+p2785
+V^\u23182
+p2786
 sVLocal search within the currently selected resource in the tab
-p2813
-VCommand-F
-p2814
+p2787
+V\u2318F
+p2788
 sVCreate a folder containing the selected bookmarks and folders in bookmarks view
-p2815
-VOption-click the New Folder button near the top-right corner
-p2816
+p2789
+V\u2325click the New Folder button near the top-right corner
+p2790
 sVAdd a bookmark to the Favorites bar
-p2817
+p2791
 VClick the Smart Search field to show the page\u2019s full address and its icon, then drag the icon to the Favorites bar
-p2818
+p2792
 sVNext Command/Line in Console
-p2819
-VDown
-p2820
+p2793
+V\u2193
 sVAdd a Bookmark
-p2821
-VCOMMAND + D
-p2822
+p2794
+V\u2318D
+p2795
 sVQuit Safari
-p2823
-VCOMMAND + Q
-p2824
+p2796
+V\u2318Q
+p2797
 sVSelect next in Web Inspector. Make sure Web Inspector is undocked for this feature to work
-p2825
-VShift-Command-] or Ctrl-Tab
-p2826
+p2798
+V\u21e7\u2318] or ^Tab
+p2799
 sVOpen all bookmarks from a folder in the Favorites bar
-p2827
-VCommand-click the folder in the Favorites bar
-p2828
-sVLoad the nth bookmark in Bookmarks Toolbar
-p2829
-VCOMMAND + NUM [1-9]
-p2830
-sVFinish editing a bookmark name
-p2831
-VReturn
-p2832
-sVShow toolbelt
-p2833
-VCommand-shift-B
-p2834
-sVAutofill form
-p2835
-VCommand-shift-A
-p2836
-sVScroll down a screen
-p2837
-VPage Down or Space bar
-p2838
-sVOpen Settings
-p2839
-VCommand- ,
-p2840
-sVStart Profiling JavaScript
-p2841
-VShift-Command-Option-P
-p2842
-sVAdd To Reading List
-p2843
-VCOMMAND + SHIFT + D
-p2844
-sVClose Reader
-p2845
-VEsc
-p2846
-sVDownload a linked file
-p2847
-VOption-click a link to the file
-p2848
-sVClose
-p2849
-VCOMMAND + W
-p2850
-sVShow/hide status bar
-p2851
-VCommand-/
-p2852
-sVRedo
-p2853
-VCOMMAND + SHIFT + Z
-p2854
-sVFind Next
-p2855
-VCommand-G
-p2856
-sVSelect the next bookmark or folder
-p2857
-VUp Arrow or Down Arrow
-p2858
-sVOpen a bookmark in a new tab
-p2859
-VCommand-click a bookmark
-p2860
-sVFocus on the console prompt. Unlike Esc, it does the same thing regardless of the context
-p2861
-VControl-~
-p2862
-sVRemove a bookmark from the Favorites bar
-p2863
-VDrag the bookmark off the top of the bar
-p2864
-sVGo forward
-p2865
-VCOMMAND + ]
-p2866
-sVStart/stop time line recording
-p2867
-VCommand-shift-option-T
-p2868
-sVReopen the last tab or window you closed
-p2869
-VShift-Command-T
-p2870
-sVDelete a bookmark
-p2871
-VSelect the bookmark, then press Delete
-p2872
-sVAdvance to selection
-p2873
-VCOMMAND + J
-p2874
-sVSelect one of your first nine tabs
-p2875
-VCommand-1 to Command-9
-p2876
-sVCopy
-p2877
-VCOMMAND + C
-p2878
-sVPaste
-p2879
-VCOMMAND + V
-p2880
-sVOpen a page in a new tabn Smart Search field, and make that tab the active tab
-p2881
-VShift-Command-Return after typing in the Smart Search field
-p2882
-sVReset changes to Web Inspector\u2019s interface size
-p2883
-VCommand-0
-p2884
-sVMove tab left
-p2885
-VCommand-shift-option-[
-p2886
+p2800
+V\u2318click the folder in the Favorites bar
+p2801
 sVStep Over in Debugger
-p2887
-VCommand-\u2019
-p2888
+p2802
+V\u2318\u2019
+p2803
+sVShow toolbelt
+p2804
+V\u2318\u21e7B
+p2805
+sVAutofill form
+p2806
+V\u2318\u21e7A
+p2807
+sVScroll down a screen
+p2808
+VPage Down or Space
+p2809
+sVOpen Settings
+p2810
+V\u2318 ,
+p2811
+sVStart Profiling JavaScript
+p2812
+V\u21e7\u2318\u2325P
+p2813
+sVAdd To Reading List
+p2814
+V\u2318\u21e7D
+p2815
+sVClose Reader
+p2816
+VEsc
+p2817
+sVDownload a linked file
+p2818
+V\u2325click a link to the file
+p2819
+sVClose
+p2820
+V\u2318W
+p2821
+sVShow/hide status bar
+p2822
+V\u2318/
+p2823
+sVRedo
+p2824
+V\u2318\u21e7Z
+p2825
+sVFind Next
+p2826
+V\u2318G
+p2827
+sVSelect the next bookmark or folder
+p2828
+VUp Arrow or Down Arrow
+p2829
+sVOpen a bookmark in a new tab
+p2830
+V\u2318click a bookmark
+p2831
+sVFocus on the console prompt. Unlike Esc, it does the same thing regardless of the context
+p2832
+V^~
+p2833
+sVRemove a bookmark from the Favorites bar
+p2834
+VDrag the bookmark off the top of the bar
+p2835
+sVGo forward
+p2836
+V\u2318]
+p2837
+sVStart/stop time line recording
+p2838
+V\u2318\u21e7\u2325T
+p2839
+sVReopen the last tab or window you closed
+p2840
+V\u21e7\u2318T
+p2841
+sVDelete a bookmark
+p2842
+VSelect the bookmark, then press Delete
+p2843
+sVAdvance to selection
+p2844
+V\u2318J
+p2845
+sVSelect one of your first nine tabs
+p2846
+V\u23181 to \u23189
+p2847
+sVCopy
+p2848
+V\u2318C
+p2849
+sVPaste
+p2850
+V\u2318V
+p2851
+sVOpen a page in a new tabn Smart Search field, and make that tab the active tab
+p2852
+V\u21e7\u2318\u23ce after typing in the Smart Search field
+p2853
+sVReset changes to Web Inspector\u2019s interface size
+p2854
+V\u23180
+p2855
+sVMove tab left
+p2856
+V\u2318\u21e7\u2325[
+p2857
+sVFinish editing a bookmark name
+p2858
+V\u23ce
 sVSave all console messages to a text file in the Console tab. Save current web content into a .webarchive file in the Elements tab. When showing a resource, it saves the resource to disk
-p2889
-VCommand-S
-p2890
+p2859
+V\u2318S
+p2860
+sVShow Error Console
+p2861
+V\u2318\u2325C
+p2862
 sVFocus the Split Console at the bottom of the tabs. Click again to enlarge the console
-p2891
-VEscape
-p2892
+p2863
+VEsc
+p2864
 sVBrings up the \u201cGo To Line Number\u201d dialog
-p2893
-VControl-G (in text editor)
-p2894
+p2865
+V^G (in text editor)
+p2866
 sVContinue in Debugger
-p2895
-VCommand-/
-p2896
+p2867
+V\u2318/
+p2868
 sVDownload a file
-p2897
-VOPTION + Link on a web page
-p2898
+p2869
+V\u2325Click on link on a web page
+p2870
 sVShow all Bookmarks
-p2899
-VCOMMAND + OPTION + B
-p2900
+p2871
+V\u2318\u2325B
+p2872
 sVSee a list of your recently visited pages by web address (URL)
-p2901
-VPress Option and hold down the Back or Forward button until the list appears
-p2902
+p2873
+V\u2325hold down the Back or Forward button until the list appears
+p2874
 sVForces the Save As\u2026 dialog
-p2903
-VShift-Command-S
-p2904
+p2875
+V\u21e7\u2318S
+p2876
 sVExecute Console Command in Console tab. Edit attribute in Elements Panel when element is selected
-p2905
-VReturn
-p2906
+p2877
+V\u23ce
 sVHighlight the next item on a webpage
-p2907
+p2878
 VTab
-p2908
+p2879
 sVPuts the selected text in the system search pasteboard, which is used by the Find dialog as the default search text
-p2909
-VCommand-E
-p2910
+p2880
+V\u2318E
+p2881
 sVScroll to the bottom-left corner of the page
-p2911
-VCommand\u2013Down Arrow or End
-p2912
-sVClear Network Items
-p2913
-VCommand-K (when in Network tab)
-p2914
+p2882
+V\u2318\u2193 or End
+p2883
 sVStart/stop element selction
-p2915
-VCommand-shift-C
-p2916
+p2884
+V\u2318\u21e7C
+p2885
 ss.

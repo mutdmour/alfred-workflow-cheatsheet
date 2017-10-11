@@ -24,9 +24,6 @@ Supported
 - Terminal
 - Mac OSX
 - Finder
-
-Ready for next release
-----------------------
 - Firefox
 - Microsoft Word
 - Safari
@@ -62,14 +59,14 @@ Download [workflow file](https://github.com/mutdmour/alfred-workflow-cheatsheet/
 
 To do
 ------
-- support user-specific shortcuts
 - more and better testing
 - app icons
 - merge Sublime and Sublime vintage
-- standarize shortcuts with symbols [change ^ to CTRL in some]
+- standarize shortcuts with symbols
 
 To add more apps
 ----------------
-- create a PR with the app shortcuts you want to add [/src/shortcuts.py]
+- add it yourself to [custom.json] in your data directory. Open up the cheatsheet and enter the first option to open the directory.
+- to overwrite any default, ^⏎ on any shortcut in the app.
+- to share with everyone, create a PR with the app shortcuts you want to add [/src/shortcuts.py]
 - create an issue requesting the tool you want us to add
-- add it yourself to [shortcuts.py] in the workflow on your computer, though it will be overwritten by an update (until we support user-sepecific shortcuts)

@@ -2,3 +2,4 @@
 .query
 *.pyc
 *.pyo
+.DS_Store
