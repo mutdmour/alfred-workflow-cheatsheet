@@ -47,19 +47,6 @@
 				<false/>
 			</dict>
 		</array>
-		<key>572CC59E-1E88-47BD-8B5C-4ACB4EB279F0</key>
-		<array>
-			<dict>
-				<key>destinationuid</key>
-				<string>5A9B214D-5FE9-422F-9C34-01D64D6BEB5B</string>
-				<key>modifiers</key>
-				<integer>0</integer>
-				<key>modifiersubtext</key>
-				<string></string>
-				<key>vitoclose</key>
-				<false/>
-			</dict>
-		</array>
 		<key>61503630-0367-4047-90B3-D78A9C380E92</key>
 		<array>
 			<dict>
@@ -499,52 +486,6 @@
 			<key>version</key>
 			<integer>1</integer>
 		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>autopaste</key>
-				<false/>
-				<key>clipboardtext</key>
-				<string>{query}</string>
-				<key>transient</key>
-				<false/>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.output.clipboard</string>
-			<key>uid</key>
-			<string>5A9B214D-5FE9-422F-9C34-01D64D6BEB5B</string>
-			<key>version</key>
-			<integer>2</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>argumenttrimmode</key>
-				<integer>0</integer>
-				<key>argumenttype</key>
-				<integer>1</integer>
-				<key>fixedorder</key>
-				<false/>
-				<key>items</key>
-				<string>[{"title":"command","arg":"⌘","subtitle":"⌘"},{"title":"option","arg":"⌥","subtitle":"⌥"},{"title":"shift","arg":"⇧","subtitle":"⇧"},{"title":"control","arg":"^","subtitle":"^ [or Ctrl]"},{"title":"return \/ enter","arg":"⏎","subtitle":"⏎"},{"title":"backspace [delete sometimes]","arg":"⌫","subtitle":"⌫"},{"title":"left","arg":"←","subtitle":"←"},{"title":"right","arg":"→","subtitle":"→"},{"title":"down","arg":"↓","subtitle":"↓"},{"title":"up","arg":"↑","subtitle":"↑"},{"title":"Eject","arg":"⏏","subtitle":"⏏"},{"title":"tab","arg":"⇥","subtitle":"⇥"},{"title":"caps look","arg":"⇪","subtitle":"⇪"}]</string>
-				<key>keyword</key>
-				<string>cheatsheet-keys</string>
-				<key>runningsubtext</key>
-				<string></string>
-				<key>subtext</key>
-				<string></string>
-				<key>title</key>
-				<string>copy mac codes</string>
-				<key>withspace</key>
-				<true/>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.input.listfilter</string>
-			<key>uid</key>
-			<string>572CC59E-1E88-47BD-8B5C-4ACB4EB279F0</string>
-			<key>version</key>
-			<integer>1</integer>
-		</dict>
 	</array>
 	<key>readme</key>
 	<string></string>
@@ -584,20 +525,6 @@
 			<integer>600</integer>
 			<key>ypos</key>
 			<integer>50</integer>
-		</dict>
-		<key>572CC59E-1E88-47BD-8B5C-4ACB4EB279F0</key>
-		<dict>
-			<key>xpos</key>
-			<integer>10</integer>
-			<key>ypos</key>
-			<integer>310</integer>
-		</dict>
-		<key>5A9B214D-5FE9-422F-9C34-01D64D6BEB5B</key>
-		<dict>
-			<key>xpos</key>
-			<integer>190</integer>
-			<key>ypos</key>
-			<integer>310</integer>
 		</dict>
 		<key>61503630-0367-4047-90B3-D78A9C380E92</key>
 		<dict>
