@@ -52,6 +52,7 @@ To add
 - Photoshop
 - Illustrator
 - Sketch
+- Stickies
 
 To download
 -----------
