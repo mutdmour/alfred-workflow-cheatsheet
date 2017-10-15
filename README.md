@@ -3,7 +3,14 @@ Cheatsheet
 
 Alfred workflow that gets shortcuts for applications, websites, tools and others
 
+Finding shortcuts
 ![Sublime demo](/sublime_demo.gif)
+
+Customizing default shortcuts
+![Sublime customize shortcut demo](/custom_json_demo.gif)
+
+Editing JSON and adding your own app
+![Sublime edit json demo](/custom_shortcut_demo.gif)
 
 Supported
 ---------
