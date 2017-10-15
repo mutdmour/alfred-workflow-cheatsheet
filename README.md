@@ -7,10 +7,10 @@ Finding shortcuts
 ![Sublime demo](/sublime_demo.gif)
 
 Overwrite default shortcuts [^⏎ on any shortcut]
-![Sublime customize shortcut demo](/custom_json_demo.gif)
+![Sublime customize shortcut demo](/custom_shortcut_demo.gif)
 
 Editing JSON and adding your own app
-![Sublime edit json demo](/custom_shortcut_demo.gif)
+![Sublime edit json demo](/custom_json_demo.gif)
 
 Supported
 ---------
