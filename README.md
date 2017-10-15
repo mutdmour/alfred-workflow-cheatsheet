@@ -6,7 +6,7 @@ Alfred workflow that gets shortcuts for applications, websites, tools and others
 Finding shortcuts
 ![Sublime demo](/sublime_demo.gif)
 
-Customizing default shortcuts
+Overwrite default shortcuts [^⏎ on any shortcut]
 ![Sublime customize shortcut demo](/custom_json_demo.gif)
 
 Editing JSON and adding your own app
