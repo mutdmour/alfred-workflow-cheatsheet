@@ -3,6 +3,9 @@ Cheatsheet
 
 Alfred workflow that gets shortcuts for applications, websites, tools and others
 
+If you have any questions or issues, checkout the discussion at [the alfred forum here](https://www.alfredforum.com/topic/10830-cheatsheet-shortcuts-for-your-tools/). 
+Or create an issue if you cannot find an answer.
+
 Finding shortcuts
 ![Sublime demo](/sublime_demo.gif)
 
