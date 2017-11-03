@@ -17,30 +17,31 @@ Editing JSON and adding your own app
 
 Supported
 ---------
-- Google Chrome
-- Reddit Enhancement Suite
-- Sublime Text
-- Vintage Sublime
-- Vim
-- iTerm2
-- youtube.com
-- AutoMute Chrome extension
-- github.com
-- Outlook
-- Video Speed Controller chrome extension
-- inbox.google.com
-- trello.com
 - Alfred
-- Terminal
-- Mac OSX
+- AutoMute Chrome extension
 - Finder
 - Firefox
+- Google Chrome
+- Mac OSX
 - Microsoft Word
+- Outlook
+- Reddit Enhancement Suite
 - Safari
+- Sublime Text
+- Terminal
+- Video Speed Controller chrome extension
+- Vim
+- Vintage Sublime
+- github.com
+- iTerm2
+- inbox.google.com
+- trello.com
+- youtube.com
 
 Ready for next release
 ------
 - Evernote
+- Slack
 
 To add
 ------
