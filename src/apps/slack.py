@@ -38,7 +38,7 @@ shortcuts = {
             "Toggle current channel read or unread": "R",
             "Switch to previous team ": "⌘⇧[",
             "Switch to next team ": "⌘⇧]",
-            "Switch to a specific team (see assigned number under the team icon in your Slack app) ": "⌘[number]",
+            "Switch to a specific team (see assigned number under the team icon in your Slack app) ": "⌘[NUM]",
             "Mark all messages in current channel or DM as read": "Esc",
             "Mark all messages as read": "⇧Esc",
             "Set a message as your oldest unread message": "⌥ and click a message",
