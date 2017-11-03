@@ -19,14 +19,17 @@ Supported
 ---------
 - Alfred
 - AutoMute Chrome extension
+- Evernote
 - Finder
 - Firefox
 - Google Chrome
+- IntelliJ Idea (default Mac OS X)
 - Mac OSX
 - Microsoft Word
 - Outlook
 - Reddit Enhancement Suite
 - Safari
+- Slack
 - Sublime Text
 - Terminal
 - Video Speed Controller chrome extension
@@ -40,11 +43,9 @@ Supported
 
 Ready for next release
 ------
-- Evernote
-- Slack
 
-To add
-------
+Requested To add
+----------------
 - Airmail
 - Asana
 - Atom
@@ -52,7 +53,6 @@ To add
 - Forklift
 - Google Docs
 - Illustrator
-- IntelliJ
 - Keyboard Maestro
 - Microsoft Excel
 - Opera
