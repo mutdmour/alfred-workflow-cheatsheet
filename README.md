@@ -45,28 +45,28 @@ Ready for next release
 
 To add
 ------
-- Atom
-- VS Code
-- Pixelmator
-- Vimeo
-- Google Docs
 - Airmail
-- Sibelius
-- Transcribe!
 - Asana
-- intellij
-- Microsoft Excel
+- Atom
 - Default Folder X
 - Forklift
-- Keyboard Maestro
-- Opera
-- TextExpander
-- VLC
-- Xcode
-- Photoshop
+- Google Docs
 - Illustrator
+- IntelliJ
+- Keyboard Maestro
+- Microsoft Excel
+- Opera
+- Photoshop
+- Pixelmator
+- Sibelius
 - Sketch
 - Stickies
+- TextExpander
+- Transcribe!
+- VLC
+- VS Code
+- Vimeo
+- Xcode
 
 To download
 -----------
