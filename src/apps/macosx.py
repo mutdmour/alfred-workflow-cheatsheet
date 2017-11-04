@@ -22,7 +22,7 @@ shortcuts = {
         "Close the front window":"⌘W",
         "close all windows of the app":"⌘⌥W",
         "Quit the app.":"⌘Q",
-        "Force Quit: choose app to quit and hold for 3 seconds to .":"⌥⌘Esc",
+        "Force Quit a specific app":"choose app to quit and hold ⌥⌘Esc for 3 seconds",
         "Force Quit: just the front app to quit":"press ⌘⇧⌥Esc and hold for 3 sec",
         "Spotlight":"⌘Space",
         "Quick Look: Use Quick Look to preview the selected item.":"Space",
@@ -39,6 +39,12 @@ shortcuts = {
         "Quit all apps, then restart your Mac. ":"Ctrl ⌘⏏ ",
         "Quit all apps, then shut down your Mac. ":"Ctrl ⌥⌘ Power button or Ctrl ⌥⌘⏏",
         "Log out of your macOS user account. ":"⇧⌘Q ",
-        "Log out of your macOS user account immediately, without being asked to confirm.":"⌥⇧⌘Q  "
+        "Log out of your macOS user account immediately, without being asked to confirm.":"⌥⇧⌘Q  ",
+        "Editing - Delete all words before cursor":"⌘⌫",
+        "Editing - Delete one word before cursor":"⌥⌫",
+        "Editing - Jump to end of line":"⌘→",
+        "Editing - Jump to beginning of line":"⌘←",
+        "Editing - Jump to one word after":"⌥→",
+        "Editing - Jump to one word before":"⌥←"
     }
 }

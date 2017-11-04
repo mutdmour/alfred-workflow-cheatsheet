@@ -37,6 +37,8 @@ shortcuts = {
         "Add www. and .com to a site name, and open it in a new tab":"Type a site name + ⌃⇧↩",
         "Open the website in a new background tab":"Type a web address + ⌘↩",
         "Jump to the address bar":"⌘l",
+        "Delete all words in address bar before cursor":"⌘⌫",
+        "Delete one word in address bar before cursor":"⌥⌫",
         "Remove predictions from your address bar":"↓ to highlight + ⇧fn⌫",
         "Open options to print the current page":"⌘p",
         "Open options to save the current page":"⌘s",
