@@ -45,6 +45,7 @@ shortcuts = {
         "Editing - Jump to end of line":"⌘→",
         "Editing - Jump to beginning of line":"⌘←",
         "Editing - Jump to one word after":"⌥→",
-        "Editing - Jump to one word before":"⌥←"
+        "Editing - Jump to one word before":"⌥←",
+        "Dictation":"Fn Fn"
     }
 }
