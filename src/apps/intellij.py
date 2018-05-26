@@ -1,7 +1,8 @@
 # coding: utf8
+# Intellij IDEA (default 10.5+)
 
 shortcuts= { #help > Keymap reference
-    "Intellij IDEA (default 10.5+)":{
+    "Intellij IDEA (default)":{
         "Editing - Basic code completion (the name of any class, method or variable)":"^Space",
         "Editing - Smart code completion (filters the list of methods and variables by expected type)":"^⇧Space",
         "Editing - Complete statement":"⌘⇧⏎",
