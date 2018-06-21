@@ -43,6 +43,8 @@ Supported
 
 Ready for next release
 ------
+- [Things](https://support.culturedcode.com/customer/portal/articles/2785159)
+
 
 Requested To add
 ----------------
