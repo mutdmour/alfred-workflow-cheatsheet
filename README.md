@@ -13,8 +13,11 @@ Supported
 - Evernote
 - Finder
 - Firefox
+- Github.com
 - Google Chrome
+- inbox.google.com
 - IntelliJ Idea (default Mac OS X)
+- iTerm2
 - Mac OSX
 - Microsoft Word
 - Outlook
@@ -23,14 +26,12 @@ Supported
 - Slack
 - Sublime Text
 - Terminal
+- Trello.com
+- Things
 - Video Speed Controller chrome extension
 - Vim
 - Vintage Sublime
-- github.com
-- iTerm2
-- inbox.google.com
-- trello.com
-- youtube.com
+- Youtube.com
 
 Ready for next release
 ------
@@ -78,3 +79,17 @@ To add more apps
 - to overwrite any default, ^⏎ on any shortcut in the app.
 - to share with everyone, create a PR with the app shortcuts you want to add [/src/shortcuts.py]
 - create an issue requesting the tool you want us to add
+
+Steps to release workflow:
+----------------
+1. pull latest changes from master
+2. `python src/shortcuts.py` to update pkl file
+3. import plugin into alfred (you can copy and paste the `src/` folder into Alfred.alfredpreferences/workflows)
+4. test workflow with added profiles
+5. right click on workflow in alfred preferences and hit export 
+6. replace the `Cheatsheet.alfredworkflow` file in the repo
+7. push changes
+8. go to releases tab in github repo
+9. hit `Draft a new release`
+10. insert `Cheatsheet.alfredworkflow` to selected binaries
+11. update tag to be more than current release
