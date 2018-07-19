@@ -119,6 +119,7 @@ def addApps(items):
     for i in range(0,len(items)):
         item = items[i]
         wf.add_item(item,
+                    uid=item,
                     autocomplete=' '+item,
                     arg=item,
                     valid=True)
