@@ -7,13 +7,15 @@ update_settings = {
 
 import sys
 import os
-from workflow import Workflow, ICON_INFO
+from workflow import Workflow, ICON_INFO, ICON_WARNING
 import cPickle
 
 wf = None
 log = None
 apps = None
 custom = None
+
+nothing_found_error_text = 'Nothing found'
 
 app_icons_dir = os.path.join(
     os.path.dirname(os.path.realpath(__file__)),
@@ -102,7 +104,7 @@ def filter(query, items):
         items
     )
     if (len(matching) == 0):
-        wf.add_item('none found')
+        wf.add_item(nothing_found_error_text, icon=ICON_WARNING)
     else:
         addApps(matching)
 
@@ -152,7 +154,7 @@ def addShortcuts(app, search):
 
         matching = wf.filter(search, opts)
         if (len(matching) == 0):
-            wf.add_item('none found')
+            wf.add_item(nothing_found_error_text, icon=ICON_WARNING)
         else:
             for k in matching:
                 addShortcut(k, actions[k], app, icon_path)
