@@ -68,7 +68,6 @@ Download [workflow file](https://github.com/mutdmour/alfred-workflow-cheatsheet/
 To do
 ------
 - more and better testing
-- app icons
 - merge Sublime and Sublime vintage
 - standarize shortcuts with symbols
 
@@ -76,7 +75,7 @@ To add more apps
 ----------------
 - add it yourself to [custom.json] in your data directory. Open up the cheatsheet and enter the first option to open the directory.
 - to overwrite any default, ^⏎ on any shortcut in the app.
-- to share with everyone, create a PR with the app shortcuts you want to add [/src/shortcuts.py]
+- to share with everyone, create a PR with the app shortcuts you want to add [/src/shortcuts.py]. Please also include the app icon (`src/apps/icons/%APP NAME%.png`).
 - create an issue requesting the tool you want us to add
 
 Steps to release workflow:

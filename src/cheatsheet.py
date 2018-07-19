@@ -6,6 +6,7 @@ update_settings = {
 }
 
 import sys
+import os
 from workflow import Workflow, ICON_INFO
 import cPickle
 
@@ -13,6 +14,11 @@ wf = None
 log = None
 apps = None
 custom = None
+
+app_icons_dir = os.path.join(
+    os.path.dirname(os.path.realpath(__file__)),
+    'apps/icons'
+)
 
 pkl_file = open('default_cheatsheet.pkl', 'rb')
 shortcuts = cPickle.load(pkl_file)
@@ -115,10 +121,18 @@ def getShorcuts(app):
         opts = list(set(opts)|set(custom_app_shortcuts))
     return opts
 
+def getAppIconPath(app):
+    icon_path = os.path.join(app_icons_dir, app + '.png')
+    if not os.path.isfile(icon_path):
+        icon_path = ''
+
+    return icon_path
+
 def addApps(items):
     for i in range(0,len(items)):
         item = items[i]
         wf.add_item(item,
+                    icon=getAppIconPath(item),
                     uid=item,
                     autocomplete=' '+item,
                     arg=item,
@@ -131,6 +145,8 @@ def addShortcuts(app, search):
     if (app in custom):
         actions.update(custom[app])
 
+    icon_path = getAppIconPath(app)
+
     if (search):
         opts = getShorcuts(app)
 
@@ -139,16 +155,18 @@ def addShortcuts(app, search):
             wf.add_item('none found')
         else:
             for k in matching:
-                addShortcut(k,actions[k], app)
+                addShortcut(k, actions[k], app, icon_path)
     else:
         for k in actions:
-            addShortcut(k,actions[k], app)
+            addShortcut(k, actions[k], app, icon_path)
 
-def addShortcut(action, shortcut, app):
+
+def addShortcut(action, shortcut, app, icon_path):
     if (action.strip() and shortcut.strip()):
         wf.add_item(
             action,
             shortcut,
+            icon=icon_path,
             largetext=action,
             copytext=shortcut,
             modifier_subtitles={
