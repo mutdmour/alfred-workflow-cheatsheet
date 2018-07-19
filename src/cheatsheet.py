@@ -133,6 +133,7 @@ def addApps(items):
         item = items[i]
         wf.add_item(item,
                     icon=getAppIconPath(item),
+                    uid=item,
                     autocomplete=' '+item,
                     arg=item,
                     valid=True)
