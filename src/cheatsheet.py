@@ -114,15 +114,6 @@ def getApps():
     custom_apps = custom.keys()
     return list(set(apps)|set(custom_apps))
 
-def getShorcuts(app):
-    opts = []
-    if (app in shortcuts):
-        opts = shortcuts[app].keys()
-    if (app in custom):
-        custom_app_shortcuts = custom[app].keys()
-        opts = list(set(opts)|set(custom_app_shortcuts))
-    return opts
-
 def getAppIconPath(app):
     icon_path = os.path.join(app_icons_dir, app + '.png')
     if not os.path.isfile(icon_path):
@@ -147,20 +138,19 @@ def addShortcuts(app, search):
     if (app in custom):
         actions.update(custom[app])
 
-    icon_path = getAppIconPath(app)
-
-    if (search):
-        opts = getShorcuts(app)
-
-        matching = wf.filter(search, opts)
-        if (len(matching) == 0):
-            wf.add_item(nothing_found_error_text, icon=ICON_WARNING)
-        else:
-            for k in matching:
-                addShortcut(k, actions[k], app, icon_path)
+    actions_pairs = actions.items()
+    if search:
+        actions_pairs_to_show = wf.filter(search, actions_pairs, lambda a: a[0])
     else:
-        for k in actions:
-            addShortcut(k, actions[k], app, icon_path)
+        actions_pairs_to_show = actions_pairs
+
+    if not actions_pairs_to_show:
+        wf.add_item(nothing_found_error_text, icon=ICON_WARNING)
+        return
+
+    icon_path = getAppIconPath(app)
+    for action, shortcut in actions_pairs_to_show:
+        addShortcut(action, shortcut, app, icon_path)
 
 
 def addShortcut(action, shortcut, app, icon_path):
