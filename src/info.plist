@@ -34,6 +34,19 @@
 				<false/>
 			</dict>
 		</array>
+		<key>2E590801-05A0-4265-8987-2E2ECFC949C8</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>EDF72E90-47D6-4C41-AD90-B95E2FB7C1E5</string>
+				<key>modifiers</key>
+				<integer>262144</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
 		<key>4CD04C2A-4956-4EA4-9CEF-7F65287C49DD</key>
 		<array>
 			<dict>
@@ -486,6 +499,53 @@
 			<key>version</key>
 			<integer>1</integer>
 		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>alfredfiltersresults</key>
+				<false/>
+				<key>alfredfiltersresultsmatchmode</key>
+				<integer>0</integer>
+				<key>argumenttrimmode</key>
+				<integer>0</integer>
+				<key>argumenttype</key>
+				<integer>0</integer>
+				<key>escaping</key>
+				<integer>102</integer>
+				<key>keyword</key>
+				<string>cheatsheetg</string>
+				<key>queuedelaycustom</key>
+				<integer>3</integer>
+				<key>queuedelayimmediatelyinitially</key>
+				<true/>
+				<key>queuedelaymode</key>
+				<integer>0</integer>
+				<key>queuemode</key>
+				<integer>1</integer>
+				<key>runningsubtext</key>
+				<string>getting shortcuts</string>
+				<key>script</key>
+				<string>/usr/bin/env python -O cheatsheet.py "{query}" --search-global</string>
+				<key>scriptargtype</key>
+				<integer>0</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>subtext</key>
+				<string>get shortcuts</string>
+				<key>title</key>
+				<string>cheatsheet global</string>
+				<key>type</key>
+				<integer>0</integer>
+				<key>withspace</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.scriptfilter</string>
+			<key>uid</key>
+			<string>2E590801-05A0-4265-8987-2E2ECFC949C8</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
 	</array>
 	<key>readme</key>
 	<string></string>
@@ -511,6 +571,13 @@
 			<integer>170</integer>
 			<key>ypos</key>
 			<integer>50</integer>
+		</dict>
+		<key>2E590801-05A0-4265-8987-2E2ECFC949C8</key>
+		<dict>
+			<key>xpos</key>
+			<integer>10</integer>
+			<key>ypos</key>
+			<integer>310</integer>
 		</dict>
 		<key>42D16115-359D-4EA4-9AF8-0659BFF3F294</key>
 		<dict>

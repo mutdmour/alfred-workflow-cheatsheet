@@ -93,7 +93,18 @@ def run(args):
                         u'Ctrl ⏎',
                         icon=ICON_INFO)
                     action = ""
-                addShortcuts(app, action)
+                if addShortcuts(app, action) == 0:
+                    wf.add_item(nothing_found_error_text, icon=ICON_WARNING)
+    elif (u'--search-global' in args):
+        shortcuts_added = 0
+        for app in apps:
+            shortcuts_added += addShortcuts(app, command, True)
+
+        for app in custom:
+            shortcuts_added += addShortcuts(app, command, True)
+
+        if shortcuts_added == 0:
+            wf.add_item(nothing_found_error_text, icon=ICON_WARNING)
     else:
         filter(command, apps)
 
@@ -131,26 +142,28 @@ def addApps(items):
                     arg=item,
                     valid=True)
 
-def addShortcuts(app, search):
+def addShortcuts(app, search, include_app_in_search=False):
     actions = {}
     if (app in shortcuts):
         actions = shortcuts[app]
     if (app in custom):
         actions.update(custom[app])
 
-    actions_pairs = actions.items()
+    if include_app_in_search:
+        actions_pairs = [(action, shortcut, app + ' ' + action) for action, shortcut in actions.items()]
+    else:
+        actions_pairs = [(action, shortcut, action) for action, shortcut in actions.items()]
+
     if search:
-        actions_pairs_to_show = wf.filter(search, actions_pairs, lambda a: a[0])
+        actions_pairs_to_show = wf.filter(search, actions_pairs, key=lambda a: a[2])
     else:
         actions_pairs_to_show = actions_pairs
 
-    if not actions_pairs_to_show:
-        wf.add_item(nothing_found_error_text, icon=ICON_WARNING)
-        return
-
     icon_path = getAppIconPath(app)
-    for action, shortcut in actions_pairs_to_show:
+    for action, shortcut, _ in actions_pairs_to_show:
         addShortcut(action, shortcut, app, icon_path)
+
+    return len(actions_pairs_to_show)
 
 
 def addShortcut(action, shortcut, app, icon_path):
