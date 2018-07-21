@@ -32,7 +32,7 @@ def main(wf):
     wf.send_feedback()
     log.info('Workflow response complete')
 
-def check_update():
+def checkUpdate():
     if wf.update_available:
     # Add a notification to top of Script Filter results
         wf.add_item('New version available',
@@ -40,7 +40,7 @@ def check_update():
                 autocomplete='workflow:update',
                 icon=ICON_INFO)
 
-def add_edit_custom_info():
+def addEditCustomInfo():
     wf.add_item('Customize your cheatsheet',
             'Edit custom.json to personalize cheatsheet. Edit settings.json to hide apps in search results.',
             arg='opendata',
@@ -53,11 +53,11 @@ def run(args):
     log.info(args)
     log.info("")
 
-    check_update()
+    checkUpdate()
 
     if (not command and not u'--search' in args):
         # if no args list all apps
-        add_edit_custom_info()
+        addEditCustomInfo()
         addApps(apps)
     elif(command == "opendata"):
         wf.open_datadir()
