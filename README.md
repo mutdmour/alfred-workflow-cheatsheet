@@ -34,7 +34,8 @@ Supported
 - Youtube.com
 
 Ready for next release
-------
+----------------------
+- Google Sheets
 
 Requested To add
 ----------------
