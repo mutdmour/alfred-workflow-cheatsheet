@@ -34,29 +34,9 @@ Supported
 - Vintage Sublime
 - Youtube.com
 
-Requested To add
+Request apps to add
 ----------------
-- Airmail
-- Asana
-- Atom
-- Default Folder X
-- Forklift
-- Google Docs
-- Illustrator
-- Keyboard Maestro
-- Microsoft Excel
-- Opera
-- Photoshop
-- Pixelmator
-- Sibelius
-- Sketch
-- Stickies
-- TextExpander
-- Transcribe!
-- VLC
-- VS Code
-- Vimeo
-- Xcode
+If you would like to request an app to add, please comment on this issue [#17](https://github.com/mutdmour/alfred-workflow-cheatsheet/issues/17)
 
 To download
 -----------
