@@ -15,6 +15,7 @@ Supported
 - Firefox
 - Github.com
 - Google Chrome
+- Google Sheets
 - inbox.google.com
 - IntelliJ Idea (default Mac OS X)
 - iTerm2
@@ -32,10 +33,6 @@ Supported
 - Vim
 - Vintage Sublime
 - Youtube.com
-
-Ready for next release
-----------------------
-- Google Sheets
 
 Requested To add
 ----------------
@@ -55,7 +52,6 @@ Requested To add
 - Sketch
 - Stickies
 - TextExpander
-- Things
 - Transcribe!
 - VLC
 - VS Code
