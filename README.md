@@ -82,10 +82,10 @@ To add more apps
 Steps to release workflow:
 ----------------
 1. pull latest changes from master
-2. `python src/shortcuts.py` to update pkl file
+2. `cd src` and `python shortcuts.py` to update pkl file
 3. import plugin into alfred (you can copy and paste the `src/` folder into Alfred.alfredpreferences/workflows)
 4. test workflow with added profiles
-5. right click on workflow in alfred preferences and hit export 
+5. right click on workflow in alfred preferences and hit export
 6. replace the `Cheatsheet.alfredworkflow` file in the repo
 7. push changes
 8. go to releases tab in github repo
