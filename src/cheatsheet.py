@@ -7,13 +7,15 @@ update_settings = {
 
 import sys
 import os
-from workflow import Workflow, ICON_INFO
+from workflow import Workflow, ICON_INFO, ICON_WARNING
 import cPickle
 
 wf = None
 log = None
 apps = None
 custom = None
+
+nothing_found_error_text = 'Nothing found'
 
 app_icons_dir = os.path.join(
     os.path.dirname(os.path.realpath(__file__)),
@@ -91,7 +93,18 @@ def run(args):
                         u'Ctrl ⏎',
                         icon=ICON_INFO)
                     action = ""
-                addShortcuts(app, action)
+                if addShortcuts(app, action) == 0:
+                    wf.add_item(nothing_found_error_text, icon=ICON_WARNING)
+    elif (u'--search-global' in args):
+        shortcuts_added = 0
+        for app in apps:
+            shortcuts_added += addShortcuts(app, command, True)
+
+        for app in custom:
+            shortcuts_added += addShortcuts(app, command, True)
+
+        if shortcuts_added == 0:
+            wf.add_item(nothing_found_error_text, icon=ICON_WARNING)
     else:
         filter(command, apps)
 
@@ -102,7 +115,7 @@ def filter(query, items):
         items
     )
     if (len(matching) == 0):
-        wf.add_item('none found')
+        wf.add_item(nothing_found_error_text, icon=ICON_WARNING)
     else:
         addApps(matching)
 
@@ -118,15 +131,6 @@ def getApps():
         apps = [app for app in apps if app not in wf.settings['hide_apps']]
 
     return apps
-
-def getShorcuts(app):
-    opts = []
-    if (app in shortcuts):
-        opts = shortcuts[app].keys()
-    if (app in custom):
-        custom_app_shortcuts = custom[app].keys()
-        opts = list(set(opts)|set(custom_app_shortcuts))
-    return opts
 
 def getAppIconPath(app):
     icon_path = os.path.join(app_icons_dir, app + '.png')
@@ -145,27 +149,28 @@ def addApps(items):
                     arg=item,
                     valid=True)
 
-def addShortcuts(app, search):
+def addShortcuts(app, search, include_app_in_search=False):
     actions = {}
     if (app in shortcuts):
         actions = shortcuts[app]
     if (app in custom):
         actions.update(custom[app])
 
-    icon_path = getAppIconPath(app)
-
-    if (search):
-        opts = getShorcuts(app)
-
-        matching = wf.filter(search, opts)
-        if (len(matching) == 0):
-            wf.add_item('none found')
-        else:
-            for k in matching:
-                addShortcut(k, actions[k], app, icon_path)
+    if include_app_in_search:
+        actions_pairs = [(action, shortcut, app + ' ' + action) for action, shortcut in actions.items()]
     else:
-        for k in actions:
-            addShortcut(k, actions[k], app, icon_path)
+        actions_pairs = [(action, shortcut, action) for action, shortcut in actions.items()]
+
+    if search:
+        actions_pairs_to_show = wf.filter(search, actions_pairs, key=lambda a: a[2])
+    else:
+        actions_pairs_to_show = actions_pairs
+
+    icon_path = getAppIconPath(app)
+    for action, shortcut, _ in actions_pairs_to_show:
+        addShortcut(action, shortcut, app, icon_path)
+
+    return len(actions_pairs_to_show)
 
 
 def addShortcut(action, shortcut, app, icon_path):
