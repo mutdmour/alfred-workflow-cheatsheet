@@ -40,7 +40,7 @@ def check_update():
 
 def add_edit_custom_info():
     wf.add_item('Customize your cheatsheet',
-            'Edit custom.json file to personalize cheatsheet',
+            'Edit custom.json to personalize cheatsheet. Edit settings.json to hide apps in search results.',
             arg='opendata',
             valid=True,
             icon=ICON_INFO)
@@ -108,9 +108,16 @@ def filter(query, items):
 
 # returns a list of the apps available as shortcuts
 def getApps():
-    apps = shortcuts.keys()
+    built_in_apps = shortcuts.keys()
     custom_apps = custom.keys()
-    return list(set(apps)|set(custom_apps))
+    apps = list(set(built_in_apps) | set(custom_apps))
+
+    if 'show_only_apps' in wf.settings:
+        apps = [app for app in apps if app in wf.settings['show_only_apps']]
+    elif 'hide_apps' in wf.settings:
+        apps = [app for app in apps if app not in wf.settings['hide_apps']]
+
+    return apps
 
 def getShorcuts(app):
     opts = []

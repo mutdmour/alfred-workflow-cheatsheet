@@ -79,6 +79,38 @@ To add more apps
 - to share with everyone, create a PR with the app shortcuts you want to add [/src/shortcuts.py]. Please also include the app icon (`src/apps/icons/%APP NAME%.png`).
 - create an issue requesting the tool you want us to add
 
+To show or hide apps in search results
+----------------
+Open `settings.json` in your data directory.
+To show only some specific apps in the search results list them in `show_only_apps` parameter:
+```json
+{
+  "__workflow_last_version": "1.3.0",
+  "show_only_apps": [
+    "Alfred",
+    "Mac OSX",
+    "Terminal"
+  ]
+}
+```
+All other apps would be hidden then.
+
+
+To hide some apps in the search results list them in `hide_apps` parameter:
+```json
+{
+  "__workflow_last_version": "1.3.0",
+  "hide_apps": [
+    "Microsoft Word",
+    "Video Speed Controller chrome extension"
+  ]
+}
+```
+
+
+
+
+
 Steps to release workflow:
 ----------------
 1. pull latest changes from master
