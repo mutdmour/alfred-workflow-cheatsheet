@@ -20,6 +20,7 @@ Supported
 - IntelliJ Idea (default Mac OS X)
 - iTerm2
 - Mac OSX
+- Microsoft Excel
 - Microsoft Word
 - Outlook
 - Reddit Enhancement Suite
@@ -32,6 +33,7 @@ Supported
 - Video Speed Controller chrome extension
 - Vim
 - Vintage Sublime
+- Visual Studio Code
 - Youtube.com
 
 Request apps to add
