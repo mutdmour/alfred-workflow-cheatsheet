@@ -44,12 +44,6 @@ To download
 -----------
 Download [workflow file](https://github.com/mutdmour/alfred-workflow-cheatsheet/raw/master/Cheatsheet.alfredworkflow)
 
-To do
-------
-- more and better testing
-- merge Sublime and Sublime vintage
-- standarize shortcuts with symbols
-
 To add more apps
 ----------------
 - add it yourself to [custom.json] in your data directory. Open up the cheatsheet and enter the first option to open the directory.
@@ -60,6 +54,9 @@ To add more apps
 To show or hide apps in search results
 ----------------
 Open `settings.json` in your data directory.
+
+To find your `settings.json` file, open cheatsheet in Alfred and look for `customize your cheatsheet`. Open that and that should open the folder with your `settings.json` file.
+
 To show only some specific apps in the search results list them in `show_only_apps` parameter:
 ```json
 {
@@ -84,22 +81,3 @@ To hide some apps in the search results list them in `hide_apps` parameter:
   ]
 }
 ```
-
-
-
-
-
-Steps to release workflow:
-----------------
-1. pull latest changes from master
-2. `cd src` and `python shortcuts.py` to update pkl file
-3. import plugin into alfred (you can copy and paste the `src/` folder into Alfred.alfredpreferences/workflows)
-4. test workflow with added features
-5. right click on workflow in alfred preferences and hit export
-6. replace the `Cheatsheet.alfredworkflow` file in the repo (keeps download url in readme updated)
-7. update `src/version` file with upcoming version
-7. push changes
-8. go to releases tab in github repo
-9. hit `Draft a new release`
-10. insert `Cheatsheet.alfredworkflow` to selected binaries
-11. update tag to be more than current release
