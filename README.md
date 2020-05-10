@@ -12,6 +12,7 @@ Or create an issue if you cannot find an answer.
 
 Supported
 ---------
+- Airmail
 - Alfred
 - AutoMute Chrome extension
 - Evernote
@@ -94,7 +95,7 @@ To hide some apps in the search results list them in `hide_apps` parameter:
 To find your settings.json or custom.json file
 ----------------
 
-Open cheatsheet in Alfred and look for `customize your cheatsheet`. 
+Open cheatsheet in Alfred and look for `customize your cheatsheet`.
 Open that and that should open the folder with your `settings.json` and `custom.json` file.
 
 ![Screenshot](media/cheatsheet-customize.png)
