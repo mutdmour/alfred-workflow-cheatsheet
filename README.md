@@ -16,6 +16,7 @@ Supported
 - Alfred
 - Asana
 - AutoMute Chrome extension
+- Default Folder X
 - Evernote
 - Finder
 - Firefox
