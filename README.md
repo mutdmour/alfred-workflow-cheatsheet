@@ -14,6 +14,7 @@ Supported
 ---------
 - Airmail
 - Alfred
+- Asana
 - AutoMute Chrome extension
 - Evernote
 - Finder
