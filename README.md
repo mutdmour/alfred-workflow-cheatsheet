@@ -20,6 +20,7 @@ Supported
 - Evernote
 - Finder
 - Firefox
+- Forklift 3
 - Github.com
 - Google Chrome
 - Google Sheets
