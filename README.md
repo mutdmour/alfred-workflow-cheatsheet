@@ -23,6 +23,7 @@ Supported
 - Forklift 3
 - Github.com
 - Google Chrome
+- Google Docs
 - Google Sheets
 - inbox.google.com
 - IntelliJ Idea (default Mac OS X)
