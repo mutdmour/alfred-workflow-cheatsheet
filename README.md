@@ -12,6 +12,7 @@ Or create an issue if you cannot find an answer.
 
 Supported
 ---------
+- Adobe Illustrator
 - Airmail
 - Alfred
 - Asana
