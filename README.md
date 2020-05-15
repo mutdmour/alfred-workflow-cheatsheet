@@ -29,6 +29,7 @@ Supported
 - inbox.google.com
 - IntelliJ Idea (default Mac OS X)
 - iTerm2
+- Jira
 - Mac OSX
 - Microsoft Excel
 - Microsoft Word
