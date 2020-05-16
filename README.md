@@ -45,6 +45,7 @@ Supported
 - Vim
 - Vintage Sublime
 - Visual Studio Code
+- XCode
 - Youtube.com
 
 Request apps to add
