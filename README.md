@@ -34,6 +34,7 @@ Supported
 - Microsoft Excel
 - Microsoft Word
 - Outlook
+- Photoshop
 - Reddit Enhancement Suite
 - Safari
 - Slack
