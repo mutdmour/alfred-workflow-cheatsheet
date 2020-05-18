@@ -37,6 +37,7 @@ Supported
 - Reddit Enhancement Suite
 - Safari
 - Slack
+- Spotify
 - Sublime Text
 - Terminal
 - Trello.com
