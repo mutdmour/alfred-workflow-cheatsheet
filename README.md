@@ -43,6 +43,7 @@ Supported
 - Things
 - Video Speed Controller chrome extension
 - Vim
+- Vimeo
 - Vintage Sublime
 - Visual Studio Code
 - XCode
