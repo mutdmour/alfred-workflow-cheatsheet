@@ -9893,3114 +9893,3114 @@ sVChat/compose - Numbered list
 p4847
 V\u2318\u21e77
 p4848
-ssVVintage Sublime
+ssVAdobe Photoshop
 p4849
 (dp4850
-Vjump forwards to the end of a word (words can contain punctuation)
-p4851
-VE
-sVappend (open) a new line below the current line
-p4852
-Vo
-sVright
-p4853
-Vl
-sVMove back to end of word
-p4854
-V\u2303\u2190
-p4855
-sVappend (open) a new line above the current line
-p4856
-VO
-sVchange (replace) to the end of the line
-p4857
-Vc$
-p4858
-sVMove to beginning of file
-p4859
-V\u2318\u2191
-p4860
-sVdown
-p4861
-Vj
-sVrepeat last command
-p4862
-V.
-sVinsert at the beginning of the line
-p4863
-VI
-sVchange (replace) to the end of the word
-p4864
-Vcw
-p4865
-sVMove back to beginning of word
-p4866
-V\u2325\u2190
-p4867
-sVredo
-p4868
-V\u2303r
-p4869
-sVMove cursor to first non-white space char
-p4870
-V\u2318left
-p4871
-sVchange (replace) entire line
-p4872
-Vcc
-p4873
-sVjump forwards to the start of a word
-p4874
-Vw
-sVExit insert mode
-p4875
-V\u2303c or Esc
-p4876
-sVinsert before the cursor
-p4877
-Vi
-sVMove forward to end of word
-p4878
-V\u2303\u2192
-p4879
-sVMove cursor to end of line
-p4880
-V\u2318right
-p4881
-sVinsert (append) at the end of the line
-p4882
-VA
-sVinsert (append) after the cursor
-p4883
-Va
-sVpage up
-p4884
-V\u2303\u2191
-p4885
-sVundo
-p4886
-Vu
-sVjump forwards to the end of a word
-p4887
-Ve
-sVMove forward to beginning of word
-p4888
-V\u2325\u2192
-p4889
-sVVi Cancel current action
-p4890
-V\u2303c
-p4891
-sVdelete line and substitute text (same as cc)
-p4892
-VS
-sVpage down
-p4893
-V\u2303\u2193
-p4894
-sVdelete character and substitute text
-p4895
-Vs
-sVreplace a single character
-p4896
-Vr
-sVup
-p4897
-Vk
-sVjump forwards to the start of a word (words can contain punctuation)
-p4898
-VW
-sVMove to end of file
-p4899
-V\u2318\u2193
-p4900
-sVExit visual mode
-p4901
-V\u2303c or Esc
-p4902
-sVleft
-p4903
-Vh
-ssVGoogle Sheets
-p4904
-(dp4905
-VAdd-ons menu
-p4906
-VCtrl + Option + n
-p4907
-sVInsert date
-p4908
-V\u2318 + ;
-p4909
-sVBold
-p4910
-V\u2318 + b
-p4911
-sVGroup rows or columns
-p4912
-VOption + Shift + Right arrow
-p4913
-sVUndo
-p4914
-V\u2318 + z
-p4915
-sVSheet menu (copy, delete, and other sheet actions)
-p4916
-VOption + Shift + s
-p4917
-sVFormat as exponent
-p4918
-VCtrl + Shift + 6
-p4919
-sVApply top border
-p4920
-VOption + Shift + 1
-p4921
-sVShow/hide formula help (when entering a formula)
-p4922
-VShift + Fn + F1
-p4923
-sVFormat as percentage
-p4924
-VCtrl + Shift + 5
-p4925
-sVMove to quicksum (when a range of cells is selected)
-p4926
-VOption + Shift + q
-p4927
-sVToggle formula result previews (when entering a formula)
-p4928
-VFn + F9
-p4929
-sVDisplay list of sheets
-p4930
-VOption + Shift + k
-p4931
-sVInput tools on/off
-p4932
-V\u2318 + Shift + k
-p4933
-sVFormat as currency
-p4934
-VCtrl + Shift + 4
-p4935
-sVAbsolute/relative references (when entering a formula)
-p4936
-VFn + F4
-p4937
-sVExpand grouped rows or columns
-p4938
-VOption + Shift + Down arrow
-p4939
-sVTools menu
-p4940
-VCtrl + Option + t
-p4941
-sVFill down
-p4942
-V\u2318 + d
-p4943
-sVFind
-p4944
-V\u2318 + f
-p4945
-sVHide column
-p4946
-V\u2318 + Option + 0
-p4947
-sVEnter current comment
-p4948
-Vholding Ctrl + \u2318, press e then c
-p4949
-sVScroll to active cell
-p4950
-V\u2318 + Backspace
-p4951
-sVItalic
-p4952
-V\u2318 + i
-p4953
-sVPrint
-p4954
-V\u2318 + p
-p4955
-sVInsert link
-p4956
-V\u2318 + k
-p4957
-sVSave
-p4958
-V\u2318 + s
-p4959
-sVCollapse an expanded array formula
-p4960
-V\u2318 + e
-p4961
-sVFormat as decimal
-p4962
-VCtrl + Shift + 1
-p4963
-sVMove focus out of spreadsheet
-p4964
-VCtrl + \u2318 + Shift + m
-p4965
-sVFormat as time
-p4966
-VCtrl + Shift + 2
-p4967
-sVSelect all
-p4968
-V\u2318 + a or \u2318 + Shift + Space
-p4969
-sVHide row
-p4970
-V\u2318 + Option + 9
-p4971
-sVCenter align
-p4972
-V\u2318 + Shift + e
-p4973
-sVAccessibility menu
-p4974
-VCtrl + Option + a
-p4975
-sVEdit menu
-p4976
-VCtrl + Option + e
-p4977
-sVApply left border
-p4978
-VOption + Shift + 4
-p4979
-sVOpen revision history
-p4980
-V\u2318 + Option + Shift + h
-p4981
-sVRemove borders
-p4982
-VOption + Shift + 6
-p4983
-sVPaste values only
-p4984
-V\u2318 + Shift + v
-p4985
-sVMove to next comment
-p4986
-Vholding Ctrl + \u2318, press n then c
-p4987
-sVRedo
-p4988
-V\u2318 + y or \u2318 + Shift + z or Fn + F4
-p4989
-sVOpen delete menu
-p4990
-V\u2318 + Option + - (with cells selected)
-p4991
-sVFull/compact formula help (when entering a formula)
-p4992
-VFn + F1
-p4993
-sVMove to previous sheet
-p4994
-V\u2318 + Shift + Fn + Up arrow
-p4995
-sVData menu
-p4996
-VCtrl + Option + d
-p4997
-sVFind and replace
-p4998
-V\u2318 + Shift + h
-p4999
-sVMove to end of row
-p5000
-VFn + Right arrow
-p5001
-sVCut
-p5002
-V\u2318 + x
-p5003
-sVContext menu
-p5004
-V\u2318 + Shift + \u005c
-p5005
-sVDelete rows
-p5006
-V\u2318 + Option + - (with rows selected) OR Ctrl + Option + e, then d
-p5007
-sVCollapse grouped rows or columns
-p5008
-VOption + Shift + Up arrow
-p5009
-sVApply right border
-p5010
-VOption + Shift + 2
-p5011
-sVSelect row
-p5012
-VShift + Space
-p5013
-sVRight align
-p5014
-V\u2318 + Shift + r
-p5015
-sVFill right
-p5016
-V\u2318 + r
-p5017
-sVOpen insert menu
-p5018
-V\u2318 + Option + = (with cells selected)
-p5019
-sVResize formula bar (move up or down)
-p5020
-VCtrl + Option + Up and Ctrl + Option + Down
-p5021
-sVRead row
-p5022
-V\u2318 + Option + Shift + r
-p5023
-sVFormat menu
-p5024
-VCtrl + Option + o
-p5025
-sVInsert rows above
-p5026
-V\u2318 + Option + = (with rows selected) OR Ctrl + Option + i, then r
-p5027
-sVFormat as date
-p5028
-VCtrl + Shift + 3
-p5029
-sVClear formatting
-p5030
-V\u2318 + \u005c
-p5031
-sVInsert date and time
-p5032
-V\u2318 + Option + Shift + ;
-p5033
-sVInsert rows below
-p5034
-VCtrl + Option + i, then b
-p5035
-sVOpen drop-down menu on filtered cell
-p5036
-VCtrl + \u2318 + r
-p5037
-sVFill range
-p5038
-V\u2318 + Enter
-p5039
-sVUngroup rows or columns
-p5040
-VOption + Shift + Left arrow
-p5041
-sVHelp menu
-p5042
-VCtrl + Option + h
-p5043
-sVView menu
-p5044
-VCtrl + Option + v
-p5045
-sVMove focus to popup (for links, bookmarks, and images)
-p5046
-Vholding Ctrl + \u2318, press e then p
-p5047
-sVMove to beginning of row
-p5048
-VFn + Left arrow
-p5049
-sVStrikethrough
-p5050
-VOption + Shift + 5
-p5051
-sVApply outer border
-p5052
-VOption + Shift + 7 or \u2318 + Shift + 7
-p5053
-sVDelete columns
-p5054
-V\u2318 + Option + - (with columns selected) OR Ctrl + Option + e, then e
-p5055
-sVOpen
-p5056
-V\u2318 + o
-p5057
-sVInsert/edit comment
-p5058
-V\u2318 + Option + m
-p5059
-sVRead column
-p5060
-V\u2318 + Option + Shift + c
-p5061
-sVInsert array formula
-p5062
-V\u2318 + Shift + Enter
-p5063
-sVInsert time
-p5064
-V\u2318 + Shift + ;
-p5065
-sVCompact controls
-p5066
-VCtrl + Shift + f
-p5067
-sVInsert/edit note
-p5068
-VShift + F2
-p5069
-sVSelect column
-p5070
-VCtrl + Space
-p5071
-sVFile menu
-p5072
-VCtrl + Option + f
-p5073
-sVOpen hyperlink
-p5074
-VOption + Enter
-p5075
-sVInsert columns to the left
-p5076
-V\u2318 + Option + = (with columns selected) OR Ctrl + Option + i, then c
-p5077
-sVMove to next sheet
-p5078
-V\u2318 + Shift + Fn + Down arrow
-p5079
-sVOpen Explore
-p5080
-VOption + Shift + x
-p5081
-sVLeft align
-p5082
-V\u2318 + Shift + l
-p5083
-sVApply bottom border
-p5084
-VOption + Shift + 3
-p5085
-sVClose drawing editor
-p5086
-V\u2318 + Esc or Shift + Esc
-p5087
-sVCopy
-p5088
-V\u2318 + c
-p5089
-sVPaste
-p5090
-V\u2318 + v
-p5091
-sVOpen chat inside the spreadsheet
-p5092
-VShift + Esc
-p5093
-sVMove to end of sheet
-p5094
-V\u2318 + Fn + Right arrow
-p5095
-sVForm menu
-p5096
-VCtrl + Option + m
-p5097
-sVInsert menu
-p5098
-VCtrl + Option + i
-p5099
-sVMove to previous comment
-p5100
-Vholding Ctrl + \u2318, press p then c
-p5101
-sVSelect input tools
-p5102
-V\u2318 + Option + Shift + k
-p5103
-sVShow common keyboard shortcuts
-p5104
-V\u2318 + /
-p5105
-sVInsert columns to the right
-p5106
-VCtrl + Option + i, then o
-p5107
-sVTurn on screen reader support
-p5108
-V\u2318 + Option + z
-p5109
-sVMove to beginning of sheet
-p5110
-V\u2318 + Fn + Left arrow
-p5111
-sVOpen comment discussion thread
-p5112
-V\u2318 + Option + Shift + a
-p5113
-sVUnderline
-p5114
-V\u2318 + u
-p5115
-sVShow all formulas
-p5116
-VCtrl + ~
-p5117
-ssVGoogle Docs
-p5118
-(dp5119
-VMove to previous misspelling
-p5120
-V\u2318 + ;
-p5121
-sVCopy text formatting
-p5122
-V\u2318\u2325c
-p5123
-sVSelect paragraph
-p5124
-VTriple-click
-p5125
-sVMove to next media (image or drawing)
-p5126
-Vholding Ctrl + \u2318, press n then g
-p5127
-sVExtend selection to the beginning of the document
-p5128
-V\u2318\u21e7\u2191
-p5129
-sVPaste text formatting
-p5130
-V\u2318\u2325v
-p5131
-sVRotate clockwise by 1°
-p5132
-V\u2325\u21e7\u2192
-p5133
-sVBold
-p5134
-V\u2318b
-p5135
-sVMove to previous heading
-p5136
-Vholding Ctrl + \u2318, press p then h
-p5137
-sVOpen Explore tool
-p5138
-V\u2318 + Option + Shift + i
-p5139
-sVUndo
-p5140
-V\u2318z
-p5141
-sVExtend selection to the end of the line
-p5142
-V\u21e7Fn\u2192
-p5143
-sVMove paragraph up/down
-p5144
-VCtrl \u21e7\u2191 or Ctrl \u21e7\u2193
-p5145
-sVMove to next formatting change
-p5146
-Vholding Ctrl + \u2318, press n then w
-p5147
-sVMove to the previous table row
-p5148
-Vholding Ctrl + \u2318 + Shift, press t then g
-p5149
-sVMove to the start of the table row
-p5150
-Vholding Ctrl + \u2318 + Shift, press t then j
-p5151
-sVMove to current footnote
-p5152
-Vholding Ctrl \u2318, press e then f
-p5153
-sVMove to the end of the table
-p5154
-Vholding Ctrl + \u2318 + Shift, press t then d
-p5155
-sVInsert comment
-p5156
-V\u2318\u2325m
-p5157
-sVClose drawing editor
-p5158
-V\u2318Esc or \u21e7Esc
-p5159
-sVMove to next bookmark
-p5160
-Vholding Ctrl + \u2318, press n then b
-p5161
-sVAlt text
-p5162
-V\u2318\u2325y
-p5163
-sVFind previous
-p5164
-V\u2318\u21e7g
-p5165
-sVToggle input controls
-p5166
-V\u2318\u21e7k
-p5167
-sVResize larger
-p5168
-V\u2318Ctrl k
-p5169
-sVResize smaller horizontally
-p5170
-V\u2318Ctrl w
-p5171
-sVRotate counterclockwise by 15°
-p5172
-V\u2325\u2190
-p5173
-sVOpen link
-p5174
-V\u2325\u23ce
-p5175
-sVMove to next link
-p5176
-Vholding Ctrl + \u2318, press n then l
-p5177
-sVTools menu
-p5178
-VCtrl \u2325t
-p5179
-sVFind
-p5180
-V\u2318f
-p5181
-sVInput tools menu
-p5182
-V\u2318\u2325\u21e7k
-p5183
-sVApply normal text style
-p5184
-V\u2318\u23250
-p5185
-sVEnter current comment
-p5186
-VCtrl \u23ce
-p5187
-sVMove to previous footnote
-p5188
-Vholding Ctrl \u2318, press p then f
-p5189
-sVPrint
-p5190
-V\u2318p
-p5191
-sVSubscript
-p5192
-V\u2318,
-p5193
-sVInsert or move to footer
-p5194
-Vholding Ctrl + \u2318, press o then f
-p5195
-sVMove to previous link
-p5196
-Vholding Ctrl + \u2318, press p then l
-p5197
-sVMove to previous bookmark
-p5198
-Vholding Ctrl + \u2318, press p then b
-p5199
-sVContext (right-click) menu
-p5200
-V\u2318\u21e7\u005c
-p5201
-sVNumbered list
-p5202
-V\u2318\u21e77
-p5203
-sVSelect all
-p5204
-V\u2318a
-p5205
-sVRotate clockwise by 15°
-p5206
-V\u2325\u2192
-p5207
-sVShow document outline
-p5208
-Vholding Ctrl + \u2318, press a then h
-p5209
-sVCenter align
-p5210
-V\u2318\u21e7e
-p5211
-sVResize smaller vertically
-p5212
-V\u2318Ctrl q
-p5213
-sVAccessibility menu
-p5214
-VCtrl \u2325a
-p5215
-sVPage down
-p5216
-VFn + Down arrow
-p5217
-sVInsert or move to header
-p5218
-Vholding Ctrl + \u2318, press o then h
-p5219
-sVMove to the start of the table column
-p5220
-Vholding Ctrl + \u2318 + Shift, press t then i
-p5221
-sVEdit menu
-p5222
-VCtrl \u2325e
-p5223
-sVReturn focus to document text
-p5224
-VEsc
-p5225
-sVOpen revision history
-p5226
-V\u2318 + Option + Shift + h
-p5227
-sVMove to previous heading [1-6]
-p5228
-Vholding Ctrl + \u2318, press p then [1-6]
-p5229
-sVFind again
-p5230
-V\u2318g
-p5231
-sVShow your browser's context menu
-p5232
-V\u21e7 right-click
-p5233
-sVJustify
-p5234
-V\u2318\u21e7j
-p5235
-sVMove to next item in the current list
-p5236
-Vholding Ctrl + \u2318, press n then i
-p5237
-sVBulleted list
-p5238
-V\u2318\u21e78
-p5239
-sVSelect all list items at current level
-p5240
-Vholding Ctrl \u2318\u21e7, press e then o
-p5241
-sVOpen
-p5242
-V\u2318o
-p5243
-sVOpen dictionary
-p5244
-V\u2318 + Shift + y
-p5245
-sVDecrease paragraph indentation
-p5246
-V\u2318[
-p5247
-sVMove to the start of the table
-p5248
-Vholding Ctrl + \u2318 + Shift, press t then s
-p5249
-sVMove to previous formatting change
-p5250
-Vholding Ctrl + \u2318, press p then w
-p5251
-sVMove to the previous table
-p5252
-Vholding Ctrl + \u2318 + Shift, press p then t
-p5253
-sVFind and replace
-p5254
-V\u2318\u21e7h
-p5255
-sVCut
-p5256
-V\u2318x
-p5257
-sVApply heading style [1-6]
-p5258
-V\u2318\u2325[1-6]
-p5259
-sVRepeat last action
-p5260
-V\u2318y
-p5261
-sVMove to next heading
-p5262
-Vholding Ctrl + \u2318, press n then h
-p5263
-sVMove to the next table column
-p5264
-Vholding Ctrl + \u2318 + Shift, press t then b
-p5265
-sVRight align
-p5266
-V\u2318\u21e7r
-p5267
-sVPaste without formatting
-p5268
-V\u2318\u21e7v
-p5269
-sVDecrease font size
-p5270
-V\u2318\u21e7<
-p5271
-sVFormat menu
-p5272
-VCtrl \u2325o
-p5273
-sVExtend selection one word at a time
-p5274
-VDouble-click + drag
-p5275
-sVExtend selection one character
-p5276
-V\u21e7\u2190 or \u21e7\u2192
-p5277
-sVIncrease paragraph indentation
-p5278
-V\u2318]
-p5279
-sVSuperscript
-p5280
-V\u2318.
-p5281
-sVItalicize
-p5282
-V\u2318i
-p5283
-sVGo to side panel
-p5284
-V\u2318 + Option + . or \u2318 + Option + ,
-p5285
-sVMove to the next table
-p5286
-Vholding Ctrl + \u2318 + Shift, press n then t
-p5287
-sVShow common keyboard shortcuts
-p5288
-V\u2318/
-p5289
-sVExtend selection one paragraph at a time
-p5290
-VTriple-click + drag
-p5291
-sVSelect word
-p5292
-VDouble-click
-p5293
-sVClear text formatting
-p5294
-V\u2318\u005c
-p5295
-sVIncrease font size
-p5296
-V\u2318\u21e7>
-p5297
-sVExtend selection one paragraph
-p5298
-V\u2325\u21e7\u2191 or \u2325\u21e7\u2193
-p5299
-sVHelp menu
-p5300
-VCtrl \u2325h
-p5301
-sVView menu
-p5302
-VCtrl \u2325v
-p5303
-sVExit table
-p5304
-Vholding Ctrl + \u2318 + Shift, press t then e
-p5305
-sVStrikethrough
-p5306
-V\u2318\u21e7x
-p5307
-sVSelect current list item
-p5308
-Vholding Ctrl \u2318\u21e7, press e then i
-p5309
-sVResize larger horizontally
-p5310
-V\u2318Ctrl b
-p5311
-sVMove to the previous edit (while viewing revision history or new changes)
-p5312
-Vholding Ctrl + \u2318, press p then r
-p5313
-sVRedo
-p5314
-V\u2318\u21e7z
-p5315
-sVMove to next misspelling
-p5316
-V\u2318 + '
-p5317
-sVResize larger vertically
-p5318
-V\u2318Ctrl i
-p5319
-sVMove to previous media (image or drawing)
-p5320
-Vholding Ctrl + \u2318, press p then g
-p5321
-sVMove to the next table row
-p5322
-Vholding Ctrl + \u2318 + Shift, press t then m
-p5323
-sVMove focus to popup (for links, bookmarks, and images)
-p5324
-Vholding Ctrl + \u2318, press e then p
-p5325
-sVMove to previous list
-p5326
-Vholding Ctrl + \u2318, press p then o
-p5327
-sVHide the menus (compact mode)
-p5328
-VCtrl \u21e7f
-p5329
-sVExtend selection one line
-p5330
-V\u21e7\u2191 or \u21e7\u2193
-p5331
-sVFile menu
-p5332
-VCtrl \u2325f
-p5333
-sVExtend selection to the beginning of the line
-p5334
-V\u21e7Fn\u2190
-p5335
-sVMove to the previous table column
-p5336
-Vholding Ctrl + \u2318 + Shift, press t then v
-p5337
-sVInsert page break
-p5338
-V\u2318\u23ce
-p5339
-sVPage up
-p5340
-VFn + Up arrow
-p5341
-sVStart voice typing (in Chrome)
-p5342
-V\u2318 + Shift + s
-p5343
-sVLeft align
-p5344
-V\u2318\u21e7l
-p5345
-sVInsert or edit link
-p5346
-V\u2318k
-p5347
-sVMove to the next edit (while viewing revision history or new changes)
-p5348
-Vholding Ctrl + \u2318, press n then r
-p5349
-sVCopy
-p5350
-V\u2318c
-p5351
-sVPaste
-p5352
-V\u2318v
-p5353
-sVInsert footnote
-p5354
-V\u2318\u2325f
-p5355
-sVMove to next heading [1-6]
-p5356
-Vholding Ctrl + \u2318, press n then [1-6]
-p5357
-sVWord count
-p5358
-V\u2318 + Shift + c
-p5359
-sVMove to the end of the table row
-p5360
-Vholding Ctrl + \u2318 + Shift, press t then l
-p5361
-sVExtend selection to the end of the document
-p5362
-V\u2318\u21e7\u2193
-p5363
-sVInsert menu
-p5364
-VCtrl \u2325i
-p5365
-sVResize smaller
-p5366
-V\u2318Ctrl j
-p5367
-sVEvery change is automatically saved in Drive
-p5368
-V\u2318s
-p5369
-sVSearch the menus
-p5370
-V\u2325/ or Ctrl \u2325z
-p5371
-sVMove to next footnote
-p5372
-Vholding Ctrl \u2318, press n then f
-p5373
-sVRotate counterclockwise by 1°
-p5374
-V\u2325\u21e7\u2190
-p5375
-sVMove to next list
-p5376
-Vholding Ctrl + \u2318, press n then o
-p5377
-sVMove focus out of document text
-p5378
-V\u2318 + Option + Shift + m
-p5379
-sVOpen discussion thread
-p5380
-V\u2318\u2325\u21e7a
-p5381
-sVOpen spelling/grammar
-p5382
-V\u2318 + Option + x or Fn + F7
-p5383
-sVUnderline
-p5384
-V\u2318u
-p5385
-sVMove to previous item in the current list
-p5386
-Vholding Ctrl + \u2318, press p then i
-p5387
-sVMove to the end of the table column
-p5388
-Vholding Ctrl + \u2318 + Shift, press t then k
-p5389
-ssVJira
-p5390
-(dp5391
-VAssign Issue
-p5392
-Va
-sVView Issue
-p5393
-Vo
-sVProjector Mode
-p5394
-Vz
-sVHide/Show Left Section
-p5395
-V[
-sVCancel changes
-p5396
-VEsc
-p5397
-sVOpens the Administration Search dialog box.
-p5398
-Vg then g
-p5399
-sVSend to Top
-p5400
-Vs + t
-p5401
-sVView selected Issue
-p5402
-Vo or Enter
-p5403
-sVGo to Issue Navigator
-p5404
-Vg then i
-p5405
-sVAgile drop-down menu
-p5406
-VCtrl (+ alt for Safari) + g
-p5407
-sVPrevious Activity
-p5408
-Vp
-sVCreate an Issue
-p5409
-Vc
-sVExpand/Collapse All Swimlanes
-p5410
-Vt
-sVAssign to Me
-p5411
-Vi
-sVBack to the Navigator
-p5412
-Vu
-sVComment on Issue
-p5413
-Vm
-sVProjects drop-down menu
-p5414
-VCtrl (+ alt for Safari) + p
-p5415
-sVSubmit changes
-p5416
-VEnter
-p5417
-sVAdd a New Line
-p5418
-VEnter
-p5419
-sVEdit Issue
-p5420
-Ve
-sVFocus search field
-p5421
-Vf
-sVOperations dialog box
-p5422
-V.
-sVEscape field
-p5423
-VEsc
-p5424
-sVGo to Dashboard
-p5425
-Vg then d
-p5426
-sVQuick Search
-p5427
-V/
-sVCancel Form
-p5428
-VCtrl (+ alt for Safari) + `
-p5429
-sVPrevious Issue
-p5430
-Vk
-sVDashboards drop-down menu
-p5431
-VCtrl (+ alt for Safari) + d
-p5432
-sVEdit Issue Labels
-p5433
-Vl
-sVNext Column
-p5434
-Vn
-sVOpen shortcut help
-p5435
-V?
-sVPrevious Column
-p5436
-Vp
-sVNext Activity
-p5437
-Vn
-sVIssues drop-down menu
-p5438
-VCtrl (+ alt for Safari) + i
-p5439
-sVForm Submit
-p5440
-VCtrl (+ alt for Safari) + s
-p5441
-sVShare Issue
-p5442
-Vs
-sVSend to Bottom
-p5443
-Vs + b
-p5444
-sVNext Issue
-p5445
-Vj
-sVGo to Agile
-p5446
-Vg then a OR g then h
-p5447
-sVBrowse to a Project
-p5448
-Vg then p
-p5449
-ssVPhotoshop
-p5450
-(dp5451
 VCycle through hidden tools
-p5452
+p4851
 VOption-click + tool (except Add Anchor Point, Delete Anchor Point, and Convert Point tools)
-p5453
+p4852
 sVIncrease Brush Hardness
-p5454
+p4853
 V}
 sVConstrain shape and draw marquee from center
-p5455
+p4854
 VShift + Option-drag
-p5456
+p4855
 sVChange Cancel to Reset
-p5457
+p4856
 VOption
-p5458
+p4857
 sVGo to first tile in Tile History
-p5459
+p4858
 VHome
-p5460
+p4859
 sVLoad channel as selection
-p5461
+p4860
 VCommand-click channel thumbnail, or Option + Command + 3 (red), 4 (green), 5 (blue)
-p5462
+p4861
 sVConstrain selection to a 15° rotation
-p5463
+p4862
 VOption + Shift to rotate
-p5464
+p4863
 sVMove text box while creating text box
-p5465
+p4864
 VSpacebar-drag
-p5466
+p4865
 sVFill a selection with image under the pointer
-p5467
+p4866
 VCommand-drag
-p5468
+p4867
 sVCreate a new text layer, when a text layer is selected in the Layers panel
-p5469
+p4868
 VShift-click
-p5470
+p4869
 sVSwitch to Move tool
-p5471
+p4870
 VCommand (except when Hand, Slice, Path, Shape, or any Pen tool is selected)
-p5472
+p4871
 sVAdd point to curve in Curves panel
-p5473
+p4872
 VCommand-click in preview
-p5474
+p4873
 sVDetail panel
-p5475
+p4874
 VCommand + Option + 3
-p5476
+p4875
 sVHide layer effect/style
-p5477
+p4876
 VOption-double-click layer effect/style
-p5478
+p4877
 sVSet blending mode to Threshold for bitmap images, Normal for all other images
-p5479
+p4878
 VShift + Option + N
-p5480
+p4879
 sVEdge Highlighter tool
-p5481
+p4880
 VB
 sVAdd to layer selection in Layers panel
-p5482
+p4881
 VShift + Option + [ or ]
-p5483
+p4882
 sVContent-Aware Move tool
-p5484
+p4883
 VJ
 sVToggle single/every-line composer on/off
-p5485
+p4884
 VCommand + Shift + Option + T
-p5486
+p4885
 sVClose path with straight-line segment
-p5487
+p4886
 VMagnetic Pen tool + Option-double-click
-p5488
+p4887
 sVColor Dodge
-p5489
+p4888
 VShift + Option + D
-p5490
+p4889
 sVEdit layer effect/style, options
-p5491
+p4890
 VDouble-click layer effect/style
-p5492
+p4891
 sVRename in-line
-p5493
+p4892
 VDouble-click layer comp name
-p5494
+p4893
 sVIncrease/decrease detection width
-p5495
+p4894
 VMagnetic Lasso tool + [ or ]
-p5496
+p4895
 sVGroup layers
-p5497
+p4896
 VCommand + G
-p5498
+p4897
 sVSelect/deselect multiple contiguous layer comps
-p5499
+p4898
 VShift-click
-p5500
+p4899
 sVSelect entire path
-p5501
+p4900
 VDirect selection tool + Option-click
-p5502
+p4901
 sVDelete swatch
-p5503
+p4902
 VOption-click swatch
-p5504
+p4903
 sVCreate new layer comp without the New Layer Comp box
-p5505
+p4904
 VOption-click Create New Layer Comp button
-p5506
+p4905
 sVGrayscale Mix Targeted Adjustment tool
-p5507
+p4906
 VCommand + Option + Shift + G
-p5508
+p4907
 sVBehind (Brush tool only)
-p5509
+p4908
 VShift + Option + Q
-p5510
+p4909
 sVCreate new layer below target layer
-p5511
+p4910
 VCommand-click New Layer button
-p5512
+p4911
 sVMerge layers
-p5513
+p4912
 VHighlight the layers you want to merge, then Command + E
-p5514
+p4913
 sVGo to next tile in Tile History
-p5515
+p4914
 VRight Arrow, Page Down
-p5516
+p4915
 sVTemporarily switch from Add to Erase mode for theAdjustment Brush tool, or from Erase to Add mode
-p5517
+p4916
 VOption
-p5518
+p4917
 sVSelect 1 character left/right or 1 line down/up, or 1 word left/right
-p5519
+p4918
 VShift + Left Arrow/Right Arrow or Down Arrow/Up Arrow, or Command + Shift + Left Arrow/Right Arrow
-p5520
+p4919
 sVLuminance Targeted Adjustment tool
-p5521
+p4920
 VCommand + Option + Shift + L
-p5522
+p4921
 sVAdd opacity when Cleanup tool is selected
-p5523
+p4922
 VOption-drag
-p5524
+p4923
 sVFill from history
-p5525
+p4924
 VCommand + Option + Delete
-p5526
+p4925
 sVHorizontal Type tool / Vertical Type tool / Horizontal Type mask tool / Vertical Type mask tool
-p5527
+p4926
 VT
 sVToggle pins for Adjustment Brush tool
-p5528
+p4927
 VV
 sVIncrease/decrease brush size
-p5529
+p4928
 V] / [
-p5530
+p4929
 sVCamera Raw preferences
-p5531
+p4930
 VCommand + K
-p5532
+p4931
 sVShow/Hide selection on selected type
-p5533
+p4932
 VCommand + H
-p5534
+p4933
 sVCreate a new snapshot
-p5535
+p4934
 VOption + New Snapshot
-p5536
+p4935
 sVMerge visible layers
-p5537
+p4936
 VCommand + Shift + E
-p5538
+p4937
 sVOpen Fill dialog box on the background or standard layer
-p5539
+p4938
 V/ Delete or Shift + Delete
-p5540
+p4939
 sVOpen the Refine Edge dialog box
-p5541
+p4940
 VCommand + Option + R
-p5542
+p4941
 sVRevert
-p5543
+p4942
 VF12
-p5544
+p4943
 sVParametric Curve Targeted Adjustment tool
-p5545
+p4944
 VCommand + Option + Shift + T
-p5546
+p4945
 sVToggle lock transparency for target layer, or last applied lock
-p5547
+p4946
 V/ (forward slash)
-p5548
+p4947
 sVNew layer via copy
-p5549
+p4948
 VCommand + J
-p5550
+p4949
 sVHand tool
-p5551
+p4950
 VH
 sVColor Sampler tool
-p5552
+p4951
 VS
 sVOpen/close all disclosure triangles
-p5553
+p4952
 VOption-click a disclosure triangle
-p5554
+p4953
 sVZoom 2x (temporary)
-p5555
+p4954
 VX
 sVDisplay Options dialog box for recorded command
-p5556
+p4955
 VDouble-click recorded command
-p5557
+p4956
 sVCtrl
-p5558
+p4957
 VCommand
-p5559
+p4958
 sVMove selection area 1 pixel
-p5560
+p4959
 VAny selection + Right Arrow, Left Arrow, Up Arrow, or Down Arrow
-p5561
+p4960
 sVDelete adjustment layer
-p5562
+p4961
 VDelete
-p5563
+p4962
 sVLinear Burn
-p5564
+p4963
 VShift + Option + A
-p5565
+p4964
 sVFull screen mode
-p5566
+p4965
 VF
 sVExclusion
-p5567
+p4966
 VShift + Option + X
-p5568
+p4967
 sVSelect a plane under another selected plane
-p5569
+p4968
 VCommand-click the plane
-p5570
+p4969
 sVChange color readout modes
-p5571
+p4970
 VClick eyedropper icon
-p5572
+p4971
 sVSet options for new items (except for Actions, Animation, Styles, Brushes, Tool Presets, and Layer Comps panels)
-p5573
+p4972
 VOption-click New button
-p5574
+p4973
 sVDecrease or increase leading 2 points or pixels
-p5575
+p4974
 VOption + Down Arrow or Up Arrow
-p5576
+p4975
 sVDisable/enable vector mask
-p5577
+p4976
 VShift-click vector mask thumbnail
-p5578
+p4977
 sVSelect/deselect alpha channel and show/hide as a rubylith overlay
-p5579
+p4978
 VShift-click alpha channel
-p5580
+p4979
 sVDodge/burn shadows
-p5581
+p4980
 VDodge tool/Burn tool + Shift + Option + S
-p5582
+p4981
 sVHue
-p5583
+p4982
 VShift + Option + U
-p5584
+p4983
 sVLoad path as selection
-p5585
+p4984
 VCommand-click pathname
-p5586
+p4985
 sVEyedropper tool
-p5587
+p4986
 VI
 sVLighten
-p5588
+p4987
 VShift + Option + G
-p5589
+p4988
 sVZoom out
-p5590
+p4989
 VCommand + - (hyphen)
-p5591
+p4990
 sVDesaturate
-p5592
+p4991
 VSponge tool + Shift + Option + D
-p5593
+p4992
 sVDeselect all pins
-p5594
+p4993
 VCommand + D
-p5595
+p4994
 sVPlay entire action
-p5596
+p4995
 VCommand + double-click an action
-p5597
+p4996
 sVCollapse/expand all components of an action
-p5598
+p4997
 VOption-click the triangle
-p5599
+p4998
 sVLock transparent pixels on/off
-p5600
+p4999
 V/ (forward slash)
-p5601
+p5000
 sVClose all open documents other than the current document
-p5602
+p5001
 VCommand + Option + P
-p5603
+p5002
 sVSelect all pins
-p5604
+p5003
 VCommand + A
-p5605
+p5004
 sVDuplicate a path
-p5606
+p5005
 VPen (any Pen tool), Path Selection or Direct Selection tool + Command + Option-drag
-p5607
+p5006
 sVArtboard tool
-p5608
+p5007
 VV
 sVSelect the previous point on the curve
-p5609
+p5008
 V\u2013 (minus)
-p5610
+p5009
 sVRectangle tool / Rounded Rectangle tool / Ellipse tool / Polygon tool / Line tool / Custom Shape tool
-p5611
+p5010
 VU
 sVMove selected point in Curves panel (10 units)
-p5612
+p5011
 VShift-arrow
-p5613
+p5012
 sVReapply last-used filter
-p5614
+p5013
 VControl + Command + F
-p5615
+p5014
 sV(Filmstrip mode) Add purple label
-p5616
+p5015
 VCommand + Shift + 0
-p5617
+p5016
 sVNew layer
-p5618
+p5017
 VCommand + Shift+ N
-p5619
+p5018
 sVLinear Dodge
-p5620
+p5019
 VShift + Option + W
-p5621
+p5020
 sVOpen context-sensitive menu
-p5622
+p5021
 VControl-click slice
-p5623
+p5022
 sVToggle radius preview on and off
-p5624
+p5023
 VJ
 sVStraighten tool
-p5625
+p5024
 VA
 sVSwitch to Zoom Out tool
-p5626
+p5025
 VOption + spacebar
-p5627
+p5026
 sVFill foreground area and preview extraction
-p5628
+p5027
 VShift-click with Fill tool selected
-p5629
+p5028
 sVCreate a new spot channel
-p5630
+p5029
 VCommand-click Create New Channel button
-p5631
+p5030
 sVNew layer via cut
-p5632
+p5031
 VShift + Command + J
-p5633
+p5032
 sVMake protractor
-p5634
+p5033
 VRuler tool + Option-drag end point
-p5635
+p5034
 sVSwitch to Zoom In tool
-p5636
+p5035
 VCommand + spacebar
-p5637
+p5036
 sVChoose Auto leading
-p5638
+p5037
 VCommand + Shift + Option + A
-p5639
+p5038
 sVTemporarily activate Hand tool
-p5640
+p5039
 VSpacebar
-p5641
+p5040
 sVCycle through controls on right from bottom
-p5642
+p5041
 VShift + Tab
-p5643
+p5042
 sVMixer Brush changes Mix setting
-p5644
+p5043
 VOption + Shift + number
-p5645
+p5044
 sVHSL/Grayscale panel
-p5646
+p5045
 VCommand + Option + 4
-p5647
+p5046
 sVRotate image right
-p5648
+p5047
 VR or Command + [
-p5649
+p5048
 sVFree Transform
-p5650
+p5049
 VCommand + T
-p5651
+p5050
 sVDisplay highlights that will be clipped in Preview
-p5652
+p5051
 VOption-drag Exposure, Recovery, or Black sliders
-p5653
+p5052
 sVDecrease Brush Size
-p5654
+p5053
 V[
 sVSwitch from Path Selection, Pen, Add Anchor Point, Delete Anchor Point, or Convert Point tools to Direct Selection tool
-p5655
+p5054
 VCommand
-p5656
+p5055
 sVHue Targeted Adjustment tool
-p5657
+p5056
 VCommand + Option + Shift + H
-p5658
+p5057
 sVClone Stamp tool / Pattern Stamp tool
-p5659
+p5058
 VS
 sVDelete current selection
-p5660
+p5059
 VCommand + D
-p5661
+p5060
 sVDecrease or increase type size of selected text 2 points or pixels<
-p5662
+p5061
 VCommand + Shift + < or >
-p5663
+p5062
 sVToggle between Slice tool and Slice Selection tool
-p5664
+p5063
 VCommand
-p5665
+p5064
 sVSelect contiguous items of the same kind
-p5666
+p5065
 VShift-click the action/command
-p5667
+p5066
 sVToggle Show Mask for Adjustment Brush tool
-p5668
+p5067
 VY
 sVShow/Hide all panels
-p5669
+p5068
 VTab
-p5670
+p5069
 sVCreate new empty layer with dialog box
-p5671
+p5070
 VOption-click New Layer button
-p5672
+p5071
 sVCleanup tool
-p5673
+p5072
 VC
 sVMove multiple selected pins
-p5674
+p5073
 VShift-drag
-p5675
+p5074
 sVDisplay channel options
-p5676
+p5075
 VDouble-click alpha or spot channel thumbnail
-p5677
+p5076
 sVHighlight clipping warning
-p5678
+p5077
 VO
 sVApply
-p5679
+p5078
 VReturn
-p5680
+p5079
 sVSet swatch color as background color
-p5681
+p5080
 VCommand-click swatch
-p5682
+p5081
 sVMove layer 1 pixel when nothing selected on layer
-p5683
+p5082
 VCommand + Right Arrow, Left Arrow, Up Arrow, or Down Arrow
-p5684
+p5083
 sVEraser tool: Background Eraser tool / Magic Eraser tool
-p5685
+p5084
 VE
 sVFill
-p5686
+p5085
 VShift + F5
-p5687
+p5086
 sVRename snapshot
-p5688
+p5087
 VDouble-click snapshot name
-p5689
+p5088
 sVEdit the Filter Blending options
-p5690
+p5089
 VDouble-click the Filter Blending icon
-p5691
+p5090
 sVRetain intersection of path as selection
-p5692
+p5091
 VCommand + Shift + Option-click pathname
-p5693
+p5092
 sVZoom tool
-p5694
+p5093
 VZ
 sVMove the selected point 1 unit
-p5695
+p5094
 VArrow keys
-p5696
+p5095
 sVToggle Standard/Quick Mask modes
-p5697
+p5096
 VQ
 sVNavigate between fields in the opposite direction
-p5698
+p5097
 VTab + Shift
-p5699
+p5098
 sVAdd path to selection
-p5700
+p5099
 VCommand + Shift-click pathname
-p5701
+p5100
 sVCycle (forward) through preview modes
-p5702
+p5101
 VF
 sVMixer Brush changes Wet and Mix to zero
-p5703
+p5102
 V00
-p5704
+p5103
 sVSelect next layer down/up
-p5705
+p5104
 VOption + [ or ]
-p5706
+p5105
 sVSelect/deselect multiple contiguous frames
-p5707
+p5106
 VShift-click second frame
-p5708
+p5107
 sVToggle between layer mask/composite image
-p5709
+p5108
 VOption-click layer mask thumbnail
-p5710
+p5109
 sVBloat tool
-p5711
+p5110
 VB
 sVAdd to a selection
-p5712
+p5111
 VAny selection tool + Shift-drag
-p5713
+p5112
 sVSelect all layers
-p5714
+p5113
 VCommand + Option + A
-p5715
+p5114
 sVIncrease selection nudging when viewing the original
-p5716
+p5115
 VShift + Right Arrow, Left Arrow, Up Arrow, or Down Arrow
-p5717
+p5116
 sV(Filmstrip mode) Add green label
-p5718
+p5117
 VCommand + 8
-p5719
+p5118
 sVDraw square slice from center outward
-p5720
+p5119
 VShift + Option-drag
-p5721
+p5120
 sVHighlight entire image
-p5722
+p5121
 VCommand + Delete
-p5723
+p5122
 sVTone Curve panel
-p5724
+p5123
 VCommand + Option + 2
-p5725
+p5124
 sVApply/cancel an operation of the Magnetic Lasso
-p5726
+p5125
 VReturn/Esc or Command + . (period)
-p5727
+p5126
 sVSelect multiple anchor points
-p5728
+p5127
 VDirect selection tool + Shift-click
-p5729
+p5128
 sVCycle through Display menu in preview from bottom to top
-p5730
+p5129
 VShift + F
-p5731
+p5130
 sVJustify paragraph, justifies all
-p5732
+p5131
 VCommand + Shift + F
-p5733
+p5132
 sVBasic panel
-p5734
+p5133
 VCommand + Option + 1
-p5735
+p5134
 sVCopy
-p5736
+p5135
 VCommand + C
-p5737
+p5136
 sVShow/Hide Brush panel
-p5738
+p5137
 VF5
-p5739
+p5138
 sVHistory Brush tool / Art History Brush tool
-p5740
+p5139
 VY
 sVIncrease/decrease temporary Adjustment Brush tool flow in increments of 10
-p5741
+p5140
 VOption = (equal sign) / Option + - (hyphen)
-p5742
+p5141
 sVCreate new layer group below current layer/layer set
-p5743
+p5142
 VCommand-click New Group button
-p5744
+p5143
 sVDecrease or increase baseline shift 2 points or pixels
-p5745
+p5144
 VShift + Option + Down Arrow or Up Arrow
-p5746
+p5145
 sVFreeze Mask tool
-p5747
+p5146
 VF
 sVToggle crop shield off and on
-p5748
+p5147
 V/ (forward slash)
-p5749
+p5148
 sVMove selection 10 pixels
-p5750
+p5149
 VShift + arrow keys
-p5751
+p5150
 sVZoom in on specified area of an image
-p5752
+p5151
 VCommand-drag over preview in Navigator panel
-p5753
+p5152
 sVToggle Show menu options in preview between Original and Extracted
-p5754
+p5153
 VX
 sVWhite Balance tool
-p5755
+p5154
 VI
 sVMagic Wand tool / Quick Selection tool
-p5756
+p5155
 VW
 sVSelect/deselect multiple discontiguous frames
-p5757
+p5156
 VCommand-click multiple frames
-p5758
+p5157
 sVHighlight options bar
-p5759
+p5158
 VSelect tool and press Return
-p5760
+p5159
 sVCreate new swatch from foreground color
-p5761
+p5160
 VClick in empty area of panel
-p5762
+p5161
 sVAlt-click button
-p5763
+p5162
 VOption-click button
-p5764
+p5163
 sVSelect multiple pins
-p5765
+p5164
 VShift-click
-p5766
+p5165
 sVReverse direction for Bloat, Pucker, Push Left, and Mirror tools
-p5767
+p5166
 VOption + tool
-p5768
+p5167
 sVReposition marquee while selecting
-p5769
+p5168
 VAny marquee tool (except single column and single row) + spacebar-drag
-p5770
+p5169
 sVChoose composite channel for adjustment
-p5771
+p5170
 VOption + 2
-p5772
+p5171
 sVMove copy of selection
-p5773
+p5172
 VMove tool + Option-drag selection\u2021
-p5774
+p5173
 sVTurn command on and all others off, or turn all commands on
-p5775
+p5174
 VOption-click the check-mark next to a command
-p5776
+p5175
 sVCreate a new action and begin recording without confirmation
-p5777
+p5176
 VOption-click the New Action button
-p5778
+p5177
 sVMove tool
-p5779
+p5178
 VV
 sVBrush tool / Pencil tool / Color Replacement tool / Mixer Brush tool
-p5780
+p5179
 VB
 sVSwitch from Pen tool or Freeform Pen tool to Convert Point tool when pointer is over anchor or direction point
-p5781
+p5180
 VOption
-p5782
+p5181
 sVCamera Calibration panel
-p5783
+p5182
 VCommand + Option + 7
-p5784
+p5183
 sVScale text within a bounding box when resizing the bounding box
-p5785
+p5184
 VCommand-drag a bounding box handle
-p5786
+p5185
 sVShow/hide this layer/layer group only or all layers/layer groups
-p5787
+p5186
 VControl-click the eye icon
-p5788
+p5187
 sVGo to last tile in Tile History
-p5789
+p5188
 VEnd
-p5790
+p5189
 sVToggle (forward) between Standard screen mode, Full screen mode with menu bar, and Full screen mode
-p5791
+p5190
 VF
 sVCreate a floating selection from the current selection
-p5792
+p5191
 V
 sVApply a new filter on top of selected
-p5793
+p5192
 VOption-click a filter
-p5794
+p5193
 sVTemporarily activate the White Balance tool and change the Open Image button to Open Object. (Does not work if Crop tool is active)
-p5795
+p5194
 VShift
-p5796
+p5195
 sVSelect foreground color from color picker
-p5797
+p5196
 VAny painting tool + Control + Option + Command and drag
-p5798
+p5197
 sVNormal
-p5799
+p5198
 VShift + Option + N
-p5800
+p5199
 sVCreate vector mask that hides all or displays path area
-p5801
+p5200
 VCommand + Option-click Add Layer Mask button
-p5802
+p5201
 sVThaw Mask tool
-p5803
+p5202
 VD
 sVSet a point to the channel curves
-p5804
+p5203
 VShift + Command-click the image
-p5805
+p5204
 sVContinually sample the distortion /
-p5806
+p5205
 VOption-drag in preview with Reconstruct tool, Displace, Amplitwist, or Affine mode selected
-p5807
+p5206
 sVScroll image with Hand tool
-p5808
+p5207
 VSpacebar-drag, or drag view area box in Navigator panel
-p5809
+p5208
 sVRotate the brush tip by 1 degree
-p5810
+p5209
 VLeft Arrow (anti-clockwise), Right Arrow (clockwise)
-p5811
+p5210
 sVFit in window
-p5812
+p5211
 VCommand + 0
-p5813
+p5212
 sVMerge all visible layers to a new layer above the currently selected layer
-p5814
+p5213
 VOption + Merge Visible command from the Panel pop\u2011up menu
-p5815
+p5214
 sVSwitch from Magnetic Lasso tool to Lasso tool
-p5816
+p5215
 VOption-drag
-p5817
+p5216
 sVDelete brush or swatch
-p5818
+p5217
 VOption-click brush or swatch
-p5819
+p5218
 sVScale (increase or reduce size) Clone Source
-p5820
+p5219
 VOption + Shift + [ or ]
-p5821
+p5220
 sVSet options for Save Selection As Channel button
-p5822
+p5221
 VOption-click Save Selection As Channel button
-p5823
+p5222
 sVNavigate between fields
-p5824
+p5223
 VTab
-p5825
+p5224
 sVDuplicate any image state, except the current state
-p5826
+p5225
 VOption-click the image state
-p5827
+p5226
 sVScreen
-p5828
+p5227
 VShift + Option + S
-p5829
+p5228
 sVChange action or action set options
-p5830
+p5229
 VOption + double-click action or action set
-p5831
+p5230
 sVTransform from the center or reflect
-p5832
+p5231
 VOption
-p5833
+p5232
 sVSwitch Foreground/Background colors
-p5834
+p5233
 VX
 sVTemporarily zoom into an image
-p5835
+p5234
 VHold down H and then click in the image and hold down the mouse button
-p5836
+p5235
 sVMake a full canvas plane, square to the camera
-p5837
+p5236
 VDouble-click the Create Plane tool
-p5838
+p5237
 sVPresets panel
-p5839
+p5238
 VCommand + Option + 9 (macOS Universal Access zoom shortcut must be disabled in System Preferences)
-p5840
+p5239
 sVReconstruct tool
-p5841
+p5240
 VR
 sVOpen Snapshots panel
-p5842
+p5241
 VCommand + Option + 9
-p5843
+p5242
 sVSelect discontiguous items of the same kind
-p5844
+p5243
 VCommand-click the action/command
-p5845
+p5244
 sVIncrease/decrease selected value by 1%
-p5846
+p5245
 VUp Arrow/Down Arrow
-p5847
+p5246
 sVStep forward
-p5848
+p5247
 VCommand + Shift + Z
-p5849
+p5248
 sVSets flow for painting mode
-p5850
+p5249
 VAny painting or editing tool + Shift + number keys (e.g., 0 = 100%, 1 = 10%, 4 then 5 in quick succession = 45%) (when airbrush option is enabled, omit Shift)
-p5851
+p5250
 sVDefault Foreground/Background colors
-p5852
+p5251
 VD
 sVCycle through Display menu in preview from top to bottom
-p5853
+p5252
 VF
 sVSelect first/last brush
-p5854
+p5253
 VShift + , (comma) or . (period)
-p5855
+p5254
 sVCancel
-p5856
+p5255
 VCommand + . (period) or Esc
-p5857
+p5256
 sVTransform again with duplicate data
-p5858
+p5257
 VCommand + Shift + Option + T
-p5859
+p5258
 sVChange measurement units
-p5860
+p5259
 VClick crosshair icon
-p5861
+p5260
 sVSaturation Targeted Adjustment tool
-p5862
+p5261
 VCommand + Option + Shift + S
-p5863
+p5262
 sVCopy current layer to layer below
-p5864
+p5263
 VOption + Merge Down command from the Panel pop\u2011up menu
-p5865
+p5264
 sVCycle through open documents
-p5866
+p5265
 VControl + Tab
-p5867
+p5266
 sVOverlay
-p5868
+p5267
 VShift + Option + O
-p5869
+p5268
 sVDodge/burn highlights
-p5870
+p5269
 VDodge tool/Burn tool + Shift + Option + H
-p5871
+p5270
 sVOpen selected images from Bridge bypassing Camera Raw dialog box
-p5872
+p5271
 VShift + double-click image
-p5873
+p5272
 sVToggle grid size
-p5874
+p5273
 VOption-click the field
-p5875
+p5274
 sVSelect multiple points in Curves panel
-p5876
+p5275
 VClick the first point; Shift-click additional points
-p5877
+p5276
 sVToggle Smart Highlighting
-p5878
+p5277
 VCommand with Edge Highlighter tool selected
-p5879
+p5278
 sVSaturation
-p5880
+p5279
 VShift + Option + T
-p5881
+p5280
 sVToggle (backward) canvas color
-p5882
+p5281
 VSpacebar + Shift + F
-p5883
+p5282
 sVShow/Hide Color panel
-p5884
+p5283
 VF6
-p5885
+p5284
 sVToggle filter mask on/off
-p5886
+p5285
 VShift-click filter mask thumbnail
-p5887
+p5286
 sVForward Warp tool
-p5888
+p5287
 VW
 sVMove target layer down/up
-p5889
+p5288
 VCommand + [ or ]
-p5890
+p5289
 sVMixer Brush changes Wet setting
-p5891
+p5290
 VNumber keys
-p5892
+p5291
 sVCancel completely
-p5893
+p5292
 VEsc
-p5894
+p5293
 sVDeselect all
-p5895
+p5294
 VCommand + D
-p5896
+p5295
 sVDifference
-p5897
+p5296
 VShift + Option + E
-p5898
+p5297
 sVRotate the brush tip by 15 degrees
-p5899
+p5298
 VShift + Left Arrow (anti-clockwise), Shift + Right Arrow (clockwise)
-p5900
+p5299
 sVHard Light
-p5901
+p5300
 VShift + Option + H
-p5902
+p5301
 sVDisplay Color Bar menu
-p5903
+p5302
 VControl-click color bar
-p5904
+p5303
 sVSplit Toning panel
-p5905
+p5304
 VCommand + Option + 5
-p5906
+p5305
 sVSelect previous/next brush size
-p5907
+p5306
 V, (comma) or . (period)
-p5908
+p5307
 sVToggle (forward) canvas color
-p5909
+p5308
 VSpacebar + F (or Control-click canvas background and select color)
-p5910
+p5309
 sVMove selection 1 pixel
-p5911
+p5310
 VMove tool + Right Arrow, Left Arrow, Up Arrow, or Down Arrow
-p5912
+p5311
 sVNudge selection when viewing the original
-p5913
+p5312
 VRight Arrow, Left Arrow, Up Arrow, or Down Arrow
-p5914
+p5313
 sVMirror tool
-p5915
+p5314
 VM
 sVPerspective Crop tool
-p5916
+p5315
 VC
 sVSwitch to Hand tool (when not in text-edit mode)
-p5917
+p5316
 VSpacebar
-p5918
+p5317
 sVSelect multiple points on the curve
-p5919
+p5318
 VShift-click the points
-p5920
+p5319
 sVScroll up or down 1 screen
-p5921
+p5320
 VPage Up or Page Down
-p5922
+p5321
 sVSoft Light
-p5923
+p5322
 VShift + Option + F
-p5924
+p5323
 sVCycle (backward) through preview modes
-p5925
+p5324
 VShift + F
-p5926
+p5325
 sVDodge tool / Burn tool / Sponge tool
-p5927
+p5326
 VO
 sVCycle through tools with the same shortcut key
-p5928
+p5327
 VShift-press shortcut key (if Use Shift Key for Tool Switch preference is selected)
-p5929
+p5328
 sVToggle between original selection and refined version
-p5930
+p5329
 VP
 sVToggle between painting and erasing with the same brush
-p5931
+p5330
 VHold down ` (grave accent)
-p5932
+p5331
 sV(Filmstrip mode) Add red label
-p5933
+p5332
 VCommand + 6
-p5934
+p5333
 sVTwirl Clockwise tool
-p5935
+p5334
 VC
 sVSelect individual channels
-p5936
+p5335
 VCommand + 3 (red), 4 (green), 5 (blue)
-p5937
+p5336
 sVSnap guide to ruler ticks (except when View > Snap is unchecked)
-p5938
+p5337
 VShift-drag guide
-p5939
+p5338
 sVFeather Selection
-p5940
+p5339
 VShift + F6
-p5941
+p5340
 sVEyedropper tool / Color Sampler tool / Ruler tool / Note tool
-p5942
+p5341
 VI
 sVPucker tool
-p5943
+p5342
 VS
 sVClose a file in Photoshop and open Bridge
-p5944
+p5343
 VShift-Command-W
-p5945
+p5344
 sVRotate image left
-p5946
+p5345
 VL or Command + ]
-p5947
+p5346
 sVGo to previous tile in Tile History
-p5948
+p5347
 VLeft Arrow, Page Up
-p5949
+p5348
 sVMove selected point in Curves panel (1 unit)
-p5950
+p5349
 VArrow keys
-p5951
+p5350
 sVCreate a clipping mask
-p5952
+p5351
 VOption-click the line dividing two layers
-p5953
+p5352
 sVPrevious Brush
-p5954
+p5353
 V,
 sVColor Burn
-p5955
+p5354
 VShift + Option + B
-p5956
+p5355
 sVFill tool
-p5957
+p5356
 VG
 sV(Filmstrip mode) Add blue label
-p5958
+p5357
 VCommand + 9
-p5959
+p5358
 sVToggle layer mask on/off as rubylith (layer mask must be selected)
-p5960
+p5359
 V\u005c (backslash)
-p5961
+p5360
 sVPin Light
-p5962
+p5361
 VShift + Option + Z
-p5963
+p5362
 sVMagnify 100%
-p5964
+p5363
 VDouble-click Zoom tool or / Command + 1
-p5965
+p5364
 sVCreate a duplicate of the selection as a floating selection
-p5966
+p5365
 VCommand + Option-drag
-p5967
+p5366
 sVSwitch to previous document
-p5968
+p5367
 VShift + Command + `(grave accent)
-p5969
+p5368
 sVTemporarily hide pins
-p5970
+p5369
 VH
 sVZoom to the center at 100%
-p5971
+p5370
 VDouble-click Zoom tool
-p5972
+p5371
 sVLast Brush
-p5973
+p5372
 V>
 sVChoose 100% horizontal scale
-p5974
+p5373
 VCommand + Shift + X
-p5975
+p5374
 sVSelect characters from insertion point to mouse click point
-p5976
+p5375
 VShift-click
-p5977
+p5376
 sVToggle paragraph hyphenation on/off
-p5978
+p5377
 VCommand + Control + Shift + Option + H
-p5979
+p5378
 sVToggle preview
-p5980
+p5379
 VP
 sVEdit layer style
-p5981
+p5380
 VDouble-click layer
-p5982
+p5381
 sVDisplay the bounding box for transforming text when editing text, or activate Move tool if cursor is inside the bounding box
-p5983
+p5382
 VCommand
-p5984
+p5383
 sVToggle composite and grayscale mask in Quick Mask mode
-p5985
+p5384
 VShift + ~ (tilde) OR ` (excluding the Brush tool)<br>
-p5986
+p5385
 sVAccept cropping or exit cropping
-p5987
+p5386
 VCrop tool + Return or Esc
-p5988
+p5387
 sVMove mask when Edge Touchup tool is selected
-p5989
+p5388
 VCommand-drag
-p5990
+p5389
 sVDraw marquee from center (if no other selections are active)
-p5991
+p5390
 VOption-drag
-p5992
+p5391
 sVCreate new layer group with dialog box
-p5993
+p5392
 VOption-click New Group button
-p5994
+p5393
 sVSelect background color
-p5995
+p5394
 VOption-click color in color bar
-p5996
+p5395
 sVClear (Brush tool only)
-p5997
+p5396
 VShift + Option + R
-p5998
+p5397
 sVCycle through color choices
-p5999
+p5398
 VShift-click color bar
-p6000
+p5399
 sVConstrain
-p6001
+p5400
 VShift
-p6002
+p5401
 sVSimultaneously pan multiple documents with Hand tool
-p6003
+p5402
 VShift-drag
-p6004
+p5403
 sVSelect all type; temporarily select Type tool
-p6005
+p5404
 VDouble-click type layer thumbnail
-p6006
+p5405
 sVIncrease/decrease Adjustment Brush tool flow in increments of 10
-p6007
+p5406
 V= (equal sign) / - (hyphen)
-p6008
+p5407
 sVGradient tool / Paint Bucket tool
-p6009
+p5408
 VG
 sVSearch across Photoshop UI
-p6010
+p5409
 VCommand + F
-p6011
+p5410
 sVDelete without confirmation (except for the Brush panel)
-p6012
+p5411
 VOption-click Delete button
-p6013
+p5412
 sVOpen the Black-and-White dialog box
-p6014
+p5413
 VShift + Command + Option+ B
-p6015
+p5414
 sVToggle airbrush option
-p6016
+p5415
 VShift + Option + P
-p6017
+p5416
 sVToggle between Edge Highlighter tool and Eraser tool
-p6018
+p5417
 VOption + Edge Highlighter/Eraser tool
-p6019
+p5418
 sVDelete current tile from Tile History
-p6020
+p5419
 VDelete
-p6021
+p5420
 sVRed Eye Removal tool
-p6022
+p5421
 VE
 sVAlign top, center, or bottom
-p6023
+p5422
 VVertical Type tool + Command + Shift + L, C, or R
-p6024
+p5423
 sVShow Clone Source (overlays image)
-p6025
+p5424
 VOption + Shift
-p6026
+p5425
 sVToggle Auto Mask for Adjustment Brush tool
-p6027
+p5426
 VM
 sVFit layer(s) to screen
-p6028
+p5427
 VOption-click layer
-p6029
+p5428
 sVStart Help
-p6030
+p5429
 VHelp key
-p6031
+p5430
 sVDistort
-p6032
+p5431
 VCommand
-p6033
+p5432
 sVTurbulence tool
-p6034
+p5433
 VT
 sVColor sampler tool
-p6035
+p5434
 VEyedropper tool + Shift
-p6036
+p5435
 sVMultiply
-p6037
+p5436
 VShift + Option + M
-p6038
+p5437
 sVFirst Brush
-p6039
+p5438
 V<
 sVDecrease/increase brush size by 2, or density, pressure, rate, or turbulent jitter by 1
-p6040
+p5439
 VLeft Arrow/Right Arrow with Brush Size, Density, Pressure, Rate, or Turbulent Jitter slider showing
-p6041
+p5440
 sVMove layer to bottom or top
-p6042
+p5441
 VCommand + Shift + [ or ]
-p6043
+p5442
 sVCrop tool
-p6044
+p5443
 VC
 sVIncrease brush hardness (Brush, Stamp tools)
-p6045
+p5444
 VShift + ]
-p6046
+p5445
 sVMove 1 character left/right, 1 line down/up, or 1 word left/right
-p6047
+p5446
 VLeft Arrow/Right Arrow, Down Arrow/Up Arrow, or Command + Left Arrow/Right Arrow
-p6048
+p5447
 sVCreate layer mask that hides all/selection
-p6049
+p5448
 VOption-click Add Layer Mask button
-p6050
+p5449
 sVDecrease Brush Hardness
-p6051
+p5450
 V{
 sVEnable Cleanup and Edge Touchup tools before preview
-p6052
+p5451
 VShift + X
-p6053
+p5452
 sVShow/Hide all panels except the toolbox and options bar
-p6054
+p5453
 VShift + Tab
-p6055
+p5454
 sVDodge/burn midtones
-p6056
+p5455
 VDodge tool/Burn tool + Shift + Option + M
-p6057
+p5456
 sVDisplays Fill dialog box
-p6058
+p5457
 VShift + Delete
-p6059
+p5458
 sVUndo/Redo
-p6060
+p5459
 VCommand + Z
-p6061
+p5460
 sVChoose 0 for tracking
-p6062
+p5461
 VCommand + Control + Shift + Q
-p6063
+p5462
 sVSelect foreground color from image with Eyedropper tool
-p6064
+p5463
 VAny painting tool + Option or any shape tool + Option (except when Paths option is selected)
-p6065
+p5464
 sVSet strength of Cleanup or Edge Touch\u2011up tool
-p6066
+p5465
 V0\u20139
-p6067
+p5466
 sVRemove current highlight
-p6068
+p5467
 VOption + Delete
-p6069
+p5468
 sVChange brush size
-p6070
+p5469
 VCtrl + Option + drag left or right
-p6071
+p5470
 sVFit in view
-p6072
+p5471
 VCommand + 0 (zero), Double-click Hand tool
-p6073
+p5472
 sVJustify paragraph, left aligns last line
-p6074
+p5473
 VCommand + Shift + J
-p6075
+p5474
 sVUndo last action
-p6076
+p5475
 VCommand + Z
-p6077
+p5476
 sVSelect the first edit field of the toolbar
-p6078
+p5477
 VReturn
-p6079
+p5478
 sVSubtract from a selection
-p6080
+p5479
 VAny selection tool + Option-drag
-p6081
+p5480
 sVUndo a selection move
-p6082
+p5481
 VCommand + Z
-p6083
+p5482
 sVDraw from center outward
-p6084
+p5483
 VOption-drag
-p6085
+p5484
 sVPaste
-p6086
+p5485
 VCommand + V
-p6087
+p5486
 sVToggle overlay for Graduated Filter, Spot Removal tool, or Red Eye Removal tool.
-p6088
+p5487
 VV
 sVIncrease brush size (Brush, Stamp tools)
-p6089
+p5488
 V]
 sVDarken
-p6090
+p5489
 VShift + Option + K
-p6091
+p5490
 sVRedo last action
-p6092
+p5491
 VCommand + Shift + Z
-p6093
+p5492
 sVIncrease/decrease selected value by 10%
-p6094
+p5493
 VShift + Up Arrow/Down Arrow
-p6095
+p5494
 sV(Filmstrip mode) Increase/decrease rating
-p6096
+p5495
 VCommand + . (period) / Command+, (comma)
-p6097
+p5496
 sVDecrease brush size (Brush, Stamp tools)
-p6098
+p5497
 V[
 sVSelect/deselect multiple discontiguous layers
-p6099
+p5498
 VCommand-click
-p6100
+p5499
 sVToggle Preserve Transparency
-p6101
+p5500
 V/ (forward slash)
-p6102
+p5501
 sVChoose specific channel for adjustment
-p6103
+p5502
 VOption + 3 (red), 4 (green), 5 (blue)
-p6104
+p5503
 sVRotate Clone Source
-p6105
+p5504
 VOption + Shift + < or >
-p6106
+p5505
 sV(Filmstrip mode) Add 1 - 5 star rating
-p6107
+p5506
 VCommand + 1 - 5
-p6108
+p5507
 sVPlay a command
-p6109
+p5508
 VCommand-click the Play button
-p6110
+p5509
 sVScroll up or down 10 units
-p6111
+p5510
 VShift + Page Up or Page Down
-p6112
+p5511
 sVUngroup layers
-p6113
+p5512
 VCommand + Shift + G
-p6114
+p5513
 sVToggle auto-select with the move tool
-p6115
+p5514
 VCommand-click
-p6116
+p5515
 sVDecrease brush hardness (Brush, Stamp tools)
-p6117
+p5516
 VShift + [
-p6118
+p5517
 sVGenerate or generate again
-p6119
+p5518
 VCommand + G
-p6120
+p5519
 sVDefine Auto options for Levels or Curves
-p6121
+p5520
 VOption-click Auto button
-p6122
+p5521
 sVStep forward through image states
-p6123
+p5522
 VCommand + Shift + Z
-p6124
+p5523
 sVSubtract path from selection
-p6125
+p5524
 VCommand + Option-click pathname
-p6126
+p5525
 sVSpot Healing Brush tool / Healing Brush tool / Patch tool / Red Eye tool
-p6127
+p5526
 VJ
 sVToggle between Refine Radius and Erase Refinements tools
-p6128
+p5527
 VShift + E
-p6129
+p5528
 sVConnects points with a straight line
-p6130
+p5529
 VAny painting tool + Shift-click
-p6131
+p5530
 sVFree transform with duplicate data
-p6132
+p5531
 VCommand + Option + T
-p6133
+p5532
 sVToggle (backward) between Standard screen mode, Full screen mode with menu bar, and Full screen mode
-p6134
+p5533
 VShift + F
-p6135
+p5534
 sVTo delete a point on the curve
-p6136
+p5535
 VSelect a point and press Delete
-p6137
+p5536
 sVOpen Layer Mask Display Options dialog box
-p6138
+p5537
 VDouble-click layer mask thumbnail
-p6139
+p5538
 sVSelect composite channel
-p6140
+p5539
 VCommand + 2
-p6141
+p5540
 sVPath Selection tool / Direct Selection tool
-p6142
+p5541
 VA
 sVShow/hide all other currently visible layers
-p6143
+p5542
 VOption-click the eye icon
-p6144
+p5543
 sVSelect/deselect multiple discontiguous layer comps
-p6145
+p5544
 VCommand-click
-p6146
+p5545
 sVIncrease/decrease brush feather
-p6147
+p5546
 VShift + ] / Shift + [
-p6148
+p5547
 sVShow/Hide Actions panel
-p6149
+p5548
 VOption + F9
-p6150
+p5549
 sVSelect bottom layer
-p6151
+p5550
 VOption + , (comma)
-p6152
+p5551
 sV(Filmstrip mode) Add yellow label
-p6153
+p5552
 VCommand + 7
-p6154
+p5553
 sVNext Brush
-p6155
+p5554
 V.
 sVConstrain marquee to square or circle (if no other selections are active)
-p6156
+p5555
 VShift-drag
-p6157
+p5556
 sVOpen Layer Comp Options dialog box
-p6158
+p5557
 VDouble-click layer comp
-p6159
+p5558
 sVDelete last node while creating plane
-p6160
+p5559
 VDelete
-p6161
+p5560
 sVDeletes Adobe Camera Raw preferences
-p6162
+p5561
 VOption + Shift (on open)
-p6163
+p5562
 sVRename brush
-p6164
+p5563
 VDouble-click brush
-p6165
+p5564
 sVToggle between Standard mode and Quick Mask mode
-p6166
+p5565
 VQ
 sVFit image in window
-p6167
+p5566
 VDouble-click Hand tool
-p6168
+p5567
 sVLast-used Targeted Adjustment tool
-p6169
+p5568
 VT
 sVSelect next point on the curve
-p6170
+p5569
 V+ (plus)
-p6171
+p5570
 sVOpen selected images in Camera Raw dialog box from Bridge
-p6172
+p5571
 VCommand + R
-p6173
+p5572
 sVRename layer
-p6174
+p5573
 VDouble-click the layer name
-p6175
+p5574
 sVIntersect a selection
-p6176
+p5575
 VAny selection tool (except Quick Selection tool) + Shift-Option-drag
-p6177
+p5576
 sVConvert between horizontal and vertical guide
-p6178
+p5577
 VOption-drag guide
-p6179
+p5578
 sVDisplay precise cross hair for brushes
-p6180
+p5579
 VCaps Lock
-p6181
+p5580
 sVApply value and keep text box active
-p6182
+p5581
 VShift + Return
-p6183
+p5582
 sVDisplay highlights and shadows that will be clipped
-p6184
+p5583
 VOption-drag black/white point sliders
-p6185
+p5584
 sVChange Cancel button to Reset
-p6186
+p5585
 VOption
-p6187
+p5586
 sVFill with foreground or background color
-p6188
+p5587
 VOption + Delete or Command + Delete
-p6189
+p5588
 sVDeletes color sampler
-p6190
+p5589
 VColor sampler tool + Option-click
-p6191
+p5590
 sVMove Zoom marquee while dragging with the Zoom tool
-p6192
+p5591
 VSpacebar-drag
-p6193
+p5592
 sVToggle layer mask on/off
-p6194
+p5593
 VShift-click layer mask thumbnail
-p6195
+p5594
 sVLoad filter mask as a selection
-p6196
+p5595
 VCommand-click filter mask thumbnail
-p6197
+p5596
 sVClose path
-p6198
+p5597
 VMagnetic Pen tool-double-click
-p6199
+p5598
 sVLoad layer transparency as a selection
-p6200
+p5599
 VCommand-click layer thumbnail
-p6201
+p5600
 sVPush Left tool
-p6202
+p5601
 VO
 sVUndo last pin adjustment
-p6203
+p5602
 VCommand + Z
-p6204
+p5603
 sVInverse Selection
-p6205
+p5604
 VShift + F7
-p6206
+p5605
 sVDecrease/increase brush size by 1
-p6207
+p5606
 VLeft Arrow/Right Arrow with Brush Size Slider showing
-p6208
+p5607
 sVSpot Removal tool
-p6209
+p5608
 VB
 sVMerge a copy of all visible layers into target layer
-p6210
+p5609
 VCommand + Shift + Option + E
-p6211
+p5610
 sVSet a point to the composite curve
-p6212
+p5611
 VCommand-click the image
-p6213
+p5612
 sVPermanently clear history (no Undo)
-p6214
+p5613
 VOption + Clear History (in History panel pop\u2011up menu)
-p6215
+p5614
 sVGraduated Filter tool
-p6216
+p5615
 VG
 sVMove the selected point 10 units
-p6217
+p5616
 VShift + Arrow keys
-p6218
+p5617
 sVStep backward
-p6219
+p5618
 VCommand + Option + Z
-p6220
+p5619
 sVCancel any modal dialog window (including the Start Workspace)
-p6221
+p5620
 VEscape
-p6222
+p5621
 sVCut
-p6223
+p5622
 VF2
-p6224
+p5623
 sVCycle through blending modes
-p6225
+p5624
 VShift + + (plus) or \u2013 (minus)
-p6226
+p5625
 sVIncrease/decrease selected values by 10
-p6227
+p5626
 VShift + Up Arrow/Down Arrow
-p6228
+p5627
 sVChange Cancel button to Default
-p6229
+p5628
 VCommand
-p6230
+p5629
 sVSwitch to New mode from Add or Erase mode of theAdjustment Brush tool or the Graduated Filter
-p6231
+p5630
 VN
 sVPen tool / Freeform Pen tool
-p6232
+p5631
 VP
 sVSets opacity, tolerance, strength, or exposure for painting mode
-p6233
+p5632
 VAny painting or editing tool + number keys (e.g., 0 = 100%, 1 = 10%, 4 then 5 in quick succession = 45%) (when airbrush option is enabled, use Shift + number keys)
-p6234
+p5633
 sVCrop tool / Slice tool / Slice Select tool
-p6235
+p5634
 VC
 sVDeselect a point
-p6236
+p5635
 VCommand + D
-p6237
+p5636
 sVReposition slice while creating slice
-p6238
+p5637
 VSpacebar-drag
-p6239
+p5638
 sVRepeat last duplicate and move
-p6240
+p5639
 VCommand + Shift + T
-p6241
+p5640
 sVSelect/deselect multiple color-channel selection
-p6242
+p5641
 VShift-click color channel
-p6243
+p5642
 sVChange the values of the closest color slider
-p6244
+p5643
 VClick-drag on the image
-p6245
+p5644
 sVDisplay layer group properties
-p6246
+p5645
 VControl-click the layer group and choose Group Properties, or double-click group
-p6247
+p5646
 sVRotate View tool
-p6248
+p5647
 VR
 sVDecrease/increase brush softness/hardness
-p6249
+p5648
 VCtrl + Option + drag up or down
-p6250
+p5649
 sVAdjustment Brush tool
-p6251
+p5650
 VK
 sVSaturate
-p6252
+p5651
 VSponge tool + Shift + Option + S
-p6253
+p5652
 sVToggle rubylith mode for layer mask on/off
-p6254
+p5653
 V\u005c (backslash), or Shift + Option-click
-p6255
+p5654
 sVShow/Hide Info panel
-p6256
+p5655
 VF8
-p6257
+p5656
 sVIncrease/decrease temporary Adjustment Brush tool feather
-p6258
+p5657
 VOption + Shift + ] / Option + Shift + [
-p6259
+p5658
 sVHide selection and planes
-p6260
+p5659
 VCommand + H
-p6261
+p5660
 sVStep backward through image states
-p6262
+p5661
 VCommand + Option + Z
-p6263
+p5662
 sVLinear Light
-p6264
+p5663
 VShift + Option + J
-p6265
+p5664
 sVNudge Clone Source
-p6266
+p5665
 VOption + Shift + arrow keys
-p6267
+p5666
 sVEdit filter settings
-p6268
+p5667
 VDouble-click the filter effect
-p6269
+p5668
 sVCreate 90° plane off parent plane
-p6270
+p5669
 VCommand-drag
-p6271
+p5670
 sVToggle between original image and selection preview
-p6272
+p5671
 VX
 sVMove view to upper-left corner or lower-right corner
-p6273
+p5672
 VHome or End
-p6274
+p5673
 sVMove type in image
-p6275
+p5674
 VCommand-drag type when Type layer is selected
-p6276
+p5675
 sVEdge Touchup tool
-p6277
+p5676
 VT
 sVSubtract from current selection
-p6278
+p5677
 VCommand + Option-click layer thumbnail
-p6279
+p5678
 sVTurn current modal control on and toggle all other modal controls
-p6280
+p5679
 VOption-click
-p6281
+p5680
 sVAlign left, center, or right
-p6282
+p5681
 VHorizontal Type tool + Command + Shift + L, C, or R
-p6283
+p5682
 sVRectangular Marquee tool / Elliptical Marquee tool
-p6284
+p5683
 VM
 sVCreate/release clipping mask
-p6285
+p5684
 VCommand + Option + G
-p6286
+p5685
 sVIntersect with current selection
-p6287
+p5686
 VShift + Option + select
-p6288
+p5687
 sVZoom in
-p6289
+p5688
 VCommand + + (plus)
-p6290
+p5689
 sVLens Corrections panel
-p6291
+p5690
 VCommand + Option + 6
-p6292
+p5691
 sVVivid Light
-p6293
+p5692
 VShift + Option + V
-p6294
+p5693
 sVLasso tool / Polygonal Lasso tool / Magnetic Lasso tool
-p6295
+p5694
 VL
 sVIncrease Brush Size
-p6296
+p5695
 V]
 sVSelect a word, line, paragraph, or story
-p6297
+p5696
 VDouble-click, triple-click, quadruple-click, or quintuple-click
-p6298
+p5697
 sVShow/Hide Layers panel
-p6299
+p5698
 VF7
-p6300
+p5699
 sVToggle view: original/generated pattern
-p6301
+p5700
 VX
 sVDelete brush
-p6302
+p5701
 VOption-click brush
-p6303
+p5702
 sVDecrease or increase kerning/tracking 20/1000 ems
-p6304
+p5703
 VOption + Left Arrow or Right Arrow
-p6305
+p5704
 sVPaste using previous settings without displaying the dialog box
-p6306
+p5705
 VOption + Paste Frames command from the Panel pop\u2011up menu
-p6307
+p5706
 sVToggle between filter mask/composite image
-p6308
+p5707
 VOption-click filter mask thumbnail
-p6309
+p5708
 sVOpen the Curves dialog box
-p6310
+p5709
 VCommand + M
-p6311
+p5710
 sVSelect/deselect multiple contiguous layers
-p6312
+p5711
 VShift-click
-p6313
+p5712
 sVLuminosity
-p6314
+p5713
 VShift + Option + Y
-p6315
+p5714
 sVApply zoom percentage, and keep zoom percentage box active
-p6316
+p5715
 VShift + Return in Navigator panel zoom percentage box
-p6317
+p5716
 sVChoose 100% vertical scale
-p6318
+p5717
 VCommand + Shift + Option + X
-p6319
+p5718
 sVShadows clipping warning
-p6320
+p5719
 VU
 sVHard Mix
-p6321
+p5720
 VShift + Option + L
-p6322
+p5721
 sVIncrease/decrease temporary Adjustment Brush tool size
-p6323
+p5722
 VOption + ] / Option + [
-p6324
+p5723
 sVTemporarily switch to Zoom Out tool and change the Open Image button to Open Copy and the Cancel button to Reset.
-p6325
+p5724
 VOption
-p6326
+p5725
 sVDissolve
-p6327
+p5726
 VShift + Option + I
-p6328
+p5727
 sVDraw square slice
-p6329
+p5728
 VShift-drag
-p6330
+p5729
 sVSelect top layer
-p6331
+p5730
 VOption + . (period)
-p6332
+p5731
 sVColor
-p6333
+p5732
 VShift + Option + C
-p6334
+p5733
 sVCreate vector mask that reveals all/path area
-p6335
+p5734
 VCommand-click Add Layer Mask button
-p6336
+p5735
 sVHide path
-p6337
+p5736
 VCommand + Shift + H
-p6338
+p5737
 sVAdd to current selection
-p6339
+p5738
 VCommand + Shift-click layer thumbnail
-p6340
+p5739
 sVSwitch from Magnetic Lasso tool to polygonal Lasso tool
-p6341
+p5740
 VOption-click
-p6342
+p5741
 sVCycle through controls on right from top
-p6343
+p5742
 VTab
+p5743
+ssVVintage Sublime
+p5744
+(dp5745
+Vjump forwards to the end of a word (words can contain punctuation)
+p5746
+VE
+sVappend (open) a new line below the current line
+p5747
+Vo
+sVright
+p5748
+Vl
+sVMove back to end of word
+p5749
+V\u2303\u2190
+p5750
+sVappend (open) a new line above the current line
+p5751
+VO
+sVchange (replace) to the end of the line
+p5752
+Vc$
+p5753
+sVMove to beginning of file
+p5754
+V\u2318\u2191
+p5755
+sVdown
+p5756
+Vj
+sVrepeat last command
+p5757
+V.
+sVinsert at the beginning of the line
+p5758
+VI
+sVchange (replace) to the end of the word
+p5759
+Vcw
+p5760
+sVMove back to beginning of word
+p5761
+V\u2325\u2190
+p5762
+sVredo
+p5763
+V\u2303r
+p5764
+sVMove cursor to first non-white space char
+p5765
+V\u2318left
+p5766
+sVchange (replace) entire line
+p5767
+Vcc
+p5768
+sVjump forwards to the start of a word
+p5769
+Vw
+sVExit insert mode
+p5770
+V\u2303c or Esc
+p5771
+sVinsert before the cursor
+p5772
+Vi
+sVMove forward to end of word
+p5773
+V\u2303\u2192
+p5774
+sVMove cursor to end of line
+p5775
+V\u2318right
+p5776
+sVinsert (append) at the end of the line
+p5777
+VA
+sVinsert (append) after the cursor
+p5778
+Va
+sVpage up
+p5779
+V\u2303\u2191
+p5780
+sVundo
+p5781
+Vu
+sVjump forwards to the end of a word
+p5782
+Ve
+sVMove forward to beginning of word
+p5783
+V\u2325\u2192
+p5784
+sVVi Cancel current action
+p5785
+V\u2303c
+p5786
+sVdelete line and substitute text (same as cc)
+p5787
+VS
+sVpage down
+p5788
+V\u2303\u2193
+p5789
+sVdelete character and substitute text
+p5790
+Vs
+sVreplace a single character
+p5791
+Vr
+sVup
+p5792
+Vk
+sVjump forwards to the start of a word (words can contain punctuation)
+p5793
+VW
+sVMove to end of file
+p5794
+V\u2318\u2193
+p5795
+sVExit visual mode
+p5796
+V\u2303c or Esc
+p5797
+sVleft
+p5798
+Vh
+ssVGoogle Sheets
+p5799
+(dp5800
+VAdd-ons menu
+p5801
+VCtrl + Option + n
+p5802
+sVInsert date
+p5803
+V\u2318 + ;
+p5804
+sVBold
+p5805
+V\u2318 + b
+p5806
+sVGroup rows or columns
+p5807
+VOption + Shift + Right arrow
+p5808
+sVUndo
+p5809
+V\u2318 + z
+p5810
+sVSheet menu (copy, delete, and other sheet actions)
+p5811
+VOption + Shift + s
+p5812
+sVFormat as exponent
+p5813
+VCtrl + Shift + 6
+p5814
+sVApply top border
+p5815
+VOption + Shift + 1
+p5816
+sVShow/hide formula help (when entering a formula)
+p5817
+VShift + Fn + F1
+p5818
+sVFormat as percentage
+p5819
+VCtrl + Shift + 5
+p5820
+sVMove to quicksum (when a range of cells is selected)
+p5821
+VOption + Shift + q
+p5822
+sVToggle formula result previews (when entering a formula)
+p5823
+VFn + F9
+p5824
+sVDisplay list of sheets
+p5825
+VOption + Shift + k
+p5826
+sVInput tools on/off
+p5827
+V\u2318 + Shift + k
+p5828
+sVFormat as currency
+p5829
+VCtrl + Shift + 4
+p5830
+sVAbsolute/relative references (when entering a formula)
+p5831
+VFn + F4
+p5832
+sVExpand grouped rows or columns
+p5833
+VOption + Shift + Down arrow
+p5834
+sVTools menu
+p5835
+VCtrl + Option + t
+p5836
+sVFill down
+p5837
+V\u2318 + d
+p5838
+sVFind
+p5839
+V\u2318 + f
+p5840
+sVHide column
+p5841
+V\u2318 + Option + 0
+p5842
+sVEnter current comment
+p5843
+Vholding Ctrl + \u2318, press e then c
+p5844
+sVScroll to active cell
+p5845
+V\u2318 + Backspace
+p5846
+sVItalic
+p5847
+V\u2318 + i
+p5848
+sVPrint
+p5849
+V\u2318 + p
+p5850
+sVInsert link
+p5851
+V\u2318 + k
+p5852
+sVSave
+p5853
+V\u2318 + s
+p5854
+sVCollapse an expanded array formula
+p5855
+V\u2318 + e
+p5856
+sVFormat as decimal
+p5857
+VCtrl + Shift + 1
+p5858
+sVMove focus out of spreadsheet
+p5859
+VCtrl + \u2318 + Shift + m
+p5860
+sVFormat as time
+p5861
+VCtrl + Shift + 2
+p5862
+sVSelect all
+p5863
+V\u2318 + a or \u2318 + Shift + Space
+p5864
+sVHide row
+p5865
+V\u2318 + Option + 9
+p5866
+sVCenter align
+p5867
+V\u2318 + Shift + e
+p5868
+sVAccessibility menu
+p5869
+VCtrl + Option + a
+p5870
+sVEdit menu
+p5871
+VCtrl + Option + e
+p5872
+sVApply left border
+p5873
+VOption + Shift + 4
+p5874
+sVOpen revision history
+p5875
+V\u2318 + Option + Shift + h
+p5876
+sVRemove borders
+p5877
+VOption + Shift + 6
+p5878
+sVPaste values only
+p5879
+V\u2318 + Shift + v
+p5880
+sVMove to next comment
+p5881
+Vholding Ctrl + \u2318, press n then c
+p5882
+sVRedo
+p5883
+V\u2318 + y or \u2318 + Shift + z or Fn + F4
+p5884
+sVOpen delete menu
+p5885
+V\u2318 + Option + - (with cells selected)
+p5886
+sVFull/compact formula help (when entering a formula)
+p5887
+VFn + F1
+p5888
+sVMove to previous sheet
+p5889
+V\u2318 + Shift + Fn + Up arrow
+p5890
+sVData menu
+p5891
+VCtrl + Option + d
+p5892
+sVFind and replace
+p5893
+V\u2318 + Shift + h
+p5894
+sVMove to end of row
+p5895
+VFn + Right arrow
+p5896
+sVCut
+p5897
+V\u2318 + x
+p5898
+sVContext menu
+p5899
+V\u2318 + Shift + \u005c
+p5900
+sVDelete rows
+p5901
+V\u2318 + Option + - (with rows selected) OR Ctrl + Option + e, then d
+p5902
+sVCollapse grouped rows or columns
+p5903
+VOption + Shift + Up arrow
+p5904
+sVApply right border
+p5905
+VOption + Shift + 2
+p5906
+sVSelect row
+p5907
+VShift + Space
+p5908
+sVRight align
+p5909
+V\u2318 + Shift + r
+p5910
+sVFill right
+p5911
+V\u2318 + r
+p5912
+sVOpen insert menu
+p5913
+V\u2318 + Option + = (with cells selected)
+p5914
+sVResize formula bar (move up or down)
+p5915
+VCtrl + Option + Up and Ctrl + Option + Down
+p5916
+sVRead row
+p5917
+V\u2318 + Option + Shift + r
+p5918
+sVFormat menu
+p5919
+VCtrl + Option + o
+p5920
+sVInsert rows above
+p5921
+V\u2318 + Option + = (with rows selected) OR Ctrl + Option + i, then r
+p5922
+sVFormat as date
+p5923
+VCtrl + Shift + 3
+p5924
+sVClear formatting
+p5925
+V\u2318 + \u005c
+p5926
+sVInsert date and time
+p5927
+V\u2318 + Option + Shift + ;
+p5928
+sVInsert rows below
+p5929
+VCtrl + Option + i, then b
+p5930
+sVOpen drop-down menu on filtered cell
+p5931
+VCtrl + \u2318 + r
+p5932
+sVFill range
+p5933
+V\u2318 + Enter
+p5934
+sVUngroup rows or columns
+p5935
+VOption + Shift + Left arrow
+p5936
+sVHelp menu
+p5937
+VCtrl + Option + h
+p5938
+sVView menu
+p5939
+VCtrl + Option + v
+p5940
+sVMove focus to popup (for links, bookmarks, and images)
+p5941
+Vholding Ctrl + \u2318, press e then p
+p5942
+sVMove to beginning of row
+p5943
+VFn + Left arrow
+p5944
+sVStrikethrough
+p5945
+VOption + Shift + 5
+p5946
+sVApply outer border
+p5947
+VOption + Shift + 7 or \u2318 + Shift + 7
+p5948
+sVDelete columns
+p5949
+V\u2318 + Option + - (with columns selected) OR Ctrl + Option + e, then e
+p5950
+sVOpen
+p5951
+V\u2318 + o
+p5952
+sVInsert/edit comment
+p5953
+V\u2318 + Option + m
+p5954
+sVRead column
+p5955
+V\u2318 + Option + Shift + c
+p5956
+sVInsert array formula
+p5957
+V\u2318 + Shift + Enter
+p5958
+sVInsert time
+p5959
+V\u2318 + Shift + ;
+p5960
+sVCompact controls
+p5961
+VCtrl + Shift + f
+p5962
+sVInsert/edit note
+p5963
+VShift + F2
+p5964
+sVSelect column
+p5965
+VCtrl + Space
+p5966
+sVFile menu
+p5967
+VCtrl + Option + f
+p5968
+sVOpen hyperlink
+p5969
+VOption + Enter
+p5970
+sVInsert columns to the left
+p5971
+V\u2318 + Option + = (with columns selected) OR Ctrl + Option + i, then c
+p5972
+sVMove to next sheet
+p5973
+V\u2318 + Shift + Fn + Down arrow
+p5974
+sVOpen Explore
+p5975
+VOption + Shift + x
+p5976
+sVLeft align
+p5977
+V\u2318 + Shift + l
+p5978
+sVApply bottom border
+p5979
+VOption + Shift + 3
+p5980
+sVClose drawing editor
+p5981
+V\u2318 + Esc or Shift + Esc
+p5982
+sVCopy
+p5983
+V\u2318 + c
+p5984
+sVPaste
+p5985
+V\u2318 + v
+p5986
+sVOpen chat inside the spreadsheet
+p5987
+VShift + Esc
+p5988
+sVMove to end of sheet
+p5989
+V\u2318 + Fn + Right arrow
+p5990
+sVForm menu
+p5991
+VCtrl + Option + m
+p5992
+sVInsert menu
+p5993
+VCtrl + Option + i
+p5994
+sVMove to previous comment
+p5995
+Vholding Ctrl + \u2318, press p then c
+p5996
+sVSelect input tools
+p5997
+V\u2318 + Option + Shift + k
+p5998
+sVShow common keyboard shortcuts
+p5999
+V\u2318 + /
+p6000
+sVInsert columns to the right
+p6001
+VCtrl + Option + i, then o
+p6002
+sVTurn on screen reader support
+p6003
+V\u2318 + Option + z
+p6004
+sVMove to beginning of sheet
+p6005
+V\u2318 + Fn + Left arrow
+p6006
+sVOpen comment discussion thread
+p6007
+V\u2318 + Option + Shift + a
+p6008
+sVUnderline
+p6009
+V\u2318 + u
+p6010
+sVShow all formulas
+p6011
+VCtrl + ~
+p6012
+ssVGoogle Docs
+p6013
+(dp6014
+VMove to previous misspelling
+p6015
+V\u2318 + ;
+p6016
+sVCopy text formatting
+p6017
+V\u2318\u2325c
+p6018
+sVSelect paragraph
+p6019
+VTriple-click
+p6020
+sVMove to next media (image or drawing)
+p6021
+Vholding Ctrl + \u2318, press n then g
+p6022
+sVExtend selection to the beginning of the document
+p6023
+V\u2318\u21e7\u2191
+p6024
+sVPaste text formatting
+p6025
+V\u2318\u2325v
+p6026
+sVRotate clockwise by 1°
+p6027
+V\u2325\u21e7\u2192
+p6028
+sVBold
+p6029
+V\u2318b
+p6030
+sVMove to previous heading
+p6031
+Vholding Ctrl + \u2318, press p then h
+p6032
+sVOpen Explore tool
+p6033
+V\u2318 + Option + Shift + i
+p6034
+sVUndo
+p6035
+V\u2318z
+p6036
+sVExtend selection to the end of the line
+p6037
+V\u21e7Fn\u2192
+p6038
+sVMove paragraph up/down
+p6039
+VCtrl \u21e7\u2191 or Ctrl \u21e7\u2193
+p6040
+sVMove to next formatting change
+p6041
+Vholding Ctrl + \u2318, press n then w
+p6042
+sVMove to the previous table row
+p6043
+Vholding Ctrl + \u2318 + Shift, press t then g
+p6044
+sVMove to the start of the table row
+p6045
+Vholding Ctrl + \u2318 + Shift, press t then j
+p6046
+sVMove to current footnote
+p6047
+Vholding Ctrl \u2318, press e then f
+p6048
+sVMove to the end of the table
+p6049
+Vholding Ctrl + \u2318 + Shift, press t then d
+p6050
+sVInsert comment
+p6051
+V\u2318\u2325m
+p6052
+sVClose drawing editor
+p6053
+V\u2318Esc or \u21e7Esc
+p6054
+sVMove to next bookmark
+p6055
+Vholding Ctrl + \u2318, press n then b
+p6056
+sVAlt text
+p6057
+V\u2318\u2325y
+p6058
+sVFind previous
+p6059
+V\u2318\u21e7g
+p6060
+sVToggle input controls
+p6061
+V\u2318\u21e7k
+p6062
+sVResize larger
+p6063
+V\u2318Ctrl k
+p6064
+sVResize smaller horizontally
+p6065
+V\u2318Ctrl w
+p6066
+sVRotate counterclockwise by 15°
+p6067
+V\u2325\u2190
+p6068
+sVOpen link
+p6069
+V\u2325\u23ce
+p6070
+sVMove to next link
+p6071
+Vholding Ctrl + \u2318, press n then l
+p6072
+sVTools menu
+p6073
+VCtrl \u2325t
+p6074
+sVFind
+p6075
+V\u2318f
+p6076
+sVInput tools menu
+p6077
+V\u2318\u2325\u21e7k
+p6078
+sVApply normal text style
+p6079
+V\u2318\u23250
+p6080
+sVEnter current comment
+p6081
+VCtrl \u23ce
+p6082
+sVMove to previous footnote
+p6083
+Vholding Ctrl \u2318, press p then f
+p6084
+sVPrint
+p6085
+V\u2318p
+p6086
+sVSubscript
+p6087
+V\u2318,
+p6088
+sVInsert or move to footer
+p6089
+Vholding Ctrl + \u2318, press o then f
+p6090
+sVMove to previous link
+p6091
+Vholding Ctrl + \u2318, press p then l
+p6092
+sVMove to previous bookmark
+p6093
+Vholding Ctrl + \u2318, press p then b
+p6094
+sVContext (right-click) menu
+p6095
+V\u2318\u21e7\u005c
+p6096
+sVNumbered list
+p6097
+V\u2318\u21e77
+p6098
+sVSelect all
+p6099
+V\u2318a
+p6100
+sVRotate clockwise by 15°
+p6101
+V\u2325\u2192
+p6102
+sVShow document outline
+p6103
+Vholding Ctrl + \u2318, press a then h
+p6104
+sVCenter align
+p6105
+V\u2318\u21e7e
+p6106
+sVResize smaller vertically
+p6107
+V\u2318Ctrl q
+p6108
+sVAccessibility menu
+p6109
+VCtrl \u2325a
+p6110
+sVPage down
+p6111
+VFn + Down arrow
+p6112
+sVInsert or move to header
+p6113
+Vholding Ctrl + \u2318, press o then h
+p6114
+sVMove to the start of the table column
+p6115
+Vholding Ctrl + \u2318 + Shift, press t then i
+p6116
+sVEdit menu
+p6117
+VCtrl \u2325e
+p6118
+sVReturn focus to document text
+p6119
+VEsc
+p6120
+sVOpen revision history
+p6121
+V\u2318 + Option + Shift + h
+p6122
+sVMove to previous heading [1-6]
+p6123
+Vholding Ctrl + \u2318, press p then [1-6]
+p6124
+sVFind again
+p6125
+V\u2318g
+p6126
+sVShow your browser's context menu
+p6127
+V\u21e7 right-click
+p6128
+sVJustify
+p6129
+V\u2318\u21e7j
+p6130
+sVMove to next item in the current list
+p6131
+Vholding Ctrl + \u2318, press n then i
+p6132
+sVBulleted list
+p6133
+V\u2318\u21e78
+p6134
+sVSelect all list items at current level
+p6135
+Vholding Ctrl \u2318\u21e7, press e then o
+p6136
+sVOpen
+p6137
+V\u2318o
+p6138
+sVOpen dictionary
+p6139
+V\u2318 + Shift + y
+p6140
+sVDecrease paragraph indentation
+p6141
+V\u2318[
+p6142
+sVMove to the start of the table
+p6143
+Vholding Ctrl + \u2318 + Shift, press t then s
+p6144
+sVMove to previous formatting change
+p6145
+Vholding Ctrl + \u2318, press p then w
+p6146
+sVMove to the previous table
+p6147
+Vholding Ctrl + \u2318 + Shift, press p then t
+p6148
+sVFind and replace
+p6149
+V\u2318\u21e7h
+p6150
+sVCut
+p6151
+V\u2318x
+p6152
+sVApply heading style [1-6]
+p6153
+V\u2318\u2325[1-6]
+p6154
+sVRepeat last action
+p6155
+V\u2318y
+p6156
+sVMove to next heading
+p6157
+Vholding Ctrl + \u2318, press n then h
+p6158
+sVMove to the next table column
+p6159
+Vholding Ctrl + \u2318 + Shift, press t then b
+p6160
+sVRight align
+p6161
+V\u2318\u21e7r
+p6162
+sVPaste without formatting
+p6163
+V\u2318\u21e7v
+p6164
+sVDecrease font size
+p6165
+V\u2318\u21e7<
+p6166
+sVFormat menu
+p6167
+VCtrl \u2325o
+p6168
+sVExtend selection one word at a time
+p6169
+VDouble-click + drag
+p6170
+sVExtend selection one character
+p6171
+V\u21e7\u2190 or \u21e7\u2192
+p6172
+sVIncrease paragraph indentation
+p6173
+V\u2318]
+p6174
+sVSuperscript
+p6175
+V\u2318.
+p6176
+sVItalicize
+p6177
+V\u2318i
+p6178
+sVGo to side panel
+p6179
+V\u2318 + Option + . or \u2318 + Option + ,
+p6180
+sVMove to the next table
+p6181
+Vholding Ctrl + \u2318 + Shift, press n then t
+p6182
+sVShow common keyboard shortcuts
+p6183
+V\u2318/
+p6184
+sVExtend selection one paragraph at a time
+p6185
+VTriple-click + drag
+p6186
+sVSelect word
+p6187
+VDouble-click
+p6188
+sVClear text formatting
+p6189
+V\u2318\u005c
+p6190
+sVIncrease font size
+p6191
+V\u2318\u21e7>
+p6192
+sVExtend selection one paragraph
+p6193
+V\u2325\u21e7\u2191 or \u2325\u21e7\u2193
+p6194
+sVHelp menu
+p6195
+VCtrl \u2325h
+p6196
+sVView menu
+p6197
+VCtrl \u2325v
+p6198
+sVExit table
+p6199
+Vholding Ctrl + \u2318 + Shift, press t then e
+p6200
+sVStrikethrough
+p6201
+V\u2318\u21e7x
+p6202
+sVSelect current list item
+p6203
+Vholding Ctrl \u2318\u21e7, press e then i
+p6204
+sVResize larger horizontally
+p6205
+V\u2318Ctrl b
+p6206
+sVMove to the previous edit (while viewing revision history or new changes)
+p6207
+Vholding Ctrl + \u2318, press p then r
+p6208
+sVRedo
+p6209
+V\u2318\u21e7z
+p6210
+sVMove to next misspelling
+p6211
+V\u2318 + '
+p6212
+sVResize larger vertically
+p6213
+V\u2318Ctrl i
+p6214
+sVMove to previous media (image or drawing)
+p6215
+Vholding Ctrl + \u2318, press p then g
+p6216
+sVMove to the next table row
+p6217
+Vholding Ctrl + \u2318 + Shift, press t then m
+p6218
+sVMove focus to popup (for links, bookmarks, and images)
+p6219
+Vholding Ctrl + \u2318, press e then p
+p6220
+sVMove to previous list
+p6221
+Vholding Ctrl + \u2318, press p then o
+p6222
+sVHide the menus (compact mode)
+p6223
+VCtrl \u21e7f
+p6224
+sVExtend selection one line
+p6225
+V\u21e7\u2191 or \u21e7\u2193
+p6226
+sVFile menu
+p6227
+VCtrl \u2325f
+p6228
+sVExtend selection to the beginning of the line
+p6229
+V\u21e7Fn\u2190
+p6230
+sVMove to the previous table column
+p6231
+Vholding Ctrl + \u2318 + Shift, press t then v
+p6232
+sVInsert page break
+p6233
+V\u2318\u23ce
+p6234
+sVPage up
+p6235
+VFn + Up arrow
+p6236
+sVStart voice typing (in Chrome)
+p6237
+V\u2318 + Shift + s
+p6238
+sVLeft align
+p6239
+V\u2318\u21e7l
+p6240
+sVInsert or edit link
+p6241
+V\u2318k
+p6242
+sVMove to the next edit (while viewing revision history or new changes)
+p6243
+Vholding Ctrl + \u2318, press n then r
+p6244
+sVCopy
+p6245
+V\u2318c
+p6246
+sVPaste
+p6247
+V\u2318v
+p6248
+sVInsert footnote
+p6249
+V\u2318\u2325f
+p6250
+sVMove to next heading [1-6]
+p6251
+Vholding Ctrl + \u2318, press n then [1-6]
+p6252
+sVWord count
+p6253
+V\u2318 + Shift + c
+p6254
+sVMove to the end of the table row
+p6255
+Vholding Ctrl + \u2318 + Shift, press t then l
+p6256
+sVExtend selection to the end of the document
+p6257
+V\u2318\u21e7\u2193
+p6258
+sVInsert menu
+p6259
+VCtrl \u2325i
+p6260
+sVResize smaller
+p6261
+V\u2318Ctrl j
+p6262
+sVEvery change is automatically saved in Drive
+p6263
+V\u2318s
+p6264
+sVSearch the menus
+p6265
+V\u2325/ or Ctrl \u2325z
+p6266
+sVMove to next footnote
+p6267
+Vholding Ctrl \u2318, press n then f
+p6268
+sVRotate counterclockwise by 1°
+p6269
+V\u2325\u21e7\u2190
+p6270
+sVMove to next list
+p6271
+Vholding Ctrl + \u2318, press n then o
+p6272
+sVMove focus out of document text
+p6273
+V\u2318 + Option + Shift + m
+p6274
+sVOpen discussion thread
+p6275
+V\u2318\u2325\u21e7a
+p6276
+sVOpen spelling/grammar
+p6277
+V\u2318 + Option + x or Fn + F7
+p6278
+sVUnderline
+p6279
+V\u2318u
+p6280
+sVMove to previous item in the current list
+p6281
+Vholding Ctrl + \u2318, press p then i
+p6282
+sVMove to the end of the table column
+p6283
+Vholding Ctrl + \u2318 + Shift, press t then k
+p6284
+ssVJira
+p6285
+(dp6286
+VAssign Issue
+p6287
+Va
+sVView Issue
+p6288
+Vo
+sVProjector Mode
+p6289
+Vz
+sVHide/Show Left Section
+p6290
+V[
+sVCancel changes
+p6291
+VEsc
+p6292
+sVOpens the Administration Search dialog box.
+p6293
+Vg then g
+p6294
+sVSend to Top
+p6295
+Vs + t
+p6296
+sVView selected Issue
+p6297
+Vo or Enter
+p6298
+sVGo to Issue Navigator
+p6299
+Vg then i
+p6300
+sVAgile drop-down menu
+p6301
+VCtrl (+ alt for Safari) + g
+p6302
+sVPrevious Activity
+p6303
+Vp
+sVCreate an Issue
+p6304
+Vc
+sVExpand/Collapse All Swimlanes
+p6305
+Vt
+sVAssign to Me
+p6306
+Vi
+sVBack to the Navigator
+p6307
+Vu
+sVComment on Issue
+p6308
+Vm
+sVProjects drop-down menu
+p6309
+VCtrl (+ alt for Safari) + p
+p6310
+sVSubmit changes
+p6311
+VEnter
+p6312
+sVAdd a New Line
+p6313
+VEnter
+p6314
+sVEdit Issue
+p6315
+Ve
+sVFocus search field
+p6316
+Vf
+sVOperations dialog box
+p6317
+V.
+sVEscape field
+p6318
+VEsc
+p6319
+sVGo to Dashboard
+p6320
+Vg then d
+p6321
+sVQuick Search
+p6322
+V/
+sVCancel Form
+p6323
+VCtrl (+ alt for Safari) + `
+p6324
+sVPrevious Issue
+p6325
+Vk
+sVDashboards drop-down menu
+p6326
+VCtrl (+ alt for Safari) + d
+p6327
+sVEdit Issue Labels
+p6328
+Vl
+sVNext Column
+p6329
+Vn
+sVOpen shortcut help
+p6330
+V?
+sVPrevious Column
+p6331
+Vp
+sVNext Activity
+p6332
+Vn
+sVIssues drop-down menu
+p6333
+VCtrl (+ alt for Safari) + i
+p6334
+sVForm Submit
+p6335
+VCtrl (+ alt for Safari) + s
+p6336
+sVShare Issue
+p6337
+Vs
+sVSend to Bottom
+p6338
+Vs + b
+p6339
+sVNext Issue
+p6340
+Vj
+sVGo to Agile
+p6341
+Vg then a OR g then h
+p6342
+sVBrowse to a Project
+p6343
+Vg then p
 p6344
 ssVSketch
 p6345

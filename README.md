@@ -13,6 +13,7 @@ Or create an issue if you cannot find an answer.
 Supported
 ---------
 - Adobe Illustrator
+- Adobe Photoshop
 - Airmail
 - Alfred
 - Asana
@@ -34,7 +35,6 @@ Supported
 - Microsoft Excel
 - Microsoft Word
 - Outlook
-- Photoshop
 - Reddit Enhancement Suite
 - Safari
 - Slack

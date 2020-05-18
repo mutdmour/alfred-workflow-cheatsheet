@@ -2,7 +2,7 @@
 
 #https://helpx.adobe.com/photoshop/using/default-keyboard-shortcuts.html
 shortcuts = {
-    "Photoshop": {
+    "Adobe Photoshop": {
         "Free Transform": "Command + T",
         "Toggle between painting and erasing with the same brush": "Hold down ` (grave accent)",
         "Decrease Brush Size": "[",
