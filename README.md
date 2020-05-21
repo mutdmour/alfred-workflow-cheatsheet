@@ -37,6 +37,7 @@ Supported
 - Outlook
 - Reddit Enhancement Suite
 - Safari
+- Sketch
 - Slack
 - Spotify
 - Sublime Text
