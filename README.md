@@ -35,6 +35,7 @@ Supported
 - Microsoft Excel
 - Microsoft Word
 - Outlook
+- Pixelmator
 - Reddit Enhancement Suite
 - Safari
 - Sibelius G7
