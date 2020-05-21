@@ -37,6 +37,7 @@ Supported
 - Outlook
 - Reddit Enhancement Suite
 - Safari
+- Sibelius G7
 - Sketch
 - Slack
 - Spotify
