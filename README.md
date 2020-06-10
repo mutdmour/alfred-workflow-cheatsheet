@@ -18,6 +18,7 @@ Supported
 - Alfred
 - Asana
 - AutoMute Chrome extension
+- Databricks
 - Default Folder X
 - Evernote
 - Finder
