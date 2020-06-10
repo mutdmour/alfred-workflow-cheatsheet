@@ -56,7 +56,7 @@ Supported
 
 Request apps to add
 ----------------
-If you would like to request an app to add, please comment on this issue [#17](https://github.com/mutdmour/alfred-workflow-cheatsheet/issues/17)
+If you would like to request an app to add, please comment on this issue [#29](https://github.com/mutdmour/alfred-workflow-cheatsheet/issues/29)
 
 To download
 -----------
