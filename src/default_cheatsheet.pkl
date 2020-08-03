@@ -14805,1713 +14805,1863 @@ p7212
 sVBreadcrumbs bar - Move to the previous element in the breadcrumbs bar
 p7213
 V\u2190
-ssVMac OSX
+ssVDatabricks
 p7214
 (dp7215
-VClose the front window
+VInsert a cell above
 p7216
-V\u2318W
+VA
+sVSwitch to Command Mode
 p7217
-sVSwitch apps: Switch to the next most recently used app among your open apps.
+VEsc
 p7218
-V\u2318Tab
+sVSplit a cell at cursor
 p7219
-sVForce Quit a specific app
+VCtrl \u2325 -
 p7220
-Vchoose app to quit and hold \u2325\u2318Esc for 3 seconds
+sVToggle line comment
 p7221
-sVEditing - Jump to end of line
+V\u2318 /
 p7222
-V\u2318\u2192
+sVIndent/Unindent selection
 p7223
-sVLog out of your macOS user account.
+V\u2318 ]/[
 p7224
-V\u21e7\u2318Q
+sVInsert a cell below
 p7225
-sVScreenshot: Take a screenshot of the entire screen.
+VB
+sVSwitch to Edit Mode
 p7226
-V\u21e7\u23183
+V\u23ce
+sVGo to last cell
 p7227
-sVHide the windows of the front app.
+V\u21e7G
 p7228
-V\u2318H
+sVDelete current cell
 p7229
-sVCut the selected item and copy it to the Clipboard.
+VDD
 p7230
-V\u2318X
+sVFind and Replace
 p7231
-sVPaste the contents of the Clipboard into the current document or app.
+VCtrl\u2325F
 p7232
-V\u2318V
+sVToggle comments panel
 p7233
-sVPrint the current document.
+VCtrl \u2325 M
 p7234
-V\u2318P
+sVToggle keyboard shortcuts menu
 p7235
-sVPut your displays to sleep.*
+VH
+sVRedo typing
 p7236
-VCtrl \u21e7 Power button or Ctrl \u21e7\u23cf
+V\u2318 \u21e7Z
 p7237
-sVEditing - Jump to beginning of line
+sVUndo typing
 p7238
-V\u2318\u2190
+V\u2318 Z
 p7239
-sVCopy the selected item to the Clipboard.
+sVMove to previous cell
 p7240
-V\u2318C
+V\u2191/P/K
 p7241
-sVLog out of your macOS user account immediately, without being asked to confirm.
+sVMove up or to previous cell
 p7242
-V\u2325\u21e7\u2318Q
+VUp
 p7243
-sVMinimize the front window to the Dock.
+sVRun command and move to next cell
 p7244
-V\u2318M
+V\u21e7\u23ce
 p7245
-sVUndo the previous command.
+sVPaste cell above
 p7246
-V\u2318Z
+V\u21e7V
 p7247
-sVPress to turn on your Mac or wake your Mac from sleep.
+sVMerge with cell below
 p7248
-VPower button
+V\u21e7M
 p7249
-sVDisplay a dialog asking if you want to sleep, restart, or shut down.
+sVUnindent selection
 p7250
-VPress and hold Power Button for 1.5 seconds or Ctrl Power button or Ctrl \u23cf
+V\u21e7Tab
 p7251
-sVclose all windows of the app
+sVRun all above commands (exclusive)
 p7252
-V\u2318\u2325W
+V\u21e7\u2325 \u2191
 p7253
-sVEditing - Delete one word before cursor
+sVRun all below commands (inclusive)
 p7254
-V\u2325\u232b
+V\u21e7\u2325 \u2193
 p7255
-sVMinimize all windows of the front app
+sVMove a cell down
 p7256
-V\u2318\u2325M
+VCtrl \u2325 Down
 p7257
-sVNew: Open an new document or window.
+sVAutocomplete, indent selection
 p7258
-V\u2318N
+VTab
 p7259
-sVview the front app but hide all other apps
+sVScroll up
 p7260
-V\u2318\u2325H
+V\u21e7Space
 p7261
-sVForce Quit: just the front app to quit
+sVPaste cell below
 p7262
-Vpress \u2318\u21e7\u2325Esc and hold for 3 sec
+VV
+sVMove a cell up
 p7263
-sVEditing - Jump to one word before
+VCtrl \u2325 Up
 p7264
-V\u2325\u2190
+sVToggle cell output
 p7265
-sVForce your Mac to turn off.
+VO
+sVRun command and insert new cell below
 p7266
-VPress and hold Power Button for 5 seconds
+V\u2325 \u23ce
 p7267
-sVEditing - Delete all words before cursor
+sVMove to previous/next cell
 p7268
-V\u2318\u232b
+V\u2325 Up/Down
 p7269
-sVQuit all apps, then shut down your Mac.
+sVScroll down
 p7270
-VCtrl \u2325\u2318 Power button or Ctrl \u2325\u2318\u23cf
-p7271
-sVFind Again: Find the previous occurrence of the item previously found
-p7272
-V\u2318\u21e7G
-p7273
-sVRedo, reversing the undo command.
-p7274
-V\u2318\u21e7Z
-p7275
-sVQuit all apps, then restart your Mac.
-p7276
-VCtrl \u2318\u23cf
-p7277
-sVSelect All items.
-p7278
-V\u2318A
-p7279
-sVQuick Look: Use Quick Look to preview the selected item.
-p7280
 VSpace
+p7271
+sVDelete current cell (skip prompt)
+p7272
+V\u21e7DD
+p7273
+sVCopy current cell
+p7274
+VC
+sVUndo delete cells
+p7275
+VZ
+sVCut current cell
+p7276
+VX
+sVMove down or to next cell
+p7277
+VDown
+p7278
+sVRun command
+p7279
+VCtrl \u23ce
+p7280
+sVGo to first cell
 p7281
-sVPreferences: Open preferences for the front app.
+VGG
 p7282
-V\u2318,
+sVSelect multiple cells
 p7283
-sVFind Again: Find the next occurrence of the item previously found.
+V\u2318 Click
 p7284
-V\u2318G
-p7285
-sVSpotlight
-p7286
-V\u2318Space
-p7287
-sVFind items in a document or open a Find window.
-p7288
-V\u2318F
-p7289
-sVScreenshot: Take a screenshot of part of the screen
-p7290
-V\u21e7\u23184
-p7291
-sVSave the current document.
-p7292
-V\u2318S
-p7293
-sVQuit the app.
-p7294
-V\u2318Q
-p7295
-sVForce your Mac to restart.
-p7296
-VCtrl \u2318 Power button
-p7297
-sVSwitch windows: Switch to the next most recently used window of the front app.
-p7298
-V\u21e7\u2318~
-p7299
-sVEditing - Jump to one word after
-p7300
-V\u2325\u2192
-p7301
-sVDictation
-p7302
-VFn Fn
-p7303
-sVOpen the selected item, or open a dialog to select a file to open.
-p7304
-V\u2318O
-p7305
 ssVVim
-p7306
-(dp7307
+p7285
+(dp7286
 Vjump to previous occurence of character x
-p7308
+p7287
 VFx
-p7309
+p7288
 sVvisual - a block with ()
-p7310
+p7289
 Vab
-p7311
+p7290
 sVstart visual block mode
-p7312
+p7291
 V^v
-p7313
+p7292
 sVput (paste) the clipboard after cursor
-p7314
+p7293
 Vp
 sVclose current pane
-p7315
+p7294
 V:close
-p7316
+p7295
 sVgo to the next buffer
-p7317
+p7296
 V:bnext or :bn
-p7318
+p7297
 sVdelete (cut) character
-p7319
+p7298
 Vx
 sVinsert at the beginning of the line
-p7320
+p7299
 VI
 sVrecord macro a
-p7321
+p7300
 Vqa
-p7322
+p7301
 sVmove back one full screen
-p7323
+p7302
 V\u2303b
-p7324
+p7303
 sVmove to top of screen
-p7325
+p7304
 VH
 sVsearch - jump to the next match
-p7326
+p7305
 V:cn
-p7327
+p7306
 sVjump forwards to the start of a word
-p7328
+p7307
 Vw
 sVmove the current split window into its own tab
-p7329
+p7308
 VCtrl + wT
-p7330
+p7309
 sVrepeat previous f, t, F or T movement
-p7331
+p7310
 V;
 sVwrite out the current file using sudo
-p7332
+p7311
 V:w !sudo tee %
-p7333
+p7312
 sVgo to the first line of the document
-p7334
+p7313
 Vgg
-p7335
+p7314
 sVsearch for pattern in multiple files
-p7336
+p7315
 V:vimgrep /pattern/ {file}
-p7337
+p7316
 sVvisual - move to other corner of block
-p7338
+p7317
 VO
 sVmove to tab number #
-p7339
+p7318
 V#gt
-p7340
+p7319
 sVclose all tabs except for the current one
-p7341
+p7320
 V:tabonly or :tabo
-p7342
+p7321
 sVjump to the last non-blank character of the line
-p7343
+p7322
 Vg_
-p7344
+p7323
 sVmove forward one full screen
-p7345
+p7324
 V\u2303f
-p7346
+p7325
 sVopen man page for word under the cursor
-p7347
+p7326
 VK
 sVyank (copy) marked text
-p7348
+p7327
 Vy
 sVmove cursor to the left window (vertical split)
-p7349
+p7328
 VCtrl + wh
-p7350
+p7329
 sVwrite (save) and quit on all tabs
-p7351
+p7330
 V:wqa
-p7352
+p7331
 sVmove cursor up
-p7353
+p7332
 Vk
 sVjump to after previous occurence of character x
-p7354
+p7333
 VTx
-p7355
+p7334
 sVput (paste) before cursor
-p7356
+p7335
 VP
 sVvisual - inner block with {}
-p7357
+p7336
 ViB
-p7358
+p7337
 sVjump to previous paragraph (or function/block, when editing code)
-p7359
+p7338
 V{
 sVmove cursor left
-p7360
+p7339
 Vh
 sVdelete (cut) 2 lines
-p7361
+p7340
 V2dd
-p7362
+p7341
 sVmove forward 1/2 a screen
-p7363
+p7342
 V\u2303d
-p7364
+p7343
 sVclose the current tab and all its windows
-p7365
+p7344
 V:tabclose or :tabc
-p7366
+p7345
 sVyank text to position of mark A
-p7367
+p7346
 Vy`a
-p7368
+p7347
 sVjump forwards to the end of a word (words can contain punctuation)
-p7369
+p7348
 VE
 sVquit (fails if there are unsaved changes)
-p7370
+p7349
 V:q
-p7371
+p7350
 sVyank (copy) to end of line
-p7372
+p7351
 Vy$
-p7373
+p7352
 sVmove back 1/2 a screen
-p7374
+p7353
 V\u2303u
-p7375
+p7354
 sVstop recording macro
-p7376
+p7355
 Vq
 sVshift text right
-p7377
+p7356
 V>
 sVgo to line 5
-p7378
+p7357
 V5G
-p7379
+p7358
 sVyank (copy) the characters of the word from the cursor position to the start of the next word
-p7380
+p7359
 Vyw
-p7381
+p7360
 sVcommand - run the command on all tabs (e.g. :tabdo q - closes all opened tabs)
-p7382
+p7361
 V:tabdo
-p7383
+p7362
 sVtranspose two letters (delete and paste)
-p7384
+p7363
 Vxp
-p7385
+p7364
 sVlist of marks
-p7386
+p7365
 V:marks
-p7387
+p7366
 sVopen help for keyword
-p7388
+p7367
 V:help keyword
-p7389
+p7368
 sVmove cursor to the right window (vertical split)
-p7390
+p7369
 VCtrl + wl
-p7391
+p7370
 sVjump to before next occurrence of character x
-p7392
+p7371
 Vtx
-p7393
+p7372
 sVmove cursor right
-p7394
+p7373
 Vl
 sVjump to next occurrence of character x
-p7395
+p7374
 Vfx
-p7396
+p7375
 sVdelete (cut) to the end of the line
-p7397
+p7376
 Vd$
-p7398
+p7377
 sVinsert (append) at the end of the line
-p7399
+p7378
 VA
 sVinsert (append) after the cursor
-p7400
+p7379
 Va
 sVopen a file in a new tab
-p7401
+p7380
 V:tabnew or :tabnew file
-p7402
+p7381
 sVinsert (append) at the end of the word
-p7403
+p7382
 Vea
-p7404
+p7383
 sVvisual - move to other end of marked area
-p7405
+p7384
 Vo
 sVjump to position of mark A
-p7406
+p7385
 V'a
-p7407
+p7386
 sVundo
-p7408
+p7387
 Vu
 sVjump forwards to the end of a word
-p7409
+p7388
 Ve
 sVdelete line and substitute text (same as cc)
-p7410
+p7389
 VS
 sVwrite (save) and quit
-p7411
+p7390
 V:wq or :x or ZZ
-p7412
+p7391
 sVstart visual mode, mark lines, then do a command (like y-yank)
-p7413
+p7392
 Vv
 sVreplace a single character
-p7414
+p7393
 Vr
 sVvisual - inner block with ()
-p7415
+p7394
 Vib
-p7416
+p7395
 sVjoin line below to the current one
-p7417
+p7396
 VJ
 sVjump to next paragraph (or function/block, when editing code)
-p7418
+p7397
 V}
 sVquit a window
-p7419
+p7398
 VCtrl + wq
-p7420
+p7399
 sVstart linewise visual mode
-p7421
+p7400
 VV
 sVappend (open) a new line below the current line
-p7422
+p7401
 Vo
 sVyank (copy) a line
-p7423
+p7402
 Vyy
-p7424
+p7403
 sVappend (open) a new line above the current line
-p7425
+p7404
 VO
 sVyank (copy) 2 lines
-p7426
+p7405
 V2yy
-p7427
+p7406
 sVchange (replace) to the end of the word
-p7428
+p7407
 Vcw
-p7429
+p7408
 sVsplit window vertically
-p7430
+p7409
 VCtrl + wv
-p7431
+p7410
 sVmove cursor down
-p7432
+p7411
 Vj
 sVredo
-p7433
+p7412
 V\u2303r
-p7434
+p7413
 sVchange (replace) entire line
-p7435
+p7414
 Vcc
-p7436
+p7415
 sVjump forwards to the start of a word (words can contain punctuation)
-p7437
+p7416
 VW
 sVmove cursor to the window above (horizontal split)
-p7438
+p7417
 VCtrl + wk
-p7439
+p7418
 sVgo to the previous buffer
-p7440
+p7419
 V:bprev or :bp
-p7441
+p7420
 sVmove to the next tab
-p7442
+p7421
 Vgt or :tabnext or :tabn
-p7443
+p7422
 sVmove cursor to the window below (horizontal split)
-p7444
+p7423
 VCtrl + wj
-p7445
+p7424
 sVswitch case
-p7446
+p7425
 V~
 sVjump to the start of the line
-p7447
+p7426
 V0
 sVpaste contents of register x
-p7448
+p7427
 V"xp
-p7449
+p7428
 sVshow registers content
-p7450
+p7429
 V:reg
-p7451
+p7430
 sVrepeat last command
-p7452
+p7431
 V.
 sVrerun last run macro
-p7453
+p7432
 V@@
-p7454
+p7433
 sVsearch - jump to the previous match
-p7455
+p7434
 V:cp
-p7456
+p7435
 sVswitch windows
-p7457
+p7436
 VCtrl + ww
-p7458
+p7437
 sVexit insert/visual mode
-p7459
+p7438
 VEsc
-p7460
+p7439
 sVdelete (cut) a line
-p7461
+p7440
 Vdd
-p7462
+p7441
 sVvisual - mark a word
-p7463
+p7442
 Vaw
-p7464
+p7443
 sVopen a file in a new buffer and vertically split window
-p7465
+p7444
 V:vsp file
-p7466
+p7445
 sVjump to the end of the line
-p7467
+p7446
 V$
 sVdelete character and substitute text
-p7468
+p7447
 Vs
 sVopen a file in a new buffer and split window
-p7469
+p7448
 V:sp file
-p7470
+p7449
 sVopen file
-p7471
+p7450
 V:o file
-p7472
+p7451
 sVmove to matching character (default supported pairs: '()', '{}', '[]')
-p7473
+p7452
 V%
 sVjump backwards to the start of a word
-p7474
+p7453
 Vb
 sVsearch - open a window containing the list of matches
-p7475
+p7454
 V:copen
-p7476
+p7455
 sVchange (replace) to the end of the line
-p7477
+p7456
 Vc$
-p7478
+p7457
 sVmove current tab to the #th position (indexed from 0)
-p7479
+p7458
 V:tabmove #
-p7480
+p7459
 sVwrite (save) the file, but don't exit
-p7481
+p7460
 V:w
-p7482
+p7461
 sVset current position for mark A
-p7483
+p7462
 Vma
-p7484
+p7463
 sVinsert before the cursor
-p7485
+p7464
 Vi
 sVjump to the first non-blank character of the line
-p7486
+p7465
 V^
 sVjump backwards to the start of a word (words can contain punctuation)
-p7487
+p7466
 VB
 sVedit a file in a new buffer
-p7488
+p7467
 V:e file
-p7489
+p7468
 sVyank into register x
-p7490
+p7469
 V"xy
-p7491
+p7470
 sVmove to middle of screen
-p7492
+p7471
 VM
 sVrun macro a
-p7493
+p7472
 V@a
-p7494
+p7473
 sVsave file as
-p7495
+p7474
 V:saveas file
-p7496
+p7475
 sVgo to the last line of the document
-p7497
+p7476
 VG
 sVdelete a buffer (close a file)
-p7498
+p7477
 V:bd
-p7499
+p7478
 sVshift text left
-p7500
+p7479
 V<
 sVcenter cursor on screen
-p7501
+p7480
 Vzz
-p7502
+p7481
 sVsplit window
-p7503
+p7482
 VCtrl + ws
-p7504
+p7483
 sVquit and throw away unsaved changes
-p7505
+p7484
 V:q! or ZQ
-p7506
+p7485
 sVdelete (cut) the characters of the word from the cursor position to the start of the next word
-p7507
+p7486
 Vdw
-p7508
+p7487
 sVmove to the previous tab
-p7509
+p7488
 VgT or :tabprev or :tabp
-p7510
+p7489
 sVlist all open buffers
-p7511
+p7490
 V:ls
-p7512
+p7491
 sVrepeat previous f, t, F or T movement, backwards
-p7513
+p7492
 V,
 sVdelete marked text
-p7514
+p7493
 Vd
 sVmove to bottom of screen
-p7515
+p7494
 VL
 ssVzshell
-p7516
-(dp7517
+p7495
+(dp7496
 Vgit diff --cached
-p7518
+p7497
 Vgdca
-p7519
+p7498
 sVUptake new changes
-p7520
+p7499
 Vsource ~/.zshrc
-p7521
+p7500
 sVgit pull origin $(current_branch)
-p7522
+p7501
 Vggl
-p7523
+p7502
 sVgit blame -b -w
-p7524
+p7503
 Vgbl
-p7525
+p7504
 sVgit tag -s
-p7526
+p7505
 Vgts
-p7527
+p7506
 sVswitch to directory number n (2-9)
-p7528
+p7507
 Vcd +n
-p7529
+p7508
 sVtmux attach -t
-p7530
+p7509
 Vta
-p7531
+p7510
 sVgit remote
-p7532
+p7511
 Vgr
-p7533
+p7512
 sVgit push
-p7534
+p7513
 Vgp
-p7535
+p7514
 sVgit remote rename
-p7536
+p7515
 Vgrmv
-p7537
+p7516
 sVtab-completeion sudo unmount
-p7538
+p7517
 Vsudo unmount(tab)
-p7539
+p7518
 sVtmux attach -d -t
-p7540
+p7519
 Vtad
-p7541
+p7520
 sVgit cherry-pick --abort
-p7542
+p7521
 Vgcpa
-p7543
+p7522
 sV(When using vi-mode plugin) Edit current command line in Vim
-p7544
+p7523
 Vv
 sVgit pull upstream master
-p7545
+p7524
 Vglum
-p7546
+p7525
 sVUninstall Oh-my-zsh.
-p7547
+p7526
 Vuninstall_oh_my_zsh
-p7548
+p7527
 sVgit log -n 1 | grep -q -c "--wip--" && git reset HEAD~1
-p7549
+p7528
 Vgunwip
-p7550
+p7529
 sVgit add --all
-p7551
+p7530
 Vgaa
-p7552
+p7531
 sVgit commit -m
-p7553
+p7532
 Vgcmsg
-p7554
+p7533
 sVgit whatchanged -p --abbrev-commit --pretty = medium
-p7555
+p7534
 Vgwch
-p7556
+p7535
 sVtmux list-sessions
-p7557
+p7536
 Vtl
-p7558
+p7537
 sVgit reset --hard ^^ git clean dfx
-p7559
+p7538
 Vgpristine
-p7560
+p7539
 sVgit rebase -i
-p7561
+p7540
 Vgrbi
-p7562
+p7541
 sVshow the status of the NAME process
-p7563
+p7542
 Vsc-status NAME
-p7564
+p7543
 sVgit mergetool --no-prompt
-p7565
+p7544
 Vgmt
-p7566
+p7545
 sVgit show --pretty = short --show-signature
-p7567
+p7546
 Vgsps
-p7568
+p7547
 sVstart the NAME process
-p7569
+p7548
 Vsc-start NAME
-p7570
+p7549
 sVgit log --graph --decorate --all
-p7571
+p7550
 Vglgga
-p7572
+p7551
 sVcd /
-p7573
+p7552
 V/
 sVExtract an archive (supported types: tar.{bz2,gz,xz,lzma}, bz2, rar, gz, tar, tbz2, tgz, zip, Z, 7z).
-p7574
+p7553
 Vx / extract
-p7575
+p7554
 sVgit pull --rebase
-p7576
+p7555
 Vgup
-p7577
+p7556
 sVgit pull origin $(current_branch) && git push origin $(current_branch)
-p7578
+p7557
 Vggpnp
-p7579
+p7558
 sVgit log --graph --max-count = 10
-p7580
+p7559
 Vglgg
-p7581
+p7560
 sVgit status
-p7582
+p7561
 Vgst
-p7583
+p7562
 sVgit cherry-pick
-p7584
+p7563
 Vgcp
-p7585
+p7564
 sVcd $(git rev-parse --show-toplevel || echo ".")
-p7586
+p7565
 Vgrt
-p7587
+p7566
 sVgit commit -v -a --amend
-p7588
+p7567
 Vgca!
-p7589
+p7568
 sVgit bisect
-p7590
+p7569
 Vgbs
-p7591
+p7570
 sVgit checkout -b
-p7592
+p7571
 Vgcb
-p7593
+p7572
 sVgit add -A; git ls-files --deleted -z | xargs -r0 git rm; git commit -m "--wip--"
-p7594
+p7573
 Vgwip
-p7595
+p7574
 sVcd ../../..
-p7596
+p7575
 V....
-p7597
+p7576
 sVgit clean -fd
-p7598
+p7577
 Vgclean
-p7599
+p7578
 sVtmux kill-server
-p7600
+p7579
 Vtksv
-p7601
+p7580
 sVgit verify-tag
-p7602
+p7581
 Vgvt
-p7603
+p7582
 sVgit reset HEAD --hard
-p7604
+p7583
 Vgrhh
-p7605
+p7584
 sVgit log --stat --max-count = 10
-p7606
+p7585
 Vglg
-p7607
+p7586
 sVgit rebase --continue
-p7608
+p7587
 Vgrbc
-p7609
+p7588
 sVtab-completeion cap
-p7610
+p7589
 Vcap (tab)
-p7611
+p7590
 sVgitk --all --branches
-p7612
+p7591
 Vgk
-p7613
+p7592
 sVgit pull --rebase origin $(current_branch)
-p7614
+p7593
 Vggpur
-p7615
+p7594
 sVgit gui citool --amend
-p7616
+p7595
 Vgga
-p7617
+p7596
 sVgit checkout develop
-p7618
+p7597
 Vgcd
-p7619
+p7598
 sVgit cherry-pick --continue
-p7620
+p7599
 Vgcpc
-p7621
+p7600
 sVgit fetch --all --prune
-p7622
+p7601
 Vgfa
-p7623
+p7602
 sVgit log --oneline --decorate --color --graph
-p7624
+p7603
 Vglog
-p7625
+p7604
 sVcd ..
-p7626
+p7605
 V..
-p7627
+p7606
 sVgit bisect start
-p7628
+p7607
 Vgbss
-p7629
+p7608
 sVgit diff-tree --no-commit-id --name-only -r
-p7630
+p7609
 Vgdt
-p7631
+p7610
 sVgit stash save
-p7632
+p7611
 Vgsta
-p7633
+p7612
 sVgit update-index --assume-unchanged
-p7634
+p7613
 Vgignore
-p7635
+p7614
 sVgit branch --no-merged
-p7636
+p7615
 Vgbnm
-p7637
+p7616
 sVSymfony2 - sf debug:router
-p7638
+p7617
 Vsfroute
-p7639
+p7618
 sVgit stash drop
-p7640
+p7619
 Vgstd
-p7641
+p7620
 sVgit reset HEAD
-p7642
+p7621
 Vgrh
-p7643
+p7622
 sVgit checkout
-p7644
+p7623
 Vgco
-p7645
+p7624
 sVSymfony2 - sf cache:warmup
-p7646
+p7625
 Vsfcw
-p7647
+p7626
 sVtab-completeion unrar
-p7648
+p7627
 Vunrar (tab)
-p7649
+p7628
 sVenable the NAME process to start at boot
-p7650
+p7629
 Vsc-enable NAME
-p7651
+p7630
 sVgit remote update
-p7652
+p7631
 Vgrup
-p7653
+p7632
 sVtab-completeion rake
-p7654
+p7633
 Vrake (tab)
-p7655
+p7634
 sVgit commit -v -a
-p7656
+p7635
 Vgca
-p7657
+p7636
 sVgit status -s
-p7658
+p7637
 Vgss
-p7659
+p7638
 sVgit commit -v
-p7660
+p7639
 Vgc
-p7661
+p7640
 sVgit ls-files -v | grep "^[[:lower:]]"
-p7662
+p7641
 Vgignored
-p7663
+p7642
 sVgit
-p7664
+p7643
 Vg
 sVSymfony2 - php app/console cache:clear
-p7665
+p7644
 Vsfcl
-p7666
+p7645
 sVgit commit -s -m
-p7667
+p7646
 Vgcsm
-p7668
+p7647
 sVSymfony2 - sf server:run -vvv
-p7669
+p7648
 Vsfsr
-p7670
+p7649
 sVcd ../../../..
-p7671
+p7650
 V.....
-p7672
+p7651
 sVGet a list of the top 20 commands and how many times they have been run.
-p7673
+p7652
 Vzsh_stats
-p7674
+p7653
 sVgit commit -S
-p7675
+p7654
 Vgcs
-p7676
+p7655
 sVgit merge
-p7677
+p7656
 Vgm
-p7678
+p7657
 sVSymfony2 - sf generate:bundle
-p7679
+p7658
 Vsfgb
-p7680
+p7659
 sVgit remote set-url
-p7681
+p7660
 Vgrset
-p7682
+p7661
 sVSymfony2 - php ./app/console
-p7683
+p7662
 Vsf
-p7684
+p7663
 sVshow the NAME systemd .service file
-p7685
+p7664
 Vsc-show NAME
-p7686
+p7665
 sVgit rebase --abort
-p7687
+p7666
 Vgrba
-p7688
+p7667
 sVgit stash list
-p7689
+p7668
 Vgstl
-p7690
+p7669
 sVgit add --patch
-p7691
+p7670
 Vgapa
-p7692
+p7671
 sVtmux kill-session -t
-p7693
+p7672
 Vtkss
-p7694
+p7673
 sVgit diff
-p7695
+p7674
 Vgd
-p7696
+p7675
 sVgit branch -a
-p7697
+p7676
 Vgba
-p7698
+p7677
 sVgit branch -d
-p7699
+p7678
 Vgbd
-p7700
+p7679
 sVgit push origin $(current_branch)
-p7701
+p7680
 Vggp
-p7702
+p7681
 sVgit bisect good
-p7703
+p7682
 Vgbsg
-p7704
+p7683
 sVgit commit -a -m
-p7705
+p7684
 Vgcam
-p7706
+p7685
 sV_git_log_prettily (git log --pretty=$1)
-p7707
+p7686
 Vglp
-p7708
+p7687
 sVUpgrade Oh-my-zsh.
-p7709
+p7688
 Vupgrade_oh_my_zsh
-p7710
+p7689
 sVgit checkout master
-p7711
+p7690
 Vgcm
-p7712
+p7691
 sVgit commit -v -a --no-edit --amend
-p7713
+p7692
 Vgcan!
-p7714
+p7693
 sVstop the NAME process
-p7715
+p7694
 Vsc-stop NAME
-p7716
+p7695
 sVgit branch --set-upstream-to=origin/$(current_branch)
-p7717
+p7696
 Vggsup
-p7718
+p7697
 sVgit branch --remote
-p7719
+p7698
 Vgbr
-p7720
+p7699
 sVtab-completeion ls
-p7721
+p7700
 Vls (tab)
-p7722
+p7701
 sVSymfony2 - sf debug:container
-p7723
+p7702
 Vsfcontainer
-p7724
+p7703
 sV(When using sublime plugin) Open current directory in Sublime Text 2/3
-p7725
+p7704
 Vstt
-p7726
+p7705
 sVtab-completeion kill
-p7727
+p7706
 Vkill (tab)
-p7728
+p7707
 sVgit svn rebase
-p7729
+p7708
 Vgsr
-p7730
+p7709
 sVgit clone --recursive
-p7731
+p7710
 Vgcl
-p7732
+p7711
 sVgit commit -v --amend
-p7733
+p7712
 Vgc!
-p7734
+p7713
 sVcd ~
-p7735
+p7714
 V~
 sVgit push origin --all && git push origin --tags
-p7736
+p7715
 Vgpoat
-p7737
+p7716
 sVgit pull
-p7738
+p7717
 Vgl
-p7739
+p7718
 sVtab-completeion ssh
-p7740
+p7719
 Vssh (tab)
-p7741
+p7720
 sVgit fetch
-p7742
+p7721
 Vgf
-p7743
+p7722
 sVgit remote remove
-p7744
+p7723
 Vgrrm
-p7745
+p7724
 sVgit bisect bad
-p7746
+p7725
 Vgbsb
-p7747
+p7726
 sVCreate a new directory and change to it, will create intermediate directories as required.
-p7748
+p7727
 Vtake
-p7749
+p7728
 sVgit bisect reset
-p7750
+p7729
 Vgbsr
-p7751
+p7730
 sVgit stash pop
-p7752
+p7731
 Vgstp
-p7753
+p7732
 sVgit svn dcommit && git push github master:svntrunk
-p7754
+p7733
 Vgit-svn-dcommit-push
-p7755
+p7734
 sVDynamic access to current branch name with the current_branch function
-p7756
+p7735
 Vgrb publish $(current_branch) origin
-p7757
+p7736
 sVgit commit -v -a -s --no-edit --amend
-p7758
+p7737
 Vgcans!
-p7759
+p7738
 sVgit add
-p7760
+p7739
 Vga
-p7761
+p7740
 sVgit remote -v
-p7762
+p7741
 Vgrv
-p7763
+p7742
 sVgit stash show --text
-p7764
+p7743
 Vgsts
-p7765
+p7744
 sVrestart the NAME process
-p7766
+p7745
 Vsc-restart NAME
-p7767
+p7746
 sVgit update-index --no-assume-unchanged
-p7768
+p7747
 Vgunignore
-p7769
+p7748
 sVcd ../..
-p7770
+p7749
 V...
-p7771
+p7750
 sVgit log --oneline --decorate --color
-p7772
+p7751
 Vglo
-p7773
+p7752
 sVdisable the NAME process at boot
-p7774
+p7753
 Vsc-disable NAME
-p7775
+p7754
 sVgit rebase --skip
-p7776
+p7755
 Vgrbs
-p7777
+p7756
 sVgit branch
-p7778
+p7757
 Vgb
-p7779
+p7758
 sVgit diff --word-diff
-p7780
+p7759
 Vgdw
-p7781
+p7760
 sVlist all aliases
-p7782
+p7761
 Valias
-p7783
+p7762
 sVCreate a new tab in the current directory (macOS - requires enabling access for assistive devices under System Preferences).
-p7784
+p7763
 Vtabs
-p7785
+p7764
 sVgit config --list
-p7786
+p7765
 Vgcf
-p7787
+p7766
 sVgit svn dcommit
-p7788
+p7767
 Vgsd
-p7789
+p7768
 sVgit describe --tags `git rev-list --tags --max-count=1`
-p7790
+p7769
 Vgdct
-p7791
+p7770
 sVtmux new-session -s
-p7792
+p7771
 Vts
-p7793
+p7772
 sVgit stash apply
-p7794
+p7773
 Vgstaa
-p7795
+p7774
 sVgit shortlog -sn
-p7796
+p7775
 Vgcount
-p7797
+p7776
 sVgit gui citool
-p7798
+p7777
 Vgg
-p7799
+p7778
 sVgit fetch origin
-p7800
+p7779
 Vgfo
+p7780
+ssVMac OSX
+p7781
+(dp7782
+VClose the front window
+p7783
+V\u2318W
+p7784
+sVView the front app but hide all other apps
+p7785
+V\u2318\u2325H
+p7786
+sVSwitch apps: Switch to the next most recently used app among your open apps.
+p7787
+V\u2318Tab
+p7788
+sVForce Quit a specific app
+p7789
+Vchoose app to quit and hold \u2325\u2318Esc for 3 seconds
+p7790
+sVEditing - Jump to end of line
+p7791
+V\u2318\u2192
+p7792
+sVLog out of your macOS user account.
+p7793
+V\u21e7\u2318Q
+p7794
+sVScreenshot: Take a screenshot of the entire screen.
+p7795
+V\u21e7\u23183
+p7796
+sVCut the selected item and copy it to the Clipboard.
+p7797
+V\u2318X
+p7798
+sVHide the windows of the front app.
+p7799
+V\u2318H
+p7800
+sVClose all windows of the app
 p7801
-ssVAirmail
+V\u2318\u2325W
 p7802
-(dp7803
-VQuick Reply
+sVPaste the contents of the Clipboard into the current document or app.
+p7803
+V\u2318V
 p7804
+sVPrint the current document.
+p7805
+V\u2318P
+p7806
+sVPut your displays to sleep.*
+p7807
+VCtrl \u21e7 Power button or Ctrl \u21e7\u23cf
+p7808
+sVEditing - Jump to beginning of line
+p7809
+V\u2318\u2190
+p7810
+sVCopy the selected item to the Clipboard.
+p7811
+V\u2318C
+p7812
+sVLog out of your macOS user account immediately, without being asked to confirm.
+p7813
+V\u2325\u21e7\u2318Q
+p7814
+sVMinimize the front window to the Dock.
+p7815
+V\u2318M
+p7816
+sVUndo the previous command.
+p7817
+V\u2318Z
+p7818
+sVPress to turn on your Mac or wake your Mac from sleep.
+p7819
+VPower button
+p7820
+sVDisplay a dialog asking if you want to sleep, restart, or shut down.
+p7821
+VPress and hold Power Button for 1.5 seconds or Ctrl Power button or Ctrl \u23cf
+p7822
+sVQuick Look: Use Quick Look to preview the selected item.
+p7823
+VSpace
+p7824
+sVEditing - Delete one word before cursor
+p7825
+V\u2325\u232b
+p7826
+sVMinimize all windows of the front app
+p7827
+V\u2318\u2325M
+p7828
+sVNew: Open an new document or window.
+p7829
+V\u2318N
+p7830
+sVForce Quit: just the front app to quit
+p7831
+Vpress \u2318\u21e7\u2325Esc and hold for 3 sec
+p7832
+sVEditing - Jump to one word before
+p7833
+V\u2325\u2190
+p7834
+sVForce your Mac to turn off.
+p7835
+VPress and hold Power Button for 5 seconds
+p7836
+sVEditing - Delete all words before cursor
+p7837
+V\u2318\u232b
+p7838
+sVQuit all apps, then shut down your Mac.
+p7839
+VCtrl \u2325\u2318 Power button or Ctrl \u2325\u2318\u23cf
+p7840
+sVFind Again: Find the previous occurrence of the item previously found
+p7841
+V\u2318\u21e7G
+p7842
+sVRedo, reversing the undo command.
+p7843
+V\u2318\u21e7Z
+p7844
+sVQuit all apps, then restart your Mac.
+p7845
+VCtrl \u2318\u23cf
+p7846
+sVSelect All items.
+p7847
+V\u2318A
+p7848
+sVPreferences: Open preferences for the front app.
+p7849
+V\u2318,
+p7850
+sVFind Again: Find the next occurrence of the item previously found.
+p7851
+V\u2318G
+p7852
+sVSpotlight
+p7853
+V\u2318Space
+p7854
+sVFind items in a document or open a Find window.
+p7855
+V\u2318F
+p7856
+sVScreenshot: Take a screenshot of part of the screen
+p7857
+V\u21e7\u23184
+p7858
+sVSave the current document.
+p7859
+V\u2318S
+p7860
+sVQuit the app.
+p7861
+V\u2318Q
+p7862
+sVForce your Mac to restart.
+p7863
+VCtrl \u2318 Power button
+p7864
+sVSwitch windows: Switch to the next most recently used window of the front app.
+p7865
+V\u21e7\u2318~
+p7866
+sVEditing - Jump to one word after
+p7867
+V\u2325\u2192
+p7868
+sVDictation
+p7869
+VFn Fn
+p7870
+sVOpen the selected item, or open a dialog to select a file to open.
+p7871
+V\u2318O
+p7872
+ssVAirmail
+p7873
+(dp7874
+VQuick Reply
+p7875
 VL
 sV^\u2318R
-p7805
+p7876
 VL
 sVHide Message Detail
-p7806
+p7877
 VL
 sVHide hidden folders
-p7807
+p7878
 VL
 sVPaste and match style
-p7808
+p7879
 VL
 sVShow Unread
-p7809
+p7880
 VL
 sVFind all folders
-p7810
+p7881
 VL
 sV\u2325\u2318F
-p7811
+p7882
 VL
 sV\u2325\u2318E
-p7812
+p7883
 VL
 sV\u2325\u2318B
-p7813
+p7884
 VL
 sVRules
-p7814
+p7885
 VL
 sV\u2325\u2318M
-p7815
+p7886
 VL
 sV\u2325\u2318I
-p7816
+p7887
 VL
 sVShow folders
-p7817
+p7888
 VL
 sV0
 VL
 sV\u2325\u2318U
-p7818
+p7889
 VL
 sV4
 VL
 sV8
 VL
 sVHide Message Preview Pane
-p7819
+p7890
 VL
 sV^\u2318A
-p7820
+p7891
 VL
 sVD
 VL
 sV\u21e7\u2318L
-p7821
+p7892
 VL
 sV^\u2318L
-p7822
+p7893
 VL
 sV\u21e7\u2318N
-p7823
+p7894
 VL
 sVCancel or Extend View
-p7824
+p7895
 VL
 sV^\u2318I
-p7825
+p7896
 VL
 sV\u21e7\u2318T
-p7826
+p7897
 VL
 sVP
 VL
 sV\u21e7\u2318V
-p7827
+p7898
 VL
 sVReply All
-p7828
+p7899
 VL
 sV^\u2318P
-p7829
+p7900
 VL
 sV^\u2318S
-p7830
+p7901
 VL
 sVShow folder filter
-p7831
+p7902
 VL
 sVRefresh / Get Messages
-p7832
+p7903
 VL
 sVSend Again
-p7833
+p7904
 VL
 sVFantastical2
-p7834
+p7905
 VL
 sVOperations
-p7835
+p7906
 VL
 sVQuote Selection
-p7836
+p7907
 VL
 sVHide folders
-p7837
+p7908
 VL
 sVPaste text only
-p7838
+p7909
 VL
 sV\u2318-
-p7839
+p7910
 VL
 sVSort by Sender
-p7840
+p7911
 VL
 sV\u21e7I or \u2318\u21e7U
-p7841
+p7912
 VL
 sVShow messages from the same sender
-p7842
+p7913
 VL
 sVLabel
-p7843
+p7914
 VL
 sVMark as Important
-p7844
+p7915
 VL
 sVShow All / Remove all filters
-p7845
+p7916
 VL
 sVReply
-p7846
+p7917
 VL
 sVShow/Hide Filter
-p7847
+p7918
 VL
 sV#
 VL
 sVMark as read
-p7848
+p7919
 VL
 sVMemo
-p7849
+p7920
 VL
 sVNext account
-p7850
+p7921
 VL
 sVMove to
-p7851
+p7922
 VL
 sV3
 VL
 sVSelect Next Conversation
-p7852
+p7923
 VL
 sVPlain text composer
-p7853
+p7924
 VL
 sVSwitch Account
-p7854
+p7925
 VL
 sVSwitch to plain text
-p7855
+p7926
 VL
 sVDone
-p7856
+p7927
 VL
 sVAttach
-p7857
+p7928
 VL
 sVShow/Hide Accounts
-p7858
+p7929
 VL
 sV^T
-p7859
+p7930
 VL
 sV\u2318\u2198
-p7860
+p7931
 VL
 sVQuick reply all
-p7861
+p7932
 VL
 sVShow Attachments
-p7862
+p7933
 VL
 sV\u2318\u2325R
-p7863
+p7934
 VL
 sVA or \u2318\u21e7R
-p7864
+p7935
 VL
 sVShow Plugins Folders
-p7865
+p7936
 VL
 sVMove to trash
-p7866
+p7937
 VL
 sV\u2318\u2190
-p7867
+p7938
 VL
 sV\u2318\u2196
-p7868
+p7939
 VL
 sVNext sender while composing
-p7869
+p7940
 VL
 sV\u2318O Open message in separate preview window
-p7870
+p7941
 VL
 sVNew Folder
-p7871
+p7942
 VL
 sVPrevious account
-p7872
+p7943
 VL
 sV7
 VL
 sV\u2325\u2318N
-p7873
+p7944
 VL
 sVReverse Order
-p7874
+p7945
 VL
 sVShow Starred
-p7875
+p7946
 VL
 sVCalendar
-p7876
+p7947
 VL
 sVShow Message Preview Pane
-p7877
+p7948
 VL
 sV\u21e7U or \u2318\u21e7U
-p7878
+p7949
 VL
 sVSelect Previous Conversation
-p7879
+p7950
 VL
 sVSort by Unread
-p7880
+p7951
 VL
 sVThings
-p7881
+p7952
 VL
 sV\u2318F
-p7882
+p7953
 VL
 sV\u2318E
-p7883
+p7954
 VL
 sVNew Message
-p7884
+p7955
 VL
 sV\u2318\u2192
-p7885
+p7956
 VL
 sVS or \u21e7\u2318S
-p7886
+p7957
 VL
 sV2Do
-p7887
+p7958
 VL
 sVSort by Replied
-p7888
+p7959
 VL
 sVSort by Date
-p7889
+p7960
 VL
 sVEmpty trash
-p7890
+p7961
 VL
 sVZoom out
-p7891
+p7962
 VL
 sV2
 VL
 sV6
 VL
 sVShow Conversations
-p7892
+p7963
 VL
 sVShow Message Detail
-p7893
+p7964
 VL
 sVN
 VL
 sVGo to Last
-p7894
+p7965
 VL
 sV^\u2325F
-p7895
+p7966
 VL
 sVSort by Subject
-p7896
+p7967
 VL
 sV+ or \u2318\u21e7I
-p7897
+p7968
 VL
 sVV
 VL
 sV\u2318+
-p7898
+p7969
 VL
 sV\u2318.
-p7899
+p7970
 VL
 sV\u2325J
-p7900
+p7971
 VL
 sV^1,2,3,4\u2026
-p7901
+p7972
 VL
 sVAll inboxes
-p7902
+p7973
 VL
 sVReset zoom
-p7903
+p7974
 VL
 sV\u23180
-p7904
+p7975
 VL
 sVArchive
-p7905
+p7976
 VL
 sV\u21e7\u2318\u2191
-p7906
+p7977
 VL
 sVRedirect
-p7907
+p7978
 VL
 sV\u2325\u21e7\u2318F
-p7908
+p7979
 VL
 sVTo Do
-p7909
+p7980
 VL
 sV\u2325\u21e7\u2318I
-p7910
+p7981
 VL
 sVConvert to `Reply All` while replying
-p7911
+p7982
 VL
 sVMark as Not Important
-p7912
+p7983
 VL
 sV\u2325\u21e7\u2318V
-p7913
+p7984
 VL
 sV^\u2318\u2190
-p7914
+p7985
 VL
 sV^\u2318\u2192
-p7915
+p7986
 VL
 sVNext signature while composing
-p7916
+p7987
 VL
 sVShow Raw Source
-p7917
+p7988
 VL
 sV\u21e7\u2318A
-p7918
+p7989
 VL
 sV- or \u2318\u21e7I
-p7919
+p7990
 VL
 sVZoom in
-p7920
+p7991
 VL
 sVReveal hidden folder
-p7921
+p7992
 VL
 sV^\u2325Y
-p7922
+p7993
 VL
 sV^\u2325\u2318C
-p7923
+p7994
 VL
 sV^\u2325T
-p7924
+p7995
 VL
 sV^\u2325R
-p7925
+p7996
 VL
 sV^\u2325S
-p7926
+p7997
 VL
 sVMark as star
-p7927
+p7998
 VL
 sV1
 VL
 sV^\u2325O
-p7928
+p7999
 VL
 sV5
 VL
 sV^\u2325H
-p7929
+p8000
 VL
 sV9
 VL
 sV^\u2325\u2318R
-p7930
+p8001
 VL
 sVR or \u2318R
-p7931
+p8002
 VL
 sV=
 VL
 sV^\u2325\u2318V
-p7932
+p8003
 VL
 sVLoad Image
-p7933
+p8004
 VL
 sVExport to email
-p7934
+p8005
 VL
 sVE
 VL
 sVFantastical
-p7935
+p8006
 VL
 sVOmnifocus
-p7936
+p8007
 VL
 sVReminders
-p7937
+p8008
 VL
 sVMark as unread
-p7938
+p8009
 VL
 sVSelect mails for same Sender/Receiver
-p7939
+p8010
 VL
 sVC or \u2318N
-p7940
+p8011
 VL
 sV^F
-p7941
+p8012
 VL
 sVBusyCal
-p7942
+p8013
 VL
 sVFind in messages
-p7943
+p8014
 VL
 sVGo to First
-p7944
+p8015
 VL
 sV^\u2325C
-p7945
+p8016
 VL
 sV\u2325\u2318\u2192
-p7946
+p8017
 VL
 sV\u2325\u2318\u2193
-p7947
+p8018
 VL
 sV\u2325\u2318\u2190
-p7948
+p8019
 VL
 sV\u21e7\u2318E
-p7949
+p8020
 VL
 sVSearch all messages
-p7950
+p8021
 VL
 sV^\u2325\u2318Delete
-p7951
+p8022
 VL
 sVCopy message link
-p7952
+p8023
 VL
 ss.
