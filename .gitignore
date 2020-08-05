@@ -3,3 +3,4 @@
 *.pyc
 *.pyo
 .DS_Store
+src/workflow/.alfredversionchecked
