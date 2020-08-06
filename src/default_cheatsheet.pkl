@@ -16664,4 +16664,336 @@ VL
 sVCopy message link
 p8023
 VL
+ssVGmail
+p8024
+(dp8025
+VCollapse entire conversation
+p8026
+V:
+sVIndent less
+p8027
+V\u2318[
+p8028
+sVFocus main window
+p8029
+V\u21e7Esc
+p8030
+sVDeselect all conversations
+p8031
+V* + n
+p8032
+sVForward
+p8033
+Vf
+sVAdd conversation to Tasks
+p8034
+V\u21e7t
+p8035
+sVGo to previous Inbox section
+p8036
+V~
+sVBold
+p8037
+V\u2318b
+p8038
+sVSelect read conversations
+p8039
+V* + r
+p8040
+sVOlder conversation
+p8041
+Vj
+sVIncrease text size
+p8042
+V\u2318\u21e7+
+p8043
+sVIndent more
+p8044
+V\u2318]
+p8045
+sVSelect conversation
+p8046
+Vx
+sVGo to Drafts
+p8047
+Vg + d
+p8048
+sVSwitch between sidebar and your inbox.
+p8049
+V\u2318Alt + ,  and \u2318Alt + .
+p8050
+sVAdd cc recipients
+p8051
+V\u2318\u21e7c
+p8052
+sVShow archived hangouts
+p8053
+Vh + a
+p8054
+sVPrevious message in an open conversation
+p8055
+Vp
+sVSearch mail
+p8056
+V/
+sVAlign center
+p8057
+V\u2318\u21e7e
+p8058
+sVMove focus to toolbar
+p8059
+V,
+sVGo to previous page
+p8060
+Vg + p
+p8061
+sVReport as spam
+p8062
+V!
+sVAdd bcc recipients
+p8063
+V\u2318\u21e7b
+p8064
+sVOpen 'label as' menu
+p8065
+Vl
+sVReply all in a new window
+p8066
+V\u21e7a
+p8067
+sVSend
+p8068
+V\u2318Enter
+p8069
+sVOpen keyboard shortcut help
+p8070
+V?
+sVReply
+p8071
+Vr
+sVRemove formatting
+p8072
+V\u2318\u005c
+p8073
+sVDecrease text size
+p8074
+V\u2318\u21e7-
+p8075
+sVMark as read
+p8076
+V\u21e7i
+p8077
+sVGo to Inbox
+p8078
+Vg + i
+p8079
+sVGo to label
+p8080
+Vg + l
+p8081
+sVNumbered list
+p8082
+V\u2318\u21e77
+p8083
+sVInsert a link
+p8084
+V\u2318k
+p8085
+sVAdvance to previous chat or compose
+p8086
+VCtrl + ,
+p8087
+sVFocus latest chat or compose
+p8088
+VEsc
+p8089
+sVOpen 'move to' menu
+p8090
+Vv
+sVDelete
+p8091
+V#
+sVBulleted list
+p8092
+V\u2318\u21e78
+p8093
+sVSelect all conversations
+p8094
+V* + a
+p8095
+sVGo to All mail
+p8096
+Vg + a
+p8097
+sVCompose
+p8098
+Vc
+sVGo to Snoozed conversations
+p8099
+Vg + b
+p8100
+sVGo to Sent messages
+p8101
+Vg + t
+p8102
+sVHangouts - Show menu
+p8103
+Vh + m
+p8104
+sVMark unread from the selected message
+p8105
+V_
+sVOpen 'more actions' menu
+p8106
+V.
+sVFocus on the conversation list
+p8107
+Vh + c
+p8108
+sVSnooze
+p8109
+Vb
+sVShow Hangout requests
+p8110
+Vh + i
+p8111
+sVOpen conversation
+p8112
+Vo or Enter
+p8113
+sVGo to next page
+p8114
+Vg + n
+p8115
+sVNext message in an open conversation
+p8116
+Vn
+sVAccess custom from
+p8117
+V\u2318\u21e7f
+p8118
+sVSearch chat contacts
+p8119
+Vg
+sVAlign right
+p8120
+V\u2318\u21e7r
+p8121
+sVNewer conversation
+p8122
+Vk
+sVExpand entire conversation
+p8123
+V;
+sVReply all
+p8124
+Va
+sVGo to next Inbox section
+p8125
+V`
+sVCompose in a new tab
+p8126
+Vd
+sVArchive
+p8127
+Ve
+sVSelect unread conversations
+p8128
+V* + u
+p8129
+sVOpen spelling suggestions
+p8130
+V\u2318m
+p8131
+sVToggle star/rotate among superstars
+p8132
+Vs
+sVMark as important
+p8133
+V+ or =
+p8134
+sVSelect starred conversations
+p8135
+V* + s
+p8136
+sVSelect unstarred conversations
+p8137
+V* + t
+p8138
+sVForward in a new window
+p8139
+V\u21e7f
+p8140
+sVUpdate conversation
+p8141
+V\u21e7n
+p8142
+sVUndo last action
+p8143
+Vz
+sVQuote
+p8144
+V\u2318\u21e79
+p8145
+sVGo to Tasks
+p8146
+Vg + k
+p8147
+sVMute conversation
+p8148
+Vm
+sVNext font
+p8149
+V\u2318\u21e76
+p8150
+sVBack to threadlist
+p8151
+Vu
+sVReply in a new window
+p8152
+V\u21e7r
+p8153
+sVAlign left
+p8154
+V\u2318\u21e7l
+p8155
+sVItalics
+p8156
+V\u2318i
+p8157
+sVPrevious font
+p8158
+V\u2318\u21e75
+p8159
+sVMark as unread
+p8160
+V\u21e7u
+p8161
+sVMark as not important
+p8162
+V-
+sVAdvance to the next chat or compose
+p8163
+VCtrl + .
+p8164
+sVGo to Starred conversations
+p8165
+Vg + s
+p8166
+sVArchive conversation and go previous/next
+p8167
+V] or [
+p8168
+sVGo to next misspelled word (Mac only)
+p8169
+V\u2318;
+p8170
+sVHangouts - Open phone
+p8171
+Vh + p
+p8172
+sVUnderline
+p8173
+V\u2318u
+p8174
 ss.
