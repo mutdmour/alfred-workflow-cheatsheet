@@ -35,6 +35,18 @@ shortcuts = {
         "Take a screenshot or make a screen recording": "Shift-Command-5",
         "Take a full screenshot": "Shift-Command-3",
         "Take a partial screenshot": "Shift-Command-4",
+        "Turn on mac or wake it from sleep": "Power button",
+        "Put Mac to sleep": "Press and hold Power Button for 1.5 seconds",
+        "Force mac to turn off": "Press and hold power button",
+        "Put your Mac to sleep": "Option–Command–Power button or Option–Command–Media Eject",
+        "Put your displays to sleep": "Control–Shift–Power button* or Control–Shift–Media Eject",
+        "Display a dialog asking to restart, sleep, or shut down.": "Control–Power button* or Control–Media Eject",
+        "Force your Mac to restart": "Control–Command–Power button",
+        "Quit all apps, then restart": "Control–Command–Media Eject"
+        "Quit all apps, then shut down": "Control–Option–Command–Power button* or Control–Option–Command–Media Eject",
+        "Immediately lock your screen": "Control-Command-Q",
+        "Log out of your macOS user account": "Shift-Command-Q",
+        "Log out immediately": "Option-Shift-Command-Q"
         # tbc
     }
 }
