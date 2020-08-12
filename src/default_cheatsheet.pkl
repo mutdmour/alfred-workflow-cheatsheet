@@ -9947,7 +9947,7 @@ p4883
 VZ
 sVCut
 p4884
-V\u2318+X
+V\u2318X
 p4885
 sVToggle tab menu
 p4886
@@ -9955,7 +9955,7 @@ VCTRL+M
 p4887
 sVCycle through open windows
 p4888
-V\u2318+`
+V\u2318`
 p4889
 sVCycle left through tabs
 p4890
@@ -9976,7 +9976,7 @@ p4896
 V/
 sVReopen last closed tab
 p4897
-V\u2318+SHIFT \u21e7+T
+V\u2318SHIFT \u21e7+T
 p4898
 sVQuit Opera
 p4899
@@ -9984,14 +9984,14 @@ V\u2318Q
 p4900
 sVReload the current page
 p4901
-V\u2318+R
+V\u2318R
 p4902
 sVZoom in
 p4903
 V+
 sVMinimize a window
 p4904
-V\u2318+M
+V\u2318M
 p4905
 sVPrint current page
 p4906
@@ -9999,7 +9999,7 @@ V\u2318P
 p4907
 sVClose current tab
 p4908
-V\u2318+W
+V\u2318W
 p4909
 sVCycle back through page elements
 p4910
@@ -10014,22 +10014,22 @@ V\u2318J
 p4914
 sVOpen new window
 p4915
-V\u2318+N
+V\u2318N
 p4916
 sVUndo
 p4917
-V\u2318+Z
+V\u2318Z
 p4918
 sVZoom out
 p4919
 V-
 sVSelect all
 p4920
-V\u2318+A
+V\u2318A
 p4921
 sVGo to top of page
 p4922
-V\u2318+\u2191
+V\u2318\u2191
 p4923
 sVView previous tab
 p4924
@@ -10041,7 +10041,7 @@ V\u2318\u21e7E
 p4927
 sVPaste
 p4928
-V\u2318+V
+V\u2318V
 p4929
 sVCycle back through open tabs
 p4930
@@ -10065,11 +10065,11 @@ V\u2318S
 p4939
 sVOpen new tab
 p4940
-V\u2318+T
+V\u2318T
 p4941
 sVView current page source
 p4942
-V\u2318+U
+V\u2318U
 p4943
 sVFind next
 p4944
@@ -10077,7 +10077,7 @@ V\u2318G
 p4945
 sVOpen new private window
 p4946
-V\u2318+SHIFT \u21e7+N
+V\u2318SHIFT \u21e7+N
 p4947
 sVOpen Preferences (Settings) page
 p4948
@@ -10089,7 +10089,7 @@ V\u2318\u21e7G
 p4951
 sVCopy
 p4952
-V\u2318+C
+V\u2318C
 p4953
 sVCycle forward through page elements
 p4954
@@ -10112,14 +10112,14 @@ VCTRL+tab
 p4962
 sVGo to bottom of page
 p4963
-V\u2318+\u2193
+V\u2318\u2193
 p4964
 sVCycle right through tabs
 p4965
 V2
 sVRedo
 p4966
-V\u2318+SHIFT \u21e7+Z
+V\u2318SHIFT \u21e7+Z
 p4967
 sVReset zoom to 100%
 p4968
@@ -16020,1000 +16020,1304 @@ p7794
 ssVMac OSX
 p7795
 (dp7796
-VClose the front window
+VMove the selected item to the Trash
 p7797
-V\u2318W
+V\u2318Delete
 p7798
-sVView the front app but hide all other apps
+sVOpen the Home folder of the current macOS user account
 p7799
-V\u2318\u2325H
+V\u21e7\u2318H
 p7800
-sVSwitch apps: Switch to the next most recently used app among your open apps.
+sVOpen a Go to Folder window
 p7801
-V\u2318Tab
+V\u21e7\u2318G
 p7802
-sVForce Quit a specific app
+sVOpen the folder that contains the current folder in a new window
 p7803
-Vchoose app to quit and hold \u2325\u2318Esc for 3 seconds
+V\u2318CTRL Up Arrow
 p7804
-sVEditing - Jump to end of line
+sVCreate a new folder
 p7805
-V\u2318\u2192
+V\u21e7\u2318N
 p7806
-sVLog out of your macOS user account.
+sVAdjust the display brightness in smaller steps
 p7807
-V\u21e7\u2318Q
+V\u2325SHIFT Brightness Up or \u2325SHIFT Brightness Down
 p7808
-sVScreenshot: Take a screenshot of the entire screen.
+sVClose the selected folder. This works only when in list view
 p7809
-V\u21e7\u23183
+VLeft Arrow
 p7810
-sVCut the selected item and copy it to the Clipboard.
+sVMake an alias of the selected item
 p7811
-V\u2318X
+VControl-\u2318A
 p7812
-sVHide the windows of the front app.
+sVPrint the current document
 p7813
-V\u2318H
-p7814
-sVClose all windows of the app
-p7815
-V\u2318\u2325W
-p7816
-sVPaste the contents of the Clipboard into the current document or app.
-p7817
-V\u2318V
-p7818
-sVPrint the current document.
-p7819
 V\u2318P
+p7814
+sVEject the selected disk or volume
+p7815
+V\u2318E
+p7816
+sVAdd the selected item to the sidebar (OS X Mavericks or later)
+p7817
+VControl-\u2318T
+p7818
+sVOpen the folder that contains the current folder
+p7819
+V\u2318Up Arrow
 p7820
-sVPut your displays to sleep.*
+sVLog out of your macOS user account
 p7821
-VCtrl \u21e7 Power button or Ctrl \u21e7\u23cf
+V\u21e7\u2318Q
 p7822
-sVEditing - Jump to beginning of line
+sVEmpty the Trash without confirmation dialog
 p7823
-V\u2318\u2190
+V\u2325\u21e7\u2318Delete
 p7824
-sVCopy the selected item to the Clipboard.
-p7825
-V\u2318C
-p7826
-sVLog out of your macOS user account immediately, without being asked to confirm.
-p7827
-V\u2325\u21e7\u2318Q
-p7828
-sVMinimize the front window to the Dock.
-p7829
-V\u2318M
-p7830
-sVUndo the previous command.
-p7831
-V\u2318Z
-p7832
-sVPress to turn on your Mac or wake your Mac from sleep.
-p7833
-VPower button
-p7834
-sVDisplay a dialog asking if you want to sleep, restart, or shut down.
-p7835
-VPress and hold Power Button for 1.5 seconds or Ctrl Power button or Ctrl \u23cf
-p7836
-sVQuick Look: Use Quick Look to preview the selected item.
-p7837
-VSpace
-p7838
-sVEditing - Delete one word before cursor
-p7839
-V\u2325\u232b
-p7840
 sVMinimize all windows of the front app
+p7825
+V\u2325\u2318M
+p7826
+sVOpen the Downloads folder
+p7827
+V\u2325\u2318L
+p7828
+sVTo close all windows of the app
+p7829
+V\u2325\u2318W
+p7830
+sVOpen Spotlight to start a search
+p7831
+V\u2318Space bar
+p7832
+sVTurn video mirroring on or off when your Mac is connected to more than one display
+p7833
+V\u2318Brightness Down
+p7834
+sVOpen Keyboard preferences. This works with either Keyboard Brightness key
+p7835
+V\u2325Keyboard Brightness Up
+p7836
+sVCreate a new Smart Folder
+p7837
+V\u2325\u2318N
+p7838
+sVMinimize the front window to the Dock.
+p7839
+V\u2318M
+p7840
+sVFind previous
 p7841
-V\u2318\u2325M
+V\u21e7\u2318G
 p7842
-sVNew: Open an new document or window.
+sVSpotlight - See a file in an app or the Finder
 p7843
-V\u2318N
+V\u2318R or \u2318Double-click
 p7844
-sVForce Quit: just the front app to quit
+sVView the items in a Finder window in columns.
 p7845
-Vpress \u2318\u21e7\u2325Esc and hold for 3 sec
+V\u23183
 p7846
-sVEditing - Jump to one word before
+sVOpen the selected folder. This works only when in list view
 p7847
-V\u2325\u2190
+VRight Arrow
 p7848
-sVForce your Mac to turn off.
+sVShow or hide the Spotlight search field
 p7849
-VPress and hold Power Button for 5 seconds
+V\u2318Space bar
 p7850
-sVEditing - Delete all words before cursor
+sVSwitch to the next most recently used app among your open apps
 p7851
-V\u2318\u232b
+V\u2318Tab
 p7852
-sVQuit all apps, then shut down your Mac.
+sVOpen the desktop folder
 p7853
-VCtrl \u2325\u2318 Power button or Ctrl \u2325\u2318\u23cf
+V\u21e7\u2318D
 p7854
-sVFind Again: Find the previous occurrence of the item previously found
+sVShow or hide the Preview pane in Finder windows
 p7855
-V\u2318\u21e7G
+V\u21e7\u2318P
 p7856
-sVRedo, reversing the undo command.
+sVShow the path of a Spotlight result (such as a file) on your Mac
 p7857
-V\u2318\u21e7Z
+VCommand
 p7858
-sVQuit all apps, then restart your Mac.
+sVImmediately lock your screen
 p7859
-VCtrl \u2318\u23cf
+VControl-\u2318Q
 p7860
-sVSelect All items.
+sVOpen the Network window
 p7861
-V\u2318A
+V\u21e7\u2318K
 p7862
-sVPreferences: Open preferences for the front app.
+sVPut Mac to sleep
 p7863
-V\u2318,
+VPress and hold Power Button for 1.5 seconds
 p7864
-sVFind Again: Find the next occurrence of the item previously found.
+sVOpen the selected item
 p7865
-V\u2318G
+V\u2318Down Arrow
 p7866
-sVSpotlight
+sVOpen the Documents folder
 p7867
-V\u2318Space
+V\u21e7\u2318O
 p7868
-sVFind items in a document or open a Find window.
+sVMove the files in the Clipboard from their original location to the current location
 p7869
-V\u2318F
+V\u2325\u2318V
 p7870
-sVScreenshot: Take a screenshot of part of the screen
+sVMake an alias of the dragged item. The pointer changes while you drag the item
 p7871
-V\u21e7\u23184
+V\u2325Command while dragging
 p7872
-sVSave the current document.
+sVOpen Displays preferences. This works with either Brightness key
 p7873
-V\u2318S
+V\u2325Brightness Up
 p7874
-sVQuit the app.
+sVUse Quick Look to preview the selected item
 p7875
-V\u2318Q
+VSpace bar
 p7876
-sVForce your Mac to restart.
+sVPut your Mac to sleep
 p7877
-VCtrl \u2318 Power button
+V\u2325\u2318Power button or \u2325\u2318Media Eject
 p7878
-sVSwitch windows: Switch to the next most recently used window of the front app.
+sVDisplay a dialog asking to restart, sleep, or shut down
 p7879
-V\u21e7\u2318~
+VCTRL Power button or CTRL Media Eject
 p7880
-sVEditing - Jump to one word after
+sVShow or hide the Dock.
 p7881
-V\u2325\u2192
+V\u2325\u2318D
 p7882
-sVDictation
+sVEmpty the Trash
 p7883
-VFn Fn
+V\u21e7\u2318Delete
 p7884
-sVOpen the selected item, or open a dialog to select a file to open.
+sVSelect All items
 p7885
-V\u2318O
+V\u2318A
 p7886
-ssVAirmail
+sVView the items in a Finder window as a list
 p7887
-(dp7888
-VQuick Reply
+V\u23182
+p7888
+sVPut your displays to sleep
 p7889
+VCTRL SHIFT Power button or CTRL SHIFT Media Eject
+p7890
+sVShow the Character Viewer (emojis)
+p7891
+VCTRL \u2318Space bar
+p7892
+sVCopy the dragged item. The pointer changes while you drag the item
+p7893
+VOption key while dragging
+p7894
+sVMove to the previous Spotlight result
+p7895
+VUp Arrow
+p7896
+sVShow or hide the tab bar when a single tab is open in the current Finder window
+p7897
+V\u2318T
+p7898
+sVOpen the item in a separate window, then close the original window
+p7899
+VOption key while double-clicking
+p7900
+sVOpen a new Finder window
+p7901
+V\u2318N
+p7902
+sVOpen a Find window
+p7903
+V\u2318F
+p7904
+sVOpen all folders within the selected folder. This works only when in list view
+p7905
+V\u2325click a disclosure triangle
+p7906
+sVShow View Options
+p7907
+V\u2318J
+p7908
+sVOpen preferences for the front app
+p7909
+V\u2318,
+p7910
+sVGo to the previous folder
+p7911
+V\u2318[
+p7912
+sVMove to the first Spotlight result in the previous category
+p7913
+V\u2318Up Arrow
+p7914
+sVOpen the Computer window
+p7915
+V\u21e7\u2318C
+p7916
+sVZoom in on an image preview in Spotlight
+p7917
+VControl (then move two fingers on the trackpad to move the image around in the preview)
+p7918
+sVHide the windows of the front app
+p7919
+V\u2318H
+p7920
+sVCut
+p7921
+V\u2318X
+p7922
+sVOpen a new tab
+p7923
+V\u2318T
+p7924
+sVMove to the first Spotlight result in the next category
+p7925
+V\u2318Down Arrow
+p7926
+sVForce quit an app
+p7927
+V\u2325\u2318Esc
+p7928
+sVOpen a Finder window with the Spotlight search field selected
+p7929
+V\u2325\u2318Space bar
+p7930
+sVForce mac to turn off
+p7931
+VPress and hold power button
+p7932
+sVHide or show the status bar in Finder windows
+p7933
+V\u2318Slash (/)
+p7934
+sVTake a partial screenshot
+p7935
+V\u21e7\u23184
+p7936
+sVTurn on mac or wake it from sleep
+p7937
+VPower button
+p7938
+sVFind items in a document
+p7939
+V\u2318F
+p7940
+sVAdjust the keyboard brightness in smaller steps
+p7941
+V\u2325SHIFT Keyboard Brightness Up or \u2325SHIFT Keyboard Brightness Down
+p7942
+sVOpen Sound preferences
+p7943
+V\u2325Volume Up
+p7944
+sVView the items in a Finder window in a gallery
+p7945
+V\u23184
+p7946
+sVStart a Spotlight search in the Finder window
+p7947
+V\u2318F
+p7948
+sVHide or show the path bar in Finder windows
+p7949
+V\u2325\u2318P
+p7950
+sVOpen the AirDrop window
+p7951
+V\u21e7\u2318R
+p7952
+sVTake a screenshot or make a screen recording
+p7953
+V\u21e7\u23185
+p7954
+sVShow all windows of the front app
+p7955
+VCTRL Down Arrow
+p7956
+sVSee the folders that contain the current folder
+p7957
+V\u2318click a window title
+p7958
+sVSpotlight search from a Finder window
+p7959
+V\u2318\u2325Space bar
+p7960
+sVQuit all apps, then restart
+p7961
+VCTRL \u2318Media Eject
+p7962
+sVOpen a dialog to select a file to open
+p7963
+V\u2318O
+p7964
+sVComplete Spotlight search using the suggested result
+p7965
+VRight Arrow
+p7966
+sVTake a full screenshot
+p7967
+V\u21e7\u23183
+p7968
+sVUndo the previous command
+p7969
+V\u2318Z
+p7970
+sVOpen a folder in a separate tab or window
+p7971
+VCommand key while double-clicking
+p7972
+sVUse the app in full screen
+p7973
+VControl-\u2318F
+p7974
+sVOpen the Utilities folder
+p7975
+V\u21e7\u2318U
+p7976
+sVAdjust the sound volume in smaller steps
+p7977
+V\u2325SHIFT Volume Up or \u2325SHIFT Volume Down
+p7978
+sVChange the brightness of your external display, if supported by your display
+p7979
+VCTRL Brightness Up or CTRL Brightness Down
+p7980
+sVGo to the next folder
+p7981
+V\u2318]
+p7982
+sVSave the current document
+p7983
+V\u2318S
+p7984
+sVOpen Mission Control preferences
+p7985
+V\u2325Mission Control
+p7986
+sVView the front app but hide all other apps
+p7987
+V\u2325\u2318H
+p7988
+sVRedo
+p7989
+V\u21e7\u2318Z
+p7990
+sVClose the front window
+p7991
+V\u2318W
+p7992
+sVTurn target display mode on or off
+p7993
+V\u2318Brightness Up
+p7994
+sVHide or show the Sidebar in Finder windows
+p7995
+V\u2325\u2318S
+p7996
+sVOpen iCloud Drive
+p7997
+V\u21e7\u2318I
+p7998
+sVShow or hide the tab bar in Finder windows.
+p7999
+V\u21e7\u2318T
+p8000
+sVOpen the selected Spotlight result
+p8001
+VReturn key
+p8002
+sVForce your Mac to restart
+p8003
+VCTRL \u2318Power button
+p8004
+sVAdd selected Finder item to the Dock (OS X Mavericks or later)
+p8005
+VControl-\u21e7\u2318T
+p8006
+sVView the items in the Finder window as icons
+p8007
+V\u23181
+p8008
+sVShow the Get Info window for a selected file
+p8009
+V\u2318I
+p8010
+sVCopy
+p8011
+V\u2318C
+p8012
+sVPaste
+p8013
+V\u2318V
+p8014
+sVView a Quick Look slideshow of the selected files
+p8015
+V\u2325\u2318Y
+p8016
+sVUse Quick Look to preview the selected files
+p8017
+V\u2318Y
+p8018
+sVMove to the next Spotlight result
+p8019
+VDown Arrow
+p8020
+sVQuit all apps, then shut down
+p8021
+VCTRL \u2325\u2318 Power button or CTRL \u2325\u2318 Media Eject
+p8022
+sVShow or hide the toolbar when a single tab is open in the current Finder window
+p8023
+V\u2325\u2318T
+p8024
+sVOpen the Connect to Server window
+p8025
+V\u2318K
+p8026
+sVFind next
+p8027
+V\u2318G
+p8028
+sVDuplicate the selected files
+p8029
+V\u2318D
+p8030
+sVOpen the Recents window, showing all of the files you viewed or changed recently
+p8031
+V\u21e7\u2318F
+p8032
+sVLog out immediately
+p8033
+V\u2325\u21e7\u2318Q
+p8034
+sVMove the dragged item to the other volume, instead of copying it.
+p8035
+VCommand key while dragging to another volume
+p8036
+sVShow the desktop.
+p8037
+V\u2318Mission Control
+p8038
+ssVAirmail
+p8039
+(dp8040
+VQuick Reply
+p8041
 VL
 sV^\u2318R
-p7890
+p8042
 VL
 sVHide Message Detail
-p7891
+p8043
 VL
 sVHide hidden folders
-p7892
+p8044
 VL
 sVPaste and match style
-p7893
+p8045
 VL
 sVShow Unread
-p7894
+p8046
 VL
 sVFind all folders
-p7895
+p8047
 VL
 sV\u2325\u2318F
-p7896
+p8048
 VL
 sV\u2325\u2318E
-p7897
+p8049
 VL
 sV\u2325\u2318B
-p7898
+p8050
 VL
 sVRules
-p7899
+p8051
 VL
 sV\u2325\u2318M
-p7900
+p8052
 VL
 sV\u2325\u2318I
-p7901
+p8053
 VL
 sVShow folders
-p7902
+p8054
 VL
 sV0
 VL
 sV\u2325\u2318U
-p7903
+p8055
 VL
 sV4
 VL
 sV8
 VL
 sVHide Message Preview Pane
-p7904
+p8056
 VL
 sV^\u2318A
-p7905
+p8057
 VL
 sVD
 VL
 sV\u21e7\u2318L
-p7906
+p8058
 VL
 sV^\u2318L
-p7907
+p8059
 VL
 sV\u21e7\u2318N
-p7908
+p8060
 VL
 sVCancel or Extend View
-p7909
+p8061
 VL
 sV^\u2318I
-p7910
+p8062
 VL
 sV\u21e7\u2318T
-p7911
+p8063
 VL
 sVP
 VL
 sV\u21e7\u2318V
-p7912
+p8064
 VL
 sVReply All
-p7913
+p8065
 VL
 sV^\u2318P
-p7914
+p8066
 VL
 sV^\u2318S
-p7915
+p8067
 VL
 sVShow folder filter
-p7916
+p8068
 VL
 sVRefresh / Get Messages
-p7917
+p8069
 VL
 sVSend Again
-p7918
+p8070
 VL
 sVFantastical2
-p7919
+p8071
 VL
 sVOperations
-p7920
+p8072
 VL
 sVQuote Selection
-p7921
+p8073
 VL
 sVHide folders
-p7922
+p8074
 VL
 sVPaste text only
-p7923
+p8075
 VL
 sV\u2318-
-p7924
+p8076
 VL
 sVSort by Sender
-p7925
+p8077
 VL
 sV\u21e7I or \u2318\u21e7U
-p7926
+p8078
 VL
 sVShow messages from the same sender
-p7927
+p8079
 VL
 sVLabel
-p7928
+p8080
 VL
 sVMark as Important
-p7929
+p8081
 VL
 sVShow All / Remove all filters
-p7930
+p8082
 VL
 sVReply
-p7931
+p8083
 VL
 sVShow/Hide Filter
-p7932
+p8084
 VL
 sV#
 VL
 sVMark as read
-p7933
+p8085
 VL
 sVMemo
-p7934
+p8086
 VL
 sVNext account
-p7935
+p8087
 VL
 sVMove to
-p7936
+p8088
 VL
 sV3
 VL
 sVSelect Next Conversation
-p7937
+p8089
 VL
 sVPlain text composer
-p7938
+p8090
 VL
 sVSwitch Account
-p7939
+p8091
 VL
 sVSwitch to plain text
-p7940
+p8092
 VL
 sVDone
-p7941
+p8093
 VL
 sVAttach
-p7942
+p8094
 VL
 sVShow/Hide Accounts
-p7943
+p8095
 VL
 sV^T
-p7944
+p8096
 VL
 sV\u2318\u2198
-p7945
+p8097
 VL
 sVQuick reply all
-p7946
+p8098
 VL
 sVShow Attachments
-p7947
+p8099
 VL
 sV\u2318\u2325R
-p7948
+p8100
 VL
 sVA or \u2318\u21e7R
-p7949
+p8101
 VL
 sVShow Plugins Folders
-p7950
+p8102
 VL
 sVMove to trash
-p7951
+p8103
 VL
 sV\u2318\u2190
-p7952
+p8104
 VL
 sV\u2318\u2196
-p7953
+p8105
 VL
 sVNext sender while composing
-p7954
+p8106
 VL
 sV\u2318O Open message in separate preview window
-p7955
+p8107
 VL
 sVNew Folder
-p7956
+p8108
 VL
 sVPrevious account
-p7957
+p8109
 VL
 sV7
 VL
 sV\u2325\u2318N
-p7958
+p8110
 VL
 sVReverse Order
-p7959
+p8111
 VL
 sVShow Starred
-p7960
+p8112
 VL
 sVCalendar
-p7961
+p8113
 VL
 sVShow Message Preview Pane
-p7962
+p8114
 VL
 sV\u21e7U or \u2318\u21e7U
-p7963
+p8115
 VL
 sVSelect Previous Conversation
-p7964
+p8116
 VL
 sVSort by Unread
-p7965
+p8117
 VL
 sVThings
-p7966
+p8118
 VL
 sV\u2318F
-p7967
+p8119
 VL
 sV\u2318E
-p7968
+p8120
 VL
 sVNew Message
-p7969
+p8121
 VL
 sV\u2318\u2192
-p7970
+p8122
 VL
 sVS or \u21e7\u2318S
-p7971
+p8123
 VL
 sV2Do
-p7972
+p8124
 VL
 sVSort by Replied
-p7973
+p8125
 VL
 sVSort by Date
-p7974
+p8126
 VL
 sVEmpty trash
-p7975
+p8127
 VL
 sVZoom out
-p7976
+p8128
 VL
 sV2
 VL
 sV6
 VL
 sVShow Conversations
-p7977
+p8129
 VL
 sVShow Message Detail
-p7978
+p8130
 VL
 sVN
 VL
 sVGo to Last
-p7979
+p8131
 VL
 sV^\u2325F
-p7980
+p8132
 VL
 sVSort by Subject
-p7981
+p8133
 VL
 sV+ or \u2318\u21e7I
-p7982
+p8134
 VL
 sVV
 VL
 sV\u2318+
-p7983
+p8135
 VL
 sV\u2318.
-p7984
+p8136
 VL
 sV\u2325J
-p7985
+p8137
 VL
 sV^1,2,3,4\u2026
-p7986
+p8138
 VL
 sVAll inboxes
-p7987
+p8139
 VL
 sVReset zoom
-p7988
+p8140
 VL
 sV\u23180
-p7989
+p8141
 VL
 sVArchive
-p7990
+p8142
 VL
 sV\u21e7\u2318\u2191
-p7991
+p8143
 VL
 sVRedirect
-p7992
+p8144
 VL
 sV\u2325\u21e7\u2318F
-p7993
+p8145
 VL
 sVTo Do
-p7994
+p8146
 VL
 sV\u2325\u21e7\u2318I
-p7995
+p8147
 VL
 sVConvert to `Reply All` while replying
-p7996
+p8148
 VL
 sVMark as Not Important
-p7997
+p8149
 VL
 sV\u2325\u21e7\u2318V
-p7998
+p8150
 VL
 sV^\u2318\u2190
-p7999
+p8151
 VL
 sV^\u2318\u2192
-p8000
+p8152
 VL
 sVNext signature while composing
-p8001
+p8153
 VL
 sVShow Raw Source
-p8002
+p8154
 VL
 sV\u21e7\u2318A
-p8003
+p8155
 VL
 sV- or \u2318\u21e7I
-p8004
+p8156
 VL
 sVZoom in
-p8005
+p8157
 VL
 sVReveal hidden folder
-p8006
+p8158
 VL
 sV^\u2325Y
-p8007
+p8159
 VL
 sV^\u2325\u2318C
-p8008
+p8160
 VL
 sV^\u2325T
-p8009
+p8161
 VL
 sV^\u2325R
-p8010
+p8162
 VL
 sV^\u2325S
-p8011
+p8163
 VL
 sVMark as star
-p8012
+p8164
 VL
 sV1
 VL
 sV^\u2325O
-p8013
+p8165
 VL
 sV5
 VL
 sV^\u2325H
-p8014
+p8166
 VL
 sV9
 VL
 sV^\u2325\u2318R
-p8015
+p8167
 VL
 sVR or \u2318R
-p8016
+p8168
 VL
 sV=
 VL
 sV^\u2325\u2318V
-p8017
+p8169
 VL
 sVLoad Image
-p8018
+p8170
 VL
 sVExport to email
-p8019
+p8171
 VL
 sVE
 VL
 sVFantastical
-p8020
+p8172
 VL
 sVOmnifocus
-p8021
+p8173
 VL
 sVReminders
-p8022
+p8174
 VL
 sVMark as unread
-p8023
+p8175
 VL
 sVSelect mails for same Sender/Receiver
-p8024
+p8176
 VL
 sVC or \u2318N
-p8025
+p8177
 VL
 sV^F
-p8026
+p8178
 VL
 sVBusyCal
-p8027
+p8179
 VL
 sVFind in messages
-p8028
+p8180
 VL
 sVGo to First
-p8029
+p8181
 VL
 sV^\u2325C
-p8030
+p8182
 VL
 sV\u2325\u2318\u2192
-p8031
+p8183
 VL
 sV\u2325\u2318\u2193
-p8032
+p8184
 VL
 sV\u2325\u2318\u2190
-p8033
+p8185
 VL
 sV\u21e7\u2318E
-p8034
+p8186
 VL
 sVSearch all messages
-p8035
+p8187
 VL
 sV^\u2325\u2318Delete
-p8036
+p8188
 VL
 sVCopy message link
-p8037
+p8189
 VL
 ssVGmail
-p8038
-(dp8039
+p8190
+(dp8191
 VCollapse entire conversation
-p8040
+p8192
 V:
 sVIndent less
-p8041
+p8193
 V\u2318[
-p8042
+p8194
 sVFocus main window
-p8043
+p8195
 V\u21e7Esc
-p8044
+p8196
 sVDeselect all conversations
-p8045
+p8197
 V* + n
-p8046
+p8198
 sVForward
-p8047
+p8199
 Vf
 sVAdd conversation to Tasks
-p8048
+p8200
 V\u21e7t
-p8049
+p8201
 sVGo to previous Inbox section
-p8050
+p8202
 V~
 sVBold
-p8051
+p8203
 V\u2318b
-p8052
+p8204
 sVSelect read conversations
-p8053
+p8205
 V* + r
-p8054
+p8206
 sVOlder conversation
-p8055
+p8207
 Vj
 sVIncrease text size
-p8056
+p8208
 V\u2318\u21e7+
-p8057
+p8209
 sVIndent more
-p8058
+p8210
 V\u2318]
-p8059
+p8211
 sVSelect conversation
-p8060
+p8212
 Vx
 sVGo to Drafts
-p8061
+p8213
 Vg + d
-p8062
+p8214
 sVSwitch between sidebar and your inbox.
-p8063
+p8215
 V\u2318Alt + ,  and \u2318Alt + .
-p8064
+p8216
 sVAdd cc recipients
-p8065
+p8217
 V\u2318\u21e7c
-p8066
+p8218
 sVShow archived hangouts
-p8067
+p8219
 Vh + a
-p8068
+p8220
 sVPrevious message in an open conversation
-p8069
+p8221
 Vp
 sVSearch mail
-p8070
+p8222
 V/
 sVAlign center
-p8071
+p8223
 V\u2318\u21e7e
-p8072
+p8224
 sVMove focus to toolbar
-p8073
+p8225
 V,
 sVGo to previous page
-p8074
+p8226
 Vg + p
-p8075
+p8227
 sVReport as spam
-p8076
+p8228
 V!
 sVAdd bcc recipients
-p8077
+p8229
 V\u2318\u21e7b
-p8078
+p8230
 sVOpen 'label as' menu
-p8079
+p8231
 Vl
 sVReply all in a new window
-p8080
+p8232
 V\u21e7a
-p8081
+p8233
 sVSend
-p8082
+p8234
 V\u2318Enter
-p8083
+p8235
 sVOpen keyboard shortcut help
-p8084
+p8236
 V?
 sVReply
-p8085
+p8237
 Vr
 sVRemove formatting
-p8086
+p8238
 V\u2318\u005c
-p8087
+p8239
 sVDecrease text size
-p8088
+p8240
 V\u2318\u21e7-
-p8089
+p8241
 sVMark as read
-p8090
+p8242
 V\u21e7i
-p8091
+p8243
 sVGo to Inbox
-p8092
+p8244
 Vg + i
-p8093
+p8245
 sVGo to label
-p8094
+p8246
 Vg + l
-p8095
+p8247
 sVNumbered list
-p8096
+p8248
 V\u2318\u21e77
-p8097
+p8249
 sVInsert a link
-p8098
+p8250
 V\u2318k
-p8099
+p8251
 sVAdvance to previous chat or compose
-p8100
+p8252
 VCtrl + ,
-p8101
+p8253
 sVFocus latest chat or compose
-p8102
+p8254
 VEsc
-p8103
+p8255
 sVOpen 'move to' menu
-p8104
+p8256
 Vv
 sVDelete
-p8105
+p8257
 V#
 sVBulleted list
-p8106
+p8258
 V\u2318\u21e78
-p8107
+p8259
 sVSelect all conversations
-p8108
+p8260
 V* + a
-p8109
+p8261
 sVGo to All mail
-p8110
+p8262
 Vg + a
-p8111
+p8263
 sVCompose
-p8112
+p8264
 Vc
 sVGo to Snoozed conversations
-p8113
+p8265
 Vg + b
-p8114
+p8266
 sVGo to Sent messages
-p8115
+p8267
 Vg + t
-p8116
+p8268
 sVHangouts - Show menu
-p8117
+p8269
 Vh + m
-p8118
+p8270
 sVMark unread from the selected message
-p8119
+p8271
 V_
 sVOpen 'more actions' menu
-p8120
+p8272
 V.
 sVFocus on the conversation list
-p8121
+p8273
 Vh + c
-p8122
+p8274
 sVSnooze
-p8123
+p8275
 Vb
 sVShow Hangout requests
-p8124
+p8276
 Vh + i
-p8125
+p8277
 sVOpen conversation
-p8126
+p8278
 Vo or Enter
-p8127
+p8279
 sVGo to next page
-p8128
+p8280
 Vg + n
-p8129
+p8281
 sVNext message in an open conversation
-p8130
+p8282
 Vn
 sVAccess custom from
-p8131
+p8283
 V\u2318\u21e7f
-p8132
+p8284
 sVSearch chat contacts
-p8133
+p8285
 Vg
 sVAlign right
-p8134
+p8286
 V\u2318\u21e7r
-p8135
+p8287
 sVNewer conversation
-p8136
+p8288
 Vk
 sVExpand entire conversation
-p8137
+p8289
 V;
 sVReply all
-p8138
+p8290
 Va
 sVGo to next Inbox section
-p8139
+p8291
 V`
 sVCompose in a new tab
-p8140
+p8292
 Vd
 sVArchive
-p8141
+p8293
 Ve
 sVSelect unread conversations
-p8142
+p8294
 V* + u
-p8143
+p8295
 sVOpen spelling suggestions
-p8144
+p8296
 V\u2318m
-p8145
+p8297
 sVToggle star/rotate among superstars
-p8146
+p8298
 Vs
 sVMark as important
-p8147
+p8299
 V+ or =
-p8148
+p8300
 sVSelect starred conversations
-p8149
+p8301
 V* + s
-p8150
+p8302
 sVSelect unstarred conversations
-p8151
+p8303
 V* + t
-p8152
+p8304
 sVForward in a new window
-p8153
+p8305
 V\u21e7f
-p8154
+p8306
 sVUpdate conversation
-p8155
+p8307
 V\u21e7n
-p8156
+p8308
 sVUndo last action
-p8157
+p8309
 Vz
 sVQuote
-p8158
+p8310
 V\u2318\u21e79
-p8159
+p8311
 sVGo to Tasks
-p8160
+p8312
 Vg + k
-p8161
+p8313
 sVMute conversation
-p8162
+p8314
 Vm
 sVNext font
-p8163
+p8315
 V\u2318\u21e76
-p8164
+p8316
 sVBack to threadlist
-p8165
+p8317
 Vu
 sVReply in a new window
-p8166
+p8318
 V\u21e7r
-p8167
+p8319
 sVAlign left
-p8168
+p8320
 V\u2318\u21e7l
-p8169
+p8321
 sVItalics
-p8170
+p8322
 V\u2318i
-p8171
+p8323
 sVPrevious font
-p8172
+p8324
 V\u2318\u21e75
-p8173
+p8325
 sVMark as unread
-p8174
+p8326
 V\u21e7u
-p8175
+p8327
 sVMark as not important
-p8176
+p8328
 V-
 sVAdvance to the next chat or compose
-p8177
+p8329
 VCtrl + .
-p8178
+p8330
 sVGo to Starred conversations
-p8179
+p8331
 Vg + s
-p8180
+p8332
 sVArchive conversation and go previous/next
-p8181
+p8333
 V] or [
-p8182
+p8334
 sVGo to next misspelled word (Mac only)
-p8183
+p8335
 V\u2318;
-p8184
+p8336
 sVHangouts - Open phone
-p8185
+p8337
 Vh + p
-p8186
+p8338
 sVUnderline
-p8187
+p8339
 V\u2318u
-p8188
+p8340
 ss.
