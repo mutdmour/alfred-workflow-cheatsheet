@@ -1,4 +1,4 @@
-#!/usr/bin/python
+#!/usr/bin/env python3
 # encoding=utf8
 
 update_settings = {
@@ -8,7 +8,7 @@ update_settings = {
 import sys
 import os
 from workflow import Workflow, ICON_INFO, ICON_WARNING
-import cPickle
+import pickle
 
 wf = None
 log = None
@@ -23,7 +23,7 @@ app_icons_dir = os.path.join(
 )
 
 pkl_file = open('default_cheatsheet.pkl', 'rb')
-shortcuts = cPickle.load(pkl_file)
+shortcuts = pickle.load(pkl_file)
 
 def main(wf):
     log.info(wf.datadir)
