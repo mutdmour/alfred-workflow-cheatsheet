@@ -211,7 +211,8 @@
 				<key>runningsubtext</key>
 				<string></string>
 				<key>script</key>
-				<string>/usr/bin/env python -O cheatsheet.py "{query}" --search</string>
+				<string>export PATH=/opt/homebrew/bin:/usr/local/bin:$PATH
+python3 -O cheatsheet.py "{query}" --search</string>
 				<key>scriptargtype</key>
 				<integer>0</integer>
 				<key>scriptfile</key>
@@ -240,7 +241,8 @@
 				<key>escaping</key>
 				<integer>102</integer>
 				<key>script</key>
-				<string>/usr/bin/env python -O cheatsheet.py "{query}" --commit</string>
+				<string>export PATH=/opt/homebrew/bin:/usr/local/bin:$PATH
+python3 -O cheatsheet.py "{query}" --commit</string>
 				<key>scriptargtype</key>
 				<integer>0</integer>
 				<key>scriptfile</key>
@@ -279,6 +281,8 @@
 			<dict>
 				<key>argument</key>
 				<string></string>
+				<key>passthroughargument</key>
+				<false/>
 				<key>variables</key>
 				<dict/>
 			</dict>
@@ -317,8 +321,9 @@
 				<key>runningsubtext</key>
 				<string>getting apps</string>
 				<key>script</key>
-				<string>echo "{query}" &gt; .query
-/usr/bin/env python -O cheatsheet.py "{query}"</string>
+				<string>export PATH=/opt/homebrew/bin:/usr/local/bin:$PATH
+echo "{query}" &gt; .query
+python3 -O cheatsheet.py "{query}"</string>
 				<key>scriptargtype</key>
 				<integer>0</integer>
 				<key>scriptfile</key>
@@ -347,7 +352,8 @@
 				<key>escaping</key>
 				<integer>102</integer>
 				<key>script</key>
-				<string>/usr/bin/env python -O cheatsheet.py "{query}" --commit</string>
+				<string>export PATH=/opt/homebrew/bin:/usr/local/bin:$PATH
+python3 -O cheatsheet.py "{query}" --commit</string>
 				<key>scriptargtype</key>
 				<integer>0</integer>
 				<key>scriptfile</key>
@@ -389,7 +395,8 @@
 				<key>escaping</key>
 				<integer>102</integer>
 				<key>script</key>
-				<string>/usr/bin/env python -O cheatsheet.py "{query}" --ctrl</string>
+				<string>export PATH=/opt/homebrew/bin:/usr/local/bin:$PATH
+python3 -O cheatsheet.py "{query}" --ctrl</string>
 				<key>scriptargtype</key>
 				<integer>0</integer>
 				<key>scriptfile</key>
@@ -412,7 +419,8 @@
 				<key>escaping</key>
 				<integer>102</integer>
 				<key>script</key>
-				<string>/usr/bin/env python -O cheatsheet.py "{query}" --update</string>
+				<string>export PATH=/opt/homebrew/bin:/usr/local/bin:$PATH
+python3 -O cheatsheet.py "{query}" --update</string>
 				<key>scriptargtype</key>
 				<integer>0</integer>
 				<key>scriptfile</key>
@@ -497,7 +505,8 @@
 				<key>runningsubtext</key>
 				<string>getting shortcuts</string>
 				<key>script</key>
-				<string>/usr/bin/env python -O cheatsheet.py "{query}" --search-global</string>
+				<string>export PATH=/opt/homebrew/bin:/usr/local/bin:$PATH
+python3 -O cheatsheet.py "{query}" --search-global</string>
 				<key>scriptargtype</key>
 				<integer>0</integer>
 				<key>scriptfile</key>
@@ -542,6 +551,8 @@
 			<dict>
 				<key>argument</key>
 				<string></string>
+				<key>passthroughargument</key>
+				<false/>
 				<key>variables</key>
 				<dict/>
 			</dict>
@@ -560,106 +571,108 @@
 		<key>0327F3D7-7D0F-44EA-B0FA-08FC32DBE1DA</key>
 		<dict>
 			<key>xpos</key>
-			<integer>230</integer>
+			<real>230</real>
 			<key>ypos</key>
-			<integer>170</integer>
+			<real>170</real>
 		</dict>
 		<key>1822C5D0-3B68-4ED0-807F-14DFE273F3F3</key>
 		<dict>
 			<key>xpos</key>
-			<integer>430</integer>
+			<real>430</real>
 			<key>ypos</key>
-			<integer>20</integer>
+			<real>20</real>
 		</dict>
 		<key>1A086E06-E707-4A15-80A2-702A9FEB49A3</key>
 		<dict>
 			<key>xpos</key>
-			<integer>170</integer>
+			<real>170</real>
 			<key>ypos</key>
-			<integer>50</integer>
+			<real>50</real>
 		</dict>
 		<key>2E590801-05A0-4265-8987-2E2ECFC949C8</key>
 		<dict>
 			<key>xpos</key>
-			<integer>10</integer>
+			<real>30</real>
 			<key>ypos</key>
-			<integer>310</integer>
+			<real>310</real>
 		</dict>
 		<key>42D16115-359D-4EA4-9AF8-0659BFF3F294</key>
 		<dict>
 			<key>xpos</key>
-			<integer>1180</integer>
+			<real>1180</real>
 			<key>ypos</key>
-			<integer>310</integer>
+			<real>310</real>
 		</dict>
 		<key>4CD04C2A-4956-4EA4-9CEF-7F65287C49DD</key>
 		<dict>
 			<key>xpos</key>
-			<integer>820</integer>
+			<real>820</real>
 			<key>ypos</key>
-			<integer>310</integer>
+			<real>310</real>
 		</dict>
 		<key>61503630-0367-4047-90B3-D78A9C380E92</key>
 		<dict>
 			<key>xpos</key>
-			<integer>10</integer>
+			<real>30</real>
 			<key>ypos</key>
-			<integer>90</integer>
+			<real>90</real>
 		</dict>
 		<key>6F425287-3622-49F6-8570-B8FE647090F2</key>
 		<dict>
 			<key>xpos</key>
-			<integer>370</integer>
+			<real>370</real>
 			<key>ypos</key>
-			<integer>50</integer>
+			<real>50</real>
 		</dict>
 		<key>938A0BFA-E8CE-4604-BD90-DC46BB078F68</key>
 		<dict>
 			<key>xpos</key>
-			<integer>170</integer>
+			<real>170</real>
 			<key>ypos</key>
-			<integer>200</integer>
+			<real>200</real>
 		</dict>
 		<key>BEB063AE-6618-47F9-ADFF-219BC48F9EA2</key>
 		<dict>
 			<key>xpos</key>
-			<integer>760</integer>
+			<real>760</real>
 			<key>ypos</key>
-			<integer>340</integer>
+			<real>340</real>
 		</dict>
 		<key>D438B820-3D0E-42F5-8464-13224C161E31</key>
 		<dict>
 			<key>xpos</key>
-			<integer>230</integer>
+			<real>230</real>
 			<key>ypos</key>
-			<integer>20</integer>
+			<real>20</real>
 		</dict>
 		<key>EDF72E90-47D6-4C41-AD90-B95E2FB7C1E5</key>
 		<dict>
 			<key>xpos</key>
-			<integer>620</integer>
+			<real>620</real>
 			<key>ypos</key>
-			<integer>310</integer>
+			<real>310</real>
 		</dict>
 		<key>F38BF85B-1DA9-4112-8FB4-CE76572C3F3D</key>
 		<dict>
 			<key>xpos</key>
-			<integer>1030</integer>
+			<real>1030</real>
 			<key>ypos</key>
-			<integer>310</integer>
+			<real>310</real>
 		</dict>
 		<key>FF5EF30B-2BA1-4798-8F07-0443E48CC4B6</key>
 		<dict>
 			<key>xpos</key>
-			<integer>970</integer>
+			<real>970</real>
 			<key>ypos</key>
-			<integer>340</integer>
+			<real>340</real>
 		</dict>
 	</dict>
+	<key>userconfigurationconfig</key>
+	<array/>
 	<key>variablesdontexport</key>
 	<array/>
 	<key>version</key>
-	<string>1.11</string>
+	<string>1.12</string>
 	<key>webaddress</key>
 	<string>https://github.com/mutdmour/alfred-workflow-cheatsheet</string>
 </dict>
