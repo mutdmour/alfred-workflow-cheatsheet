@@ -61,7 +61,7 @@ If you would like to request an app to add, please comment on this issue [#29](h
 
 To download
 -----------
-Download [workflow file](https://github.com/mutdmour/alfred-workflow-cheatsheet/raw/master/Cheatsheet.alfredworkflow)
+Download [workflow file](https://github.com/mutdmour/alfred-workflow-cheatsheet/raw/master/releases/Cheatsheet.alfredworkflow)
 
 To add more apps
 ----------------
