@@ -34,5 +34,9 @@ shortcuts = {
         "Scroll To End":"⌘End",
         "Scroll One Page Up":"⌘Page Up or ⇧Page Up",
         "Scroll One Page Down":"⌘Page Down or ⇧Page Down",
+        "Send Input to Current Session Only":"⌥⇧⌘I",
+        "Broadcast Input to All Panes in All Tabs":"⇧⌘I",
+        "Broadcast Input to All Panes in Current Tab":"⌥⌘I",
+        "Toggle Broadcast Input to Current Session":"^⌥⇧⌘I",
     }
 }
