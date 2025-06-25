@@ -1,51 +1,11 @@
 # coding: utf8
+
 shortcuts = {
-    "Default Folder X":{ #https://forum.keyboardmaestro.com/t/tip-be-aware-of-default-folder-x-shortcuts/6667
-        "Open in Finder": "⌥⌘F",
-        "New Folder": "⇧⌘N",
-        "Rename": "⌥⌘R",
-        "Copy": "⌥⌘C",
-        "Move": "⌥⌘M",
-        "Get Info": "⌘I",
-        "Show in Finder": "⌘R",
-        "Move To Trash": "⌘T",
-        "Desktop": "⌘D",
-        "Home": "⇧⌘H",
-        "iCloud": "⇧⌘I",
-        "Go to Default Folder": "⌘U",
-        "Previous Finder Window": "⌥⇧↑",
-        "Next Finder Window": "⌥⇧↓",
-        "Show Menu - Finder": "^⌥⌘M",
-        "Copy Folder Path to Clipboard": "Not set by default",
-        "Copy Folder Name to Clipboard": "Not set by default",
-        "Duplicate": "Not set by default",
-        "Copy Selected Path to Clipboard": "Not set by default",
-        "Copy Selected Name to Clipboard": "Not set by default",
-        "Compress": "Not set by default",
-        "Uncompres": "Not set by default",
-        "Quicklook": "Not set by default",
-        "Preferences": "Not set by default",
-        "Add to Favorites": "Not set by default",
-        "Remove From Favorites": "Not set by default",
-        "Set Default Folder for Application": "Not set by default",
-        "Set Default Folder for Application & File Type": "Not set by default",
-        "Previous Recent Folder": "Not set by default",
-        "Next Recent Folder": "Not set by default",
-        "Show Utility Menu": "Not set by default",
-        "Show Computer Menu": "Not set by default",
-        "Show Favorites Menu": "Not set by default",
-        "Show Recent Folder Menu": "Not set by default",
-        "Show Finder Window Menu": "Not set by default",
-        "Show / Hide Toolbar": "Not set by default",
-        "Add to Favorites": "Not set by default",
-        "Remove from Favorites": "Not set by default",
-        "Previous Recent Folder": "Not set by default",
-        "Next Recent Folder": "Not set by default",
-        "Previous Finder Window": "Not set by default",
-        "Next Finder Window": "Not set by default",
-        "Show / Hide Finder Drawer": "Not set by default",
-        "Switch to Previous Folder Set - System": "Not set by default",
-        "Switch to Next Folder Set - System": "Not set by default",
-        "Show Menu - System": "Not set by default"
-        }
+    "Keyboard Maestro (KM) App/Editor": {
+        "Global Search Shortcut": "⌘⌥F",
+        "Option + Up Arrow": "⌥↑",
+        "Option + Down Arrow": "⌥↓"
     }
+}
+
+page_url = "https://forum.keyboardmaestro.com/t/tip-be-aware-of-default-folder-x-shortcuts/6667"
