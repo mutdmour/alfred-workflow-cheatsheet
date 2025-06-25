@@ -1,41 +1,21 @@
 # coding: utf8
+
 shortcuts = {
-    "trello.com":{
-        "Navigate Cards":"← ↓/J ↑/K →",
-        "Open Header Boards Menu":"B",
-        "Focus Search Box":"/",
-        "Archive Card":"C",
-        "Due Date":"D",
-        "Quick Edit Mode":"E",
-        "Close Menu / Cancel Editing":"Esc",
-        "Save Text":"⌘⏎",
-        "Open Card":"⏎",
-        "Open Card Filter Menu":"F",
-        "Label":"L",
-        "Black":"0",
-        "Green":"1",
-        "Yellow":"2",
-        "Orange":"3",
-        "Red":"4",
-        "Purple":"5",
-        "Blue":"6",
-        "Sky":"7",
-        "Lime":"8",
-        "Pink":"9",
-        "Toggle Label Names":";",
-        "Add / Remove Members":"M",
-        "Insert New Card":"N",
-        "Move Card to Adjacent List":", , . < >",
-        "My Cards Filter":"Q",
-        "Subscribe":"S",
-        "Assign Self":"Space",
-        "Edit Title":"T",
-        "Vote":"V",
-        "Toggle Board Menu":"W",
-        "Clear All Filters":"X",
-        "Open Shortcuts Page":"?",
-        "Autocomplete Members":"@",
-        "Autocomplete Labels":"#",
-        "Autocomplete Labels":"^"
+    "Trello": {
+        "Search boards and cards": "f",
+        "Create a card": "c",
+        "Open menu": "w",
+        "Archive card": "d",
+        "Assign members": "Space",
+        "Add due date": "d",
+        "Add a comment": "Enter (on a card's comment box)",
+        "Expand card": "Enter (on a selected card)",
+        "Preview card": "Space (on a selected card)",
+        "Open activity feed": "y",
+        "Move list left": "[",
+        "Move list right": "]",
+        "Open keyboard shortcuts menu": "?"
     }
 }
+
+# Page url: https://trello.com/shortcuts
