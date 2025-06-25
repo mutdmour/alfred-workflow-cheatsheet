@@ -1,80 +1,73 @@
 # coding: utf8
+
 shortcuts = {
-    "github.com":{
-    #https://help.github.com/articles/using-keyboard-shortcuts/
-        "Focus the search bar":"s",
-        "Go to your notifications":"g then n",
-        "Go to the Code tab":"g then c",
-        "Go to the Issues tab":"g then i",
-        "Go to the Pull reuests tab":"g then p",
-        "Go to the Projects tab":"g then b",
-        "Go to the Wiki tab":"g then w",
-        "Code editing - Start searching in file editor":"⌘f",
-        "Code editing - Find next":"⌘g",
-        "Code editing - Find previous":"⌘⇧g",
-        "Code editing - Replace":"⌘⌥f",
-        "Code editing - Replace All":"⇧⌘⌥f",
-        "Code editing - Jump to line":"⌥g",
-        "Code editing - Undo":"⌘z",
-        "Code editing - Redo":"⌘y",
-        "Code browsing - Activates the file finder":"t",
-        "Code browsing - Jump to a line in your code":"l",
-        "Code browsing - Switch to a new branch or tag":"w",
-        "Code browsing - Expand a URL to its canonical form":"y",
-        "Code browsing - Show or hide comments on diffs":"i",
-        "Code browsing - Open blame view":"b",
-        "Comments - Markdown to bold text":"⌘b",
-        "Comments - Markdown to italicize text":"⌘i",
-        "Comments - Markdown to create a link":"⌘k",
-        "Comments - Toggles between the Write and Preview comment tabs":"⌘⇧p",
-        "Comments - Submits a comment":"^⏎",
-        "Issue/PR lists - Create an issue":"c",
-        "Issue/PR lists - Focus the issues search bar":"/",
-        "Issue/PR lists - Filter by author":"u",
-        "Issue/PR lists - Filter by or edit labels":"l",
-        "Issue/PR lists - Filter by or edit milestones":"m",
-        "Issue/PR lists - Filter by or edit assignee":"a",
-        "Issue/PR lists - Quote the selected text in your reply":"r",
-        "Issue/PR lists - Open issue":"o or ⏎",
-        "Issue/PR - Request a reviewer":"q",
-        "Issue/PR - Set a milestone":"m",
-        "Issue/PR - Apply a label":"l",
-        "Issue/PR - Set an assignee":"a",
-        "PR changes - Open the list of commits in the PR":"c",
-        "PR changes - Open the list of changed files in the pull request":"t",
-        "PR changes - Move selection down in the list":"j",
-        "PR changes - Move selection up in the list":"k",
-        "Notifications - Mark as read":"e or l or y",
-        "Notifications - Mute thread":"⇧m",
-        "Network Graph - Scroll left":"← or h",
-        "Network Graph - Scroll right":"→ or l",
-        "Network Graph - Scroll up":"↑ or k",
-        "Network Graph - Scroll down":"↓ or j",
-        "Network Graph - Scroll all the way left":"⇧← or ⇧h",
-        "Network Graph - Scroll all the way right":"⇧→ or ⇧l",
-        "Network Graph - Scroll all the way up":"⇧↑ or ⇧k",
-        "Network Graph - Scroll all the way down":"⇧↓ or ⇧j",
-        "Project boards - Moving a column - Start moving the focused column":"⏎ or Space",
-        "Project boards - Moving a column - Cancel the move in progress":"Esc",
-        "Project boards - Moving a column - Complete the move in progress":"⏎",
-        "Project boards - Moving a column - Move column to the left":"← or h",
-        "Project boards - Moving a column - Move column to the leftmost postition":"⌘← or ⌘h",
-        "Project boards - Moving a column - Move column to the right":"→ or l",
-        "Project boards - Moving a column - Move column to the rightmost postition":"⌘→ or ⌘l",
-        "Project boards - Moving a card - Start moving the focused card":"⏎ or Space",
-        "Project boards - Moving a card - Cancel the move in progress":"Esc",
-        "Project boards - Moving a card - Complete the move in progress":"⏎",
-        "Project boards - Moving a card - Move card down":"↓ or j",
-        "Project boards - Moving a card - Move card to the bottom of the column":"⌘↓ or ⌘j",
-        "Project boards - Moving a card - Move card up":"↑ or k",
-        "Project boards - Moving a card - Move card to the top of the column":"⌘↑ or ⌘k",
-        "Project boards - Moving a card - Move card to the bottom of the column on the left":"← or h",
-        "Project boards - Moving a card - Move card to the top of the column on the left":"⇧← or ⇧h",
-        "Project boards - Moving a card - Move card to the bottom of the leftmost column":"⌘← or ⌘h",
-        "Project boards - Moving a card - Move card to the top of the leftmost column":"⌘⇧← or ⌘⇧h",
-        "Project boards - Moving a card - Move card to the bottom of the column on the right":"→ or l",
-        "Project boards - Moving a card - Move card to the top of the column on the right":"⇧→ or ⇧l",
-        "Project boards - Moving a card - Move card to the bottom of the rightmost column":"⌘→ or ⌘l",
-        "Project boards - Moving a card - Move card to the top of the rightmost column":"⌘⇧→ or ⌘⇧l"
+    "GitHub Mac Keyboard Shortcuts": {
+        "Site wide": {
+            "Option+↑": "Move focus from an element to its hovercard"
+        },
+        "Source code editing": {
+            "Command+B": "Inserts Markdown formatting for bolding text",
+            "Command+I": "Inserts Markdown formatting for italicizing text",
+            "Command+K": "Inserts Markdown formatting for creating a link",
+            "Command+Shift+7": "Inserts Markdown formatting for an ordered list",
+            "Command+Shift+8": "Inserts Markdown formatting for an unordered list",
+            "Command+Shift+.": "Inserts Markdown formatting for a quote",
+            "Command+F": "Start searching in file editor",
+            "Command+G": "Find next",
+            "Command+Shift+G": "Find previous",
+            "Command+Option+F": "Replace",
+            "Command+Shift+Option+F": "Replace all",
+            "Command+Z": "Undo",
+            "Command+Y": "Redo",
+            "Command+Shift+P": "Toggles between the Edit file and Preview changes tabs",
+            "Command+S": "Write a commit message"
+        },
+        "Navigating within code files": {
+            "Shift+Option+C": "Open the line menu for a selected line",
+            "Command+Enter": "Highlights the code symbol currently selected by the cursor and all other occurrences of the symbol"
+        },
+        "Comments": {
+            "Command+B": "Inserts Markdown formatting for bolding text",
+            "Command+I": "Inserts Markdown formatting for italicizing text",
+            "Command+E": "Inserts Markdown formatting for code or a command within a line",
+            "Command+K": "Inserts Markdown formatting for creating a link",
+            "Command+V": "Creates a Markdown link when applied over highlighted text",
+            "Command+Shift+P": "Toggles between the Write and Preview comment tabs",
+            "Command+Shift+Option+V": "Pastes HTML link as plain text",
+            "Command+Shift+7": "Inserts Markdown formatting for an ordered list",
+            "Command+Shift+8": "Inserts Markdown formatting for an unordered list",
+            "Command+Enter": "Submits a comment",
+            "Command+Shift+.": "Inserts Markdown formatting for a quote",
+            "Command+G": "Insert a suggestion"
+        },
+        "Issue and pull request lists": {
+            "Command+/": "Focus your cursor on the issues or pull requests search bar"
+        },
+        "Issues and pull requests": {
+            "Command+Shift+P": "Toggles between the Write and Preview tabs"
+        },
+        "\"Files changed\" tab in pull requests": {
+            "Command+Shift+Enter": "Submit a review comment"
+        },
+        "Projects - Navigating a project": {
+            "Command+f": "Focus filter field"
+        },
+        "Moving cards on the board layout": {
+            "Command+↓": "Move a single card to the bottom of the column",
+            "Command+↑": "Move a single card to the top of the column",
+            "Command+←": "Move card(s) to the leftmost column",
+            "Command+→": "Move card(s) to the rightmost column"
+        },
+        "GitHub Actions": {
+            "Command+Space": "In the workflow editor, get suggestions for your workflow file"
+        },
+        "Network graph": {
+            "Shift+←": "Scroll all the way left",
+            "Shift+→": "Scroll all the way right",
+            "Shift+↑": "Scroll all the way up",
+            "Shift+↓": "Scroll all the way down"
+        }
     }
 }
+
+page_url = "https://help.github.com/articles/using-keyboard-shortcuts/"
