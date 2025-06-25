@@ -1,23 +1,22 @@
 # coding: utf8
+
 shortcuts = {
-    "Forklift 3": { #https://defkey.com/forklift-3-shortcuts
-        "Open selection": "⌘↓",
-        "Enclosing folder": "⌘↑",
-        "Quick look": "Space",
-        "Copy to": "F5",
-        "Move to": "F6",
-        "Rename": "⏎",
-        "Edit": "⌘E",
-        "Move to trash": "⌘ Backspace",
-        "Create a new folder": "⌘⇧N",
-        "Open selection": "⏎",
-        "Enclosing folder": "Backspace",
-        "Quick look": "F3",
-        "Copy to": "F5",
-        "Move to": "F6",
-        "Rename": "⇧F6",
-        "Edit": "F4",
-        "Move to trash": "F8",
-        "Create a new folder": "F7"
-        }
+    "ForkLift 3": {
+        "Go To Folder": "Cmd+Shift+G",
+        "Quickly Switch Tabs": "Cmd+[number]",
+        "Toggle Dual Pane Mode": "Cmd+D",
+        "Open New Tab": "Cmd+T",
+        "Close Current Tab": "Cmd+W",
+        "Show/Hide Sidebar": "Cmd+Shift+S",
+        "Duplicate File": "Cmd+D",
+        "Rename File": "Return",
+        "Delete File": "Cmd+Delete",
+        "Move File to Trash": "Cmd+Backspace",
+        "Refresh Folder": "Cmd+R",
+        "Open Selected Folder": "Cmd+O",
+        "Show Info": "Cmd+I",
+        "Create New Folder": "Cmd+Shift+N"
     }
+}
+
+# Page url: https://defkey.com/forklift-3-shortcuts
