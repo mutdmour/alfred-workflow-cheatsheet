@@ -1,13 +1,14 @@
 # coding: utf8
+
 shortcuts = {
-    "Video Speed Controller chrome extension":{
-    #settings
-        "Rewind":"Z",
-        "Advance":"X",
-        "Reset speed":"R",
-        "Decrease speed":"S",
-        "Increase speed":"D",
-        "Preferred speed":"G",
-        "Show/hide controller":"V"
+    "Video Speed Controller": {
+        "Increase speed": "D",
+        "Decrease speed": "S",
+        "Reset speed": "R",
+        "Forward 10 seconds": "L",
+        "Backward 10 seconds": "J"
     }
 }
+
+# Page URL
+url = "https://www.videospeedcontroller.com"
